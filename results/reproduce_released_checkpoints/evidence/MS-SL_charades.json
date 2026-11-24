@@ -1,0 +1,614 @@
+{
+  "status": "PASS",
+  "method": "MS-SL",
+  "dataset": "charades",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-0a177c608e1d85.ckpt",
+      "bytes": 13504323,
+      "mtime_ns": 1793381380400925397,
+      "sha256": "01a8591213f60f49d503efea308ef9e6b33a780ab72648920e6c6b89d89057e0"
+    },
+    "checkpoint_epoch": 38,
+    "checkpoint_keys": [
+      "model",
+      "model_cfg",
+      "epoch"
+    ],
+    "checkpoint_model_val": null,
+    "source_config": "<WORK>/file-b4d16b6783ba35.json",
+    "checkpoint_config": {
+      "visual_input_size": 1024,
+      "query_input_size": 1024,
+      "hidden_size": 384,
+      "temp": 1,
+      "cluster_num": 32,
+      "cluster": 1,
+      "max_ctx_l": 128,
+      "max_desc_l": 30,
+      "map_size": 32,
+      "input_drop": 0.1,
+      "device": [
+        2
+      ],
+      "drop": 0.1,
+      "n_heads": 4,
+      "initializer_range": 0.02,
+      "margin": 0.2,
+      "use_hard_negative": true,
+      "hard_pool_size": 20
+    },
+    "effective_config": {
+      "dset_name": "charades",
+      "eval_split_name": "val",
+      "debug": false,
+      "results_root": "results",
+      "exp_id": "charades_no_cluster",
+      "seed": 2018,
+      "device": 0,
+      "device_ids": [
+        2
+      ],
+      "num_workers": 8,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "bsz": 128,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 200,
+      "eval_untrained": false,
+      "grad_clip": -1,
+      "margin": 0.2,
+      "train_span_start_epoch": 0,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "max_sub_l": 50,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "train_path": null,
+      "eval_path": null,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "no_norm_vfeat": false,
+      "no_norm_tfeat": false,
+      "vid_feat_size": null,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.1,
+      "drop": 0.1,
+      "initializer_range": 0.02,
+      "model_name": "MS_SL_Net",
+      "root_path": "<RELEASED>/file-e77f1d2456fc44",
+      "visual_feature": "i3d_rgb_lgi",
+      "collection": "charades",
+      "map_size": 32,
+      "use_sub": false,
+      "clip_scale_w": 0.5,
+      "frame_scale_w": 0.5,
+      "results_dir": "results/checkpoint_charades"
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 2018,
+    "num_workers": 0,
+    "parameters": 3370752,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 124
+      },
+      "encode_query": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 117
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 250
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 184
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 260
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 125
+      },
+      "collate_text": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 144
+      },
+      "key_clip_guided_attention": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 229
+      }
+    }
+  },
+  "encoding": {
+    "seconds": 41.151196590973996,
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-a94cdd917ca019.npy",
+        "bytes": 262275200,
+        "mtime_ns": 1793382654554741872,
+        "sha256": "5ffc22cd4f4ebf8747781011757d8b8ac930fb91d84443d3bbb6c5bc29404ee5"
+      },
+      "clips": {
+        "path": "<WORK>/file-653d4cf07bcfea.npy",
+        "bytes": 1081884800,
+        "mtime_ns": 1793382654753739129,
+        "sha256": "198ee992e91af39893e6f66b6889b2d0da8901841afe923b9022f52bef7676ad"
+      },
+      "mask": {
+        "path": "<WORK>/file-c8f8e3f9ef08e5.npy",
+        "bytes": 170880,
+        "mtime_ns": 1793382654753739129,
+        "sha256": "14a350c3a36019f64bffd975a9f33df96c81e638611c67588ba0562e45598a03"
+      },
+      "query": {
+        "path": "<WORK>/file-0b9fd9ffdb0aa4.npy",
+        "bytes": 5714048,
+        "mtime_ns": 1793382657234591006,
+        "sha256": "a2127d02a16c482ae18c494bc6532f2c5555ca1e512490372f91562cf0b2136a"
+      }
+    },
+    "frames_length_min": 21,
+    "frames_length_max": 128
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 1.8010752688172043,
+        "R@5": 7.096774193548387,
+        "R@10": 11.827956989247312,
+        "R@100": 47.74193548387097,
+        "SumR": 68.46774193548387
+      },
+      "hit_counts": {
+        "R@1": 67,
+        "R@5": 264,
+        "R@10": 440,
+        "R@100": 1776
+      },
+      "ranks": {
+        "path": "<WORK>/file-46c7dc2446eb10.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793382880111520265,
+        "sha256": "09f78e1227be5e9742fccb057e311b91241e98db0f219f096d3507def5b181cc"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 1.6935483870967742,
+          "R@5": 5.43010752688172,
+          "R@10": 9.67741935483871,
+          "R@100": 45.806451612903224,
+          "SumR": 62.60752688172043
+        },
+        "hit_counts": {
+          "R@1": 63,
+          "R@5": 202,
+          "R@10": 360,
+          "R@100": 1704
+        },
+        "ranks": {
+          "path": "<WORK>/file-e6db300a90ac7e.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793382880216786539,
+          "sha256": "ff80a108c1bd02275665482295bb72b1cf958d644125e1301b6ecafdc51ecb0b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 1.3978494623655915,
+          "R@5": 6.290322580645161,
+          "R@10": 10.64516129032258,
+          "R@100": 44.89247311827957,
+          "SumR": 63.2258064516129
+        },
+        "hit_counts": {
+          "R@1": 52,
+          "R@5": 234,
+          "R@10": 396,
+          "R@100": 1670
+        },
+        "ranks": {
+          "path": "<WORK>/file-e3fb7799551727.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793382880316864456,
+          "sha256": "8e262d8bb44daca1a5f6438e7259724a4aa09be3ee393e9a63208f2a5e9c8cfb"
+        }
+      },
+      "nominal_vectors": 656,
+      "mean_actual_vectors": 656.0,
+      "mean_valid_vectors": 615.5794602698651,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-98ffdb256f6f39.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793382879965640820,
+          "sha256": "3c13589695deff1baa952bc3a0557929a23ede412f5930c3d09c6dfd86eec8da"
+        },
+        "frame": {
+          "path": "<WORK>/file-29eeb0b5300bcc.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793382879965640820,
+          "sha256": "2b8da394507cf558c68547559355f8621428f54909667c98cae5d68e14c7cd57"
+        }
+      },
+      "fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "seconds": 220.4824724859791
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 1.478494623655914,
+        "R@5": 6.801075268817204,
+        "R@10": 11.720430107526882,
+        "R@100": 47.68817204301075,
+        "SumR": 67.68817204301075
+      },
+      "hit_counts": {
+        "R@1": 55,
+        "R@5": 253,
+        "R@10": 436,
+        "R@100": 1774
+      },
+      "ranks": {
+        "path": "<WORK>/file-abf751b0a6a7d5.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383067248563856,
+        "sha256": "771d6da5d499899ce6a44bc00fecca35b2bad4ecec9334a38d431767bd30bbd4"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 1.6935483870967742,
+          "R@5": 5.43010752688172,
+          "R@10": 9.67741935483871,
+          "R@100": 45.806451612903224,
+          "SumR": 62.60752688172043
+        },
+        "hit_counts": {
+          "R@1": 63,
+          "R@5": 202,
+          "R@10": 360,
+          "R@100": 1704
+        },
+        "ranks": {
+          "path": "<WORK>/file-2025700dea7bb5.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383067348061327,
+          "sha256": "ff80a108c1bd02275665482295bb72b1cf958d644125e1301b6ecafdc51ecb0b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 1.2634408602150538,
+          "R@5": 5.940860215053763,
+          "R@10": 11.048387096774194,
+          "R@100": 44.946236559139784,
+          "SumR": 63.1989247311828
+        },
+        "hit_counts": {
+          "R@1": 47,
+          "R@5": 221,
+          "R@10": 411,
+          "R@100": 1672
+        },
+        "ranks": {
+          "path": "<WORK>/file-9c56cfe3478422.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383067452182213,
+          "sha256": "07d1b55c6b7c37605994b3d9237ab992fc3281e78731186801d4a2c23d802316"
+        }
+      },
+      "nominal_vectors": 536,
+      "mean_actual_vectors": 536.0,
+      "mean_valid_vectors": 536.0,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 8.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-314c347188a24a.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383067109776585,
+          "sha256": "3c13589695deff1baa952bc3a0557929a23ede412f5930c3d09c6dfd86eec8da"
+        },
+        "frame": {
+          "path": "<WORK>/file-ff6c2774c89016.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383067109776585,
+          "sha256": "552c400489f81b55681c314e9e7721a17efafc9040f90b1631d26388daf0aa14"
+        }
+      },
+      "fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "seconds": 184.0512532920111,
+      "delta_SumR": -0.7795698924731198
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 1.7204301075268817,
+        "R@5": 7.338709677419355,
+        "R@10": 11.989247311827956,
+        "R@100": 47.76881720430107,
+        "SumR": 68.81720430107526
+      },
+      "hit_counts": {
+        "R@1": 64,
+        "R@5": 273,
+        "R@10": 446,
+        "R@100": 1777
+      },
+      "ranks": {
+        "path": "<WORK>/file-1f0f9211041633.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383259934160306,
+        "sha256": "aca056e9dd57ebce7d9e1a6b77558e30134e332cc040530de9625233784c2a41"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 1.6935483870967742,
+          "R@5": 5.43010752688172,
+          "R@10": 9.67741935483871,
+          "R@100": 45.806451612903224,
+          "SumR": 62.60752688172043
+        },
+        "hit_counts": {
+          "R@1": 63,
+          "R@5": 202,
+          "R@10": 360,
+          "R@100": 1704
+        },
+        "ranks": {
+          "path": "<WORK>/file-cdcf0bf0ab2167.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383260046510040,
+          "sha256": "ff80a108c1bd02275665482295bb72b1cf958d644125e1301b6ecafdc51ecb0b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 1.2365591397849462,
+          "R@5": 6.182795698924731,
+          "R@10": 10.887096774193548,
+          "R@100": 45.0,
+          "SumR": 63.306451612903224
+        },
+        "hit_counts": {
+          "R@1": 46,
+          "R@5": 230,
+          "R@10": 405,
+          "R@100": 1674
+        },
+        "ranks": {
+          "path": "<WORK>/file-31a91b31025b3c.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383260157421299,
+          "sha256": "898f0a9ed1c7590458d8d4ccd2938587bfee9c7835267d0d8e0cde3427109929"
+        }
+      },
+      "nominal_vectors": 544,
+      "mean_actual_vectors": 544.0,
+      "mean_valid_vectors": 544.0,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 16.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-04ed8ddfbbeeb3.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383259746435056,
+          "sha256": "3c13589695deff1baa952bc3a0557929a23ede412f5930c3d09c6dfd86eec8da"
+        },
+        "frame": {
+          "path": "<WORK>/file-906e0f522e216f.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383259746435056,
+          "sha256": "5f47e729ce9c39903ef5363937f0d68176c04b4535d5c487ecb1c376dcd6838b"
+        }
+      },
+      "fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "seconds": 192.7114879071014,
+      "delta_SumR": 0.34946236559139265
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 1.881720430107527,
+        "R@5": 7.123655913978495,
+        "R@10": 11.774193548387096,
+        "R@100": 47.66129032258065,
+        "SumR": 68.44086021505376
+      },
+      "hit_counts": {
+        "R@1": 70,
+        "R@5": 265,
+        "R@10": 438,
+        "R@100": 1773
+      },
+      "ranks": {
+        "path": "<WORK>/file-65fc8e6b3f5932.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383498608047491,
+        "sha256": "38d5e8199d3d9a92847b656eb61e0a1422232ceab42706a604447d3840697b46"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 1.6935483870967742,
+          "R@5": 5.43010752688172,
+          "R@10": 9.67741935483871,
+          "R@100": 45.806451612903224,
+          "SumR": 62.60752688172043
+        },
+        "hit_counts": {
+          "R@1": 63,
+          "R@5": 202,
+          "R@10": 360,
+          "R@100": 1704
+        },
+        "ranks": {
+          "path": "<WORK>/file-84011d7123e390.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383498707574726,
+          "sha256": "ff80a108c1bd02275665482295bb72b1cf958d644125e1301b6ecafdc51ecb0b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 1.478494623655914,
+          "R@5": 6.102150537634409,
+          "R@10": 10.43010752688172,
+          "R@100": 44.6505376344086,
+          "SumR": 62.66129032258064
+        },
+        "hit_counts": {
+          "R@1": 55,
+          "R@5": 227,
+          "R@10": 388,
+          "R@100": 1661
+        },
+        "ranks": {
+          "path": "<WORK>/file-ed9022986e343c.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383498805633894,
+          "sha256": "6951affbbf5319b6c0c22d3d0cd3c58f179d769979af83f812c2533ffa7d7350"
+        }
+      },
+      "nominal_vectors": 560,
+      "mean_actual_vectors": 560.0,
+      "mean_valid_vectors": 560.0,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-eb48f1286f3575.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383498478405183,
+          "sha256": "3c13589695deff1baa952bc3a0557929a23ede412f5930c3d09c6dfd86eec8da"
+        },
+        "frame": {
+          "path": "<WORK>/file-b31af813cfda32.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383498478405183,
+          "sha256": "0e247d689a1b59623ce91681ea14bfd9a6633774b13929b7b3a49c6d1bb451e9"
+        }
+      },
+      "fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "seconds": 238.61735583597329,
+      "delta_SumR": -0.0268817204301115
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-492706c512b9d2.md",
+      "line": 220,
+      "text": "| Text-to-Video | 1.8 | 7.1 | 11.8 | 47.7  | 68.4 |",
+      "metrics": {
+        "R@1": 1.8,
+        "R@5": 7.1,
+        "R@10": 11.8,
+        "R@100": 47.7,
+        "SumR": 68.4
+      }
+    },
+    "delta_vs_README": {
+      "R@1": 0.0010752688172042113,
+      "R@5": -0.003225806451612634,
+      "R@10": 0.02795698924731127,
+      "R@100": 0.04193548387096513,
+      "SumR": 0.0677419354838662
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-aaed6e5ce599a8.npy",
+      "counts": "<WORK>/file-4662b799179ff0.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-673570edaa4eff.npy",
+      "counts": "<WORK>/file-b71c54f77008b1.npy",
+      "min_vectors": 16,
+      "max_vectors": 16,
+      "mean_vectors": 16.0
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-f5d5c140ce427d.npy",
+      "counts": "<WORK>/file-aeb5c4f531bc7e.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    }
+  },
+  "queries": 3720,
+  "videos": 1334,
+  "id_order": {
+    "path": "<WORK>/file-34c0874c8104d4.json",
+    "bytes": 88071,
+    "mtime_ns": 1793382616982930477,
+    "sha256": "e8201a61452186cda130816370dd95e34b9687c8301e99f9abe2eb0a384cabce"
+  },
+  "probe": {
+    "path": "<WORK>/file-f3331d0b9f13d5.json",
+    "bytes": 3281,
+    "mtime_ns": 1793382228104654039,
+    "sha256": "6e0d581f1a9348f66d763d16e6fcc01ec9427dbe67511136a339f0be801fc8df"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [],
+    "seconds": 885.2489003160736,
+    "peak_RSS_MiB": 2956.00390625
+  }
+}

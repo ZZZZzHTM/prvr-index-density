@@ -1,0 +1,1572 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "dataset": "charades",
+      "checkpoint": "<WORK>/file-962c5db8561aae.ckpt",
+      "checkpoint_sha256": "4c3241a38f29c870df84ea0427535b0c706ec61cd4ed2d64c3598dc26399fcfc",
+      "best_epoch": 34,
+      "test_videos": 1334,
+      "test_queries": 3720,
+      "dev_videos": 534,
+      "dev_query_ids": [
+        "68JOO#enc#3",
+        "Y1FKP#enc#3",
+        "S2FLE#enc#1",
+        "S2FLE#enc#0",
+        "54XD1#enc#3",
+        "Y1FKP#enc#2",
+        "78FJX#enc#2",
+        "NOLQ7#enc#0",
+        "RRDAM#enc#0",
+        "K6DF2#enc#4",
+        "9UDMH#enc#0",
+        "MU54W#enc#1",
+        "UR7C8#enc#2",
+        "V10LX#enc#0",
+        "LKSBL#enc#0",
+        "RSRZ0#enc#2",
+        "CTOQR#enc#0",
+        "CBPJF#enc#1",
+        "PABBK#enc#1",
+        "SCHOY#enc#1",
+        "XIG01#enc#2",
+        "CLW8L#enc#1",
+        "TXJK7#enc#0",
+        "UGWOG#enc#2",
+        "SAT9P#enc#3",
+        "NXC5X#enc#2",
+        "ACAK4#enc#2",
+        "U3VOM#enc#0",
+        "LH6LE#enc#3",
+        "EPP0O#enc#0",
+        "K7FNC#enc#1",
+        "TODWV#enc#2",
+        "EDPTO#enc#1",
+        "HHAM7#enc#1",
+        "6C65Z#enc#0",
+        "GKII3#enc#0",
+        "8WPPG#enc#0",
+        "953I1#enc#0",
+        "VX1GX#enc#0",
+        "X58SH#enc#1",
+        "VX1GX#enc#1",
+        "XJE4Y#enc#3",
+        "HAIVQ#enc#2",
+        "X3ASU#enc#1",
+        "HAIVQ#enc#3",
+        "OOEME#enc#1",
+        "R9382#enc#3",
+        "XFRYR#enc#0",
+        "X3952#enc#0",
+        "63XVB#enc#0",
+        "CBXVQ#enc#1",
+        "ZKNHG#enc#0",
+        "QRHJJ#enc#0",
+        "7FTBS#enc#2",
+        "5IW8A#enc#0",
+        "AST4H#enc#1",
+        "LFPLP#enc#3",
+        "NY5LX#enc#0",
+        "BQ6UI#enc#1",
+        "QXT9W#enc#3",
+        "LB4AR#enc#0",
+        "QXT9W#enc#1",
+        "T0HLX#enc#1",
+        "99WON#enc#0",
+        "DLQIT#enc#0",
+        "WIPMO#enc#0",
+        "FVPMC#enc#5",
+        "XBXKO#enc#0",
+        "WREDC#enc#0",
+        "WT9CR#enc#0",
+        "XJU8U#enc#2",
+        "K3IGM#enc#5",
+        "PG32H#enc#1",
+        "5EDX4#enc#0",
+        "SCTNB#enc#0",
+        "OLELC#enc#2",
+        "QIQUA#enc#0",
+        "JQKR5#enc#0",
+        "UB2EJ#enc#1",
+        "KKGJ8#enc#4",
+        "73E7V#enc#1",
+        "KKGJ8#enc#0",
+        "5AFC1#enc#0",
+        "E7QDZ#enc#2",
+        "R4ENI#enc#2",
+        "TSYR3#enc#1",
+        "SB7CW#enc#0",
+        "V8JOH#enc#0",
+        "KNN3G#enc#3",
+        "9RSGO#enc#0",
+        "IO712#enc#2",
+        "BQXVG#enc#0",
+        "FZBK6#enc#0",
+        "V9W9C#enc#1",
+        "3FEYY#enc#1",
+        "U7Z37#enc#0",
+        "X75PJ#enc#0",
+        "82B2V#enc#0",
+        "B8DL6#enc#2",
+        "0I0FX#enc#0",
+        "B8DL6#enc#0",
+        "P68QV#enc#1",
+        "U2FA5#enc#1",
+        "2MAZY#enc#0",
+        "IZ2XX#enc#0",
+        "673VM#enc#2",
+        "K1M15#enc#0",
+        "NO9MI#enc#1",
+        "SQY6A#enc#0",
+        "FHXKQ#enc#0",
+        "3C8OG#enc#3",
+        "YBVVZ#enc#3",
+        "3C8OG#enc#0",
+        "4GWNV#enc#0",
+        "2LMQF#enc#4",
+        "I31V9#enc#4",
+        "TMATS#enc#0",
+        "IGT82#enc#0",
+        "CLORP#enc#7",
+        "D9UO2#enc#0",
+        "I9SSV#enc#0",
+        "2LTCY#enc#1",
+        "FTG07#enc#0",
+        "099Y1#enc#1",
+        "937EW#enc#1",
+        "2XSK6#enc#3",
+        "3R7NX#enc#2",
+        "RWPS8#enc#1"
+      ],
+      "accuracy": [
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 2.2311827956989245,
+            "R@5": 8.494623655913978,
+            "R@10": 14.166666666666666,
+            "R@100": 52.60752688172043,
+            "SumR": 77.5
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "charades",
+              "variant": "ward_cos_k8",
+              "fusion": "0.7/0.3"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 2.338709677419355,
+            "R@5": 8.225806451612904,
+            "R@10": 14.46236559139785,
+            "R@100": 52.473118279569896,
+            "SumR": 77.5
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/charades/original/results/07_03/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 2.096774193548387,
+            "R@5": 8.46774193548387,
+            "R@10": 13.602150537634408,
+            "R@100": 52.553763440860216,
+            "SumR": 76.72043010752688
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "charades",
+              "variant": "ward_cos_k8",
+              "fusion": "0.5/0.5"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 2.204301075268817,
+            "R@5": 8.413978494623656,
+            "R@10": 14.220430107526882,
+            "R@100": 52.5,
+            "SumR": 77.33870967741936
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/charades/original/results/05_05/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 2.204301075268817,
+            "R@5": 8.548387096774194,
+            "R@10": 14.166666666666666,
+            "R@100": 52.526881720430104,
+            "SumR": 77.44623655913978
+          },
+          "rank_file": "<WORK>/file-1f245cb8702b9d.npy",
+          "rank_sha256": "3c04cac0a94dca6c413fb2d98eb69df3630b51b872cc9c48d1f6479e68924f36",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 3720,
+          "video_count": 1334,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 2.096774193548387,
+            "R@5": 8.494623655913978,
+            "R@10": 13.682795698924732,
+            "R@100": 52.60752688172043,
+            "SumR": 76.88172043010752
+          },
+          "rank_file": "<WORK>/file-070d671fa4eb33.npy",
+          "rank_sha256": "855d48d0d5ff7a8b67403a4aef26069332ac73313c0124f5136430fc2ea6eaf6",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 3720,
+          "video_count": 1334,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 2.3118279569892475,
+            "R@5": 8.172043010752688,
+            "R@10": 14.35483870967742,
+            "R@100": 52.33870967741935,
+            "SumR": 77.1774193548387
+          },
+          "rank_file": "<WORK>/file-17af6575011b11.npy",
+          "rank_sha256": "7a42ca46d15313b578346cdb4e5d45db88cfcaf60dc6b62659ce752df84b3244",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 3720,
+          "video_count": 1334,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 2.2311827956989245,
+            "R@5": 8.387096774193548,
+            "R@10": 14.193548387096774,
+            "R@100": 52.5,
+            "SumR": 77.31182795698925
+          },
+          "rank_file": "<WORK>/file-8384e3401ea3b9.npy",
+          "rank_sha256": "0ee61d76191d912c4d3e7865e2a83ed542db64a868a91c98c08f211c2360e50c",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 3720,
+          "video_count": 1334,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        }
+      ],
+      "test_index_sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61448.0,
+          "padded_total_bytes": 81971632,
+          "valid_total_bytes": 81971632,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15528.0,
+          "padded_total_bytes": 20714352,
+          "valid_total_bytes": 20714352,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "test_clustering": {
+        "raw_seconds": [
+          1.1243575810221955,
+          1.1308313220506534,
+          1.2680748410057276,
+          1.3272298380034044,
+          1.2125013389158994
+        ],
+        "q1_ms": 1130.8313220506534,
+        "median_ms": 1212.5013389158994,
+        "q3_ms": 1268.0748410057276,
+        "iqr_ms": 137.24351895507425,
+        "median_ms_per_item": 0.9089215434152169,
+        "throughput_items_per_second": {
+          "median": 1100.2049706540802,
+          "q1": 1051.98838180717,
+          "q3": 1179.6631150797273,
+          "iqr": 127.6747332725572
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 1334,
+        "mean_seconds_per_video_by_repeat": [
+          0.0008428467623854539,
+          0.0008476996417171315,
+          0.0009505808403341287,
+          0.0009949249160445311,
+          0.0009089215434152169
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "dev_clustering": {
+        "raw_seconds": [
+          0.4409631050657481,
+          0.4408307990524918,
+          0.44109944300726056,
+          0.44174525304697454,
+          0.44100082805380225
+        ],
+        "q1_ms": 440.9631050657481,
+        "median_ms": 441.00082805380225,
+        "q3_ms": 441.09944300726056,
+        "iqr_ms": 0.13633794151246548,
+        "median_ms_per_item": 0.8258442472917645,
+        "throughput_items_per_second": {
+          "median": 1210.8820801008833,
+          "q1": 1210.6113677210203,
+          "q3": 1210.9856672031099,
+          "iqr": 0.37429948208955466
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 534,
+        "mean_seconds_per_video_by_repeat": [
+          0.0008257736049920376,
+          0.0008255258409222692,
+          0.000826028919489252,
+          0.0008272383015860946,
+          0.0008258442472917645
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "all_rebuilt_Ward_centers_exact_<REVISION>": true,
+      "actual_test_cluster_count_equals_min_L8": true,
+      "mean_test_clusters": 8.0,
+      "test_count_min": 8,
+      "test_count_max": 8,
+      "reconstructed_clip_max_score_error": 2.086162567138672e-07,
+      "dev_input_audit": {
+        "query_count": 1236,
+        "verified_query_count": 1236,
+        "hdf5_open_count": 1,
+        "all_original_batches_bitwise_equal": true,
+        "source_disk_open_count": 1,
+        "read_order": "one original-disk sequential read, then original batch order entirely in RAM",
+        "original_loader_reference_uses_same_RAM_hdf5": true,
+        "video_input_audit": {
+          "needed_frames": 49046,
+          "raw_values_checked": 50223104,
+          "all_raw_values_bitwise_equal": true,
+          "source_open_count": 1,
+          "read_pattern": "one increasing sequential pass through original feature.bin",
+          "budget": {
+            "MemTotal": 134769520640,
+            "MemAvailable": 92965314560,
+            "effective_available_bytes": 92965314560,
+            "half_available_bytes": 46482657280
+          },
+          "peak_upper_bytes": 4588560832
+        },
+        "dataset_disk_copy": false
+      },
+      "artifacts": {
+        "dev_frame.npy": {
+          "path": "<WORK>/file-f217e0029532dd.npy",
+          "sha256": "e5bf2e59fb5e585a8ee36da8c793e8e467dfcbec00f4d402e49ffc47426e8bcd"
+        },
+        "dev_lengths.npy": {
+          "path": "<WORK>/file-2bcfc61b271a02.npy",
+          "sha256": "317adbc6b880e6ca23d4b44af51ce0e55e6dd0e614d7f316e01ccd7bf6e66667"
+        },
+        "dev_queries.npy": {
+          "path": "<WORK>/file-b04d37fbfb6e06.npy",
+          "sha256": "1b9e86fa945ad072140cdeedd0b29c884b81e190d949c48d2fc6ed57f2896148"
+        },
+        "dev_clip.npy": {
+          "path": "<WORK>/file-e9f84beb1c4699.npy",
+          "sha256": "f732b3387f336f1e969e9ac4ee27360101ed1c3aaab52a3b0bd719baaa210801"
+        }
+      },
+      "checkpoint_unchanged": true
+    },
+    {
+      "dataset": "activitynet",
+      "checkpoint": "<WORK>/file-4c6423c8e3c95f.ckpt",
+      "checkpoint_sha256": "7e6fc3647aff1b10f2784a6ae0fbc38142430517c8e05aaa815847a1c995091e",
+      "best_epoch": 97,
+      "test_videos": 4430,
+      "test_queries": 15753,
+      "dev_videos": 905,
+      "dev_query_ids": [
+        "v_rAuz_Pf3lp8#enc#0",
+        "v_IWuiVS3-Z7k#enc#2",
+        "v_aDDq5ofaFHI#enc#1",
+        "v_BsceC-igcTY#enc#0",
+        "v_gV6W0rAHyZg#enc#0",
+        "v_JBTiD2-FcR0#enc#2",
+        "v_Q-HdDcyC9d8#enc#2",
+        "v_CtooIi6Mk7U#enc#0",
+        "v_6EN1q4TmPtI#enc#1",
+        "v_7n9It_jjaBg#enc#2",
+        "v_WEoelJQYlxk#enc#1",
+        "v_e6Dhfn1d3ic#enc#1",
+        "v_HvzJ-RJOF9Q#enc#1",
+        "v_kZMDKbfIis0#enc#1",
+        "v_uLXSOqRSa4A#enc#2",
+        "v_UIrn2ziRgEM#enc#4",
+        "v_xx5TLuZmjcE#enc#1",
+        "v_OVRYoPA6h-Y#enc#1",
+        "v_B4LYBLihttQ#enc#0",
+        "v_9yktj7NCdFI#enc#0",
+        "v_M6sXLVNtTSA#enc#2",
+        "v_61W153jXL3U#enc#2",
+        "v_ekgfptN7tQk#enc#2",
+        "v_zfi8f5NnYaY#enc#0",
+        "v_uHLEUps_ahs#enc#0",
+        "v_6Epn-R6sg5U#enc#0",
+        "v_uaqcvxz_5fY#enc#0",
+        "v_1P_BTFhNZFo#enc#4",
+        "v_KBfCXpgGhdw#enc#1",
+        "v__BJqPK0NNZU#enc#7",
+        "v_OCT2h1kmZoA#enc#6",
+        "v_fqOp0uhdEyM#enc#0",
+        "v_xrbKvttgcMA#enc#2",
+        "v_rWoSJ9YBy5E#enc#2",
+        "v_rtJTJ10ppRc#enc#2",
+        "v_uR-o9wILN6U#enc#1",
+        "v_29k1TypoU4w#enc#0",
+        "v_pbeQcGC3nXY#enc#1",
+        "v_kbK-9Me0BnA#enc#2",
+        "v_vjVtKL3xd8w#enc#1",
+        "v_GAEavSUmQRk#enc#2",
+        "v_8rimo9x4qqw#enc#1",
+        "v_aRurjtzwmS8#enc#2",
+        "v_W0RYvQUUNe0#enc#0",
+        "v_RMrL2txm79c#enc#2",
+        "v_RMrL2txm79c#enc#0",
+        "v_8B4M8AsGZmQ#enc#1",
+        "v_KjXvBqmh5C4#enc#0",
+        "v_fgP3D3Gqn6U#enc#0",
+        "v_65rZgGe7Zr4#enc#0",
+        "v_X1vyuNazaIc#enc#1",
+        "v_m4ef0fCA2WU#enc#3",
+        "v_6gzU9P-5tqE#enc#3",
+        "v_R_HDifqMHSY#enc#3",
+        "v_4r0qYLCucEI#enc#6",
+        "v_mvomkmq32vU#enc#1",
+        "v_jCyrQzXK4eI#enc#0",
+        "v_ytvIoI5uwFA#enc#0",
+        "v_NLTd7qCLT7o#enc#1",
+        "v_SZqwvjwqwK4#enc#4",
+        "v_xCplsH6deic#enc#2",
+        "v_OhgsnOwo4b4#enc#2",
+        "v_P17kaxPrbdc#enc#1",
+        "v_sHRajZw7A8g#enc#2",
+        "v_sHxzQu_4edY#enc#1",
+        "v_Cw5NDI8NnZU#enc#0",
+        "v_oXqzXQRqAhI#enc#1",
+        "v_4Y94njisJd0#enc#0",
+        "v_0_BvBpwDMpU#enc#0",
+        "v_63lmoqLxB8c#enc#0",
+        "v_wuZkli4TSZQ#enc#2",
+        "v_GMwV9roiBYo#enc#2",
+        "v_cXw6os9Xk5c#enc#2",
+        "v_55bimE5eU9E#enc#2",
+        "v_Qm7AL0RjHxI#enc#0",
+        "v_QdvC8Xt-ym0#enc#2",
+        "v_PFn7a6eEhb4#enc#3",
+        "v_97McCuWAynA#enc#1",
+        "v_ZOeQh2-ci3M#enc#6",
+        "v__uPVFvEQocU#enc#0",
+        "v_Qwj7f4vqveo#enc#4",
+        "v_1P_y_DLlg-E#enc#0",
+        "v_6cha8sVi65k#enc#2",
+        "v_SfYJTxMRKDE#enc#4",
+        "v_eL0LrJio1XE#enc#0",
+        "v_5K6oT9zBjVE#enc#1",
+        "v_r4F2X_MlL-U#enc#2",
+        "v_2RfasAe0-tA#enc#2",
+        "v_TIue1jR51j8#enc#0",
+        "v_9FaSaHgQSO8#enc#1",
+        "v_tAleUKVZCD8#enc#2",
+        "v_LLLuBjEVHI8#enc#3",
+        "v__m8WprCWHF4#enc#2",
+        "v_RBkieLmOUlQ#enc#0",
+        "v_0fw8it7Gj7k#enc#1",
+        "v_Mvl-TR0rDdA#enc#0",
+        "v_ngE2y5ExVqw#enc#1",
+        "v_8VPiqCCOPWg#enc#4",
+        "v_8qzR38WgsS8#enc#1",
+        "v_QElXIVBV-gk#enc#0",
+        "v_H5Z__A99EG4#enc#1",
+        "v_ral5Oaib_vk#enc#4",
+        "v_zi_TdMQffkU#enc#2",
+        "v_PNdG3SUdJzc#enc#2",
+        "v_olFThb2_GHM#enc#1",
+        "v_JavaLreBqtI#enc#3",
+        "v_Pyf_5Bffu5A#enc#2",
+        "v_IdhpB7doBOE#enc#2",
+        "v_1AxGiLSmGZo#enc#1",
+        "v_PcSnU_nGi5E#enc#0",
+        "v_FkWxS_5VxsM#enc#6",
+        "v_o6lTgyb_AkM#enc#2",
+        "v_IjFlVNAWQec#enc#0",
+        "v_d0h_l9bE1o0#enc#2",
+        "v_EqqqGf4wLH0#enc#3",
+        "v_He7CDkVm_aE#enc#1",
+        "v_3YdmY4oPE5s#enc#1",
+        "v_PgS2F7NxNBg#enc#2",
+        "v_-fBTCykx4gM#enc#0",
+        "v_cGNkR-JvaJs#enc#17",
+        "v_cGNkR-JvaJs#enc#7",
+        "v_6GIWY4-491k#enc#5",
+        "v_Jb8YAhQ6EMk#enc#1",
+        "v_lcwR7eA-VOY#enc#1",
+        "v_Mk9n7isIyBs#enc#3",
+        "v_Mk9n7isIyBs#enc#1",
+        "v_0PyY_iHBZHk#enc#0",
+        "v_hFtmkU7wdx4#enc#5"
+      ],
+      "accuracy": [
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 8.823716117564908,
+            "R@5": 27.290039992382404,
+            "R@10": 39.95429442011046,
+            "R@100": 78.61359741001714,
+            "SumR": 154.68164794007492
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "activitynet",
+              "variant": "ward_cos_k8",
+              "fusion": "0.7/0.3"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 8.817368120358028,
+            "R@5": 27.27099600076176,
+            "R@10": 39.94159842569669,
+            "R@100": 78.77864533739606,
+            "SumR": 154.80860788421253
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/activitynet/original/results/07_03/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 8.918936075668126,
+            "R@5": 27.829619754967307,
+            "R@10": 40.38595823017838,
+            "R@100": 78.78499333460293,
+            "SumR": 155.91950739541676
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "activitynet",
+              "variant": "ward_cos_k8",
+              "fusion": "0.5/0.5"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 8.982416047736939,
+            "R@5": 27.835967752174188,
+            "R@10": 40.1764743223513,
+            "R@100": 78.79134133180982,
+            "SumR": 155.78619945407223
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/activitynet/original/results/05_05/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 8.804672125944265,
+            "R@5": 27.283691995175523,
+            "R@10": 39.87811845362788,
+            "R@100": 78.61359741001714,
+            "SumR": 154.58007998476478
+          },
+          "rank_file": "<WORK>/file-a8a8e51934113d.npy",
+          "rank_sha256": "0094ca6ec17607b8433bd4d2ead1449770f1eeba0ed75b0d83822545a2791f74",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 15753,
+          "video_count": 4430,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 8.912588078461246,
+            "R@5": 27.861359741001714,
+            "R@10": 40.373262235764614,
+            "R@100": 78.77864533739606,
+            "SumR": 155.92585539262365
+          },
+          "rank_file": "<WORK>/file-52ee967610dda5.npy",
+          "rank_sha256": "a879a61e0b0a64b680c95f084ee8b6f93d6ff1304d190aada53b86b71b5c91de",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 15753,
+          "video_count": 4430,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 8.830064114771789,
+            "R@5": 27.232908017520472,
+            "R@10": 39.865422459214116,
+            "R@100": 78.78499333460293,
+            "SumR": 154.7133879261093
+          },
+          "rank_file": "<WORK>/file-ab5561ecbf733b.npy",
+          "rank_sha256": "61bdb2cee944918c600355faa74c25531938d10b88e39895f6c89b82a6c19aef",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 15753,
+          "video_count": 4430,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 8.944328064495652,
+            "R@5": 27.848663746587953,
+            "R@10": 40.119342347489365,
+            "R@100": 78.81038532343045,
+            "SumR": 155.7227194820034
+          },
+          "rank_file": "<WORK>/file-79a0f9df2ace91.npy",
+          "rank_sha256": "db73b8ec89b65cbd83edab7c22480b631e2307f0851c77c8703db3777548b509",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 15753,
+          "video_count": 4430,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        }
+      ],
+      "test_index_sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61436.904740406324,
+          "padded_total_bytes": 272214640,
+          "valid_total_bytes": 272165488,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15525.197291196388,
+          "padded_total_bytes": 68789040,
+          "valid_total_bytes": 68776624,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "test_clustering": {
+        "raw_seconds": [
+          4.468930465984158,
+          4.462823722045869,
+          4.466518594999798,
+          4.625292512937449,
+          4.518154965946451
+        ],
+        "q1_ms": 4466.518594999798,
+        "median_ms": 4468.930465984158,
+        "q3_ms": 4518.154965946451,
+        "iqr_ms": 51.63637094665319,
+        "median_ms_per_item": 1.0087879155720447,
+        "throughput_items_per_second": {
+          "median": 991.2886391317828,
+          "q1": 980.4887245765409,
+          "q3": 991.8239241093321,
+          "iqr": 11.335199532791194
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 4430,
+        "mean_seconds_per_video_by_repeat": [
+          0.0010087879155720448,
+          0.0010074094180690448,
+          0.0010082434751692545,
+          0.0010440840886991984,
+          0.0010198995408457
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "dev_clustering": {
+        "raw_seconds": [
+          0.9387545400531963,
+          0.9282345559913665,
+          0.9462568280287087,
+          0.9326201980002224,
+          0.9332316869404167
+        ],
+        "q1_ms": 932.6201980002224,
+        "median_ms": 933.2316869404167,
+        "q3_ms": 938.7545400531963,
+        "iqr_ms": 6.134342052973807,
+        "median_ms_per_item": 1.0311952341883057,
+        "throughput_items_per_second": {
+          "median": 969.7484693935181,
+          "q1": 964.043273706795,
+          "q3": 970.3843021420217,
+          "iqr": 6.34102843522669
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 905,
+        "mean_seconds_per_video_by_repeat": [
+          0.001037297834312924,
+          0.0010256735425318967,
+          0.001045587655280341,
+          0.0010305195558013508,
+          0.0010311952341883058
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "all_rebuilt_Ward_centers_exact_<REVISION>": true,
+      "actual_test_cluster_count_equals_min_L8": true,
+      "mean_test_clusters": 7.992776523702031,
+      "test_count_min": 2,
+      "test_count_max": 8,
+      "reconstructed_clip_max_score_error": 2.384185791015625e-07,
+      "dev_input_audit": {
+        "query_count": 3386,
+        "verified_query_count": 3386,
+        "hdf5_open_count": 1,
+        "all_original_batches_bitwise_equal": true,
+        "source_disk_open_count": 1,
+        "read_order": "one original-disk sequential read, then original batch order entirely in RAM",
+        "original_loader_reference_uses_same_RAM_hdf5": true,
+        "video_input_audit": {
+          "needed_frames": 183134,
+          "raw_values_checked": 187529216,
+          "all_raw_values_bitwise_equal": true,
+          "source_open_count": 1,
+          "read_pattern": "one increasing sequential pass through original feature.bin",
+          "budget": {
+            "MemTotal": 134769520640,
+            "MemAvailable": 90723921920,
+            "effective_available_bytes": 90723921920,
+            "half_available_bytes": 45361960960
+          },
+          "peak_upper_bytes": 9431764368
+        },
+        "dataset_disk_copy": false
+      },
+      "artifacts": {
+        "dev_frame.npy": {
+          "path": "<WORK>/file-83698cd4b9c343.npy",
+          "sha256": "59e0175e0661716135fc89b26f1c2d825c45385898e62673cbf8b3056a6f9665"
+        },
+        "dev_lengths.npy": {
+          "path": "<WORK>/file-a553322c977f27.npy",
+          "sha256": "f4c3cd96b978691f01216b1ca4f188a5430c891f07c8c02fd333a15f8c74ed5d"
+        },
+        "dev_queries.npy": {
+          "path": "<WORK>/file-cb2fd54ad31d44.npy",
+          "sha256": "d46db2fc4b3727ccdb3b7135e267a38eb9c5a4417d097546d6c77110131b4cda"
+        },
+        "dev_clip.npy": {
+          "path": "<WORK>/file-a4fc67199a5d27.npy",
+          "sha256": "a61e3c20f7921310eff1994d636a7ff43e4283db9cba19b8bda3b4e117fda08a"
+        }
+      },
+      "checkpoint_unchanged": true
+    },
+    {
+      "dataset": "tvr",
+      "checkpoint": "<WORK>/file-9aa5d32f075e69.ckpt",
+      "checkpoint_sha256": "4907fcc45f412063c1b6c2e425f62247fe0f3b4817affc012171130c4a2ed067",
+      "best_epoch": 80,
+      "test_videos": 2179,
+      "test_queries": 10895,
+      "dev_videos": 1744,
+      "dev_query_ids": [
+        "friends_s05e02_seg02_clip_04#enc#0",
+        "s06e01_seg02_clip_10#enc#2",
+        "met_s02e15_seg02_clip_03#enc#0",
+        "house_s08e02_seg02_clip_17#enc#4",
+        "castle_s04e14_seg02_clip_26#enc#0",
+        "friends_s10e11_seg02_clip_18#enc#3",
+        "castle_s02e02_seg02_clip_07#enc#1",
+        "met_s06e12_seg02_clip_08#enc#1",
+        "castle_s03e17_seg02_clip_07#enc#2",
+        "friends_s09e03_seg02_clip_11#enc#2",
+        "friends_s08e23-24_seg02_clip_36#enc#3",
+        "friends_s04e20_seg02_clip_18#enc#3",
+        "met_s06e22_seg02_clip_12#enc#0",
+        "castle_s03e05_seg02_clip_25#enc#1",
+        "castle_s07e11_seg02_clip_02#enc#3",
+        "castle_s06e22_seg02_clip_03#enc#0",
+        "house_s05e02_seg02_clip_25#enc#3",
+        "met_s06e10_seg01_clip_03#enc#0",
+        "grey_s03e08_seg02_clip_04#enc#1",
+        "friends_s10e17-18_seg02_clip_26#enc#4",
+        "s05e17_seg02_clip_05#enc#2",
+        "friends_s08e09_seg02_clip_12#enc#4",
+        "castle_s02e14_seg02_clip_12#enc#3",
+        "castle_s04e22_seg02_clip_27#enc#0",
+        "castle_s04e15_seg02_clip_02#enc#0",
+        "house_s02e22_seg02_clip_12#enc#3",
+        "friends_s02e14_seg02_clip_03#enc#1",
+        "house_s04e07_seg02_clip_02#enc#4",
+        "grey_s03e15_seg02_clip_03#enc#2",
+        "house_s02e16_seg02_clip_00#enc#3",
+        "s05e18_seg02_clip_11#enc#1",
+        "friends_s09e21_seg02_clip_15#enc#4",
+        "castle_s06e06_seg02_clip_14#enc#3",
+        "house_s06e10_seg02_clip_19#enc#3",
+        "castle_s08e11_seg02_clip_15#enc#3",
+        "s05e19_seg02_clip_01#enc#3",
+        "grey_s02e04_seg02_clip_11#enc#3",
+        "house_s03e23_seg02_clip_06#enc#0",
+        "castle_s05e22_seg02_clip_17#enc#1",
+        "s04e24_seg02_clip_03#enc#0",
+        "friends_s05e23-24_seg02_clip_27#enc#0",
+        "grey_s02e05_seg02_clip_19#enc#0",
+        "s08e06_seg02_clip_14#enc#0",
+        "grey_s02e06_seg02_clip_18#enc#4",
+        "grey_s02e14_seg02_clip_25#enc#0",
+        "castle_s02e03_seg02_clip_00#enc#3",
+        "friends_s03e11_seg02_clip_10#enc#4",
+        "met_s03e03_seg01_clip_00#enc#4",
+        "friends_s07e11_seg02_clip_18#enc#2",
+        "castle_s03e01_seg02_clip_13#enc#1",
+        "castle_s01e09_seg02_clip_15#enc#3",
+        "friends_s08e23-24_seg02_clip_18#enc#2",
+        "house_s08e11_seg02_clip_09#enc#3",
+        "met_s03e12_seg02_clip_13#enc#2",
+        "grey_s03e25_seg02_clip_25#enc#1",
+        "house_s07e11_seg02_clip_07#enc#3",
+        "s04e02_seg02_clip_12#enc#0",
+        "s07e11_seg02_clip_14#enc#4",
+        "castle_s05e10_seg02_clip_16#enc#3",
+        "castle_s02e20_seg02_clip_04#enc#0",
+        "house_s06e18_seg02_clip_08#enc#0",
+        "friends_s05e11_seg02_clip_07#enc#1",
+        "castle_s03e07_seg02_clip_13#enc#0",
+        "met_s06e04_seg02_clip_03#enc#2",
+        "house_s03e16_seg02_clip_08#enc#4",
+        "house_s01e15_seg02_clip_19#enc#3",
+        "house_s01e22_seg02_clip_20#enc#1",
+        "friends_s06e15-16_seg02_clip_02#enc#0",
+        "s05e21_seg02_clip_11#enc#2",
+        "friends_s06e04_seg02_clip_06#enc#1",
+        "house_s06e20_seg02_clip_06#enc#1",
+        "house_s08e18_seg02_clip_11#enc#2",
+        "castle_s02e18_seg02_clip_21#enc#4",
+        "met_s06e12_seg02_clip_01#enc#4",
+        "friends_s01e13_seg02_clip_09#enc#3",
+        "house_s07e16_seg02_clip_11#enc#0",
+        "friends_s06e05_seg02_clip_13#enc#1",
+        "friends_s08e07_seg01_clip_00#enc#4",
+        "castle_s07e01_seg02_clip_02#enc#1",
+        "castle_s06e15_seg02_clip_11#enc#1",
+        "castle_s07e14_seg02_clip_25#enc#1",
+        "castle_s04e23_seg02_clip_12#enc#4",
+        "castle_s04e17_seg02_clip_05#enc#4",
+        "friends_s02e10_seg02_clip_15#enc#2",
+        "castle_s03e17_seg02_clip_13#enc#3",
+        "castle_s04e10_seg02_clip_27#enc#3",
+        "friends_s03e07_seg02_clip_05#enc#2",
+        "s07e15_seg02_clip_10#enc#3",
+        "friends_s02e14_seg01_clip_01#enc#2",
+        "friends_s05e13_seg02_clip_10#enc#0",
+        "house_s07e08_seg02_clip_24#enc#2",
+        "house_s03e04_seg02_clip_14#enc#2",
+        "friends_s03e18_seg02_clip_13#enc#2",
+        "s07e04_seg02_clip_07#enc#4",
+        "grey_s03e15_seg02_clip_19#enc#2",
+        "castle_s07e21_seg02_clip_22#enc#2",
+        "castle_s02e23_seg02_clip_13#enc#4",
+        "s04e08_seg02_clip_00#enc#1",
+        "friends_s07e02_seg02_clip_09#enc#0",
+        "s02e20_seg01_clip_00#enc#3",
+        "s07e10_seg02_clip_01#enc#0",
+        "s10e07_seg02_clip_01#enc#1",
+        "s01e14_seg02_clip_08#enc#3",
+        "castle_s07e21_seg02_clip_02#enc#3",
+        "castle_s02e20_seg02_clip_07#enc#2",
+        "s01e15_seg02_clip_09#enc#3",
+        "castle_s03e10_seg02_clip_26#enc#2",
+        "castle_s05e12_seg02_clip_14#enc#3",
+        "house_s01e15_seg02_clip_08#enc#4",
+        "friends_s03e04_seg02_clip_14#enc#1",
+        "s04e09_seg02_clip_09#enc#3",
+        "house_s06e14_seg02_clip_04#enc#2",
+        "s08e11_seg02_clip_12#enc#1",
+        "house_s08e22_seg02_clip_21#enc#1",
+        "house_s03e01_seg02_clip_03#enc#0",
+        "castle_s08e16_seg02_clip_15#enc#4",
+        "s06e24_seg02_clip_14#enc#3",
+        "house_s05e05_seg02_clip_07#enc#0",
+        "castle_s05e14_seg02_clip_25#enc#1",
+        "s09e16_seg01_clip_00#enc#3",
+        "castle_s06e04_seg02_clip_15#enc#4",
+        "castle_s07e22_seg02_clip_21#enc#2",
+        "castle_s02e19_seg02_clip_04#enc#2",
+        "friends_s01e12_seg02_clip_09#enc#3",
+        "friends_s01e16-17_seg02_clip_38#enc#3",
+        "castle_s07e04_seg02_clip_02#enc#2",
+        "s03e06_seg02_clip_13#enc#3",
+        "castle_s05e15_seg02_clip_27#enc#1"
+      ],
+      "accuracy": [
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 15.888022028453419,
+            "R@5": 37.29233593391464,
+            "R@10": 48.7471317117944,
+            "R@100": 86.91142726021111,
+            "SumR": 188.83891693437357
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "tvr",
+              "variant": "ward_cos_k8",
+              "fusion": "0.7/0.3"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 15.933914639743001,
+            "R@5": 37.356585589720055,
+            "R@10": 49.06837999082148,
+            "R@100": 86.92978430472694,
+            "SumR": 189.28866452501148
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/tvr/original/results/07_03/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 16.025699862322167,
+            "R@5": 37.430013767783386,
+            "R@10": 48.875631023405234,
+            "R@100": 87.15924736117485,
+            "SumR": 189.49059201468563
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "selector": {
+              "dataset": "tvr",
+              "variant": "ward_cos_k8",
+              "fusion": "0.5/0.5"
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "mode": "fp32",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 15.915557595227169,
+            "R@5": 37.65029830197338,
+            "R@10": 49.31620009178522,
+            "R@100": 87.09499770536944,
+            "SumR": 189.97705369435522
+          },
+          "source": {
+            "file": "results/index_density_stats/RESULTS.json",
+            "json_pointer": "/datasets/tvr/original/results/05_05/metrics"
+          }
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 15.943093162000919,
+            "R@5": 37.29233593391464,
+            "R@10": 48.77466727856815,
+            "R@100": 86.91142726021111,
+            "SumR": 188.92152363469484
+          },
+          "rank_file": "<WORK>/file-8d356556c4fb26.npy",
+          "rank_sha256": "eab44e2e52e90725ce217d940eed4daff9cd3e56398aeeef1af15def204bfe42",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 10895,
+          "video_count": 2179,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "Ward8",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 16.062413951353832,
+            "R@5": 37.521798990362555,
+            "R@10": 48.921523634694815,
+            "R@100": 87.1317117944011,
+            "SumR": 189.6374483708123
+          },
+          "rank_file": "<WORK>/file-6599321ad9e401.npy",
+          "rank_sha256": "ce147389d8a756934d9ac130f6a49a310d113f97e2a84c715bb30dfbb618f5c8",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 10895,
+          "video_count": 2179,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.7,
+            0.3
+          ],
+          "metrics": {
+            "R@1": 15.924736117485084,
+            "R@5": 37.319871500688386,
+            "R@10": 49.031665901789815,
+            "R@100": 86.95731987150069,
+            "SumR": 189.23359339146396
+          },
+          "rank_file": "<WORK>/file-2d5d969ec8f54b.npy",
+          "rank_sha256": "e4faddd0ba8f63cdb2dc0f9ada50b93cf89620c7207fc4a74a77a5f6048e452e",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 10895,
+          "video_count": 2179,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        },
+        {
+          "model": "B0",
+          "mode": "int8",
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "metrics": {
+            "R@1": 15.888022028453419,
+            "R@5": 37.6594768242313,
+            "R@10": 49.27948600275356,
+            "R@100": 87.11335474988527,
+            "SumR": 189.94033960532354
+          },
+          "rank_file": "<WORK>/file-41c3c773b7367b.npy",
+          "rank_sha256": "a8a886492bce53c897ad4031b17ed79cacba25c2ba2b2f0aa4e8991bb43ecfd0",
+          "ties_crossing_K": {
+            "K1": 0,
+            "K5": 0,
+            "K10": 0,
+            "K100": 0
+          },
+          "query_count": 10895,
+          "video_count": 2179,
+          "ranking": "original official CPU torch.argsort(-scores), stable=False",
+          "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+        }
+      ],
+      "test_index_sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61446.59017898118,
+          "padded_total_bytes": 133895192,
+          "valid_total_bytes": 133892120,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15527.643873336392,
+          "padded_total_bytes": 33835512,
+          "valid_total_bytes": 33834736,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "test_clustering": {
+        "raw_seconds": [
+          1.316745881922543,
+          1.315873607993126,
+          1.312393881031312,
+          1.3107548530679196,
+          1.3127831210149452
+        ],
+        "q1_ms": 1312.393881031312,
+        "median_ms": 1312.7831210149452,
+        "q3_ms": 1315.873607993126,
+        "iqr_ms": 3.479726961813867,
+        "median_ms_per_item": 0.6024704548026366,
+        "throughput_items_per_second": {
+          "median": 1659.8324316627113,
+          "q1": 1655.9341161369223,
+          "q3": 1660.3247176736966,
+          "iqr": 4.390601536774284
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 2179,
+        "mean_seconds_per_video_by_repeat": [
+          0.000604289069262296,
+          0.0006038887599784883,
+          0.0006022918224099643,
+          0.000601539629677797,
+          0.0006024704548026367
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "dev_clustering": {
+        "raw_seconds": [
+          1.1047668050741777,
+          1.0827264729887247,
+          1.1045694650383666,
+          1.0571614999789745,
+          1.0474164659390226
+        ],
+        "q1_ms": 1057.1614999789745,
+        "median_ms": 1082.7264729887247,
+        "q3_ms": 1104.5694650383666,
+        "iqr_ms": 47.407965059392154,
+        "median_ms_per_item": 0.6208293996494981,
+        "throughput_items_per_second": {
+          "median": 1610.7484609533155,
+          "q1": 1578.8957192831897,
+          "q3": 1649.7006370688734,
+          "iqr": 70.80491778568376
+        },
+        "warmup": 3,
+        "repeats": 5,
+        "videos": 1744,
+        "mean_seconds_per_video_by_repeat": [
+          0.0006334672047443679,
+          0.0006208293996494981,
+          0.0006333540510541093,
+          0.0006061705848503294,
+          0.0006005828359742102
+        ],
+        "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+      },
+      "all_rebuilt_Ward_centers_exact_<REVISION>": true,
+      "actual_test_cluster_count_equals_min_L8": true,
+      "mean_test_clusters": 7.9990821477742085,
+      "test_count_min": 6,
+      "test_count_max": 8,
+      "reconstructed_clip_max_score_error": 3.5762786865234375e-07,
+      "dev_input_audit": {
+        "query_count": 8720,
+        "verified_query_count": 8720,
+        "hdf5_open_count": 1,
+        "all_original_batches_bitwise_equal": true,
+        "source_disk_open_count": 1,
+        "read_order": "one original-disk sequential read, then original batch order entirely in RAM",
+        "original_loader_reference_uses_same_RAM_hdf5": true,
+        "video_input_audit": {
+          "needed_frames": 88336,
+          "raw_values_checked": 271368192,
+          "all_raw_values_bitwise_equal": true,
+          "source_open_count": 1,
+          "read_pattern": "one increasing sequential pass through original feature.bin",
+          "budget": {
+            "MemTotal": 134769520640,
+            "MemAvailable": 94125072384,
+            "effective_available_bytes": 94125072384,
+            "half_available_bytes": 47062536192
+          },
+          "peak_upper_bytes": 13534796536
+        },
+        "dataset_disk_copy": false
+      },
+      "artifacts": {
+        "dev_frame.npy": {
+          "path": "<WORK>/file-94f3df56779de4.npy",
+          "sha256": "1d1c39a3a724dcddc81887ce467447e54dfcbbe1d5e34720bd1243bd45abd8c0"
+        },
+        "dev_lengths.npy": {
+          "path": "<WORK>/file-a528c348c72459.npy",
+          "sha256": "b2ff4b5c7947b2d2ca7b26fac1764eb07e98669743dbbdbd2a2ef87907a0705d"
+        },
+        "dev_queries.npy": {
+          "path": "<WORK>/file-15712b31b9a85d.npy",
+          "sha256": "b2fdabf3ec4761a585538a5e46dff13b2c0885794097bcf4767b6077c6f6e0d3"
+        },
+        "dev_clip.npy": {
+          "path": "<WORK>/file-7cdd0b3e40bc19.npy",
+          "sha256": "1500e2142beeadcd295cd50acb8e4e2fb33036e3965c93091059edc20d11ea7b"
+        }
+      },
+      "checkpoint_unchanged": true
+    }
+  ],
+  "sources": {
+    "<REVISION>:results/index_density_stats/RESULTS.json": {
+      "file": "results/index_density_stats/RESULTS.json",
+      "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159"
+    },
+    "<REVISION>:<WORK>/file-bb9b13d4935179.json": {
+      "file": "<WORK>/file-bb9b13d4935179.json",
+      "sha256": "d13bfd9c637b91251fb1dc91b64d7fe3bb282027daf5d087ea9f4fc4896bb282"
+    },
+    "<REVISION>:<WORK>/file-9d3a4d7b147869.py": {
+      "file": "<WORK>/file-9d3a4d7b147869.py",
+      "sha256": "aa64309b12e58f466c4e03bedf9fbd95877d4d0cf642ee5d7d7a047e486c4255"
+    },
+    "<REVISION>:results/index_density_stats/evidence/charades_indexes.json": {
+      "file": "results/index_density_stats/evidence/charades_indexes.json",
+      "sha256": "871558249852244b378ca6a6e196835ffd922d6cd20f2472aee8133ae3f7a45c"
+    },
+    "<REVISION>:<WORK>/file-309caef5c9ed7a.py": {
+      "file": "<WORK>/file-309caef5c9ed7a.py",
+      "sha256": "2124020f605f7c9f2dcca792b12c5ce474f3de51515a0c2e03f43cfa90af8c9f"
+    },
+    "<REVISION>:<WORK>/file-d6984c683cb119.py": {
+      "file": "<WORK>/file-d6984c683cb119.py",
+      "sha256": "6be11d1184c6d0dee86322fe1874c4e6b4954819890af3c244ea8365a37f38f5"
+    },
+    "<REVISION>:results/index_density_stats/evidence/activitynet_indexes.json": {
+      "file": "results/index_density_stats/evidence/activitynet_indexes.json",
+      "sha256": "ba6b6230b5efa1c5fe2f52da44f5d7875e32d9f6269dc30af6a97c38ba2ad69d"
+    },
+    "<REVISION>:<WORK>/file-d6984c683cb119.py-57d7d6d286344a": {
+      "file": "<WORK>/file-d6984c683cb119.py",
+      "sha256": "6be11d1184c6d0dee86322fe1874c4e6b4954819890af3c244ea8365a37f38f5"
+    },
+    "<REVISION>:results/index_density_stats/evidence/tvr_indexes.json": {
+      "file": "results/index_density_stats/evidence/tvr_indexes.json",
+      "sha256": "b2c1ad616c03beec692d87492966ed231c0077ee3fab2453a4473202b12016e7"
+    },
+    "<REVISION>:<WORK>/file-d6984c683cb119.py-61bf039266bad4": {
+      "file": "<WORK>/file-d6984c683cb119.py",
+      "sha256": "6be11d1184c6d0dee86322fe1874c4e6b4954819890af3c244ea8365a37f38f5"
+    }
+  },
+  "inputs": {
+    "<WORK>/file-071ce673ff0c6c.json": {
+      "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+      "size": 203079,
+      "mtime_ns": 1793298208637940266
+    },
+    "<WORK>/file-7107d2fc46effc.npy": {
+      "sha256": "e4807d7ec5dea67566f0e46e098b6bf459d812ac1af0ea7986df84a8f3faeb1e",
+      "size": 262275200,
+      "mtime_ns": 1793298199815459204
+    },
+    "<WORK>/file-da2b7c4cd9c9ef.npy": {
+      "sha256": "14a350c3a36019f64bffd975a9f33df96c81e638611c67588ba0562e45598a03",
+      "size": 170880,
+      "mtime_ns": 1793298199815459204
+    },
+    "<WORK>/file-33bd0a2e4953c4.npy": {
+      "sha256": "72a58e315b63ed449202782b707809ccf765dfaabe87ab502e0dd7a48d858bcb",
+      "size": 5714048,
+      "mtime_ns": 1793298208522445151
+    },
+    "<WORK>/file-2725049fd27578.npy": {
+      "sha256": "bdc361d488bc896eee2ac75cabe9baafc096adc18deffbc30219fe07aabc6e88",
+      "size": 16392320,
+      "mtime_ns": 1793298675221499470
+    },
+    "<WORK>/file-81bb56bb613e54.npy": {
+      "sha256": "627d7fdf9da27c9846e4f9dad949b099b3e853b9583d30c5defc82e5001b20a3",
+      "size": 10808,
+      "mtime_ns": 1793298675234886625
+    },
+    "<WORK>/file-962c5db8561aae.ckpt": {
+      "sha256": "4c3241a38f29c870df84ea0427535b0c706ec61cd4ed2d64c3598dc26399fcfc",
+      "size": 123245408,
+      "mtime_ns": 1793085328091947588
+    },
+    "<WORK>/file-be72efc469162f.npy": {
+      "sha256": "8c2b70a189ee5aaee5d9a1bdc6d37691932d4c552246bcc5e8edab4620b76edb",
+      "size": 19850048,
+      "mtime_ns": 1793298208589445035
+    },
+    "<WORK>/file-083507dc70b930.json": {
+      "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+      "size": 1023407,
+      "mtime_ns": 1793298447047744173
+    },
+    "<WORK>/file-bd4859637fbb1b.npy": {
+      "sha256": "0994d8fcdbae51a90990478fe775d67a63ec9dc713f884898d1013e6f5205732",
+      "size": 870973568,
+      "mtime_ns": 1793298294750204556
+    },
+    "<WORK>/file-2b1cab9a94e7aa.npy": {
+      "sha256": "37084ec7eaf615b3edb8eb8e5d0e09293c79620694a0423bba08b00bf9fb312f",
+      "size": 567168,
+      "mtime_ns": 1793298294751204553
+    },
+    "<WORK>/file-7096e0bb5df3b0.npy": {
+      "sha256": "f592c9e971ac623596f2028f00f47580ad79fd4197b825b3b2cdcc0999dce1b9",
+      "size": 24196736,
+      "mtime_ns": 1793298446618397916
+    },
+    "<WORK>/file-04a1855525e41a.npy": {
+      "sha256": "9fb1ce2fc74ada12e38c918b70238b4361b92c3bcd70cca87b9ea75102a656d4",
+      "size": 54386816,
+      "mtime_ns": 1793299053710234238
+    },
+    "<WORK>/file-5ae0a3c3ca9f60.npy": {
+      "sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "size": 35576,
+      "mtime_ns": 1793299053750411840
+    },
+    "<WORK>/file-4c6423c8e3c95f.ckpt": {
+      "sha256": "7e6fc3647aff1b10f2784a6ae0fbc38142430517c8e05aaa815847a1c995091e",
+      "size": 123245344,
+      "mtime_ns": 1793097230059880267
+    },
+    "<WORK>/file-480757015bc803.npy": {
+      "sha256": "25dc36511c0704ab306f05cf47d0db5fb0c8182616d3bb57cf31d8b562f474be",
+      "size": 279143288,
+      "mtime_ns": 1793298446923395878
+    },
+    "<WORK>/file-fce8596d0dc082.json": {
+      "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+      "size": 845355,
+      "mtime_ns": 1793298549921497749
+    },
+    "<WORK>/file-743cb71f0187a4.npy": {
+      "sha256": "4d1b706be5d062abaacc17bc125b018bd3ab390926dfcc05544d6b5a1142b28d",
+      "size": 428408960,
+      "mtime_ns": 1793298500042018209
+    },
+    "<WORK>/file-c9b6f60993e4fc.npy": {
+      "sha256": "77cac42d1cfc32dfd0104a5c1709c64750824b0348f438a770e74a8af36f9e4c",
+      "size": 279040,
+      "mtime_ns": 1793298500042018209
+    },
+    "<WORK>/file-87e28e8b4dec27.npy": {
+      "sha256": "9667f6de1831f1e5e82f39c2b22a3385b792517ef13637113006a058ca7cf650",
+      "size": 16734848,
+      "mtime_ns": 1793298549637627954
+    },
+    "<WORK>/file-f428aa1add5e2e.npy": {
+      "sha256": "056ffbd5eaa682746e9022bfdb48cedbc2d11b6bb2bfa64a9fb88e3fb061ade0",
+      "size": 26772608,
+      "mtime_ns": 1793299176880660035
+    },
+    "<WORK>/file-8c098fb5132d44.npy": {
+      "sha256": "ba84b4ba605d22f9c6ab4636d8adf17bda769b1c4397d94485fe9a519ea59c51",
+      "size": 17568,
+      "mtime_ns": 1793299176904232613
+    },
+    "<WORK>/file-9aa5d32f075e69.ckpt": {
+      "sha256": "4907fcc45f412063c1b6c2e425f62247fe0f3b4817affc012171130c4a2ed067",
+      "size": 129173792,
+      "mtime_ns": 1793134448017579347
+    },
+    "<WORK>/file-31645859e4676a.npy": {
+      "sha256": "4144814106710ac0b32e41f910f26716ea5347851f9c3b777d51c2e1387224d0",
+      "size": 94960948,
+      "mtime_ns": 1793298549817626477
+    }
+  },
+  "CPU_only": true,
+  "torch_threads": 4,
+  "BLAS_threads": 1,
+  "CUDA_initialized": false,
+  "training": false
+}

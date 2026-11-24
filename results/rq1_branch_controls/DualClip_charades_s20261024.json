@@ -1,0 +1,836 @@
+{
+  "job": {
+    "group": "B",
+    "method": "DualClip",
+    "dataset": "charades",
+    "seed": 20261024
+  },
+  "attempt": 1,
+  "status": "completed",
+  "source": {
+    "path": "<WORK>/file-e9a8074ca81af8.json",
+    "sha256": "f47aaada89721b54ca8bb84a302ad7e83a75482ddbbd8416d7076c255b5a058c",
+    "storage": "repository-relative runtime artifact"
+  },
+  "config_file": "<WORK>/file-4f6e7645ad5514.json",
+  "config_sha256": "3defdd9d77b044f625fb16a0208e9eeb96581e2cfc340b219bf9731758b9918d",
+  "checkpoint_sha256": "d36d83c4bbd68b4d83f7ac1f5caa0a2681ff99f81988fcd233d7345483885ada",
+  "best_epoch": 30,
+  "epochs": 42,
+  "train_time": 1492.4628281630576,
+  "metrics": {
+    "R@1": 2.661290322580645,
+    "R@5": 8.333333333333334,
+    "R@10": 14.13978494623656,
+    "R@100": 52.903225806451616,
+    "SumR": 78.03763440860216
+  },
+  "MemoryPeak_bytes": 3753422848,
+  "CUDA_peak_allocated_bytes": 3077005312,
+  "num_workers": 8,
+  "CPU_threads": 4,
+  "epoch_summary": [
+    {
+      "epoch": 0,
+      "best_epoch": 0,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 39.78874284704216,
+      "elapsed_seconds": 39.78874284704216,
+      "train_loss_batch_mean": 2.8167440039770946,
+      "CUDA_peak_allocated_bytes": 3046226944,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.16129032258064516,
+        "R@5": 0.5913978494623656,
+        "R@10": 0.8870967741935484,
+        "R@100": 9.67741935483871,
+        "SumR": 11.317204301075268
+      }
+    },
+    {
+      "epoch": 1,
+      "best_epoch": 1,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 31.64661583909765,
+      "elapsed_seconds": 71.4353586861398,
+      "train_loss_batch_mean": 1.732546715509324,
+      "CUDA_peak_allocated_bytes": 3046618112,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.21505376344086022,
+        "R@5": 0.7795698924731183,
+        "R@10": 1.8548387096774193,
+        "R@100": 14.46236559139785,
+        "SumR": 17.311827956989248
+      }
+    },
+    {
+      "epoch": 2,
+      "best_epoch": 2,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 36.88160921097733,
+      "elapsed_seconds": 108.31696789711714,
+      "train_loss_batch_mean": 1.5697834889094036,
+      "CUDA_peak_allocated_bytes": 3047698944,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.026881720430107527,
+        "R@5": 0.7526881720430108,
+        "R@10": 1.7204301075268817,
+        "R@100": 18.413978494623656,
+        "SumR": 20.913978494623656
+      }
+    },
+    {
+      "epoch": 3,
+      "best_epoch": 3,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 38.584501513978466,
+      "elapsed_seconds": 146.9014694110956,
+      "train_loss_batch_mean": 1.4940099744569688,
+      "CUDA_peak_allocated_bytes": 3047698944,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.13440860215053763,
+        "R@5": 1.075268817204301,
+        "R@10": 2.553763440860215,
+        "R@100": 21.129032258064516,
+        "SumR": 24.892473118279568
+      }
+    },
+    {
+      "epoch": 4,
+      "best_epoch": 4,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 37.60515294387005,
+      "elapsed_seconds": 184.50662235496566,
+      "train_loss_batch_mean": 1.408108611901601,
+      "CUDA_peak_allocated_bytes": 3047698944,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.34946236559139787,
+        "R@5": 1.6666666666666667,
+        "R@10": 3.413978494623656,
+        "R@100": 25.188172043010752,
+        "SumR": 30.618279569892472
+      }
+    },
+    {
+      "epoch": 5,
+      "best_epoch": 5,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 33.05752895306796,
+      "elapsed_seconds": 217.56415130803362,
+      "train_loss_batch_mean": 1.290292697293418,
+      "CUDA_peak_allocated_bytes": 3047698944,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.6720430107526881,
+        "R@5": 2.6881720430107525,
+        "R@10": 5.161290322580645,
+        "R@100": 31.85483870967742,
+        "SumR": 40.376344086021504
+      }
+    },
+    {
+      "epoch": 6,
+      "best_epoch": 6,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 36.254512012936175,
+      "elapsed_seconds": 253.8186633209698,
+      "train_loss_batch_mean": 1.1927049614134289,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 0.7795698924731183,
+        "R@5": 3.413978494623656,
+        "R@10": 6.182795698924731,
+        "R@100": 35.51075268817204,
+        "SumR": 45.887096774193544
+      }
+    },
+    {
+      "epoch": 7,
+      "best_epoch": 7,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 35.51918877614662,
+      "elapsed_seconds": 289.3378520971164,
+      "train_loss_batch_mean": 1.1237673305329823,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.2365591397849462,
+        "R@5": 4.274193548387097,
+        "R@10": 7.123655913978495,
+        "R@100": 39.6505376344086,
+        "SumR": 52.284946236559136
+      }
+    },
+    {
+      "epoch": 8,
+      "best_epoch": 8,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 33.88098050397821,
+      "elapsed_seconds": 323.2188326010946,
+      "train_loss_batch_mean": 1.0621816970053173,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.3978494623655915,
+        "R@5": 4.78494623655914,
+        "R@10": 8.064516129032258,
+        "R@100": 40.16129032258065,
+        "SumR": 54.40860215053764
+      }
+    },
+    {
+      "epoch": 9,
+      "best_epoch": 9,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 34.89088301290758,
+      "elapsed_seconds": 358.1097156140022,
+      "train_loss_batch_mean": 1.023685607172194,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.3709677419354838,
+        "R@5": 5.698924731182796,
+        "R@10": 8.924731182795698,
+        "R@100": 43.03763440860215,
+        "SumR": 59.03225806451613
+      }
+    },
+    {
+      "epoch": 10,
+      "best_epoch": 10,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 41.03857734799385,
+      "elapsed_seconds": 399.14829296199605,
+      "train_loss_batch_mean": 0.9767391766820636,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.6935483870967742,
+        "R@5": 6.290322580645161,
+        "R@10": 10.96774193548387,
+        "R@100": 45.10752688172043,
+        "SumR": 64.05913978494624
+      }
+    },
+    {
+      "epoch": 11,
+      "best_epoch": 11,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 39.555661742109805,
+      "elapsed_seconds": 438.70395470410585,
+      "train_loss_batch_mean": 0.9322717629727864,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.7473118279569892,
+        "R@5": 6.693548387096774,
+        "R@10": 11.612903225806452,
+        "R@100": 46.98924731182796,
+        "SumR": 67.04301075268818
+      }
+    },
+    {
+      "epoch": 12,
+      "best_epoch": 11,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": false,
+      "epoch_seconds": 36.8912009189371,
+      "elapsed_seconds": 475.59515562304296,
+      "train_loss_batch_mean": 0.8998322231428963,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.5591397849462365,
+        "R@5": 6.720430107526882,
+        "R@10": 10.994623655913978,
+        "R@100": 46.96236559139785,
+        "SumR": 66.23655913978494
+      }
+    },
+    {
+      "epoch": 13,
+      "best_epoch": 13,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 38.53519188705832,
+      "elapsed_seconds": 514.1303475101013,
+      "train_loss_batch_mean": 0.8765019334497905,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.6666666666666667,
+        "R@5": 7.043010752688172,
+        "R@10": 11.693548387096774,
+        "R@100": 47.66129032258065,
+        "SumR": 68.06451612903226
+      }
+    },
+    {
+      "epoch": 14,
+      "best_epoch": 14,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 41.021825360832736,
+      "elapsed_seconds": 555.152172870934,
+      "train_loss_batch_mean": 0.8488815015270597,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.7741935483870968,
+        "R@5": 7.39247311827957,
+        "R@10": 12.39247311827957,
+        "R@100": 48.924731182795696,
+        "SumR": 70.48387096774194
+      }
+    },
+    {
+      "epoch": 15,
+      "best_epoch": 15,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 41.05735199106857,
+      "elapsed_seconds": 596.2095248620026,
+      "train_loss_batch_mean": 0.8269689650762648,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.8548387096774193,
+        "R@5": 7.688172043010753,
+        "R@10": 12.661290322580646,
+        "R@100": 49.75806451612903,
+        "SumR": 71.96236559139786
+      }
+    },
+    {
+      "epoch": 16,
+      "best_epoch": 15,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": false,
+      "epoch_seconds": 34.28116079210304,
+      "elapsed_seconds": 630.4906856541056,
+      "train_loss_batch_mean": 0.8104790520100367,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 1.881720430107527,
+        "R@5": 7.473118279569892,
+        "R@10": 12.473118279569892,
+        "R@100": 49.543010752688176,
+        "SumR": 71.37096774193549
+      }
+    },
+    {
+      "epoch": 17,
+      "best_epoch": 17,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 42.00689001195133,
+      "elapsed_seconds": 672.497575666057,
+      "train_loss_batch_mean": 0.7913197832448142,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.096774193548387,
+        "R@5": 7.983870967741935,
+        "R@10": 12.983870967741936,
+        "R@100": 50.59139784946237,
+        "SumR": 73.65591397849462
+      }
+    },
+    {
+      "epoch": 18,
+      "best_epoch": 18,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_seconds": 43.236629352904856,
+      "elapsed_seconds": 715.7342050189618,
+      "train_loss_batch_mean": 0.7770034230890728,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.010752688172044,
+        "R@10": 12.903225806451612,
+        "R@100": 51.10215053763441,
+        "SumR": 74.22043010752688
+      }
+    },
+    {
+      "epoch": 19,
+      "best_epoch": 18,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": false,
+      "epoch_seconds": 38.48727322509512,
+      "elapsed_seconds": 754.2214782440569,
+      "train_loss_batch_mean": 0.7657767363956997,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.0698924731182795,
+        "R@5": 8.172043010752688,
+        "R@10": 12.983870967741936,
+        "R@100": 50.94086021505376,
+        "SumR": 74.16666666666666
+      }
+    },
+    {
+      "epoch": 20,
+      "best_epoch": 20,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 29.75490139098838,
+      "elapsed_seconds": 783.9763796350453,
+      "train_loss_batch_mean": 1.4539102940332322,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.28494623655914,
+        "R@5": 7.956989247311828,
+        "R@10": 12.741935483870968,
+        "R@100": 51.72043010752688,
+        "SumR": 74.70430107526882
+      }
+    },
+    {
+      "epoch": 21,
+      "best_epoch": 21,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 27.555140391923487,
+      "elapsed_seconds": 811.5315200269688,
+      "train_loss_batch_mean": 1.4293380947340102,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.198924731182796,
+        "R@10": 13.440860215053764,
+        "R@100": 52.41935483870968,
+        "SumR": 76.37096774193549
+      }
+    },
+    {
+      "epoch": 22,
+      "best_epoch": 22,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 25.1113313799724,
+      "elapsed_seconds": 836.6428514069412,
+      "train_loss_batch_mean": 1.4015727213450841,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.2311827956989245,
+        "R@5": 8.172043010752688,
+        "R@10": 13.870967741935484,
+        "R@100": 52.68817204301075,
+        "SumR": 76.96236559139786
+      }
+    },
+    {
+      "epoch": 23,
+      "best_epoch": 22,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_seconds": 34.7933815701399,
+      "elapsed_seconds": 871.4362329770811,
+      "train_loss_batch_mean": 1.3865154612632025,
+      "CUDA_peak_allocated_bytes": 3075543040,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.4731182795698925,
+        "R@5": 8.279569892473118,
+        "R@10": 13.629032258064516,
+        "R@100": 52.526881720430104,
+        "SumR": 76.90860215053763
+      }
+    },
+    {
+      "epoch": 24,
+      "best_epoch": 22,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_seconds": 32.26889725984074,
+      "elapsed_seconds": 903.7051302369218,
+      "train_loss_batch_mean": 1.370025016012646,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.2311827956989245,
+        "R@5": 8.36021505376344,
+        "R@10": 13.548387096774194,
+        "R@100": 52.795698924731184,
+        "SumR": 76.93548387096774
+      }
+    },
+    {
+      "epoch": 25,
+      "best_epoch": 22,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_seconds": 31.809411603026092,
+      "elapsed_seconds": 935.5145418399479,
+      "train_loss_batch_mean": 1.3606774920508975,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3428843520,
+      "val_metrics": {
+        "R@1": 2.1236559139784945,
+        "R@5": 8.25268817204301,
+        "R@10": 13.790322580645162,
+        "R@100": 52.5,
+        "SumR": 76.66666666666666
+      }
+    },
+    {
+      "epoch": 26,
+      "best_epoch": 26,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 37.17005147202872,
+      "elapsed_seconds": 972.6845933119766,
+      "train_loss_batch_mean": 1.3405067863918485,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.172043010752688,
+        "R@10": 13.521505376344086,
+        "R@100": 52.956989247311824,
+        "SumR": 76.98924731182795
+      }
+    },
+    {
+      "epoch": 27,
+      "best_epoch": 27,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 31.404728796100244,
+      "elapsed_seconds": 1004.0893221080769,
+      "train_loss_batch_mean": 1.3245646556218464,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.5268817204301075,
+        "R@5": 8.198924731182796,
+        "R@10": 13.602150537634408,
+        "R@100": 52.956989247311824,
+        "SumR": 77.28494623655914
+      }
+    },
+    {
+      "epoch": 28,
+      "best_epoch": 27,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_seconds": 38.10118010500446,
+      "elapsed_seconds": 1042.1905022130813,
+      "train_loss_batch_mean": 1.3117850224177043,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.5,
+        "R@5": 8.306451612903226,
+        "R@10": 13.602150537634408,
+        "R@100": 52.68817204301075,
+        "SumR": 77.09677419354838
+      }
+    },
+    {
+      "epoch": 29,
+      "best_epoch": 27,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_seconds": 32.59802165091969,
+      "elapsed_seconds": 1074.788523864001,
+      "train_loss_batch_mean": 1.3025637723150707,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.3655913978494625,
+        "R@5": 8.387096774193548,
+        "R@10": 13.978494623655914,
+        "R@100": 52.33870967741935,
+        "SumR": 77.06989247311827
+      }
+    },
+    {
+      "epoch": 30,
+      "best_epoch": 30,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_seconds": 33.609629234997556,
+      "elapsed_seconds": 1108.3981530989986,
+      "train_loss_batch_mean": 1.294767399628957,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.333333333333334,
+        "R@10": 14.13978494623656,
+        "R@100": 52.903225806451616,
+        "SumR": 78.03763440860216
+      }
+    },
+    {
+      "epoch": 31,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_seconds": 34.09221432195045,
+      "elapsed_seconds": 1142.490367420949,
+      "train_loss_batch_mean": 1.2773976155689784,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.446236559139785,
+        "R@5": 8.25268817204301,
+        "R@10": 13.870967741935484,
+        "R@100": 52.8494623655914,
+        "SumR": 77.41935483870968
+      }
+    },
+    {
+      "epoch": 32,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_seconds": 30.354717849986628,
+      "elapsed_seconds": 1172.8450852709357,
+      "train_loss_batch_mean": 1.2641422266051883,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.5268817204301075,
+        "R@5": 8.091397849462366,
+        "R@10": 13.844086021505376,
+        "R@100": 53.09139784946237,
+        "SumR": 77.55376344086022
+      }
+    },
+    {
+      "epoch": 33,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_seconds": 35.13552417606115,
+      "elapsed_seconds": 1207.9806094469968,
+      "train_loss_batch_mean": 1.25200035742351,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.2580645161290325,
+        "R@5": 8.575268817204302,
+        "R@10": 13.413978494623656,
+        "R@100": 52.25806451612903,
+        "SumR": 76.50537634408602
+      }
+    },
+    {
+      "epoch": 34,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_seconds": 31.29813946504146,
+      "elapsed_seconds": 1239.2787489120383,
+      "train_loss_batch_mean": 1.2436288027536302,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.3655913978494625,
+        "R@5": 8.36021505376344,
+        "R@10": 13.790322580645162,
+        "R@100": 52.876344086021504,
+        "SumR": 77.39247311827957
+      }
+    },
+    {
+      "epoch": 35,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 5,
+      "hard_negative": true,
+      "epoch_seconds": 32.397568084066734,
+      "elapsed_seconds": 1271.676316996105,
+      "train_loss_batch_mean": 1.2375892656190055,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.150537634408602,
+        "R@5": 8.494623655913978,
+        "R@10": 13.629032258064516,
+        "R@100": 53.03763440860215,
+        "SumR": 77.31182795698925
+      }
+    },
+    {
+      "epoch": 36,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 6,
+      "hard_negative": true,
+      "epoch_seconds": 33.35128262988292,
+      "elapsed_seconds": 1305.027599625988,
+      "train_loss_batch_mean": 1.2220583047185625,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.2580645161290325,
+        "R@5": 8.602150537634408,
+        "R@10": 13.736559139784946,
+        "R@100": 52.8494623655914,
+        "SumR": 77.44623655913978
+      }
+    },
+    {
+      "epoch": 37,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 7,
+      "hard_negative": true,
+      "epoch_seconds": 29.326153790112585,
+      "elapsed_seconds": 1334.3537534161005,
+      "train_loss_batch_mean": 1.2114407278242565,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.413978494623656,
+        "R@10": 14.24731182795699,
+        "R@100": 52.956989247311824,
+        "SumR": 77.93010752688173
+      }
+    },
+    {
+      "epoch": 38,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 8,
+      "hard_negative": true,
+      "epoch_seconds": 33.15836930600926,
+      "elapsed_seconds": 1367.5121227221098,
+      "train_loss_batch_mean": 1.2004894756135487,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.3655913978494625,
+        "R@5": 8.413978494623656,
+        "R@10": 14.166666666666666,
+        "R@100": 52.41935483870968,
+        "SumR": 77.36559139784947
+      }
+    },
+    {
+      "epoch": 39,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 9,
+      "hard_negative": true,
+      "epoch_seconds": 34.444654936902225,
+      "elapsed_seconds": 1401.956777659012,
+      "train_loss_batch_mean": 1.1896780672527494,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.14516129032258,
+        "R@10": 14.03225806451613,
+        "R@100": 52.526881720430104,
+        "SumR": 77.01612903225806
+      }
+    },
+    {
+      "epoch": 40,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 10,
+      "hard_negative": true,
+      "epoch_seconds": 31.505830283043906,
+      "elapsed_seconds": 1433.462607942056,
+      "train_loss_batch_mean": 1.1836745341618855,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.5268817204301075,
+        "R@5": 8.064516129032258,
+        "R@10": 13.629032258064516,
+        "R@100": 52.446236559139784,
+        "SumR": 76.66666666666666
+      }
+    },
+    {
+      "epoch": 41,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 11,
+      "hard_negative": true,
+      "epoch_seconds": 35.27417137892917,
+      "elapsed_seconds": 1468.736779320985,
+      "train_loss_batch_mean": 1.1745986796560741,
+      "CUDA_peak_allocated_bytes": 3077005312,
+      "CUDA_peak_reserved_bytes": 3430940672,
+      "val_metrics": {
+        "R@1": 2.5,
+        "R@5": 8.521505376344086,
+        "R@10": 13.790322580645162,
+        "R@100": 52.39247311827957,
+        "SumR": 77.20430107526882
+      }
+    }
+  ],
+  "exporter_source": {
+    "path": "<WORK>/file-0931219de11f35.py",
+    "sha256": "c43f57fe6fa6417b846f3379fc5d43138fc07fad980d5a7577b23e74a9297245"
+  }
+}

@@ -1,0 +1,1806 @@
+{
+  "status": "completed",
+  "contrasts": {
+    "K6": {
+      "tvr": {
+        "diff": 8.441180969863836,
+        "welch_ci": [
+          5.849555732140573,
+          11.0328062075871
+        ],
+        "df": 3.3143534649778608,
+        "standard_error": 0.8586321018247515,
+        "delta_s": [
+          6.957319871500687,
+          9.426342358880248,
+          8.93988067921066
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          186.9114272602111,
+          186.93896282698486,
+          188.26984855438275
+        ],
+        "published_WideClipOnly_SumR": [
+          179.9541073887104,
+          177.51262046810461,
+          179.3299678751721
+        ],
+        "compressed_dualclip_mean": 187.37341288052622,
+        "published_WideClipOnly_mean": 178.93223191066238,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/tvr"
+        },
+        "direction": "positive"
+      },
+      "activitynet": {
+        "diff": 4.48591802619606,
+        "welch_ci": [
+          3.4092639180947835,
+          5.562572134297337
+        ],
+        "df": 3.9623804710304276,
+        "standard_error": 0.38633067049192765,
+        "delta_s": [
+          4.037326223576457,
+          5.179965720815062,
+          4.240462134196662
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          153.3993525042849,
+          154.15476417190376,
+          154.19920015235192
+        ],
+        "published_WideClipOnly_SumR": [
+          149.36202628070845,
+          148.9747984510887,
+          149.95873801815526
+        ],
+        "compressed_dualclip_mean": 153.9177722761802,
+        "published_WideClipOnly_mean": 149.43185424998413,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/activitynet"
+        },
+        "direction": "positive"
+      },
+      "charades": {
+        "diff": 2.5179211469534124,
+        "welch_ci": [
+          1.2127265865676538,
+          3.823115707339171
+        ],
+        "df": 3.999389543557071,
+        "standard_error": 0.47006727772774415,
+        "delta_s": [
+          1.344086021505376,
+          3.225806451612911,
+          2.98387096774195
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          77.20430107526882,
+          77.93010752688173,
+          78.33333333333334
+        ],
+        "published_WideClipOnly_SumR": [
+          75.86021505376344,
+          74.70430107526882,
+          75.34946236559139
+        ],
+        "compressed_dualclip_mean": 77.8225806451613,
+        "published_WideClipOnly_mean": 75.30465949820788,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/charades"
+        },
+        "direction": "positive"
+      }
+    },
+    "K7": {
+      "tvr": {
+        "diff": -0.1468563561266636,
+        "mean_diff": -0.1468563561266636,
+        "delta_s": [
+          0.12849931161083067,
+          0.22946305644791193,
+          -0.7985314364387334
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -0.541532813217072,
+            0.8446535107847625
+          ],
+          "20261024": [
+            -0.46810463515374023,
+            0.9637448370812299
+          ],
+          "20261025": [
+            -1.4960991280403853,
+            -0.10096374483708123
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": 0.12849931161083067,
+            "bootstrap_ci": [
+              -0.541532813217072,
+              0.8446535107847625
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.08260670032124828,
+                "CI95": [
+                  -0.4130335016062414,
+                  0.24782010096374485
+                ]
+              },
+              "R@5": {
+                "diff": 0.018357044515832952,
+                "CI95": [
+                  -0.3763194125745755,
+                  0.42221202386415785
+                ]
+              },
+              "R@10": {
+                "diff": 0.027535566773749427,
+                "CI95": [
+                  -0.33960532354290957,
+                  0.4130335016062414
+                ]
+              },
+              "R@100": {
+                "diff": 0.16521340064249657,
+                "CI95": [
+                  -0.06424965580541533,
+                  0.39467645709040844
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-db84c2115415d6.npy",
+                "sha256": "ec9ef9950f88c27dce03fb26dc40ff2d61c5a7afb1792913ef1e9f13f395713b",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-3f5887d8dba9c6.json",
+                  "sha256": "7ce9aeb684ecca85930a2a9b085a1fa67f69fdb95e6fdd1351417ce1552be59d",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-8b53ead4317afd.npy",
+                  "sha256": "2993f3a0df35c8016e148db369faf8d4e207e797fe234a872c78676f1ff0cd80",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-53c2afe8443e54.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": 0.22946305644791193,
+            "bootstrap_ci": [
+              -0.46810463515374023,
+              0.9637448370812299
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.12849931161083067,
+                "CI95": [
+                  -0.20215695273061035,
+                  0.4956402019274897
+                ]
+              },
+              "R@5": {
+                "diff": 0.06424965580541533,
+                "CI95": [
+                  -0.330656264341441,
+                  0.4497475906379073
+                ]
+              },
+              "R@10": {
+                "diff": -0.036714089031665904,
+                "CI95": [
+                  -0.3949059201468563,
+                  0.3122992198256068
+                ]
+              },
+              "R@100": {
+                "diff": 0.07342817806333181,
+                "CI95": [
+                  -0.15626434144102797,
+                  0.28453418999541075
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-180df341b91b98.npy",
+                "sha256": "04bdc2920a7f2cbc12e4db987dc90887e152ebcddfcf599cd14f0bd9dce33df1",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-169591e496b39d.json",
+                  "sha256": "812c9e5cdc8dffb1b931377b66fb72df9a6f73731a4ec73e6841d6da3b25a68b",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-3aeb006e118144.npy",
+                  "sha256": "b247b92e78aa6f24139c955ccdb0ec0a0f2849c00b2b2889f0dd432c7a4c23cf",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-767915ed29d625.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.7985314364387334,
+            "bootstrap_ci": [
+              -1.4960991280403853,
+              -0.10096374483708123
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.18357044515832951,
+                "CI95": [
+                  -0.4958696649839376,
+                  0.14685635612666362
+                ]
+              },
+              "R@5": {
+                "diff": -0.38549793483249195,
+                "CI95": [
+                  -0.7709958696649839,
+                  0.0
+                ]
+              },
+              "R@10": {
+                "diff": -0.18357044515832951,
+                "CI95": [
+                  -0.5507113354749885,
+                  0.16544286369894323
+                ]
+              },
+              "R@100": {
+                "diff": -0.04589261128958238,
+                "CI95": [
+                  -0.27535566773749426,
+                  0.18357044515832951
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-339f367da450a6.npy",
+                "sha256": "280880e80d1772304a5b94abcf1466c2cdd0ffbfbf4e018cc2834535c76a1984",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-fc2925644c7d0b.json",
+                  "sha256": "60c9d9f07923894105bb666a08fe82f60df10ea1c66f1926f71d185af22bbdc3",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-fdec0944daae17.npy",
+                  "sha256": "6219ecdf68922372a514526a6110e25e2f6ca500cceaeca530600b9d6e4f5879",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-cc362dcbc52efd.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      },
+      "activitynet": {
+        "diff": -0.11426394972386211,
+        "mean_diff": -0.11426394972386211,
+        "delta_s": [
+          -0.19043991620643685,
+          -0.11426394972386211,
+          -0.03808798324128734
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -0.6765797166745012,
+            0.3003113492299568
+          ],
+          "20261024": [
+            -0.619894245239809,
+            0.380623724962243
+          ],
+          "20261025": [
+            -0.5493662069911476,
+            0.45763761747618464
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": -0.19043991620643685,
+            "bootstrap_ci": [
+              -0.6765797166745012,
+              0.3003113492299568
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.06347997206881228,
+                "CI95": [
+                  -0.2799151747858925,
+                  0.16593962828151468
+                ]
+              },
+              "R@5": {
+                "diff": -0.1333079413445058,
+                "CI95": [
+                  -0.4227157311298407,
+                  0.14717480615799897
+                ]
+              },
+              "R@10": {
+                "diff": 0.0888719608963372,
+                "CI95": [
+                  -0.18375743056439955,
+                  0.360448982634306
+                ]
+              },
+              "R@100": {
+                "diff": -0.08252396368945597,
+                "CI95": [
+                  -0.2561755478539225,
+                  0.08345945647370677
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-9c11807b8cb385.npy",
+                "sha256": "41c309dc87fe16974371c844665ea77706164c11872ce32a4fcd6797105325db",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-9b6ac32747436b.json",
+                  "sha256": "859e3e5e17fbcb0da11cc9ee943da9c0210ae2c836d7770f3e742786ac9b7523",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-c416cdbc023c66.npy",
+                  "sha256": "c57063575653c3ac9b0e5ad1b3fe67c8d80a49f0558c16cfa262f91a2adc7159",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-1d49cfabb4927a.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": -0.11426394972386211,
+            "bootstrap_ci": [
+              -0.619894245239809,
+              0.380623724962243
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.3300958547578239,
+                "CI95": [
+                  0.10801812179844522,
+                  0.5493135161673092
+                ]
+              },
+              "R@5": {
+                "diff": -0.07617596648257474,
+                "CI95": [
+                  -0.3544639170164192,
+                  0.2019405398797557
+                ]
+              },
+              "R@10": {
+                "diff": -0.3300958547578239,
+                "CI95": [
+                  -0.6220534306294887,
+                  -0.04433608294179758
+                ]
+              },
+              "R@100": {
+                "diff": -0.03808798324128737,
+                "CI95": [
+                  -0.19125552263859968,
+                  0.13242694529087606
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-95fc541b50d378.npy",
+                "sha256": "46fb79809e57a05202de3a72a48eecd07457caf30c64dd00e206482b0c7086dc",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-709db7ad43fce6.json",
+                  "sha256": "4d9dfc5d5bde667f89ab480aa5fa0b0e07197ae4e2279802b3b0dc8b9aac14f8",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-ca4ccd0bb2ef9d.npy",
+                  "sha256": "8176f09564f4a15e29f7c208d385b92256949036187ad5b31e16af333bf4263c",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-b3e73920573c6b.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.03808798324128734,
+            "bootstrap_ci": [
+              -0.5493662069911476,
+              0.45763761747618464
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.0888719608963372,
+                "CI95": [
+                  -0.3230818344260285,
+                  0.14612731072450205
+                ]
+              },
+              "R@5": {
+                "diff": 0.1967879134133181,
+                "CI95": [
+                  -0.07621134685294409,
+                  0.4681950718244463
+                ]
+              },
+              "R@10": {
+                "diff": -0.16504792737891194,
+                "CI95": [
+                  -0.43436678474427276,
+                  0.10833478110429531
+                ]
+              },
+              "R@100": {
+                "diff": 0.019043991620643685,
+                "CI95": [
+                  -0.1465446817596437,
+                  0.18551161949160633
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-2c20f5d34d9852.npy",
+                "sha256": "ed3c3c20c8c180bef9e8845d8e80b183e5f3bd12a6e37dba9f8413798cb1955b",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-e09edfaa1e8313.json",
+                  "sha256": "ffb86be4a2f756f88db2971c1677255b45e01eff6040ac55f09c211971e7b26d",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-de4cbeb83b8bcf.npy",
+                  "sha256": "d4b58ed97126f2a1b54581a35fc8819216da94f13d8593898d1b3e0b07390662",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-eea310b9ca7965.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      },
+      "charades": {
+        "diff": -0.4659498207885305,
+        "mean_diff": -0.4659498207885305,
+        "delta_s": [
+          -1.1559139784946237,
+          -0.10752688172043012,
+          -0.13440860215053763
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -2.2336184219984094,
+            -0.13140087256923824
+          ],
+          "20261024": [
+            -1.1934187122444169,
+            1.0503138366481226
+          ],
+          "20261025": [
+            -1.2192719035522954,
+            0.9426807526448336
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": -1.1559139784946237,
+            "bootstrap_ci": [
+              -2.2336184219984094,
+              -0.13140087256923824
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.10752688172043011,
+                "CI95": [
+                  -0.37675934217363866,
+                  0.16035495921236073
+                ]
+              },
+              "R@5": {
+                "diff": 0.026881720430107527,
+                "CI95": [
+                  -0.44225053565776173,
+                  0.4897837472647042
+                ]
+              },
+              "R@10": {
+                "diff": -0.7795698924731183,
+                "CI95": [
+                  -1.2995310411028769,
+                  -0.23893782170499137
+                ]
+              },
+              "R@100": {
+                "diff": -0.2956989247311828,
+                "CI95": [
+                  -0.9518997754037418,
+                  0.34493053121710776
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-787adc60228537.npy",
+                "sha256": "5d0437961fee5751e41a91b6a944196dc3fb7ff4822f6ffd4ec24c4d3fc7d6d8",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-213275b73fcadf.json",
+                  "sha256": "27992e5862a3b2f1e1377211c11af051afa1e27cdd709c40cc3a3f042fc02f53",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-c239fe6636b4e5.npy",
+                  "sha256": "0908a17be0642ec0ced27c7ff1d9e730561949b8202d7618bdb58e9b0ae266a2",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-748ca8a972f786.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": -0.10752688172043012,
+            "bootstrap_ci": [
+              -1.1934187122444169,
+              1.0503138366481226
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.08064516129032258,
+                "CI95": [
+                  -0.26710473515248795,
+                  0.43110754935794876
+                ]
+              },
+              "R@5": {
+                "diff": 0.13440860215053763,
+                "CI95": [
+                  -0.3390521128517706,
+                  0.6145703243874784
+                ]
+              },
+              "R@10": {
+                "diff": -0.16129032258064516,
+                "CI95": [
+                  -0.7386109040235873,
+                  0.39710425129890103
+                ]
+              },
+              "R@100": {
+                "diff": -0.16129032258064516,
+                "CI95": [
+                  -0.7584531913021185,
+                  0.45367288818837526
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-ccf85155c28a98.npy",
+                "sha256": "c91e1d8b247aea6246696182c552f7f2f6d73f9d9a10ac3e28aeaffb225eaf86",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-d8fe14dd4922f9.json",
+                  "sha256": "79e6fd531d01fc302bd881e95f99a8830e52e0d104e32aa20b8285003c74c7f3",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-b86f455a1bcc98.npy",
+                  "sha256": "62688ee213d2dde6db46992aa3cc81069456632e258a59d8f00c5d99057b089f",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-a868d70917ce3c.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.13440860215053763,
+            "bootstrap_ci": [
+              -1.2192719035522954,
+              0.9426807526448336
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.0,
+                "CI95": [
+                  -0.2651360378170966,
+                  0.24935444616506205
+                ]
+              },
+              "R@5": {
+                "diff": -0.21505376344086022,
+                "CI95": [
+                  -0.7183297630712613,
+                  0.2753322921683933
+                ]
+              },
+              "R@10": {
+                "diff": 0.0,
+                "CI95": [
+                  -0.5533240820899323,
+                  0.5364382612339987
+                ]
+              },
+              "R@100": {
+                "diff": 0.08064516129032258,
+                "CI95": [
+                  -0.5440204766005478,
+                  0.7204662642196802
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-ec8a1c9a84768c.npy",
+                "sha256": "013076bbe29b8791d63d1ad1a872f223f3c0ab1830b9716253254d07fb03e0c5",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-c1f7c7d994da7a.json",
+                  "sha256": "19f0d4878d5032639f925316a1797340be63fdd6a7a77d7d683f07cbca2fa4c4",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-2b3b19cbe5ec13.npy",
+                  "sha256": "0ace0611e5dc514f5597012756f95324eca441306674520a8aabb0b65e618783",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-8f1cadc0aaaaff.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      }
+    },
+    "K8": {
+      "tvr": {
+        "diff": 6.9267247973076564,
+        "welch_ci": [
+          4.335781843241325,
+          9.517667751373988
+        ],
+        "df": 3.3391499987992463,
+        "standard_error": 0.8615868408299228,
+        "delta_s": [
+          5.507113354749862,
+          7.838458008260687,
+          7.434603028912363
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          185.46122074346027,
+          185.3510784763653,
+          186.76457090408445
+        ],
+        "published_WideClipOnly_SumR": [
+          179.9541073887104,
+          177.51262046810461,
+          179.3299678751721
+        ],
+        "compressed_dualclip_mean": 185.85895670797004,
+        "published_WideClipOnly_mean": 178.93223191066238,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/tvr"
+        },
+        "direction": "positive"
+      },
+      "activitynet": {
+        "diff": 4.422438054127269,
+        "welch_ci": [
+          3.381023656110712,
+          5.463852452143827
+        ],
+        "df": 3.8420445372534453,
+        "standard_error": 0.36902805367622904,
+        "delta_s": [
+          4.0309782263695695,
+          5.167269726401287,
+          4.069066209610867
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          153.39300450707802,
+          154.14206817749,
+          154.02780422776613
+        ],
+        "published_WideClipOnly_SumR": [
+          149.36202628070845,
+          148.9747984510887,
+          149.95873801815526
+        ],
+        "compressed_dualclip_mean": 153.8542923041114,
+        "published_WideClipOnly_mean": 149.43185424998413,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/activitynet"
+        },
+        "direction": "positive"
+      },
+      "charades": {
+        "diff": 1.8458781362007244,
+        "welch_ci": [
+          0.6618073452128685,
+          3.02994892718858
+        ],
+        "df": 3.285554753633465,
+        "standard_error": 0.3905823426111722,
+        "delta_s": [
+          1.1021505376344152,
+          2.849462365591407,
+          1.5860215053763511
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          76.96236559139786,
+          77.55376344086022,
+          76.93548387096774
+        ],
+        "published_WideClipOnly_SumR": [
+          75.86021505376344,
+          74.70430107526882,
+          75.34946236559139
+        ],
+        "compressed_dualclip_mean": 77.15053763440861,
+        "published_WideClipOnly_mean": 75.30465949820788,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/charades"
+        },
+        "direction": "positive"
+      }
+    }
+  },
+  "wording": {
+    "K6": {
+      "rule": "TVR_and_ActivityNet_strictly_positive",
+      "text": "With parameters and stored vectors both matched (32 per video), two same-granularity branches outperform a single widened branch.",
+      "datasets": {
+        "tvr": {
+          "direction": "positive",
+          "diff": 8.441180969863836,
+          "welch_ci": [
+            5.849555732140573,
+            11.0328062075871
+          ],
+          "text": "tvr: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 8.441181, Welch 95% CI [5.849556, 11.032806])."
+        },
+        "activitynet": {
+          "direction": "positive",
+          "diff": 4.48591802619606,
+          "welch_ci": [
+            3.4092639180947835,
+            5.562572134297337
+          ],
+          "text": "activitynet: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 4.485918, Welch 95% CI [3.409264, 5.562572])."
+        },
+        "charades": {
+          "direction": "positive",
+          "diff": 2.5179211469534124,
+          "welch_ci": [
+            1.2127265865676538,
+            3.823115707339171
+          ],
+          "text": "charades: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 2.517921, Welch 95% CI [1.212727, 3.823116])."
+        }
+      },
+      "charades_reported_separately": true,
+      "allowed_section_title": "parameter- and slot-matched",
+      "no_equivalence_claim": true,
+      "descriptive_K7_K8_do_not_change_K6_rule": true
+    }
+  },
+  "reference_runs": {
+    "WideClipOnly": {
+      "tvr": {
+        "9527": {
+          "R1": 14.465351078476365,
+          "R5": 34.47452960073428,
+          "R10": 45.745754933455714,
+          "R100": 85.26847177604405,
+          "SumR": 179.9541073887104,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/tvr/9527"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-13ac4a69ba31bc.npy",
+            "sha256": "0dcb95a34ae267373edbaac217b9351549b391092279b873fbb832318030fe49",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 13.345571363010555,
+          "R5": 33.4832491968793,
+          "R10": 44.97475906379073,
+          "R100": 85.70904084442405,
+          "SumR": 177.51262046810461,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/tvr/20261024"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-3502a735168ae8.npy",
+            "sha256": "f584473354fd5948bd83e034e6bbdee1afa32643c39ced2871f0b364f1a09a87",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 13.923818265259293,
+          "R5": 34.144102799449286,
+          "R10": 45.690683799908214,
+          "R100": 85.5713630105553,
+          "SumR": 179.3299678751721,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/tvr/20261025"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-852fc433fe70d1.npy",
+            "sha256": "40b1a9ee1cfea6a2750ce56ff51be4abed6b4304e1435821b0c0c9bdae86c438",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 7.738208595188218,
+          "R5": 25.550688757696946,
+          "R10": 38.37364311559703,
+          "R100": 77.69948581222624,
+          "SumR": 149.36202628070845,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/activitynet/9527"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-4172ca1ec55ee9.npy",
+            "sha256": "0802c2535ae3477f51707e030beb1ccfc2c7a40563cbf554bb862136a98790c3",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 8.125436424807972,
+          "R5": 25.182504919697834,
+          "R10": 38.094331238494256,
+          "R100": 77.57252586808862,
+          "SumR": 148.9747984510887,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/activitynet/20261024"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-4ed793c7fde78d.npy",
+            "sha256": "fa2d17795ac3fe666f0e151783e8dc093ba8939ae195bcd09a0f01b8f5dad865",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 8.05560845553228,
+          "R5": 25.753824668317147,
+          "R10": 38.341903129562624,
+          "R100": 77.80740176474322,
+          "SumR": 149.95873801815526,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/activitynet/20261025"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-eff16981118958.npy",
+            "sha256": "d9aa1a36aa72e5eba98d1a9dc0132ad1915d0da43f803bfdb6d3fac82457fb7b",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.043010752688172,
+          "R5": 8.413978494623656,
+          "R10": 13.897849462365592,
+          "R100": 51.505376344086024,
+          "SumR": 75.86021505376344,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/charades/9527"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-5cd0e2c084acee.npy",
+            "sha256": "5eebdb44f809f960f8e2ed8bb2f1af6e69cfd777b3fd0397739d2d154d13f547",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 2.204301075268817,
+          "R5": 7.768817204301075,
+          "R10": 13.172043010752688,
+          "R100": 51.55913978494624,
+          "SumR": 74.70430107526882,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/charades/20261024"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-1b443d15fc2923.npy",
+            "sha256": "db5aa068b199b1a00c37a50803f6d862b35d17e1de0128a806146849fb7370cb",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 2.0698924731182795,
+          "R5": 7.741935483870968,
+          "R10": 13.602150537634408,
+          "R100": 51.935483870967744,
+          "SumR": 75.34946236559139,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/WideClipOnly/charades/20261025"
+          },
+          "stored_rank_reference": {
+            "path": "<WORK>/file-28dc1d066e0c94.npy",
+            "sha256": "edb1d0ba59e31f8af0433ec821412744370b0ba5d1f38081d1633319b0b62e9e",
+            "storage": "repository-relative runtime artifact"
+          },
+          "stored_rank_read": false,
+          "metrics_recomputed": false
+        }
+      }
+    },
+    "DualClip_uncompressed_published": {
+      "tvr": {
+        "9527": {
+          "R1": 15.658558972005507,
+          "R5": 36.51216154199174,
+          "R10": 48.35245525470399,
+          "R100": 86.25975217989904,
+          "SumR": 186.78292794860027,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/tvr/9527"
+          }
+        },
+        "20261024": {
+          "R1": 15.135383203304269,
+          "R5": 36.75080312069757,
+          "R10": 48.29738412115649,
+          "R100": 86.52592932537861,
+          "SumR": 186.70949977053692,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/tvr/20261024"
+          }
+        },
+        "20261025": {
+          "R1": 16.365305185865076,
+          "R5": 37.439192290041305,
+          "R10": 48.6369894446994,
+          "R100": 86.6268930702157,
+          "SumR": 189.06837999082148,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/tvr/20261025"
+          }
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 8.639624198565352,
+          "R5": 26.636196280073637,
+          "R10": 39.554370596076936,
+          "R100": 78.75960134577541,
+          "SumR": 153.58979242049134,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/activitynet/9527"
+          }
+        },
+        "20261024": {
+          "R1": 8.645972195772234,
+          "R5": 26.737764235383736,
+          "R10": 40.18282231955818,
+          "R100": 78.70246937091348,
+          "SumR": 154.26902812162763,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/activitynet/20261024"
+          }
+        },
+        "20261025": {
+          "R1": 8.690408176220403,
+          "R5": 26.725068240969975,
+          "R10": 39.96064241731734,
+          "R100": 78.86116930108551,
+          "SumR": 154.23728813559322,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/activitynet/20261025"
+          }
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.338709677419355,
+          "R5": 8.46774193548387,
+          "R10": 14.543010752688172,
+          "R100": 53.01075268817204,
+          "SumR": 78.36021505376344,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/charades/9527"
+          }
+        },
+        "20261024": {
+          "R1": 2.661290322580645,
+          "R5": 8.333333333333334,
+          "R10": 14.13978494623656,
+          "R100": 52.903225806451616,
+          "SumR": 78.03763440860216,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/charades/20261024"
+          }
+        },
+        "20261025": {
+          "R1": 2.338709677419355,
+          "R5": 9.086021505376344,
+          "R10": 14.408602150537634,
+          "R100": 52.634408602150536,
+          "SumR": 78.46774193548387,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+            "kind": "git_blob",
+            "field": "runs/DualClip/charades/20261025"
+          }
+        }
+      }
+    }
+  },
+  "input_provenance": {
+    "existing_inputs": [
+      {
+        "path": "results/rq1_branch_controls/RESULTS.json",
+        "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+        "kind": "git_blob"
+      },
+      {
+        "path": "<WORK>/file-ce7c534fc0833c.py",
+        "sha256": "8265e1a2a1c512301bec6a21ac9856593dbe7852e8fcfae80ae03d15fbfa91f7",
+        "kind": "git_blob"
+      },
+      {
+        "path": "<WORK>/file-53c2afe8443e54.json",
+        "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-767915ed29d625.json",
+        "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-cc362dcbc52efd.json",
+        "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-1d49cfabb4927a.json",
+        "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-b3e73920573c6b.json",
+        "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-eea310b9ca7965.json",
+        "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-748ca8a972f786.json",
+        "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-a868d70917ce3c.json",
+        "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      },
+      {
+        "path": "<WORK>/file-8f1cadc0aaaaff.json",
+        "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+        "kind": "existing_file",
+        "field": "query_ids,video_ids"
+      }
+    ],
+    "derived_current_analysis_inputs": [
+      {
+        "path": "<WORK>/file-db84c2115415d6.npy",
+        "sha256": "ec9ef9950f88c27dce03fb26dc40ff2d61c5a7afb1792913ef1e9f13f395713b",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-3f5887d8dba9c6.json",
+        "sha256": "7ce9aeb684ecca85930a2a9b085a1fa67f69fdb95e6fdd1351417ce1552be59d",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-8b53ead4317afd.npy",
+        "sha256": "2993f3a0df35c8016e148db369faf8d4e207e797fe234a872c78676f1ff0cd80",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-05185f429ecf2c.json",
+        "sha256": "9e60cb28373de2a602ae88869f7e718eebf0fccf621f5973d25318ec16c6175f",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-c722de70bdeb47.npy",
+        "sha256": "a1703c70e4c5ceea2573aabc27939a590b2f5174af363e303d9509cdcf5c4936",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-180df341b91b98.npy",
+        "sha256": "04bdc2920a7f2cbc12e4db987dc90887e152ebcddfcf599cd14f0bd9dce33df1",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-169591e496b39d.json",
+        "sha256": "812c9e5cdc8dffb1b931377b66fb72df9a6f73731a4ec73e6841d6da3b25a68b",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-3aeb006e118144.npy",
+        "sha256": "b247b92e78aa6f24139c955ccdb0ec0a0f2849c00b2b2889f0dd432c7a4c23cf",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-77e052bd7652fd.json",
+        "sha256": "00afa58b8b6e74d39a41971d8e7b5f1f27461a684cbfa8b984ab7c44bfddbe65",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-4f178302445506.npy",
+        "sha256": "38c270b5ebb7cce81b23302c8448cacb0b3ca436ae029afde4ff4368dfed145f",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-339f367da450a6.npy",
+        "sha256": "280880e80d1772304a5b94abcf1466c2cdd0ffbfbf4e018cc2834535c76a1984",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-fc2925644c7d0b.json",
+        "sha256": "60c9d9f07923894105bb666a08fe82f60df10ea1c66f1926f71d185af22bbdc3",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-fdec0944daae17.npy",
+        "sha256": "6219ecdf68922372a514526a6110e25e2f6ca500cceaeca530600b9d6e4f5879",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-a9ce97fd70e16c.json",
+        "sha256": "fb5a682d87a0ed18c357ff43227933e07dd5165f962ff21e4f96075346cbb5b2",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-2d242f5c9d60e4.npy",
+        "sha256": "8e6d907dc2ed541211f1defaa766ab7eefae562679fc2f43377bd360c5f94471",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-9c11807b8cb385.npy",
+        "sha256": "41c309dc87fe16974371c844665ea77706164c11872ce32a4fcd6797105325db",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-9b6ac32747436b.json",
+        "sha256": "859e3e5e17fbcb0da11cc9ee943da9c0210ae2c836d7770f3e742786ac9b7523",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-c416cdbc023c66.npy",
+        "sha256": "c57063575653c3ac9b0e5ad1b3fe67c8d80a49f0558c16cfa262f91a2adc7159",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-4e77da0722ce9c.json",
+        "sha256": "aa1702879c45a18d22c0d65277c1cfdc744a5ffb258ca02ffa6475b1a7b564ec",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-72775f3209bc5d.npy",
+        "sha256": "ade14891fc298b89f09919e7dbe0b82539b7d6c9cc5733e47f76defd44cecef9",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-95fc541b50d378.npy",
+        "sha256": "46fb79809e57a05202de3a72a48eecd07457caf30c64dd00e206482b0c7086dc",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-709db7ad43fce6.json",
+        "sha256": "4d9dfc5d5bde667f89ab480aa5fa0b0e07197ae4e2279802b3b0dc8b9aac14f8",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-ca4ccd0bb2ef9d.npy",
+        "sha256": "8176f09564f4a15e29f7c208d385b92256949036187ad5b31e16af333bf4263c",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-91e5cb808dbd5d.json",
+        "sha256": "14cf240525df30c453f60d781f4a009a6e72e1a7bc262ca7ab1028e0cb7bc564",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-214c56a61efba9.npy",
+        "sha256": "e8dbeb967899b68c3b6c60ce48bb06799ebd2c311f8782e6f924ef9ff05fb3b5",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-2c20f5d34d9852.npy",
+        "sha256": "ed3c3c20c8c180bef9e8845d8e80b183e5f3bd12a6e37dba9f8413798cb1955b",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-e09edfaa1e8313.json",
+        "sha256": "ffb86be4a2f756f88db2971c1677255b45e01eff6040ac55f09c211971e7b26d",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-de4cbeb83b8bcf.npy",
+        "sha256": "d4b58ed97126f2a1b54581a35fc8819216da94f13d8593898d1b3e0b07390662",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-ad43dabfe67490.json",
+        "sha256": "be0f8f87fe628e9ac3ab6af9dd0e598f7578a94a5c048c00c1c5d2d2cdb3a026",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-58fac3c0b7f3fc.npy",
+        "sha256": "d9126202f2e47029bf05b7abb6456081a1fded1d0cab191829342d1332529232",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-787adc60228537.npy",
+        "sha256": "5d0437961fee5751e41a91b6a944196dc3fb7ff4822f6ffd4ec24c4d3fc7d6d8",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-213275b73fcadf.json",
+        "sha256": "27992e5862a3b2f1e1377211c11af051afa1e27cdd709c40cc3a3f042fc02f53",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-c239fe6636b4e5.npy",
+        "sha256": "0908a17be0642ec0ced27c7ff1d9e730561949b8202d7618bdb58e9b0ae266a2",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-c184988ebef5a5.json",
+        "sha256": "e56381b0d3361a5d574e3831ba78443f325b9dd4fa70147da53a0c2ab5dad5d3",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-e14c6ff6c51daf.npy",
+        "sha256": "aba8a120047eb49d93ccb798a9dca2e2fe19c6dd86ad35d27c01a33503c23597",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-ccf85155c28a98.npy",
+        "sha256": "c91e1d8b247aea6246696182c552f7f2f6d73f9d9a10ac3e28aeaffb225eaf86",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-d8fe14dd4922f9.json",
+        "sha256": "79e6fd531d01fc302bd881e95f99a8830e52e0d104e32aa20b8285003c74c7f3",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-b86f455a1bcc98.npy",
+        "sha256": "62688ee213d2dde6db46992aa3cc81069456632e258a59d8f00c5d99057b089f",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-95cdd9719319a7.json",
+        "sha256": "14ad56f48e7850067856a71f9092d02f7bfecfde7acd2d881b6ab110afbec633",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-ed4efa7ac8dae9.npy",
+        "sha256": "3eb84bdc3b654b9be58eb608f2ae45dde70f8c31bfbe30350c3e253a84f22bdf",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-ec8a1c9a84768c.npy",
+        "sha256": "013076bbe29b8791d63d1ad1a872f223f3c0ab1830b9716253254d07fb03e0c5",
+        "producer": "slot-matched result",
+        "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-c1f7c7d994da7a.json",
+        "sha256": "19f0d4878d5032639f925316a1797340be63fdd6a7a77d7d683f07cbca2fa4c4",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-2b3b19cbe5ec13.npy",
+        "sha256": "0ace0611e5dc514f5597012756f95324eca441306674520a8aabb0b65e618783",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-16 positive ranks",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-9c3308adb6e937.json",
+        "sha256": "773f47eb893b9e4bb91513cf540b2ecf67aa076cde70efe4c1cb2d9da04c3c37",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 metrics",
+        "kind": "derived_current_analysis"
+      },
+      {
+        "path": "<WORK>/file-74cf38700ee5f0.npy",
+        "sha256": "250947c370e39aa081d09d9921d9a44cdb0660fa0f004acd3a972ce96cdd9314",
+        "producer": "slot-matched result",
+        "role": "DualClip per-branch Ward-8 positive ranks",
+        "kind": "derived_current_analysis"
+      }
+    ]
+  },
+  "methods": {
+    "Welch": "Unmodified <REVISION> analyze.py::welch, independent three-seed samples, ddof1, Satterthwaite df, two-sided95% t",
+    "paired_bootstrap": "Unmodified <REVISION> analyze.py::bootstrap, baseline first, lexicographic positive-video IDs,2000/default_rng(20261023)/linear[.025,.975],reset per dataset/seed"
+  },
+  "execution": {
+    "CPU_only": true,
+    "compute_threads": 4,
+    "model_training": false,
+    "encoding": false,
+    "scoring": false,
+    "wide_metrics_recomputed": false,
+    "wide_ranks_read": false,
+    "seconds": 1.7301758038811386,
+    "generated_utc": "2026-11-07T12:53:51.729200+00:00"
+  }
+}

@@ -1,0 +1,1197 @@
+{
+  "status": "COMPLETE",
+  "start_utc": "2026-11-22T14:29:00.948598+00:00",
+  "finished_utc": "2026-11-22T14:31:40.208442+00:00",
+  "cells": [
+    {
+      "dataset": "tvr",
+      "seed": 9527,
+      "metrics": {
+        "R@1": 15.943093162000919,
+        "R@5": 37.29233593391464,
+        "R@10": 48.77466727856815,
+        "R@100": 86.91142726021111,
+        "SumR": 188.92152363469484
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 15.888022028453419,
+        "R@5": 37.29233593391464,
+        "R@10": 48.7471317117944,
+        "R@100": 86.91142726021111,
+        "SumR": 188.83891693437357
+      },
+      "full_metrics": {
+        "R@1": 15.933914639743001,
+        "R@5": 37.356585589720055,
+        "R@10": 49.06837999082148,
+        "R@100": 86.92978430472694,
+        "SumR": 189.28866452501148
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15527.643873336392,
+          "padded_total_bytes": 33835512,
+          "valid_total_bytes": 33834736,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 2179,
+        "n_query": 10895,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "3da332b374fc47660b4f7a253c4b30dc2d363272531484d46c730287c79b82c8"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:07.259323+00:00",
+        "finished_utc": "2026-11-22T14:30:09.005879+00:00",
+        "seconds": 1.746560180094093,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.36714089031665903,
+          "CI95": [
+            -0.9821018815970629,
+            0.22946305644791187
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": 0.08260670032124828,
+          "CI95": [
+            -0.08260670032124828,
+            0.24782010096374485
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.25688073394495414,
+            "CI95": [
+              -1.3680329391974493,
+              0.7624992116825134
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -0.1834862385321101,
+            "CI95": [
+              -1.2782332888894998,
+              0.8489332700344535
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.6605504587155964,
+            "CI95": [
+              -2.0037311240378397,
+              0.6619165460560315
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -0.5871559633027523,
+            "CI95": [
+              -1.9152854511970534,
+              0.7638099028817058
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        22.16246340655077,
+        26.233334525130832,
+        33.825368986779324
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342"
+      }
+    },
+    {
+      "dataset": "tvr",
+      "seed": 20261024,
+      "metrics": {
+        "R@1": 15.603487838458008,
+        "R@5": 36.94355208811381,
+        "R@10": 48.875631023405234,
+        "R@100": 86.25057365764113,
+        "SumR": 187.6732446076182
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 15.54841670491051,
+        "R@5": 36.91601652134006,
+        "R@10": 48.893988067921065,
+        "R@100": 86.25057365764113,
+        "SumR": 187.60899495181275
+      },
+      "full_metrics": {
+        "R@1": 15.474988526847177,
+        "R@5": 36.92519504359798,
+        "R@10": 48.70123910050482,
+        "R@100": 86.38825149150986,
+        "SumR": 187.48967416245983
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15527.643873336392,
+          "padded_total_bytes": 33835512,
+          "valid_total_bytes": 33834736,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 2179,
+        "n_query": 10895,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "aa647f4802e20e87b1ecb28484d9b68008ec51cdd18b537a4432098054ec1884"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:09.209420+00:00",
+        "finished_utc": "2026-11-22T14:30:18.236874+00:00",
+        "seconds": 9.027464518789202,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": 0.18357044515832951,
+          "CI95": [
+            -0.4499770536943552,
+            0.7801743919229004
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": 0.06424965580541532,
+          "CI95": [
+            -0.1101422670949977,
+            0.22946305644791187
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.3669724770642202,
+            "CI95": [
+              -1.4391571145557083,
+              0.7352911458182957
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -0.3669724770642202,
+            "CI95": [
+              -1.4607644462279294,
+              0.7326254826254824
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.9908256880733944,
+            "CI95": [
+              -2.4240357018431573,
+              0.4304045624665819
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -1.0275229357798166,
+            "CI95": [
+              -2.4120376470253078,
+              0.33284203736392476
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        22.792969276571466,
+        26.931048867997703,
+        34.71599234885319
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342"
+      }
+    },
+    {
+      "dataset": "tvr",
+      "seed": 20261025,
+      "metrics": {
+        "R@1": 15.594309316200091,
+        "R@5": 37.347407067462136,
+        "R@10": 48.66452501147315,
+        "R@100": 86.79210647085819,
+        "SumR": 188.39834786599357
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 15.575952271684258,
+        "R@5": 37.329050022946305,
+        "R@10": 48.7471317117944,
+        "R@100": 86.81964203763194,
+        "SumR": 188.47177604405692
+      },
+      "full_metrics": {
+        "R@1": 15.70445158329509,
+        "R@5": 37.44837081229922,
+        "R@10": 48.64616796695732,
+        "R@100": 86.90224873795319,
+        "SumR": 188.7012391005048
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15527.643873336392,
+          "padded_total_bytes": 33835512,
+          "valid_total_bytes": 33834736,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 2179,
+        "n_query": 10895,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "45c7c0715135401646838c27648e2a9a1184ef9358e1c918a2ccad4e35358858"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:18.440063+00:00",
+        "finished_utc": "2026-11-22T14:30:27.371647+00:00",
+        "seconds": 8.931584414560348,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          1,
+          3,
+          4,
+          6
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.30289123451124367,
+          "CI95": [
+            -0.8630105553005966,
+            0.32124827902707664
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.0734281780633318,
+          "CI95": [
+            -0.22946305644791187,
+            0.09178522257916476
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.47706422018348627,
+            "CI95": [
+              -1.4729085154086252,
+              0.47248762876972367
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -0.6972477064220184,
+            "CI95": [
+              -1.7276136376243996,
+              0.2342321472695807
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 2725,
+          "n_video": 545,
+          "int8": {
+            "point": -0.6972477064220184,
+            "CI95": [
+              -1.9168815707725788,
+              0.5970989331018448
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -0.47706422018348627,
+            "CI95": [
+              -1.76059074655185,
+              0.8181934295528931
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        23.10178890350374,
+        27.181191050643456,
+        35.358742495120936
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342"
+      }
+    },
+    {
+      "dataset": "activitynet",
+      "seed": 9527,
+      "metrics": {
+        "R@1": 8.804672125944265,
+        "R@5": 27.283691995175523,
+        "R@10": 39.87811845362788,
+        "R@100": 78.61359741001714,
+        "SumR": 154.58007998476478
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 8.823716117564908,
+        "R@5": 27.290039992382404,
+        "R@10": 39.95429442011046,
+        "R@100": 78.61359741001714,
+        "SumR": 154.68164794007492
+      },
+      "full_metrics": {
+        "R@1": 8.817368120358028,
+        "R@5": 27.27099600076176,
+        "R@10": 39.94159842569669,
+        "R@100": 78.77864533739606,
+        "SumR": 154.80860788421253
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15525.197291196388,
+          "padded_total_bytes": 68789040,
+          "valid_total_bytes": 68776624,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 4430,
+        "n_query": 15753,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "0094ca6ec17607b8433bd4d2ead1449770f1eeba0ed75b0d83822545a2791f74"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:27.576295+00:00",
+        "finished_utc": "2026-11-22T14:30:32.758861+00:00",
+        "seconds": 5.182579904794693,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          1,
+          3,
+          4,
+          6
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.22852789944772423,
+          "CI95": [
+            -0.6282314144233816,
+            0.17761624430690034
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.10156795531009967,
+          "CI95": [
+            -0.2289497407846893,
+            0.02576183154496568
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 3352,
+          "n_video": 1108,
+          "int8": {
+            "point": 2.8937947494033414,
+            "CI95": [
+              2.04623302119832,
+              3.750037515006002
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 2.6849642004773266,
+            "CI95": [
+              1.9072751159676533,
+              3.5233311603867215
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 4336,
+          "n_video": 1108,
+          "int8": {
+            "point": -2.029520295202952,
+            "CI95": [
+              -2.7948209737871257,
+              -1.2859070879090067
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -1.8219557195571956,
+            "CI95": [
+              -2.6054043463273664,
+              -1.0518443434833837
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        32.81376515146026,
+        46.112174058907435,
+        56.22265396409788
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e"
+      }
+    },
+    {
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "metrics": {
+        "R@1": 8.785628134323622,
+        "R@5": 27.137688059417254,
+        "R@10": 40.21456230559259,
+        "R@100": 78.48028946867264,
+        "SumR": 154.6181679680061
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 8.798324128737383,
+        "R@5": 27.17577604265854,
+        "R@10": 40.208214308385706,
+        "R@100": 78.51837745191392,
+        "SumR": 154.70069193169556
+      },
+      "full_metrics": {
+        "R@1": 9.007808036564464,
+        "R@5": 27.1567320510379,
+        "R@10": 40.18917031676506,
+        "R@100": 78.51837745191392,
+        "SumR": 154.87208785628133
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15525.197291196388,
+          "padded_total_bytes": 68789040,
+          "valid_total_bytes": 68776624,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 4430,
+        "n_query": 15753,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "d659e4a8da4a3ec523e8280ca1d31fb38a89ae2c0daf66c6abf8e823166432b2"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:32.962480+00:00",
+        "finished_utc": "2026-11-22T14:30:58.408984+00:00",
+        "seconds": 25.446504325140268,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.25391988827524914,
+          "CI95": [
+            -0.6862897636136186,
+            0.17709217807712874
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.08252396368945597,
+          "CI95": [
+            -0.2163401729364172,
+            0.06321237627474048
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 3368,
+          "n_video": 1108,
+          "int8": {
+            "point": 3.1769596199524943,
+            "CI95": [
+              2.360245732528341,
+              4.036228396530466
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 3.0878859857482186,
+            "CI95": [
+              2.320640155558945,
+              3.9193877429670763
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 4339,
+          "n_video": 1108,
+          "int8": {
+            "point": -2.327725282323116,
+            "CI95": [
+              -3.191045539479612,
+              -1.4606424608700952
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -2.281631712376124,
+            "CI95": [
+              -3.130861908404563,
+              -1.4141874361223008
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        32.29133924991177,
+        45.39805350596979,
+        55.34146091066759
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e"
+      }
+    },
+    {
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "metrics": {
+        "R@1": 8.652320192979115,
+        "R@5": 26.832984193486954,
+        "R@10": 39.73211451786961,
+        "R@100": 78.74690535136165,
+        "SumR": 153.96432425569733
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 8.684060179013521,
+        "R@5": 26.86472417952136,
+        "R@10": 39.74481051228337,
+        "R@100": 78.73420935694789,
+        "SumR": 154.02780422776613
+      },
+      "full_metrics": {
+        "R@1": 8.830064114771789,
+        "R@5": 27.099600076175967,
+        "R@10": 39.833682473179714,
+        "R@100": 78.70881736812036,
+        "SumR": 154.47216403224783
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15525.197291196388,
+          "padded_total_bytes": 68789040,
+          "valid_total_bytes": 68776624,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 4430,
+        "n_query": 15753,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "3e67ae44ee3e75e5f1200e6ad0c4e9bfed12185e19257084a099985cf8d451e5"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:30:58.613734+00:00",
+        "finished_utc": "2026-11-22T14:31:24.223162+00:00",
+        "seconds": 25.609442746266723,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.5078397765504983,
+          "CI95": [
+            -0.9181959028028424,
+            -0.08257520364158076
+          ],
+          "interpretation": "detectable negative",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.06347997206881228,
+          "CI95": [
+            -0.1919088150761749,
+            0.0700484166733183
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 3357,
+          "n_video": 1108,
+          "int8": {
+            "point": 2.8596961572832886,
+            "CI95": [
+              2.051397601984688,
+              3.667733880620902
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 2.978850163836759,
+            "CI95": [
+              2.1977867203219317,
+              3.7830857494109202
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 4323,
+          "n_video": 1108,
+          "int8": {
+            "point": -2.3826046726810084,
+            "CI95": [
+              -3.2105519915722818,
+              -1.535750001386742
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -2.24381216747629,
+            "CI95": [
+              -3.0778126876882457,
+              -1.3999357542222797
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        32.57767875548953,
+        45.60029402910602,
+        55.673616444889966
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e"
+      }
+    },
+    {
+      "dataset": "charades",
+      "seed": 9527,
+      "metrics": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.548387096774194,
+        "R@10": 14.166666666666666,
+        "R@100": 52.526881720430104,
+        "SumR": 77.44623655913978
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 2.2311827956989245,
+        "R@5": 8.494623655913978,
+        "R@10": 14.166666666666666,
+        "R@100": 52.60752688172043,
+        "SumR": 77.5
+      },
+      "full_metrics": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.225806451612904,
+        "R@10": 14.46236559139785,
+        "R@100": 52.473118279569896,
+        "SumR": 77.5
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15528.0,
+          "padded_total_bytes": 20714352,
+          "valid_total_bytes": 20714352,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 1334,
+        "n_query": 3720,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "bd13117c544a525ed79ad5c056e33e8d6d44edfc4f7323cfc7b0533a1d3ebfe1"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:31:24.427556+00:00",
+        "finished_utc": "2026-11-22T14:31:24.843520+00:00",
+        "seconds": 0.41597153106704354,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.053763440860215055,
+          "CI95": [
+            -0.9167262675028234,
+            0.7637961298428212
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.053763440860215055,
+          "CI95": [
+            -0.273011470714506,
+            0.16051579186158016
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 873,
+          "n_video": 334,
+          "int8": {
+            "point": 2.405498281786942,
+            "CI95": [
+              0.9909998555643822,
+              4.030717754257965
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 2.290950744558992,
+            "CI95": [
+              0.8515040920150408,
+              3.850798742669295
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 1027,
+          "n_video": 334,
+          "int8": {
+            "point": -2.3369036027263874,
+            "CI95": [
+              -4.034367125027283,
+              -0.7237582523055499
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -2.4342745861733204,
+            "CI95": [
+              -4.0585899159730925,
+              -0.8547008547008547
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        24.523945140156385,
+        29.811509540701714,
+        34.50717165549169
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df"
+      }
+    },
+    {
+      "dataset": "charades",
+      "seed": 20261024,
+      "metrics": {
+        "R@1": 2.60752688172043,
+        "R@5": 8.14516129032258,
+        "R@10": 13.655913978494624,
+        "R@100": 52.68817204301075,
+        "SumR": 77.09677419354838
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 2.60752688172043,
+        "R@5": 8.091397849462366,
+        "R@10": 13.629032258064516,
+        "R@100": 52.715053763440864,
+        "SumR": 77.04301075268818
+      },
+      "full_metrics": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.010752688172044,
+        "R@10": 13.736559139784946,
+        "R@100": 52.41935483870968,
+        "SumR": 76.82795698924731
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15528.0,
+          "padded_total_bytes": 20714352,
+          "valid_total_bytes": 20714352,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 1334,
+        "n_query": 3720,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "504875552d6ef74e808fcb770f673cf7de6207eda8380c3141a044a2753c59c5"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:31:25.048077+00:00",
+        "finished_utc": "2026-11-22T14:31:27.450610+00:00",
+        "seconds": 2.4025449883192778,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": 0.2688172043010753,
+          "CI95": [
+            -0.5720171548432611,
+            1.1027506413710828
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": 0.053763440860215055,
+          "CI95": [
+            -0.18563702051398165,
+            0.2764760385011458
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 874,
+          "n_video": 334,
+          "int8": {
+            "point": 2.745995423340961,
+            "CI95": [
+              1.3019222982921084,
+              4.185133642119574
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 2.517162471395881,
+            "CI95": [
+              1.1736402018669394,
+              3.951267056530211
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 1021,
+          "n_video": 334,
+          "int8": {
+            "point": -2.2526934378060726,
+            "CI95": [
+              -3.7777661752870344,
+              -0.694358752879237
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -1.9588638589618024,
+            "CI95": [
+              -3.4074998300789403,
+              -0.46602887837637996
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        24.55253478982735,
+        29.890186583254962,
+        34.47970557500148
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df"
+      }
+    },
+    {
+      "dataset": "charades",
+      "seed": 20261025,
+      "metrics": {
+        "R@1": 2.28494623655914,
+        "R@5": 8.978494623655914,
+        "R@10": 14.220430107526882,
+        "R@100": 52.68817204301075,
+        "SumR": 78.17204301075269
+      },
+      "fp32_Ward8_metrics": {
+        "R@1": 2.28494623655914,
+        "R@5": 9.03225806451613,
+        "R@10": 14.274193548387096,
+        "R@100": 52.634408602150536,
+        "SumR": 78.2258064516129
+      },
+      "full_metrics": {
+        "R@1": 2.0698924731182795,
+        "R@5": 8.924731182795698,
+        "R@10": 14.327956989247312,
+        "R@100": 53.064516129032256,
+        "SumR": 78.38709677419354
+      },
+      "encoding": {
+        "size": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15528.0,
+          "padded_total_bytes": 20714352,
+          "valid_total_bytes": 20714352,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "n_video": 1334,
+        "n_query": 3720,
+        "quantization": "pinned original storage.pack/RamIndex/Index.read/score_block",
+        "rank_sha256": "e468822efdb6c12c231e811f4138640e223cbb9492dec9aae05e416826f6b496"
+      },
+      "resource": {
+        "device": "cpu",
+        "start_utc": "2026-11-22T14:31:27.655723+00:00",
+        "finished_utc": "2026-11-22T14:31:29.983956+00:00",
+        "seconds": 2.3282356769777834,
+        "nice": 19,
+        "threads": 4,
+        "affinity": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "comparisons": {
+        "int8_minus_full": {
+          "point": -0.21505376344086022,
+          "CI95": [
+            -1.0103165465224937,
+            0.5796111032830765
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        },
+        "int8_minus_fp32_Ward8": {
+          "point": -0.053763440860215055,
+          "CI95": [
+            -0.27292762691234307,
+            0.16318317010620692
+          ],
+          "interpretation": "no detectable difference",
+          "valid_bootstrap": 2000
+        }
+      },
+      "quartiles": {
+        "Q1": {
+          "n_query": 874,
+          "n_video": 334,
+          "int8": {
+            "point": 2.9748283752860414,
+            "CI95": [
+              1.1819255243215332,
+              4.698432922425194
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": 3.0892448512585813,
+            "CI95": [
+              1.2642953179373617,
+              4.838757283771947
+            ],
+            "valid_bootstrap": 2000
+          }
+        },
+        "Q4": {
+          "n_query": 1000,
+          "n_video": 334,
+          "int8": {
+            "point": -3.1,
+            "CI95": [
+              -4.803646594499042,
+              -1.3526873075921482
+            ],
+            "valid_bootstrap": 2000
+          },
+          "fp32": {
+            "point": -3.1,
+            "CI95": [
+              -4.843636543322895,
+              -1.3157277574800044
+            ],
+            "valid_bootstrap": 2000
+          }
+        }
+      },
+      "cuts": [
+        24.88421930628148,
+        30.203255093704325,
+        34.998665287868334
+      ],
+      "bootstrap": {
+        "unit": "positive video",
+        "replicates": 2000,
+        "seed": 20261023,
+        "method": "linear",
+        "scheme": "full positive-video resampling then conditional query group means",
+        "first_explicit_query_draw_verified": true,
+        "weights_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df"
+      }
+    }
+  ],
+  "summary": {
+    "mean_delta": -0.164083249327005,
+    "by_dataset": {
+      "tvr": -0.16215389322319107,
+      "charades": 9.25185853854297e-18,
+      "activitynet": -0.3300958547578239
+    },
+    "detectable_negative": 1,
+    "detectable_positive": 0
+  },
+  "unavailable": []
+}

@@ -1,0 +1,117 @@
+{
+  "status": "COMPLETE",
+  "cells": [
+    {
+      "dataset": "charades",
+      "seed": 0,
+      "author_fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "original_SumR": 77.15053763440861,
+      "ClipOnly_SumR": 77.39247311827957,
+      "Twin_SumR": 79.00537634408602,
+      "ClipOnly_minus_original": 0.24193548387096087,
+      "Twin_minus_original": 1.8548387096774093,
+      "recovery_ratio": -6.666666666666843,
+      "recovery_ratio_definition": "(Twin-ClipOnly)/(original-ClipOnly)",
+      "descriptive_only": true
+    },
+    {
+      "dataset": "activitynet",
+      "seed": 0,
+      "author_fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "original_SumR": 155.049831778074,
+      "ClipOnly_SumR": 149.62864216339744,
+      "Twin_SumR": 154.09763219704183,
+      "ClipOnly_minus_original": -5.421189614676564,
+      "Twin_minus_original": -0.9521995810321755,
+      "recovery_ratio": 0.824355971896957,
+      "recovery_ratio_definition": "(Twin-ClipOnly)/(original-ClipOnly)",
+      "descriptive_only": true
+    },
+    {
+      "dataset": "tvr",
+      "seed": 0,
+      "author_fusion_weights": [
+        0.5,
+        0.5
+      ],
+      "original_SumR": 191.0784763653052,
+      "ClipOnly_SumR": 179.46764570904085,
+      "Twin_SumR": 187.471317117944,
+      "ClipOnly_minus_original": -11.61083065626434,
+      "Twin_minus_original": -3.6071592473611815,
+      "recovery_ratio": 0.6893280632411061,
+      "recovery_ratio_definition": "(Twin-ClipOnly)/(original-ClipOnly)",
+      "descriptive_only": true
+    }
+  ],
+  "three_dataset_arithmetic_means": {
+    "original_SumR": 141.09294859259595,
+    "ClipOnly_SumR": 135.49625366357262,
+    "Twin_SumR": 140.1914418863573,
+    "ClipOnly_minus_original": -5.596694929023315,
+    "Twin_minus_original": -0.9015067062386493,
+    "recovery_ratio": -1.7176608771762598
+  },
+  "mean_ratio_definition": "arithmetic mean of the three per-dataset recovery ratios",
+  "structure": {
+    "model_path": "<WORK>/file-4c9da6a3d85feb.py",
+    "twin_context_function": {
+      "lines": [
+        26,
+        45
+      ],
+      "same_clip_input": "frame_video_feat = clip_video_feat",
+      "input_positions": 32,
+      "padding_length_replacement": "128 to 32 only"
+    },
+    "build": {
+      "lines": [
+        52,
+        68
+      ],
+      "original_model_built_first": true,
+      "second_encoder_output_length": 32
+    },
+    "vendor_path": "<WORK>/file-378f5004f7b77a.py",
+    "encode_context": {
+      "lines": [
+        163,
+        212
+      ],
+      "registers_retained": true,
+      "shared_clean_register_for_both_encoders": true
+    },
+    "original_scoring_functions": {
+      "DreamPRVR_Net.get_pred_from_raw_query": [
+        281,
+        301
+      ],
+      "DreamPRVR_Net.get_clip_scale_scores": [
+        247,
+        260
+      ]
+    },
+    "native_scoring_unchanged": true
+  },
+  "descriptive_only": true,
+  "resources": {
+    "device": "cpu",
+    "nice": 19,
+    "CPU_threads": 1,
+    "affinity": [
+      0
+    ],
+    "start_utc": "2026-11-22T14:35:25.431692+00:00",
+    "end_utc": "2026-11-22T14:35:25.463584+00:00",
+    "elapsed_seconds": 0.03188899764791131,
+    "GPU_used": false,
+    "model_forward_calls": 0
+  },
+  "unavailable": []
+}

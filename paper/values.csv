@@ -1,0 +1,174 @@
+id,paper_location,display,source_file,field_or_formula
+V001,Sec. 3.1; Sec. 3.3; Sec. 4.2; Sec. 6,160,results/protocol/param_count/RESULTS.json,/cases/B0~1tvr~1s9527/index/total_stored_vectors
+V002,Abstract; Sec. 1; Sec. 4.1,5.77,results/rq1_clip_only_third_branch/clip_only_metrics.json,A001 - A002
+V003,Abstract; Sec. 1,0.14,results/rq1_ward_seeds/RESULTS.json,abs(V095)
+V004,Abstract; Sec. 4.2; Table 3; Sec. 7,98.8,results/generality_six_methods/RESULTS.json; results/index_density_stats/RESULTS.json; results/protocol/youcook2_centered/RESULTS.json; results/released_gmmformerv2/RESULTS.json; results/reproduce_released_checkpoints/RESULTS.json; results/trained_dreamprvr/RESULTS.json,"floor(10 * min(100 * (1 + A003 / A004), 100 * (1 + A005 / A006), 100 * (1 + A007 / A008), 100 * (1 + A009 / A010), 100 * (1 + A011 / A012), 100 * (1 + A013 / A014), 100 * (1 + A015 / A016), 100 * (1 + A017 / A018), 100 * (1 + A019 / A020), 100 * (1 + A021 / A022), 100 * (1 + A023 / A024), 100 * (1 + A025 / A026), 100 * (1 + A027 / A028), 100 * (1 + A029 / A030), 100 * (1 + A031 / A032), 100 * (1 + A033 / A034), 100 * (1 + A035 / A036), 100 * (1 + A037 / A038), 100 * (1 + A039 / A040), 100 * (1 + A041 / A042), 100 * (1 + A043 / A044), 100 * (1 + A045 / A046), 100 * (1 + A047 / A048), 100 * (1 + A049 / A050))) / 10"
+V005,Abstract; Sec. 7,16,results/storage_int8/RESULTS.json,A051 / A052
+V006,Abstract; Sec. 6,8,results/protocol/param_count/RESULTS.json; results/storage_int8/RESULTS.json,V015 * V013 * 4 / A052
+V007,Abstract; Table 3,-0.16,results/storage_int8_seeds/RESULTS.json,/summary/mean_delta
+V008,Sec. 1,22.9,results/storage_scale/RESULTS.json,A054 * 9.313225746154785e-10
+V009,Sec. 1; Sec. 6,"100,000",results/storage_scale/RESULTS.json,/gpu_measurements/cases/13/latency_100k/count
+V010,Abstract; Fig. 1; Sec. 3.1; Sec. 4.2; Sec. 6,128,results/protocol/param_count/RESULTS.json,/cases/B0~1tvr~1s9527/index/frame_slots
+V011,Fig. 1; Sec. 5.3,8,results/index_density_stats/RESULTS.json,/rows/118/k
+V012,Abstract; Sec. 3.1; Sec. 4.1; Sec. 4.2,32,results/protocol/param_count/RESULTS.json,/cases/B0~1tvr~1s9527/index/clip_vectors
+V013,Sec. 3.1,384,results/protocol/param_count/RESULTS.json,/cases/B0~1tvr~1s9527/index/embedding_dimension
+V014,Sec. 3.1,0.7,results/fusion_weights/RESULTS.json,/rows/0/official_weights/0
+V015,Sec. 3.1,82.52,results/protocol/param_count/RESULTS.json,/cases/B0~1tvr~1s9527/index/total_effective_mean
+V016,Sec. 3.2,0.32,results/check_euclidean_ward/RESULTS.json,"max(A055, -A055, A056, -A056, A057, -A057, A058, -A058, A059, -A059)"
+V017,Sec. 3.2,-0.03,results/rq1_score_fusion/RESULTS.json,/euclidean_ward_minus_cosine_ward/summary/equal_dataset_mean
+V018,Table 1,"2,179",results/index_density_stats/evidence/tvr_cache.json,/input_shape/1
+V019,Table 1,"10,895",results/index_density_stats/evidence/tvr_cache.json,/input_shape/0
+V020,Table 1,50.5,results/index_density_stats/evidence/tvr_indexes.json,/mean_valid_L
+V021,Table 1,11.7,results/budget_split/RESULTS.json,"min(A063, A064, A065)"
+V022,Table 1,12.3,results/budget_split/RESULTS.json,"max(A063, A064, A065)"
+V023,Table 1,"4,430",results/index_density_stats/evidence/activitynet_cache.json,/input_shape/1
+V024,Table 1,"15,753",results/index_density_stats/evidence/activitynet_cache.json,/input_shape/0
+V025,Table 1,108.7,results/index_density_stats/evidence/activitynet_indexes.json,/mean_valid_L
+V026,Table 1,23.1,results/budget_split/RESULTS.json,"min(A069, A070, A071)"
+V027,Table 1,23.4,results/budget_split/RESULTS.json,"max(A069, A070, A071)"
+V028,Table 1,"1,334",results/index_density_stats/evidence/charades_cache.json,/input_shape/1
+V029,Table 1,"3,720",results/index_density_stats/evidence/charades_cache.json,/input_shape/0
+V030,Table 1,87.6,results/index_density_stats/evidence/charades_indexes.json,/mean_valid_L
+V031,Table 1,9.9,results/budget_split/RESULTS.json,"min(A075, A076, A077)"
+V032,Table 1,10.1,results/budget_split/RESULTS.json,"max(A075, A076, A077)"
+V033,Table 1,457,results/protocol/youcook2_centered/RESULTS.json,/analysis/9527/files/mask/shape/0
+V034,Table 1,"3,492",results/protocol/youcook2_centered/RESULTS.json,/analysis/9527/files/query/shape/0
+V035,Table 1,125.6,results/protocol/youcook2_centered/RESULTS.json,/mechanism/summaries/all/distributions/L/mean
+V036,Table 1,11.6,results/rq2_seeds/RESULTS.json,"min(A081 - A082, A083 - A084)"
+V037,Table 1,11.8,results/rq2_seeds/RESULTS.json,"max(A081 - A082, A083 - A084)"
+V038,Sec. 3.4,+0.09,results/check_heldout_selection/RESULTS.json,(A085 + A087 + A089 + A091 + A093 + A095) / 6
+V039,Sec. 3.4,6,results/check_heldout_selection/RESULTS.json,len(A097)
+V040,Sec. 3.4,0.86,results/reproduce_released_checkpoints/RESULTS.json,/reproduction_summary/max_abs_SumR_gap
+V041,Sec. 4.1,3.7,results/rq1_branch_controls/RESULTS.json,abs(A098)
+V042,Sec. 4.1,1.5,results/rq1_branch_controls/RESULTS.json,abs(A099)
+V043,Sec. 4.1,1.1,results/rq1_branch_controls/RESULTS.json,abs(A100)
+V044,Sec. 4.1,3.0,results/rq1_branch_controls/RESULTS.json,"min(A101, A102, A103)"
+V045,Sec. 4.1,8.6,results/rq1_branch_controls/RESULTS.json,"max(A101, A102, A103)"
+V046,Sec. 4.1,2.5,results/rq1_slot_matched/RESULTS.json,"min(A104, A105, A106)"
+V047,Sec. 4.1,8.4,results/rq1_slot_matched/RESULTS.json,"max(A104, A105, A106)"
+V048,Sec. 4.1,-0.36,results/rq1_score_fusion/RESULTS.json,/score_fusion/macro_descriptive/fusion_minus_GMM_seed_mean/point
+V049,Sec. 4.1; Table 2; Table 3,-0.31,results/rq1_branch_controls/RESULTS.json,A107 - A108
+V050,Sec. 4.1,69,results/rq1_dreamprvr_controls/RESULTS.json,A109 * 100
+V051,Sec. 4.1,82,results/rq1_dreamprvr_controls/RESULTS.json,A110 * 100
+V052,Table 2,0.22,results/rq1_ward_seeds/RESULTS.json,"max(abs(A111), abs(A112), abs(A113), abs(A114), abs(A115), abs(A116), abs(A117), abs(A118), abs(A119))"
+V053,Table 2,160,results/generality_six_methods/RESULTS.json,/tables/rq1/0/vectors/value
+V054,Table 2,188.49,results/rq1_branch_controls/RESULTS.json,/summary/B0/tvr/mean
+V055,Table 2,154.72,results/rq1_branch_controls/RESULTS.json,/summary/B0/activitynet/mean
+V056,Table 2,77.57,results/rq1_branch_controls/RESULTS.json,/summary/B0/charades/mean
+V057,Table 2,32,results/generality_six_methods/RESULTS.json,/tables/rq1/1/vectors/value
+V058,Table 2,178.83,results/rq1_clip_only_third_branch/clip_only_metrics.json,(A120 + A121 + A122) / 3
+V059,Table 2,149.39,results/rq1_clip_only_third_branch/clip_only_metrics.json,(A123 + A124 + A125) / 3
+V060,Table 2,75.25,results/rq1_clip_only_third_branch/clip_only_metrics.json,(A126 + A127 + A128) / 3
+V061,Table 2,-5.77,results/rq1_clip_only_third_branch/clip_only_metrics.json,-V002
+V062,Table 2,-3.9,results/rq1_branch_controls/RESULTS.json; results/rq1_clip_only_third_branch/clip_only_metrics.json,((V058 - V054) / V054 * 100 + (V059 - V055) / V055 * 100 + (V060 - V056) / V056 * 100) / 3
+V063,Table 2,178.93,results/rq1_branch_controls/RESULTS.json,/summary/WideClipOnly/tvr/mean
+V064,Table 2,149.43,results/rq1_branch_controls/RESULTS.json,/summary/WideClipOnly/activitynet/mean
+V065,Table 2,75.30,results/rq1_branch_controls/RESULTS.json,/summary/WideClipOnly/charades/mean
+V066,Table 2; Table 3,-5.70,results/rq1_branch_controls/RESULTS.json,A129 - A108
+V067,Table 2,-3.8,results/rq1_branch_controls/RESULTS.json,((V063 - V054) / V054 * 100 + (V064 - V055) / V055 * 100 + (V065 - V056) / V056 * 100) / 3
+V068,Table 2,64,results/generality_six_methods/RESULTS.json,/tables/rq1/3/vectors/value
+V069,Table 2,187.52,results/rq1_branch_controls/RESULTS.json,/summary/DualClip/tvr/mean
+V070,Table 2,154.03,results/rq1_branch_controls/RESULTS.json,/summary/DualClip/activitynet/mean
+V071,Table 2,78.29,results/rq1_branch_controls/RESULTS.json,/summary/DualClip/charades/mean
+V072,Table 2,0.0,results/rq1_branch_controls/RESULTS.json,((V069 - V054) / V054 * 100 + (V070 - V055) / V055 * 100 + (V071 - V056) / V056 * 100) / 3
+V073,Table 2,96,results/generality_six_methods/RESULTS.json,/tables/rq1/4/vectors/value
+V074,Table 2,188.53,results/rq1_clip_only_third_branch/RESULTS.json,(A130 + A131 + A132) / 3
+V075,Table 2,154.36,results/rq1_clip_only_third_branch/RESULTS.json,(A133 + A134 + A135) / 3
+V076,Table 2,78.61,results/rq1_clip_only_third_branch/RESULTS.json,(A136 + A137 + A138) / 3
+V077,Table 2,+0.24,results/rq1_clip_only_third_branch/RESULTS.json,(A139 + A140 + A141) / 3
+V078,Table 2,+0.4,results/rq1_branch_controls/RESULTS.json; results/rq1_clip_only_third_branch/RESULTS.json,((V074 - V054) / V054 * 100 + (V075 - V055) / V055 * 100 + (V076 - V056) / V056 * 100) / 3
+V079,Table 2,64,results/generality_six_methods/RESULTS.json,/tables/rq1/2/vectors/value
+V080,Table 2,187.29,results/rq1_branch_controls/RESULTS.json,/summary/SparseFrame/tvr/mean
+V081,Table 2,153.89,results/rq1_branch_controls/RESULTS.json,/summary/SparseFrame/activitynet/mean
+V082,Table 2,77.42,results/rq1_branch_controls/RESULTS.json,/summary/SparseFrame/charades/mean
+V083,Table 2,-0.73,results/rq1_branch_controls/RESULTS.json,A142 - A108
+V084,Table 2,-0.5,results/rq1_branch_controls/RESULTS.json,((V080 - V054) / V054 * 100 + (V081 - V055) / V055 * 100 + (V082 - V056) / V056 * 100) / 3
+V085,Table 2,64,results/generality_six_methods/RESULTS.json,/tables/rq1/5/vectors/value
+V086,Table 2,188.85,results/rq1_branch_controls/RESULTS.json,/summary/TrainedPool/tvr/mean
+V087,Table 2,154.83,results/rq1_branch_controls/RESULTS.json,/summary/TrainedPool/activitynet/mean
+V088,Table 2,77.70,results/rq1_branch_controls/RESULTS.json,/summary/TrainedPool/charades/mean
+V089,Table 2,+0.20,results/rq1_branch_controls/RESULTS.json,A143 - A108
+V090,Table 2,+0.1,results/rq1_branch_controls/RESULTS.json,((V086 - V054) / V054 * 100 + (V087 - V055) / V055 * 100 + (V088 - V056) / V056 * 100) / 3
+V091,Table 2,40,results/generality_six_methods/RESULTS.json,/tables/rq1/6/vectors/value
+V092,Table 2,188.31,results/rq1_ward_seeds/RESULTS.json,/summary/tvr/frameWard8/mean
+V093,Table 2,154.47,results/rq1_ward_seeds/RESULTS.json,/summary/activitynet/frameWard8/mean
+V094,Table 2,77.59,results/rq1_ward_seeds/RESULTS.json,/summary/charades/frameWard8/mean
+V095,Table 2; Sec. 4.2; Sec. 4.3,-0.14,results/rq1_ward_seeds/RESULTS.json,/macro/frameWard8/MeanDelta
+V096,Table 2,-0.1,results/rq1_branch_controls/RESULTS.json; results/rq1_ward_seeds/RESULTS.json,((V092 - V054) / V054 * 100 + (V093 - V055) / V055 * 100 + (V094 - V056) / V056 * 100) / 3
+V097,Table 2,16,results/generality_six_methods/RESULTS.json,/tables/rq1/7/vectors/value
+V098,Table 2,187.07,results/rq1_ward_seeds/RESULTS.json,/summary/tvr/bothWard8/mean
+V099,Table 2,154.30,results/rq1_ward_seeds/RESULTS.json,/summary/activitynet/bothWard8/mean
+V100,Table 2,76.13,results/rq1_ward_seeds/RESULTS.json,/summary/charades/bothWard8/mean
+V101,Table 2,-1.10,results/rq1_ward_seeds/RESULTS.json,/macro/bothWard8/MeanDelta
+V102,Table 2,-1.0,results/rq1_branch_controls/RESULTS.json; results/rq1_ward_seeds/RESULTS.json,((V098 - V054) / V054 * 100 + (V099 - V055) / V055 * 100 + (V100 - V056) / V056 * 100) / 3
+V103,Sec. 4.2; Table 3,1.56,results/rq1_branch_controls/RESULTS.json,/contrasts/K2/tvr/diff
+V104,Sec. 4.2; Table 3,24,results/generality_six_methods/RESULTS.json,"len({(A144, A145), (A146, A147), (A148, A149), (A150, A151), (A152, A153), (A154, A155), (A156, A157), (A158, A159), (A160, A161), (A162, A163), (A164, A165), (A166, A167), (A168, A169), (A170, A171), (A172, A173), (A174, A175), (A176, A177), (A178, A179), (A180, A181), (A182, A183), (A184, A185), (A186, A187), (A188, A189), (A190, A191)})"
+V105,Sec. 4.2,23,results/generality_six_methods/RESULTS.json,(A029 is not None) + (A031 is not None) + (A033 is not None) + (A035 is not None) + (A037 is not None) + (A039 is not None) + (A023 is not None) + (A025 is not None) + (A027 is not None) + (A041 is not None) + (A043 is not None) + (A045 is not None) + (A047 is not None) + (A049 is not None) + (A192 is not None) + (A011 is not None) + (A013 is not None) + (A015 is not None) + (A003 is not None) + (A005 is not None) + (A007 is not None) + (A017 is not None) + (A019 is not None) + (A021 is not None)
+V106,Sec. 4.2; Sec. 5.1; Table 3; Sec. 6; Sec. 7,9527,results/fusion_weights/RESULTS.json,/rows/0/seed
+V107,Sec. 4.3,16,results/generality_six_methods/RESULTS.json,/tables/rq1/7/vectors/value
+V108,Sec. 4.3,1.10,results/rq1_ward_seeds/RESULTS.json,-V101
+V109,Sec. 4.3,-0.64,results/budget_split/RESULTS.json,/budget/summary/C8_F128/mean_delta
+V110,Sec. 4.3,8,results/budget_split/RESULTS.json,A194 + A195 + A196
+V111,Sec. 4.3,0.10,results/budget_split/RESULTS.json,"min(A197, A198, A199, A200, A201, A202, A203, A204)"
+V112,Sec. 4.3,0.41,results/budget_split/RESULTS.json,"max(A197, A198, A199, A200, A201, A202, A203, A204)"
+V113,Sec. 5.1,36,results/rq2_usage_redundancy/RESULTS.json,"min(A205, A207, A209)"
+V114,Sec. 5.1,49,results/rq2_usage_redundancy/RESULTS.json,"max(A205, A207, A209)"
+V115,Sec. 5.1,35,results/rq2_usage_redundancy/RESULTS.json,"min(A211, A212, A213)"
+V116,Sec. 5.1,68,results/rq2_usage_redundancy/RESULTS.json,"max(A211, A212, A213)"
+V117,Sec. 5.1,3,results/rq2_usage_redundancy/RESULTS.json,/cases/1/summaries/all/distributions/frame_pc90/median
+V118,Sec. 5.2,20,results/rq2_usage_redundancy/RESULTS.json,"len({A214, A215, A216, A217, A218, A219, A220, A221, A222, A223, A224, A225, A226, A227, A228, A229, A230, A231, A232, A233})"
+V119,Sec. 5.2,0.40,results/rq2_usage_redundancy/RESULTS.json,"min(A234, A235, A236, A237, A238, A239, A240, A241, A242, A243, A244)"
+V120,Sec. 5.2,0.54,results/rq2_usage_redundancy/RESULTS.json,"max(A234, A235, A236, A237, A238, A239, A240, A241, A242, A243, A244)"
+V121,Sec. 5.2,0.11,results/rq2_usage_redundancy/RESULTS.json,"min(A245, A246)"
+V122,Sec. 5.2,0.21,results/rq2_usage_redundancy/RESULTS.json,"max(A245, A246)"
+V123,Sec. 5.2,0.24,results/rq2_usage_redundancy/RESULTS.json,"max(A247, A248, A249, A250, A251, A252, A253)"
+V124,Sec. 5.2,0.33,results/rq2_seeds/RESULTS.json,"min(A254,A255,A256,A257,A258,A259)"
+V125,Sec. 5.2,0.37,results/rq2_seeds/RESULTS.json,"max(A254,A255,A256,A257,A258,A259)"
+V126,Sec. 5.2,-7.3,results/rq2_decomposition/RESULTS.json,/decomposition/our/charades/Q1/O/point
+V127,Sec. 5.2,+8.7,results/rq2_decomposition/RESULTS.json,/decomposition/our/charades/Q1/C/point
+V128,Sec. 5.2,3,results/rq2_example_query/RESULTS.json,/example/main/ranks/original
+V129,Sec. 5.2,1,results/rq2_example_query/RESULTS.json,/example/main/ranks/F
+V130,Sec. 5.2,0.004,results/rq2_example_query/RESULTS.json,abs(A262)
+V131,Sec. 5.2,0.010,results/rq2_example_query/RESULTS.json,abs(A263)
+V132,Sec. 5.2,0.017,results/rq2_example_query/RESULTS.json,abs(A264)
+V133,Sec. 5.2,"1,155",results/rq2_example_query/RESULTS.json,/typicality/main/n_query
+V134,Sec. 5.2,84,results/rq2_example_query/RESULTS.json,100 * A266 / A267
+V135,Sec. 5.3,0.81,results/rq2_group_ci/RESULTS.json,"max(A268, A269, A270, A271, A272, A273, A274, A275, -A268, -A269, -A270, -A271, -A272, -A273, -A274, -A275)"
+V136,Sec. 5.3,0.93,results/budget_per_video/RESULTS.json,"max(abs(A276), abs(A278), abs(A280), abs(A282), abs(A284), abs(A286), abs(A288), abs(A290))"
+V137,Sec. 5.4,0.03,results/rq2_seeds/RESULTS.json,"min(A292, A293, A294)"
+V138,Sec. 5.4,0.06,results/rq2_seeds/RESULTS.json,"max(A292, A293, A294)"
+V139,Sec. 5.4,4.3,results/rq2_seeds/RESULTS.json,"min(abs(A295), abs(A296), abs(A297))"
+V140,Sec. 5.4,5.7,results/rq2_seeds/RESULTS.json,"max(abs(A295), abs(A296), abs(A297))"
+V141,Sec. 5.4,4.4,results/rq2_seeds/RESULTS.json,"min(A298, A299, A300)"
+V142,Sec. 5.4,4.8,results/rq2_seeds/RESULTS.json,"max(A298, A299, A300)"
+V143,Sec. 5.4,0.99,results/rq2_seeds/RESULTS.json,"max(A301 - A302, A303 - A304, A305 - A306)"
+V144,Sec. 5.4,4.1,results/rq2_seeds/RESULTS.json,"min(A307 - A308, A309 - A310, A311 - A312, A313 - A314, A315 - A316, A317 - A318)"
+V145,Sec. 5.4,7.1,results/rq2_seeds/RESULTS.json,"max(A307 - A308, A309 - A310, A311 - A312, A313 - A314, A315 - A316, A317 - A318)"
+V146,Sec. 5.4,0.01,results/rq2_tvr_chain/RESULTS.json,"min(A319, A320, A321)"
+V147,Sec. 5.4,0.05,results/rq2_tvr_chain/RESULTS.json,"max(A319, A320, A321)"
+V148,Sec. 5.4,0.37,results/rq2_tvr_chain/RESULTS.json,"min(A322, A323, A324)"
+V149,Sec. 5.4,0.54,results/rq2_tvr_chain/RESULTS.json,"max(A325, A326, A327)"
+V150,Sec. 5.4,5.89,results/rq2_tvr_frame_branch/RESULTS.json,/cases/tvr/boundary/branches/drop_removing_frame
+V151,Table 3,96,results/storage_pq_ivf/RESULTS.json,/configs/tvr/ward8/pq_m96/branch_indices/clip/m
+V152,Table 3; Sec. 6,15.5,results/storage_int8/RESULTS.json,(A052 - A329) / 1000
+V153,Table 3; Sec. 6,245.8,results/protocol/index_footprint/RESULTS.json,A330 * 0.001
+V154,Table 3,3.8,results/storage_pq_ivf/RESULTS.json,A331 / 1000
+V155,Table 3,-1.31,results/storage_pq_ivf/RESULTS.json,(A335 + A336 + A337) / 3
+V156,Table 3; Sec. 6,34.69,results/serving_latency/RESULTS.json,/configurations/1/loads/1/end_to_end/median_ms
+V157,Table 3; Sec. 6,52.25,results/serving_latency/RESULTS.json,/configurations/0/loads/1/end_to_end/median_ms
+V158,Table 3; Sec. 6,37.96,results/serving_latency/RESULTS.json,/configurations/2/loads/1/end_to_end/median_ms
+V159,Sec. 6,40,results/generality_six_methods/RESULTS.json,/tables/rq1/6/vectors/value
+V160,Sec. 6,1.8,results/serving_latency/RESULTS.json,A341 * 1e-9
+V161,Sec. 6,6.3,results/serving_latency/RESULTS.json,A342 * 1e-9
+V162,Sec. 6,1,results/rq1_ward_seeds/SINGLE_VIDEO_RESULTS.json,(A343 + A344 + A345) / 3
+V163,Sec. 6,1.93,results/rq1_ward_seeds/RESULTS.json,"min(A346, A347, A348)"
+V164,Sec. 6,2.92,results/rq1_ward_seeds/RESULTS.json,"max(A346, A347, A348)"
+V165,Sec. 6,"1,000",results/storage_pq_ivf/RESULTS.json,/configs/tvr/ward8/ivfpq_nprobe32/top_vectors_per_branch
+V166,Sec. 6,-0.29,results/storage_pq_ivf/RESULTS.json,(A349 + A350 + A351) / 3
+V167,Sec. 6,2.1,results/index_density_stats/evidence/activitynet_indexes.json; results/index_density_stats/evidence/charades_indexes.json; results/index_density_stats/evidence/tvr_indexes.json; results/protocol/param_count/RESULTS.json; results/protocol/youcook2_centered/RESULTS.json; results/storage_pq_ivf/RESULTS.json,"min((V012 + V020) / A352, (V012 + V025) / A353, (V012 + V030) / A354, (V012 + V035) / A355)"
+V168,Sec. 6,3.9,results/index_density_stats/evidence/activitynet_indexes.json; results/index_density_stats/evidence/charades_indexes.json; results/index_density_stats/evidence/tvr_indexes.json; results/protocol/param_count/RESULTS.json; results/protocol/youcook2_centered/RESULTS.json; results/storage_pq_ivf/RESULTS.json,"max((V012 + V020) / A352, (V012 + V025) / A353, (V012 + V030) / A354, (V012 + V035) / A355)"
+V169,Sec. 6,14.46,results/storage_int8/RESULTS.json,A356 * 9.313225746154785e-10
+V170,Sec. 6,51,results/index_density_stats/evidence/activitynet_indexes.json; results/protocol/param_count/RESULTS.json; results/storage_int8/RESULTS.json; results/storage_int8_seeds/RESULTS.json,((V012 + V025) * (V013 + A357) + A358) * A359 / (2 ** 30)
+V171,Sec. 7,3.0,results/check_corpus_expansion/RESULTS.json,"min(A360, A361, A362)"
+V172,Sec. 7,9.0,results/check_corpus_expansion/RESULTS.json,"max(A360, A361, A362)"
+V173,Table 2,0.43,results/rq1_ward_seeds/RESULTS.json,"max(abs(A111), abs(A112), abs(A113), abs(A114), abs(A115), abs(A116), abs(A117), abs(A118), abs(A119), abs(A363), abs(A364), abs(A365), abs(A366), abs(A367), abs(A368), abs(A369), abs(A370), abs(A371), abs(A372), abs(A373), abs(A374), abs(A375), abs(A376), abs(A377), abs(A378), abs(A379), abs(A380), abs(A381), abs(A382), abs(A383), abs(A384), abs(A385), abs(A386), abs(A387), abs(A388), abs(A389))"

@@ -1,0 +1,20 @@
+{
+  "seed": 20261023,
+  "seed_scope": "reset per video; independent of video iteration order",
+  "clusters": 8,
+  "geometry": "Euclidean on raw valid encoded frame vectors, before cosine normalization",
+  "initialization": "k-means++, one probability-weighted candidate per center",
+  "n_init": 10,
+  "max_iter": 300,
+  "tol": 0.0001,
+  "tolerance_definition": "sum of squared center shifts <= tol * mean(per-coordinate population variance)",
+  "convergence": "unchanged assignments after empty-cluster repair, or tolerance",
+  "restart_selection": "smallest final nearest-center SSE in float64; earliest restart on exact ties",
+  "empty_cluster": "relocate a farthest residual point from a cluster with count > 1; original point order breaks ties",
+  "precision": "float32 encoder output promoted to float64 for clustering, translation centered for stability; centers cast to float32 for original cosine scoring",
+  "short_video": "L <= 32: no k-means; exact valid_length_pool singleton fallback, preserving original vectors",
+  "cluster_workers": 4,
+  "torch_threads": 4,
+  "OpenBLAS_threads": 1,
+  "stage_concurrency": "video encoder and clustering execute sequentially; up to 8 videos cluster concurrently"
+}

@@ -1,0 +1,1076 @@
+{
+  "score_fusion": {
+    "pairs": [
+      {
+        "dataset": "tvr",
+        "members": [
+          9527,
+          20261024
+        ],
+        "metrics": {
+          "R1": 15.511702615878843,
+          "R5": 36.73244607618174,
+          "R10": 48.25149150986691,
+          "R100": 86.58100045892611,
+          "SumR": 187.0766406608536
+        },
+        "first_member_metrics": {
+          "R1": 13.694355208811382,
+          "R5": 34.024782010096374,
+          "R10": 45.635612666360714,
+          "R100": 84.95640201927489,
+          "SumR": 178.31115190454335
+        },
+        "second_member_metrics": {
+          "R1": 13.923818265259293,
+          "R5": 34.052317576870124,
+          "R10": 45.52547039926572,
+          "R100": 85.43368517668655,
+          "SumR": 178.9352914180817
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 8.765488756310233,
+            "CI95": [
+              7.5355667737494265,
+              10.013997246443322
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 10895,
+            "n_video": 2179,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "7e016d3479c5e92af3b0e76b7a78022dc4c93667bf29ae7f5e972283e5e4faca",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+              "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 8.453418999541071,
+          "fusion_minus_DualClip_seed_mean": -0.4436285757992948,
+          "fusion_minus_GMM_seed_mean": -1.4165519351384432,
+          "known_DualClip_minus_ClipOnly": 8.122992198256071,
+          "known_Pfull_minus_two_single_GMM_mean": 6.360715924736098
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 34172992
+      },
+      {
+        "dataset": "tvr",
+        "members": [
+          9527,
+          20261025
+        ],
+        "metrics": {
+          "R1": 15.328132170720513,
+          "R5": 36.66819642037632,
+          "R10": 48.47177604405691,
+          "R100": 86.67278568150527,
+          "SumR": 187.140890316659
+        },
+        "first_member_metrics": {
+          "R1": 13.694355208811382,
+          "R5": 34.024782010096374,
+          "R10": 45.635612666360714,
+          "R100": 84.95640201927489,
+          "SumR": 178.31115190454335
+        },
+        "second_member_metrics": {
+          "R1": 13.675998164295548,
+          "R5": 34.263423588802205,
+          "R10": 45.791647544745295,
+          "R100": 85.5162918770078,
+          "SumR": 179.24736117485085
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 8.829738412115649,
+            "CI95": [
+              7.553923818265259,
+              10.114731528223956
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 10895,
+            "n_video": 2179,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "34425e5a4cc828247f1be0ef1d2b0ee5e458918b1033aa54c978cc99982b03d8",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+              "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 8.361633776961924,
+          "fusion_minus_DualClip_seed_mean": -0.37937891999388285,
+          "fusion_minus_GMM_seed_mean": -1.3523022793330313,
+          "known_DualClip_minus_ClipOnly": 9.146397430013778,
+          "known_Pfull_minus_two_single_GMM_mean": 6.856356126663627
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 34172992
+      },
+      {
+        "dataset": "tvr",
+        "members": [
+          20261024,
+          20261025
+        ],
+        "metrics": {
+          "R1": 15.034419458467188,
+          "R5": 36.60394676457091,
+          "R10": 48.168884809545666,
+          "R100": 86.6268930702157,
+          "SumR": 186.43414410279945
+        },
+        "first_member_metrics": {
+          "R1": 13.923818265259293,
+          "R5": 34.052317576870124,
+          "R10": 45.52547039926572,
+          "R100": 85.43368517668655,
+          "SumR": 178.9352914180817
+        },
+        "second_member_metrics": {
+          "R1": 13.675998164295548,
+          "R5": 34.263423588802205,
+          "R10": 45.791647544745295,
+          "R100": 85.5162918770078,
+          "SumR": 179.24736117485085
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 7.498852684717761,
+            "CI95": [
+              6.324001835704451,
+              8.69229004130335
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 10895,
+            "n_video": 2179,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "770ad879588208f55e9522fc305d91389620cb54a23d09763a400ab1c8c04681",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+              "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 7.342817806333187,
+          "fusion_minus_DualClip_seed_mean": -1.086125133853443,
+          "fusion_minus_GMM_seed_mean": -2.0590484931925914,
+          "known_DualClip_minus_ClipOnly": 8.797613584212925,
+          "known_Pfull_minus_two_single_GMM_mean": 7.177604405690715
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 34172992
+      },
+      {
+        "dataset": "activitynet",
+        "members": [
+          9527,
+          20261024
+        ],
+        "metrics": {
+          "R1": 8.633276201358472,
+          "R5": 27.11229607058973,
+          "R10": 39.93525042848981,
+          "R100": 79.07700120611948,
+          "SumR": 154.75782390655746
+        },
+        "first_member_metrics": {
+          "R1": 7.934996508601536,
+          "R5": 25.05554497556021,
+          "R10": 37.84041135021901,
+          "R100": 77.63600584015742,
+          "SumR": 148.46695867453818
+        },
+        "second_member_metrics": {
+          "R1": 7.966736494635942,
+          "R5": 25.449120802386847,
+          "R10": 38.32920713514886,
+          "R100": 77.92166571446708,
+          "SumR": 149.66673014663874
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 6.290865232019298,
+            "CI95": [
+              5.324831917538582,
+              7.230226327404848
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 15753,
+            "n_video": 4430,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "5e0ce5d66b945db6e57d81633c6dd29e030552cdc76d15cf800c2a1395ade388",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+              "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 5.690979495969003,
+          "fusion_minus_DualClip_seed_mean": 0.725787680653383,
+          "fusion_minus_GMM_seed_mean": 0.040203982310202946,
+          "known_DualClip_minus_ClipOnly": 4.8625658604710225,
+          "known_Pfull_minus_two_single_GMM_mean": 3.6374023995429354
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      },
+      {
+        "dataset": "activitynet",
+        "members": [
+          9527,
+          20261025
+        ],
+        "metrics": {
+          "R1": 8.684060179013521,
+          "R5": 26.782200215831907,
+          "R10": 39.871770456421,
+          "R100": 79.1341331809814,
+          "SumR": 154.4721640322478
+        },
+        "first_member_metrics": {
+          "R1": 7.934996508601536,
+          "R5": 25.05554497556021,
+          "R10": 37.84041135021901,
+          "R100": 77.63600584015742,
+          "SumR": 148.46695867453818
+        },
+        "second_member_metrics": {
+          "R1": 7.8842125309464866,
+          "R5": 25.734780676696502,
+          "R10": 38.43712308766584,
+          "R100": 77.96610169491525,
+          "SumR": 150.02221799022408
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 6.0052053577096425,
+            "CI95": [
+              5.0402845374004235,
+              6.976630353506538
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 15753,
+            "n_video": 4430,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "133cb7e837e90d8c50d69164756108f5b34d0afbc57c1ec68b33d8d08451eb81",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+              "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 5.227575699866691,
+          "fusion_minus_DualClip_seed_mean": 0.4401278063437246,
+          "fusion_minus_GMM_seed_mean": -0.2454558919994554,
+          "known_DualClip_minus_ClipOnly": 4.668951945661149,
+          "known_Pfull_minus_two_single_GMM_mean": 3.8373643115596963
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      },
+      {
+        "dataset": "activitynet",
+        "members": [
+          20261024,
+          20261025
+        ],
+        "metrics": {
+          "R1": 8.906240081254364,
+          "R5": 26.839332190693835,
+          "R10": 40.106646353075604,
+          "R100": 79.10874119215387,
+          "SumR": 154.96095981717767
+        },
+        "first_member_metrics": {
+          "R1": 7.966736494635942,
+          "R5": 25.449120802386847,
+          "R10": 38.32920713514886,
+          "R100": 77.92166571446708,
+          "SumR": 149.66673014663874
+        },
+        "second_member_metrics": {
+          "R1": 7.8842125309464866,
+          "R5": 25.734780676696502,
+          "R10": 38.43712308766584,
+          "R100": 77.96610169491525,
+          "SumR": 150.02221799022408
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 5.294229670538945,
+            "CI95": [
+              4.363764074920298,
+              6.2775768150322495
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 15753,
+            "n_video": 4430,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "2ac6bb04877b6ccd3d4b699951f3701d0391d2aa4d925d3d2f3fb861d6ddc719",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+              "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 5.116485748746271,
+          "fusion_minus_DualClip_seed_mean": 0.9289235912735876,
+          "fusion_minus_GMM_seed_mean": 0.2433398929304076,
+          "known_DualClip_minus_ClipOnly": 4.408684060179013,
+          "known_Pfull_minus_two_single_GMM_mean": 3.5644004316638416
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      },
+      {
+        "dataset": "charades",
+        "members": [
+          9527,
+          20261024
+        ],
+        "metrics": {
+          "R1": 2.096774193548387,
+          "R5": 8.521505376344086,
+          "R10": 14.56989247311828,
+          "R100": 53.95161290322581,
+          "SumR": 79.13978494623656
+        },
+        "first_member_metrics": {
+          "R1": 2.204301075268817,
+          "R5": 8.548387096774194,
+          "R10": 14.086021505376344,
+          "R100": 51.854838709677416,
+          "SumR": 76.69354838709677
+        },
+        "second_member_metrics": {
+          "R1": 1.935483870967742,
+          "R5": 7.5,
+          "R10": 13.494623655913978,
+          "R100": 51.61290322580645,
+          "SumR": 74.54301075268816
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 2.446236559139785,
+            "CI95": [
+              0.7572740298260626,
+              4.004577133854397
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 3720,
+            "n_video": 1334,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "32ed96737a286bf9fd8b9f34767967a7b9d59daa899d67306865f3d6f8895584",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+              "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 3.521505376344095,
+          "fusion_minus_DualClip_seed_mean": 0.851254480286741,
+          "fusion_minus_GMM_seed_mean": 1.568100358422953,
+          "known_DualClip_minus_ClipOnly": 2.5806451612903345,
+          "known_Pfull_minus_two_single_GMM_mean": 1.5725806451612954
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      },
+      {
+        "dataset": "charades",
+        "members": [
+          9527,
+          20261025
+        ],
+        "metrics": {
+          "R1": 2.2580645161290325,
+          "R5": 8.440860215053764,
+          "R10": 14.489247311827956,
+          "R100": 53.11827956989247,
+          "SumR": 78.30645161290323
+        },
+        "first_member_metrics": {
+          "R1": 2.204301075268817,
+          "R5": 8.548387096774194,
+          "R10": 14.086021505376344,
+          "R100": 51.854838709677416,
+          "SumR": 76.69354838709677
+        },
+        "second_member_metrics": {
+          "R1": 2.0698924731182795,
+          "R5": 7.5,
+          "R10": 13.46774193548387,
+          "R100": 51.47849462365591,
+          "SumR": 74.51612903225806
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 1.6129032258064515,
+            "CI95": [
+              -0.10864623356812048,
+              3.213911680012622
+            ],
+            "detectable_positive": false,
+            "detectable_negative": false,
+            "interpretation": "no detectable difference",
+            "n_query": 3720,
+            "n_video": 1334,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "c3372aae236d8ee88b3c0e0f01c6430533a8bc9f18b6677a63560862b5bfd5cc",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+              "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 2.701612903225822,
+          "fusion_minus_DualClip_seed_mean": 0.017921146953412403,
+          "fusion_minus_GMM_seed_mean": 0.7347670250896243,
+          "known_DualClip_minus_ClipOnly": 2.8091397849462396,
+          "known_Pfull_minus_two_single_GMM_mean": 2.083333333333343
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      },
+      {
+        "dataset": "charades",
+        "members": [
+          20261024,
+          20261025
+        ],
+        "metrics": {
+          "R1": 2.4731182795698925,
+          "R5": 8.03763440860215,
+          "R10": 13.951612903225806,
+          "R100": 52.39247311827957,
+          "SumR": 76.85483870967741
+        },
+        "first_member_metrics": {
+          "R1": 1.935483870967742,
+          "R5": 7.5,
+          "R10": 13.494623655913978,
+          "R100": 51.61290322580645,
+          "SumR": 74.54301075268816
+        },
+        "second_member_metrics": {
+          "R1": 2.0698924731182795,
+          "R5": 7.5,
+          "R10": 13.46774193548387,
+          "R100": 51.47849462365591,
+          "SumR": 74.51612903225806
+        },
+        "comparisons": {
+          "fusion/vs_first_member": {
+            "left": "fusion",
+            "right": "first_member",
+            "delta_SumR": 2.311827956989247,
+            "CI95": [
+              0.7837756276051981,
+              3.8607176304819246
+            ],
+            "detectable_positive": true,
+            "detectable_negative": false,
+            "interpretation": "detectable positive",
+            "n_query": 3720,
+            "n_video": 1334,
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "7f832de818519d4c37366712562385b30e672fdd61d4fca8a7b4b7eac14a080b",
+              "first_rep_expansion_exact": true,
+              "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+              "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+            }
+          }
+        },
+        "descriptive_differences": {
+          "fusion_minus_two_single_Clip_mean": 2.3252688172042895,
+          "fusion_minus_DualClip_seed_mean": -1.4336917562724096,
+          "fusion_minus_GMM_seed_mean": -0.7168458781361977,
+          "known_DualClip_minus_ClipOnly": 3.7231182795699027,
+          "known_Pfull_minus_two_single_GMM_mean": 1.8817204301075492
+        },
+        "nominal_vectors": 64,
+        "query_encoding_calls": 2,
+        "parameters": 32789568
+      }
+    ],
+    "dataset_summary": {
+      "tvr": {
+        "Clip-Only": 178.83126816582532,
+        "Wide Clip-Only": 178.93223191066238,
+        "Dual-Clip": 187.5202692366529,
+        "GMMFormerV2": 188.49319259599204,
+        "Clip-Only fusion": 186.88389169343736,
+        "P-full": 195.29141808168887
+      },
+      "activitynet": {
+        "Clip-Only": 149.385302270467,
+        "Wide Clip-Only": 149.43185424998413,
+        "Dual-Clip": 154.03203622590408,
+        "GMMFormerV2": 154.71761992424726,
+        "Clip-Only fusion": 154.73031591866098,
+        "P-full": 158.3973423051694
+      },
+      "charades": {
+        "Clip-Only": 75.25089605734767,
+        "Wide Clip-Only": 75.30465949820788,
+        "Dual-Clip": 78.28853046594982,
+        "GMMFormerV2": 77.5716845878136,
+        "Clip-Only fusion": 78.10035842293907,
+        "P-full": 79.41756272401433
+      }
+    },
+    "equal_dataset_mean": {
+      "Clip-Only": 134.48915549788,
+      "Wide Clip-Only": 134.55624855295147,
+      "Dual-Clip": 139.94694530950227,
+      "GMMFormerV2": 140.26083236935096,
+      "Clip-Only fusion": 139.90485534501246,
+      "P-full": 144.36877437029085
+    },
+    "descriptive_by_dataset": {
+      "tvr": {
+        "fusion_minus_two_single_Clip_mean": {
+          "point": 8.052623527612061,
+          "pair_range": [
+            7.342817806333187,
+            8.453418999541071
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_DualClip_seed_mean": {
+          "point": -0.6363775432155402,
+          "pair_range": [
+            -1.086125133853443,
+            -0.37937891999388285
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_GMM_seed_mean": {
+          "point": -1.6093009025546887,
+          "pair_range": [
+            -2.0590484931925914,
+            -1.3523022793330313
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_DualClip_minus_ClipOnly": {
+          "point": 8.689001070827592,
+          "pair_range": [
+            8.122992198256071,
+            9.146397430013778
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_Pfull_minus_two_single_GMM_mean": {
+          "point": 6.798225485696814,
+          "pair_range": [
+            6.360715924736098,
+            7.177604405690715
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        }
+      },
+      "activitynet": {
+        "fusion_minus_two_single_Clip_mean": {
+          "point": 5.345013648193988,
+          "pair_range": [
+            5.116485748746271,
+            5.690979495969003
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_DualClip_seed_mean": {
+          "point": 0.6982796927568984,
+          "pair_range": [
+            0.4401278063437246,
+            0.9289235912735876
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_GMM_seed_mean": {
+          "point": 0.012695994413718381,
+          "pair_range": [
+            -0.2454558919994554,
+            0.2433398929304076
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_DualClip_minus_ClipOnly": {
+          "point": 4.646733955437061,
+          "pair_range": [
+            4.408684060179013,
+            4.8625658604710225
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_Pfull_minus_two_single_GMM_mean": {
+          "point": 3.6797223809221578,
+          "pair_range": [
+            3.5644004316638416,
+            3.8373643115596963
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        }
+      },
+      "charades": {
+        "fusion_minus_two_single_Clip_mean": {
+          "point": 2.849462365591402,
+          "pair_range": [
+            2.3252688172042895,
+            3.521505376344095
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_DualClip_seed_mean": {
+          "point": -0.18817204301075208,
+          "pair_range": [
+            -1.4336917562724096,
+            0.851254480286741
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "fusion_minus_GMM_seed_mean": {
+          "point": 0.5286738351254598,
+          "pair_range": [
+            -0.7168458781361977,
+            1.568100358422953
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_DualClip_minus_ClipOnly": {
+          "point": 3.037634408602159,
+          "pair_range": [
+            2.5806451612903345,
+            3.7231182795699027
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        },
+        "known_Pfull_minus_two_single_GMM_mean": {
+          "point": 1.845878136200729,
+          "pair_range": [
+            1.5725806451612954,
+            2.083333333333343
+          ],
+          "n_pairs": 3,
+          "independent_pairs": false,
+          "CI": null
+        }
+      }
+    },
+    "macro_descriptive": {
+      "fusion_minus_two_single_Clip_mean": {
+        "point": 5.415699847132483,
+        "pair_range": [
+          4.928190790761249,
+          5.88863462395139
+        ],
+        "n_pairs": 3,
+        "independent_pairs": false,
+        "CI": null
+      },
+      "fusion_minus_DualClip_seed_mean": {
+        "point": -0.04208996448979796,
+        "pair_range": [
+          -0.5302977662840883,
+          0.3778045283802764
+        ],
+        "n_pairs": 3,
+        "independent_pairs": false,
+        "CI": null
+      },
+      "fusion_minus_GMM_seed_mean": {
+        "point": -0.3559770243385035,
+        "pair_range": [
+          -0.8441848261327939,
+          0.06391746853157088
+        ],
+        "n_pairs": 3,
+        "independent_pairs": false,
+        "CI": null
+      },
+      "known_DualClip_minus_ClipOnly": {
+        "point": 5.457789811622271,
+        "pair_range": [
+          5.188734406672476,
+          5.643138641320614
+        ],
+        "n_pairs": 3,
+        "independent_pairs": false,
+        "CI": null
+      },
+      "known_Pfull_minus_two_single_GMM_mean": {
+        "point": 4.1079420009399,
+        "pair_range": [
+          3.8568996564801097,
+          4.259017923852222
+        ],
+        "n_pairs": 3,
+        "independent_pairs": false,
+        "CI": null
+      }
+    }
+  },
+  "euclidean_ward_minus_cosine_ward": {
+    "summary": {
+      "equal_dataset_mean": -0.030399189192369124,
+      "dataset_means": {
+        "tvr": -0.10402325225638674,
+        "activitynet": 0.04866797858608942,
+        "charades": -0.03584229390681004
+      },
+      "detectable_positive_cells": 0,
+      "detectable_negative_cells": 0,
+      "cells": 9,
+      "macro_CI": null
+    },
+    "per_seed": [
+      {
+        "dataset": "tvr",
+        "seed": 9527,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": 0.0734281780633318,
+          "CI95": [
+            -0.45915557595227163,
+            0.6608536025699863
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 10895,
+          "n_video": 2179,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 2179,
+            "seed": 20261023,
+            "replicate_delta_sha256": "1a1d612832caaacd04bc15e1d6c601ab51d6bbee19c0e7cdb21ef9b1e9e5c189",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+            "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+          }
+        }
+      },
+      {
+        "dataset": "tvr",
+        "seed": 20261024,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": -0.192748967416246,
+          "CI95": [
+            -0.6975676916016521,
+            0.33960532354290957
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 10895,
+          "n_video": 2179,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 2179,
+            "seed": 20261023,
+            "replicate_delta_sha256": "ad7721db312f5bf7befed76433d67008d80cdbd1227bfcbb660c23eeb4e372fb",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+            "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+          }
+        }
+      },
+      {
+        "dataset": "tvr",
+        "seed": 20261025,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": -0.192748967416246,
+          "CI95": [
+            -0.716154199173933,
+            0.32124827902707664
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 10895,
+          "n_video": 2179,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 2179,
+            "seed": 20261023,
+            "replicate_delta_sha256": "4d63f400b8b921654d60daae1133415ef78e3c5ad5d250cb44f0a091d650ca8e",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "08e30e2059675611dbb342fea46b42454e948c99dd7742273a44bbb92ab03342",
+            "resampling_video_order_sha256": "81d17b9f0dfbd437916df8db1d9beeb0c1482853d2cf5edeadacad64df5b668b"
+          }
+        }
+      },
+      {
+        "dataset": "activitynet",
+        "seed": 9527,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": -0.012695994413762459,
+          "CI95": [
+            -0.3744914634934851,
+            0.35124998181521305
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 15753,
+          "n_video": 4430,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 4430,
+            "seed": 20261023,
+            "replicate_delta_sha256": "397c474fa3a6a3ad5729362f026348047a30efe6b7e74440812e065ab4efe5b6",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+            "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+          }
+        }
+      },
+      {
+        "dataset": "activitynet",
+        "seed": 20261024,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": 0.14600393575826826,
+          "CI95": [
+            -0.21563625654248897,
+            0.504650687219457
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 15753,
+          "n_video": 4430,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 4430,
+            "seed": 20261023,
+            "replicate_delta_sha256": "4e23c66dfbe7fe230eb37ac83657c97d1b92efa827238868b2ce6cab0b8e84ef",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+            "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+          }
+        }
+      },
+      {
+        "dataset": "activitynet",
+        "seed": 20261025,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": 0.012695994413762459,
+          "CI95": [
+            -0.3679672178915664,
+            0.39383709740731154
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 15753,
+          "n_video": 4430,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 4430,
+            "seed": 20261023,
+            "replicate_delta_sha256": "6de675c3b04455706bd4d0f3a96f959db9d12a59045d0a73d4bced68cf41ca6e",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "8e15efb29bdd72e75a1938ec089dfe9ac5b540b4d564541ce356f0e722da584e",
+            "resampling_video_order_sha256": "1ffb00cdeb37b8776d3170a247abef5472adce1c7c5fc8579aa75e70c1f498c9"
+          }
+        }
+      },
+      {
+        "dataset": "charades",
+        "seed": 9527,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": 0.08064516129032258,
+          "CI95": [
+            -0.6450153007146677,
+            0.7963165674896298
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 3720,
+          "n_video": 1334,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 1334,
+            "seed": 20261023,
+            "replicate_delta_sha256": "feb0c4213ecf8aac683b931ce98c7cf6571e3e1a95ea9e45e88def94d240612d",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+            "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+          }
+        }
+      },
+      {
+        "dataset": "charades",
+        "seed": 20261024,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": -0.13440860215053765,
+          "CI95": [
+            -0.9488246122432142,
+            0.7020113407640182
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 3720,
+          "n_video": 1334,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 1334,
+            "seed": 20261023,
+            "replicate_delta_sha256": "61dcfc84b6927e8c61f559a0c9e46c4041ccaa4bbf43a95ab7ef9934e091a975",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+            "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+          }
+        }
+      },
+      {
+        "dataset": "charades",
+        "seed": 20261025,
+        "comparison": {
+          "left": "W_E",
+          "right": "W",
+          "delta_SumR": -0.053763440860215055,
+          "CI95": [
+            -0.8043273499491242,
+            0.7248303050255348
+          ],
+          "detectable_positive": false,
+          "detectable_negative": false,
+          "interpretation": "no detectable difference",
+          "n_query": 3720,
+          "n_video": 1334,
+          "bootstrap": {
+            "replicates": 2000,
+            "videos": 1334,
+            "seed": 20261023,
+            "replicate_delta_sha256": "9b93afba04eec1bb633b3e29d370d1c599679972d4c37f4b9d4f3ea3274238ab",
+            "first_rep_expansion_exact": true,
+            "resampling_counts_sha256": "2bad5e24fd801972a84354bf188a1094bde5c68913b679c5d638bf6c1236a9df",
+            "resampling_video_order_sha256": "eb7dd69df9d0ce37e962133bcb24615b01cf47f8f95b50896e25a457477daf7e"
+          }
+        }
+      }
+    ]
+  }
+}

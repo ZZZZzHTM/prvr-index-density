@@ -1,0 +1,3324 @@
+{
+  "status": "completed",
+  "seeds": [
+    9527,
+    20261024,
+    20261025
+  ],
+  "datasets": [
+    "tvr",
+    "activitynet",
+    "charades"
+  ],
+  "runs": {
+    "DualClip": {
+      "tvr": {
+        "9527": {
+          "R1": 15.658558972005507,
+          "R5": 36.51216154199174,
+          "R10": 48.35245525470399,
+          "R100": 86.25975217989904,
+          "SumR": 186.78292794860027,
+          "parameters": 32236480,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/tvr/9527"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261024": {
+          "R1": 15.135383203304269,
+          "R5": 36.75080312069757,
+          "R10": 48.29738412115649,
+          "R100": 86.52592932537861,
+          "SumR": 186.70949977053692,
+          "parameters": 32236480,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/tvr/20261024"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261025": {
+          "R1": 16.365305185865076,
+          "R5": 37.439192290041305,
+          "R10": 48.6369894446994,
+          "R100": 86.6268930702157,
+          "SumR": 189.06837999082148,
+          "parameters": 32236480,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/tvr/20261025"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 8.639624198565352,
+          "R5": 26.636196280073637,
+          "R10": 39.554370596076936,
+          "R100": 78.75960134577541,
+          "SumR": 153.58979242049134,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/activitynet/9527"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261024": {
+          "R1": 8.645972195772234,
+          "R5": 26.737764235383736,
+          "R10": 40.18282231955818,
+          "R100": 78.70246937091348,
+          "SumR": 154.26902812162763,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/activitynet/20261024"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261025": {
+          "R1": 8.690408176220403,
+          "R5": 26.725068240969975,
+          "R10": 39.96064241731734,
+          "R100": 78.86116930108551,
+          "SumR": 154.23728813559322,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/activitynet/20261025"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.338709677419355,
+          "R5": 8.46774193548387,
+          "R10": 14.543010752688172,
+          "R100": 53.01075268817204,
+          "SumR": 78.36021505376344,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/charades/9527"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261024": {
+          "R1": 2.661290322580645,
+          "R5": 8.333333333333334,
+          "R10": 14.13978494623656,
+          "R100": 52.903225806451616,
+          "SumR": 78.03763440860216,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/charades/20261024"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        },
+        "20261025": {
+          "R1": 2.338709677419355,
+          "R5": 9.086021505376344,
+          "R10": 14.408602150537634,
+          "R100": 52.634408602150536,
+          "SumR": 78.46774193548387,
+          "parameters": 30754240,
+          "slots_per_video": 64,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/DualClip/charades/20261025"
+          },
+          "metrics_recomputed": "pre-registration re-fusion gate only"
+        }
+      }
+    },
+    "WideClipOnly": {
+      "tvr": {
+        "9527": {
+          "R1": 14.465351078476365,
+          "R5": 34.47452960073428,
+          "R10": 45.745754933455714,
+          "R100": 85.26847177604405,
+          "SumR": 179.9541073887104,
+          "parameters": 32238872,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/tvr/9527"
+          },
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 13.345571363010555,
+          "R5": 33.4832491968793,
+          "R10": 44.97475906379073,
+          "R100": 85.70904084442405,
+          "SumR": 177.51262046810461,
+          "parameters": 32238872,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/tvr/20261024"
+          },
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 13.923818265259293,
+          "R5": 34.144102799449286,
+          "R10": 45.690683799908214,
+          "R100": 85.5713630105553,
+          "SumR": 179.3299678751721,
+          "parameters": 32238872,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/tvr/20261025"
+          },
+          "metrics_recomputed": false
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 7.738208595188218,
+          "R5": 25.550688757696946,
+          "R10": 38.37364311559703,
+          "R100": 77.69948581222624,
+          "SumR": 149.36202628070845,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/activitynet/9527"
+          },
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 8.125436424807972,
+          "R5": 25.182504919697834,
+          "R10": 38.094331238494256,
+          "R100": 77.57252586808862,
+          "SumR": 148.9747984510887,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/activitynet/20261024"
+          },
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 8.05560845553228,
+          "R5": 25.753824668317147,
+          "R10": 38.341903129562624,
+          "R100": 77.80740176474322,
+          "SumR": 149.95873801815526,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/activitynet/20261025"
+          },
+          "metrics_recomputed": false
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.043010752688172,
+          "R5": 8.413978494623656,
+          "R10": 13.897849462365592,
+          "R100": 51.505376344086024,
+          "SumR": 75.86021505376344,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/charades/9527"
+          },
+          "metrics_recomputed": false
+        },
+        "20261024": {
+          "R1": 2.204301075268817,
+          "R5": 7.768817204301075,
+          "R10": 13.172043010752688,
+          "R100": 51.55913978494624,
+          "SumR": 74.70430107526882,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/charades/20261024"
+          },
+          "metrics_recomputed": false
+        },
+        "20261025": {
+          "R1": 2.0698924731182795,
+          "R5": 7.741935483870968,
+          "R10": 13.602150537634408,
+          "R100": 51.935483870967744,
+          "SumR": 75.34946236559139,
+          "parameters": 30753552,
+          "slots_per_video": 32,
+          "source": {
+            "path": "results/rq1_branch_controls/RESULTS.json",
+            "field": "runs/WideClipOnly/charades/20261025"
+          },
+          "metrics_recomputed": false
+        }
+      }
+    },
+    "DualClip_k16": {
+      "tvr": {
+        "9527": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 9527,
+          "k": 16,
+          "R1": 15.575952271684258,
+          "R5": 36.530518586507576,
+          "R10": 48.37999082147774,
+          "R100": 86.42496558054154,
+          "SumR": 186.9114272602111,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 69728
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.8760156030766666,
+            "clip2_compression_seconds": 1.8963883670512587,
+            "compression_total_seconds": 3.7724039701279253,
+            "clip1_score_seconds": 1.4417159191798419,
+            "clip2_score_seconds": 1.4190760201308876,
+            "fusion_and_ranking_seconds": 1.5714090610854328,
+            "scoring_total_seconds": 4.432201000396162,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-3f5887d8dba9c6.json",
+            "sha256": "7ce9aeb684ecca85930a2a9b085a1fa67f69fdb95e6fdd1351417ce1552be59d",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-8346d0c3bfc0e5.json",
+          "baseline_ranks": "<WORK>/file-7bf2849d11c251.npy",
+          "encoding_manifest": "<WORK>/file-f5c7a4675b2373.json",
+          "id_order": "<WORK>/file-6445ddee615d4d.json",
+          "rank_file": "<WORK>/file-8b53ead4317afd.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-ab4d5c863d97bc.npy",
+            "clip2": "<WORK>/file-a8d8547ec84e4c.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-6550eaa469912a.npy",
+            "clip2": "<WORK>/file-ae372493fa6815.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:17.106238+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 32
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "k": 16,
+          "R1": 15.263882514915098,
+          "R5": 36.81505277650298,
+          "R10": 48.26067003212483,
+          "R100": 86.59935750344195,
+          "SumR": 186.93896282698486,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 69728
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.876855487935245,
+            "clip2_compression_seconds": 1.8784039518795907,
+            "compression_total_seconds": 3.755259439814836,
+            "clip1_score_seconds": 1.2461031819693744,
+            "clip2_score_seconds": 1.2379707391373813,
+            "fusion_and_ranking_seconds": 1.5692268379498273,
+            "scoring_total_seconds": 4.053300759056583,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-169591e496b39d.json",
+            "sha256": "812c9e5cdc8dffb1b931377b66fb72df9a6f73731a4ec73e6841d6da3b25a68b",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-6797c136c3fc3e.json",
+          "baseline_ranks": "<WORK>/file-9f374826269137.npy",
+          "encoding_manifest": "<WORK>/file-4d8b2dd009c64a.json",
+          "id_order": "<WORK>/file-9c35ffc197d0d7.json",
+          "rank_file": "<WORK>/file-3aeb006e118144.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-70deed856c395a.npy",
+            "clip2": "<WORK>/file-c97efcb54dfffe.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-7213979df1795b.npy",
+            "clip2": "<WORK>/file-e773b93c20d4ff.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:34.612981+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 32
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "k": 16,
+          "R1": 16.181734740706744,
+          "R5": 37.05369435520881,
+          "R10": 48.45341899954107,
+          "R100": 86.58100045892611,
+          "SumR": 188.26984855438275,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 69728
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.8949154918082058,
+            "clip2_compression_seconds": 1.8960947871673852,
+            "compression_total_seconds": 3.791010278975591,
+            "clip1_score_seconds": 1.3268422549590468,
+            "clip2_score_seconds": 1.3299082950688899,
+            "fusion_and_ranking_seconds": 1.5651772620622069,
+            "scoring_total_seconds": 4.221927812090144,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-fc2925644c7d0b.json",
+            "sha256": "60c9d9f07923894105bb666a08fe82f60df10ea1c66f1926f71d185af22bbdc3",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-9ccb257ff8a272.json",
+          "baseline_ranks": "<WORK>/file-e385ac7d324166.npy",
+          "encoding_manifest": "<WORK>/file-96f03119e50819.json",
+          "id_order": "<WORK>/file-04e4d76537f652.json",
+          "rank_file": "<WORK>/file-fdec0944daae17.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-af379ec8447d4b.npy",
+            "clip2": "<WORK>/file-4fdf3476225a75.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-16cce7d5189471.npy",
+            "clip2": "<WORK>/file-665a572a8e9036.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:52.120957+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 32
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "k": 16,
+          "R1": 8.57614422649654,
+          "R5": 26.502888338729132,
+          "R10": 39.64324255697328,
+          "R100": 78.67707738208595,
+          "SumR": 153.3993525042849,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 141760
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.8640034820418805,
+            "clip2_compression_seconds": 3.8511150828562677,
+            "compression_total_seconds": 7.715118564898148,
+            "clip1_score_seconds": 3.8146628870163113,
+            "clip2_score_seconds": 3.9191179601475596,
+            "fusion_and_ranking_seconds": 4.744416256900877,
+            "scoring_total_seconds": 12.478197104064748,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-9b6ac32747436b.json",
+            "sha256": "859e3e5e17fbcb0da11cc9ee943da9c0210ae2c836d7770f3e742786ac9b7523",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-b0ee6e7f3f3012.json",
+          "baseline_ranks": "<WORK>/file-86e8be148ab9c2.npy",
+          "encoding_manifest": "<WORK>/file-efd4ac876a5eee.json",
+          "id_order": "<WORK>/file-c2521575306246.json",
+          "rank_file": "<WORK>/file-c416cdbc023c66.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-fc7e26ba209d5b.npy",
+            "clip2": "<WORK>/file-eb88d821b83ede.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-c4e9acbd467d34.npy",
+            "clip2": "<WORK>/file-9767904276828e.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:51:34.050295+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "k": 16,
+          "R1": 8.976068050530058,
+          "R5": 26.661588268901163,
+          "R10": 39.852726464800355,
+          "R100": 78.6643813876722,
+          "SumR": 154.15476417190376,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 141760
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.9360166541300714,
+            "clip2_compression_seconds": 3.9296735550742596,
+            "compression_total_seconds": 7.865690209204331,
+            "clip1_score_seconds": 3.626315311063081,
+            "clip2_score_seconds": 3.544965664856136,
+            "fusion_and_ranking_seconds": 4.758134288014844,
+            "scoring_total_seconds": 11.929415263934061,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-709db7ad43fce6.json",
+            "sha256": "4d9dfc5d5bde667f89ab480aa5fa0b0e07197ae4e2279802b3b0dc8b9aac14f8",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-45250c2aca2ac7.json",
+          "baseline_ranks": "<WORK>/file-95713feab8a61c.npy",
+          "encoding_manifest": "<WORK>/file-5f9f9e221b49db.json",
+          "id_order": "<WORK>/file-ef538e079c18bc.json",
+          "rank_file": "<WORK>/file-ca4ccd0bb2ef9d.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-9b4dceb8cb9670.npy",
+            "clip2": "<WORK>/file-43da44e2368f07.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-fc58fce87f325f.npy",
+            "clip2": "<WORK>/file-dc31842c225089.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:52:20.996104+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "k": 16,
+          "R1": 8.601536215324066,
+          "R5": 26.921856154383292,
+          "R10": 39.79559448993842,
+          "R100": 78.88021329270615,
+          "SumR": 154.19920015235192,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 141760
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.9759379101451486,
+            "clip2_compression_seconds": 3.983276953920722,
+            "compression_total_seconds": 7.959214864065871,
+            "clip1_score_seconds": 4.099466776940972,
+            "clip2_score_seconds": 4.102016896940768,
+            "fusion_and_ranking_seconds": 4.802838501054794,
+            "scoring_total_seconds": 13.004322174936533,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-e09edfaa1e8313.json",
+            "sha256": "ffb86be4a2f756f88db2971c1677255b45e01eff6040ac55f09c211971e7b26d",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-1410f64778f4ec.json",
+          "baseline_ranks": "<WORK>/file-2a3043b6ed5f49.npy",
+          "encoding_manifest": "<WORK>/file-a6b37048cc9593.json",
+          "id_order": "<WORK>/file-8258374542f8d8.json",
+          "rank_file": "<WORK>/file-de4cbeb83b8bcf.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-3bec0f3f1bdc23.npy",
+            "clip2": "<WORK>/file-e1f18e699ee7f1.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-1f8a75950f0e6b.npy",
+            "clip2": "<WORK>/file-479c416008ca35.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:09.959645+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        }
+      },
+      "charades": {
+        "9527": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 9527,
+          "k": 16,
+          "R1": 2.2311827956989245,
+          "R5": 8.494623655913978,
+          "R10": 13.763440860215054,
+          "R100": 52.715053763440864,
+          "SumR": 77.20430107526882,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 42688
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.1603444498032331,
+            "clip2_compression_seconds": 1.1806061691604555,
+            "compression_total_seconds": 2.3409506189636886,
+            "clip1_score_seconds": 0.31103578698821366,
+            "clip2_score_seconds": 0.30601170496083796,
+            "fusion_and_ranking_seconds": 0.32993404380977154,
+            "scoring_total_seconds": 0.9469815357588232,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-213275b73fcadf.json",
+            "sha256": "27992e5862a3b2f1e1377211c11af051afa1e27cdd709c40cc3a3f042fc02f53",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-cb045c9b8b677c.json",
+          "baseline_ranks": "<WORK>/file-e723818c90ef69.npy",
+          "encoding_manifest": "<WORK>/file-e9b88bd6c4ef14.json",
+          "id_order": "<WORK>/file-62c8ab9687c0bb.json",
+          "rank_file": "<WORK>/file-c239fe6636b4e5.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-110aa3a2d13578.npy",
+            "clip2": "<WORK>/file-e1dc18d7b410ef.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-d59a93869110ca.npy",
+            "clip2": "<WORK>/file-c62adba9d24767.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:24.440720+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 20261024,
+          "k": 16,
+          "R1": 2.7419354838709675,
+          "R5": 8.46774193548387,
+          "R10": 13.978494623655914,
+          "R100": 52.74193548387097,
+          "SumR": 77.93010752688173,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 42688
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.160783062921837,
+            "clip2_compression_seconds": 1.185297013958916,
+            "compression_total_seconds": 2.346080076880753,
+            "clip1_score_seconds": 0.30772873014211655,
+            "clip2_score_seconds": 0.3019486388657242,
+            "fusion_and_ranking_seconds": 0.3306657411158085,
+            "scoring_total_seconds": 0.9403431101236492,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-d8fe14dd4922f9.json",
+            "sha256": "79e6fd531d01fc302bd881e95f99a8830e52e0d104e32aa20b8285003c74c7f3",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-2cbac0d7002a9f.json",
+          "baseline_ranks": "<WORK>/file-24df24b6216f93.npy",
+          "encoding_manifest": "<WORK>/file-693a1c6b1bed88.json",
+          "id_order": "<WORK>/file-9bed4115931615.json",
+          "rank_file": "<WORK>/file-b86f455a1bcc98.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-b32f44dfc17710.npy",
+            "clip2": "<WORK>/file-e7670d679e083e.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-7c959a5d963810.npy",
+            "clip2": "<WORK>/file-e61e57d454c9f9.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:29.911388+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 20261025,
+          "k": 16,
+          "R1": 2.338709677419355,
+          "R5": 8.870967741935484,
+          "R10": 14.408602150537634,
+          "R100": 52.715053763440864,
+          "SumR": 78.33333333333334,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "clip2": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            },
+            "total": {
+              "nominal": 32,
+              "minimum": 32,
+              "maximum": 32,
+              "mean": 32.0,
+              "median": 32.0,
+              "distribution": {
+                "32": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 42688
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.1719255161006004,
+            "clip2_compression_seconds": 1.1871137039270252,
+            "compression_total_seconds": 2.3590392200276256,
+            "clip1_score_seconds": 0.32798765297047794,
+            "clip2_score_seconds": 0.30096459412015975,
+            "fusion_and_ranking_seconds": 0.33234784402884543,
+            "scoring_total_seconds": 0.9613000911194831,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-c1f7c7d994da7a.json",
+            "sha256": "19f0d4878d5032639f925316a1797340be63fdd6a7a77d7d683f07cbca2fa4c4",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-231191e0f4dd67.json",
+          "baseline_ranks": "<WORK>/file-aa031142b21fd5.npy",
+          "encoding_manifest": "<WORK>/file-d416a73f1fef40.json",
+          "id_order": "<WORK>/file-e38a3829627c9d.json",
+          "rank_file": "<WORK>/file-2b3b19cbe5ec13.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-143fd69bb2d081.npy",
+            "clip2": "<WORK>/file-5a67d9d91263c4.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-8ad2e3200fa7e6.npy",
+            "clip2": "<WORK>/file-40d39f7b159a78.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:35.404999+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 32
+        }
+      }
+    },
+    "DualClip_k8": {
+      "tvr": {
+        "9527": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 9527,
+          "k": 8,
+          "R1": 15.530059660394677,
+          "R5": 36.154199173932994,
+          "R10": 47.70078017439192,
+          "R100": 86.0761817347407,
+          "SumR": 185.46122074346027,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.8760156030766666,
+            "clip2_compression_seconds": 1.8963883670512587,
+            "compression_total_seconds": 3.7724039701279253,
+            "clip1_score_seconds": 0.8221243389416486,
+            "clip2_score_seconds": 0.8149007759056985,
+            "fusion_and_ranking_seconds": 1.57373205316253,
+            "scoring_total_seconds": 3.210757168009877,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-05185f429ecf2c.json",
+            "sha256": "9e60cb28373de2a602ae88869f7e718eebf0fccf621f5973d25318ec16c6175f",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-8346d0c3bfc0e5.json",
+          "baseline_ranks": "<WORK>/file-7bf2849d11c251.npy",
+          "encoding_manifest": "<WORK>/file-f5c7a4675b2373.json",
+          "id_order": "<WORK>/file-6445ddee615d4d.json",
+          "rank_file": "<WORK>/file-c722de70bdeb47.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-39ce1d58b71949.npy",
+            "clip2": "<WORK>/file-3e3f9939219d89.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-157f5c7b837e1a.npy",
+            "clip2": "<WORK>/file-d1997683d1e374.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:20.325257+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 16
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "k": 8,
+          "R1": 15.034419458467188,
+          "R5": 36.227627351996325,
+          "R10": 47.72831574116567,
+          "R100": 86.36071592473611,
+          "SumR": 185.3510784763653,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.876855487935245,
+            "clip2_compression_seconds": 1.8784039518795907,
+            "compression_total_seconds": 3.755259439814836,
+            "clip1_score_seconds": 0.7985466001555324,
+            "clip2_score_seconds": 0.8097769131418318,
+            "fusion_and_ranking_seconds": 1.571110594086349,
+            "scoring_total_seconds": 3.179434107383713,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-77e052bd7652fd.json",
+            "sha256": "00afa58b8b6e74d39a41971d8e7b5f1f27461a684cbfa8b984ab7c44bfddbe65",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-6797c136c3fc3e.json",
+          "baseline_ranks": "<WORK>/file-9f374826269137.npy",
+          "encoding_manifest": "<WORK>/file-4d8b2dd009c64a.json",
+          "id_order": "<WORK>/file-9c35ffc197d0d7.json",
+          "rank_file": "<WORK>/file-4f178302445506.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-047caf2a861972.npy",
+            "clip2": "<WORK>/file-54ee57bf87737c.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-f8f23141a96151.npy",
+            "clip2": "<WORK>/file-bfa8a7bd885c39.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:37.798530+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 16
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "k": 8,
+          "R1": 15.933914639743001,
+          "R5": 36.301055530059664,
+          "R10": 48.113813675998166,
+          "R100": 86.41578705828361,
+          "SumR": 186.76457090408445,
+          "n_query": 10895,
+          "n_video": 2179,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 17432
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 2179
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 2179,
+              "total_vectors": 34864
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.8949154918082058,
+            "clip2_compression_seconds": 1.8960947871673852,
+            "compression_total_seconds": 3.791010278975591,
+            "clip1_score_seconds": 0.8040679239202291,
+            "clip2_score_seconds": 0.8188870919402689,
+            "fusion_and_ranking_seconds": 1.5670794530306011,
+            "scoring_total_seconds": 3.190034468891099,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-a9ce97fd70e16c.json",
+            "sha256": "fb5a682d87a0ed18c357ff43227933e07dd5165f962ff21e4f96075346cbb5b2",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-9ccb257ff8a272.json",
+          "baseline_ranks": "<WORK>/file-e385ac7d324166.npy",
+          "encoding_manifest": "<WORK>/file-96f03119e50819.json",
+          "id_order": "<WORK>/file-04e4d76537f652.json",
+          "rank_file": "<WORK>/file-2d242f5c9d60e4.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-3dd36e874a8862.npy",
+            "clip2": "<WORK>/file-4f8ccff4c29598.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-406e38a37a530a.npy",
+            "clip2": "<WORK>/file-8628b0df6a01fb.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:50:55.316610+00:00",
+          "parameters": 32236480,
+          "slots_per_video": 16
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "k": 8,
+          "R1": 8.57614422649654,
+          "R5": 26.56002031359106,
+          "R10": 39.6368945597664,
+          "R100": 78.61994540722402,
+          "SumR": 153.39300450707802,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.8640034820418805,
+            "clip2_compression_seconds": 3.8511150828562677,
+            "compression_total_seconds": 7.715118564898148,
+            "clip1_score_seconds": 2.4229345959611237,
+            "clip2_score_seconds": 2.37946542003192,
+            "fusion_and_ranking_seconds": 4.7458594751078635,
+            "scoring_total_seconds": 9.548259491100907,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-4e77da0722ce9c.json",
+            "sha256": "aa1702879c45a18d22c0d65277c1cfdc744a5ffb258ca02ffa6475b1a7b564ec",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-b0ee6e7f3f3012.json",
+          "baseline_ranks": "<WORK>/file-86e8be148ab9c2.npy",
+          "encoding_manifest": "<WORK>/file-efd4ac876a5eee.json",
+          "id_order": "<WORK>/file-c2521575306246.json",
+          "rank_file": "<WORK>/file-72775f3209bc5d.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-99c01bc36ae4ac.npy",
+            "clip2": "<WORK>/file-fac0b634bb5add.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-2558d35215f7dc.npy",
+            "clip2": "<WORK>/file-7100bdfffd933b.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:51:43.617189+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "k": 8,
+          "R1": 8.823716117564908,
+          "R5": 26.826636196280074,
+          "R10": 40.04951437821367,
+          "R100": 78.44220148543134,
+          "SumR": 154.14206817749,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.9360166541300714,
+            "clip2_compression_seconds": 3.9296735550742596,
+            "compression_total_seconds": 7.865690209204331,
+            "clip1_score_seconds": 2.2795619210228324,
+            "clip2_score_seconds": 2.3396069740410894,
+            "fusion_and_ranking_seconds": 4.805645636981353,
+            "scoring_total_seconds": 9.424814532045275,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-91e5cb808dbd5d.json",
+            "sha256": "14cf240525df30c453f60d781f4a009a6e72e1a7bc262ca7ab1028e0cb7bc564",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-45250c2aca2ac7.json",
+          "baseline_ranks": "<WORK>/file-95713feab8a61c.npy",
+          "encoding_manifest": "<WORK>/file-5f9f9e221b49db.json",
+          "id_order": "<WORK>/file-ef538e079c18bc.json",
+          "rank_file": "<WORK>/file-214c56a61efba9.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-d8ba443a66d3a3.npy",
+            "clip2": "<WORK>/file-4d537399288d2e.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-73365613dfcf51.npy",
+            "clip2": "<WORK>/file-ab55cb45d378d6.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:52:30.440937+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "k": 8,
+          "R1": 8.72849615946169,
+          "R5": 26.76315622421126,
+          "R10": 39.884466450834765,
+          "R100": 78.65168539325843,
+          "SumR": 154.02780422776613,
+          "n_query": 15753,
+          "n_video": 4430,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 35440
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 4430
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 4430,
+              "total_vectors": 70880
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 3.9759379101451486,
+            "clip2_compression_seconds": 3.983276953920722,
+            "compression_total_seconds": 7.959214864065871,
+            "clip1_score_seconds": 2.438700885977596,
+            "clip2_score_seconds": 2.417854839004576,
+            "fusion_and_ranking_seconds": 4.79829823714681,
+            "scoring_total_seconds": 9.654853962128982,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-ad43dabfe67490.json",
+            "sha256": "be0f8f87fe628e9ac3ab6af9dd0e598f7578a94a5c048c00c1c5d2d2cdb3a026",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-1410f64778f4ec.json",
+          "baseline_ranks": "<WORK>/file-2a3043b6ed5f49.npy",
+          "encoding_manifest": "<WORK>/file-a6b37048cc9593.json",
+          "id_order": "<WORK>/file-8258374542f8d8.json",
+          "rank_file": "<WORK>/file-58fac3c0b7f3fc.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-1a5e6fad13b9fb.npy",
+            "clip2": "<WORK>/file-ebad4753d0833e.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-9af658c3cb9fc4.npy",
+            "clip2": "<WORK>/file-24f417dcb8218a.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:19.633462+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        }
+      },
+      "charades": {
+        "9527": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 9527,
+          "k": 8,
+          "R1": 2.3118279569892475,
+          "R5": 8.306451612903226,
+          "R10": 13.978494623655914,
+          "R100": 52.365591397849464,
+          "SumR": 76.96236559139786,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.1603444498032331,
+            "clip2_compression_seconds": 1.1806061691604555,
+            "compression_total_seconds": 2.3409506189636886,
+            "clip1_score_seconds": 0.1849009229335934,
+            "clip2_score_seconds": 0.18597886082716286,
+            "fusion_and_ranking_seconds": 0.3326270261313766,
+            "scoring_total_seconds": 0.7035068098921329,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-c184988ebef5a5.json",
+            "sha256": "e56381b0d3361a5d574e3831ba78443f325b9dd4fa70147da53a0c2ab5dad5d3",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-cb045c9b8b677c.json",
+          "baseline_ranks": "<WORK>/file-e723818c90ef69.npy",
+          "encoding_manifest": "<WORK>/file-e9b88bd6c4ef14.json",
+          "id_order": "<WORK>/file-62c8ab9687c0bb.json",
+          "rank_file": "<WORK>/file-e14c6ff6c51daf.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-21925eab0beeb1.npy",
+            "clip2": "<WORK>/file-17dc0234ac6a05.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-63d45bdd0fa982.npy",
+            "clip2": "<WORK>/file-4065192899c153.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:25.147248+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        },
+        "20261024": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 20261024,
+          "k": 8,
+          "R1": 2.5806451612903225,
+          "R5": 8.548387096774194,
+          "R10": 14.03225806451613,
+          "R100": 52.39247311827957,
+          "SumR": 77.55376344086022,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.160783062921837,
+            "clip2_compression_seconds": 1.185297013958916,
+            "compression_total_seconds": 2.346080076880753,
+            "clip1_score_seconds": 0.18122667982243001,
+            "clip2_score_seconds": 0.18198445090092719,
+            "fusion_and_ranking_seconds": 0.33066560700535774,
+            "scoring_total_seconds": 0.6938767377287149,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-95cdd9719319a7.json",
+            "sha256": "14ad56f48e7850067856a71f9092d02f7bfecfde7acd2d881b6ab110afbec633",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-2cbac0d7002a9f.json",
+          "baseline_ranks": "<WORK>/file-24df24b6216f93.npy",
+          "encoding_manifest": "<WORK>/file-693a1c6b1bed88.json",
+          "id_order": "<WORK>/file-9bed4115931615.json",
+          "rank_file": "<WORK>/file-ed4efa7ac8dae9.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-bd648b10911ced.npy",
+            "clip2": "<WORK>/file-0b414a6b122972.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-e9a9af51787259.npy",
+            "clip2": "<WORK>/file-024db36d56a551.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:30.608344+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        },
+        "20261025": {
+          "status": "passed",
+          "dataset": "charades",
+          "seed": 20261025,
+          "k": 8,
+          "R1": 2.2311827956989245,
+          "R5": 8.655913978494624,
+          "R10": 13.924731182795698,
+          "R100": 52.123655913978496,
+          "SumR": 76.93548387096774,
+          "n_query": 3720,
+          "n_video": 1334,
+          "fusion": [
+            0.5,
+            0.5
+          ],
+          "CPU_threads": 4,
+          "reps": {
+            "clip1": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "clip2": {
+              "nominal": 8,
+              "minimum": 8,
+              "maximum": 8,
+              "mean": 8.0,
+              "median": 8.0,
+              "distribution": {
+                "8": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 10672
+            },
+            "total": {
+              "nominal": 16,
+              "minimum": 16,
+              "maximum": 16,
+              "mean": 16.0,
+              "median": 16.0,
+              "distribution": {
+                "16": 1334
+              },
+              "fewer_than_nominal_videos": 0,
+              "fewer_than_nominal_fraction": 0.0,
+              "videos": 1334,
+              "total_vectors": 21344
+            }
+          },
+          "timing": {
+            "clip1_compression_seconds": 1.1719255161006004,
+            "clip2_compression_seconds": 1.1871137039270252,
+            "compression_total_seconds": 2.3590392200276256,
+            "clip1_score_seconds": 0.25451256800442934,
+            "clip2_score_seconds": 0.1929903260897845,
+            "fusion_and_ranking_seconds": 0.3301952611654997,
+            "scoring_total_seconds": 0.7776981552597135,
+            "compression_shared_across_budgets": [
+              16,
+              8
+            ],
+            "compression_note": "One unchanged ward_all call/tree per video and branch produces k16 and k8 jointly; branch/total compression timings are shared by both condition records and must not be summed across budgets."
+          },
+          "source": {
+            "path": "<WORK>/file-9c3308adb6e937.json",
+            "sha256": "773f47eb893b9e4bb91513cf540b2ecf67aa076cde70efe4c1cb2d9da04c3c37",
+            "storage": "this analysis runtime artifact",
+            "producer_script": "<WORK>/file-cd4dcaed6258aa.py"
+          },
+          "baseline_gate": "<WORK>/file-231191e0f4dd67.json",
+          "baseline_ranks": "<WORK>/file-aa031142b21fd5.npy",
+          "encoding_manifest": "<WORK>/file-d416a73f1fef40.json",
+          "id_order": "<WORK>/file-e38a3829627c9d.json",
+          "rank_file": "<WORK>/file-74cf38700ee5f0.npy",
+          "score_files": {
+            "clip1": "<WORK>/file-b7074714a3b33a.npy",
+            "clip2": "<WORK>/file-89e69f1570de01.npy"
+          },
+          "count_files": {
+            "clip1": "<WORK>/file-ded0924f2457f6.npy",
+            "clip2": "<WORK>/file-ea9526fa7147c7.npy"
+          },
+          "scoring": "Native fp32 F.normalize, max over actual representatives, 0.5/0.5, official c.rank_rows CPU argsort(-row) stable=False; scratch padding excluded without zero floor.",
+          "created_utc": "2026-11-07T12:53:36.185703+00:00",
+          "parameters": 30754240,
+          "slots_per_video": 16
+        }
+      }
+    }
+  },
+  "summary": {
+    "DualClip": {
+      "tvr": {
+        "R1": 15.719749120391617,
+        "R5": 36.90071898424354,
+        "R10": 48.42894294018663,
+        "R100": 86.47085819183111,
+        "SumR": 187.5202692366529
+      },
+      "activitynet": {
+        "R1": 8.658668190185997,
+        "R5": 26.69967625214245,
+        "R10": 39.89927844431748,
+        "R100": 78.77441333925813,
+        "SumR": 154.03203622590408
+      },
+      "charades": {
+        "R1": 2.446236559139785,
+        "R5": 8.629032258064516,
+        "R10": 14.363799283154123,
+        "R100": 52.84946236559139,
+        "SumR": 78.28853046594982
+      }
+    },
+    "WideClipOnly": {
+      "tvr": {
+        "R1": 13.91158023558207,
+        "R5": 34.033960532354286,
+        "R10": 45.47039926571822,
+        "R100": 85.5162918770078,
+        "SumR": 178.93223191066238
+      },
+      "activitynet": {
+        "R1": 7.973084491842823,
+        "R5": 25.495672781903977,
+        "R10": 38.26995916121797,
+        "R100": 77.69313781501936,
+        "SumR": 149.43185424998413
+      },
+      "charades": {
+        "R1": 2.105734767025089,
+        "R5": 7.974910394265233,
+        "R10": 13.557347670250897,
+        "R100": 51.666666666666664,
+        "SumR": 75.30465949820788
+      }
+    },
+    "DualClip_k16": {
+      "tvr": {
+        "R1": 15.673856509102032,
+        "R5": 36.79975523940646,
+        "R10": 48.36469328438121,
+        "R100": 86.53510784763654,
+        "SumR": 187.37341288052622
+      },
+      "activitynet": {
+        "R1": 8.717916164116888,
+        "R5": 26.695444254004528,
+        "R10": 39.76385450390402,
+        "R100": 78.74055735415477,
+        "SumR": 153.9177722761802
+      },
+      "charades": {
+        "R1": 2.4372759856630823,
+        "R5": 8.61111111111111,
+        "R10": 14.050179211469533,
+        "R100": 52.72401433691757,
+        "SumR": 77.8225806451613
+      }
+    },
+    "DualClip_k8": {
+      "tvr": {
+        "R1": 15.49946458620162,
+        "R5": 36.227627351996325,
+        "R10": 47.84763653051859,
+        "R100": 86.28422823925348,
+        "SumR": 185.85895670797004
+      },
+      "activitynet": {
+        "R1": 8.709452167841045,
+        "R5": 26.71660424469413,
+        "R10": 39.85695846293828,
+        "R100": 78.57127742863793,
+        "SumR": 153.8542923041114
+      },
+      "charades": {
+        "R1": 2.3745519713261647,
+        "R5": 8.50358422939068,
+        "R10": 13.978494623655914,
+        "R100": 52.29390681003584,
+        "SumR": 77.15053763440861
+      }
+    }
+  },
+  "contrasts": {
+    "K6": {
+      "tvr": {
+        "diff": 8.441180969863836,
+        "welch_ci": [
+          5.849555732140573,
+          11.0328062075871
+        ],
+        "df": 3.3143534649778608,
+        "standard_error": 0.8586321018247515,
+        "delta_s": [
+          6.957319871500687,
+          9.426342358880248,
+          8.93988067921066
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          186.9114272602111,
+          186.93896282698486,
+          188.26984855438275
+        ],
+        "published_WideClipOnly_SumR": [
+          179.9541073887104,
+          177.51262046810461,
+          179.3299678751721
+        ],
+        "compressed_dualclip_mean": 187.37341288052622,
+        "published_WideClipOnly_mean": 178.93223191066238,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/tvr"
+        },
+        "direction": "positive"
+      },
+      "activitynet": {
+        "diff": 4.48591802619606,
+        "welch_ci": [
+          3.4092639180947835,
+          5.562572134297337
+        ],
+        "df": 3.9623804710304276,
+        "standard_error": 0.38633067049192765,
+        "delta_s": [
+          4.037326223576457,
+          5.179965720815062,
+          4.240462134196662
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          153.3993525042849,
+          154.15476417190376,
+          154.19920015235192
+        ],
+        "published_WideClipOnly_SumR": [
+          149.36202628070845,
+          148.9747984510887,
+          149.95873801815526
+        ],
+        "compressed_dualclip_mean": 153.9177722761802,
+        "published_WideClipOnly_mean": 149.43185424998413,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/activitynet"
+        },
+        "direction": "positive"
+      },
+      "charades": {
+        "diff": 2.5179211469534124,
+        "welch_ci": [
+          1.2127265865676538,
+          3.823115707339171
+        ],
+        "df": 3.999389543557071,
+        "standard_error": 0.47006727772774415,
+        "delta_s": [
+          1.344086021505376,
+          3.225806451612911,
+          2.98387096774195
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          77.20430107526882,
+          77.93010752688173,
+          78.33333333333334
+        ],
+        "published_WideClipOnly_SumR": [
+          75.86021505376344,
+          74.70430107526882,
+          75.34946236559139
+        ],
+        "compressed_dualclip_mean": 77.8225806451613,
+        "published_WideClipOnly_mean": 75.30465949820788,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": false,
+        "nominal_vectors_per_video": 32,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/charades"
+        },
+        "direction": "positive"
+      }
+    },
+    "K7": {
+      "tvr": {
+        "diff": -0.1468563561266636,
+        "mean_diff": -0.1468563561266636,
+        "delta_s": [
+          0.12849931161083067,
+          0.22946305644791193,
+          -0.7985314364387334
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -0.541532813217072,
+            0.8446535107847625
+          ],
+          "20261024": [
+            -0.46810463515374023,
+            0.9637448370812299
+          ],
+          "20261025": [
+            -1.4960991280403853,
+            -0.10096374483708123
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": 0.12849931161083067,
+            "bootstrap_ci": [
+              -0.541532813217072,
+              0.8446535107847625
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.08260670032124828,
+                "CI95": [
+                  -0.4130335016062414,
+                  0.24782010096374485
+                ]
+              },
+              "R@5": {
+                "diff": 0.018357044515832952,
+                "CI95": [
+                  -0.3763194125745755,
+                  0.42221202386415785
+                ]
+              },
+              "R@10": {
+                "diff": 0.027535566773749427,
+                "CI95": [
+                  -0.33960532354290957,
+                  0.4130335016062414
+                ]
+              },
+              "R@100": {
+                "diff": 0.16521340064249657,
+                "CI95": [
+                  -0.06424965580541533,
+                  0.39467645709040844
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-db84c2115415d6.npy",
+                "sha256": "ec9ef9950f88c27dce03fb26dc40ff2d61c5a7afb1792913ef1e9f13f395713b",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-3f5887d8dba9c6.json",
+                  "sha256": "7ce9aeb684ecca85930a2a9b085a1fa67f69fdb95e6fdd1351417ce1552be59d",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-8b53ead4317afd.npy",
+                  "sha256": "2993f3a0df35c8016e148db369faf8d4e207e797fe234a872c78676f1ff0cd80",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-53c2afe8443e54.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": 0.22946305644791193,
+            "bootstrap_ci": [
+              -0.46810463515374023,
+              0.9637448370812299
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.12849931161083067,
+                "CI95": [
+                  -0.20215695273061035,
+                  0.4956402019274897
+                ]
+              },
+              "R@5": {
+                "diff": 0.06424965580541533,
+                "CI95": [
+                  -0.330656264341441,
+                  0.4497475906379073
+                ]
+              },
+              "R@10": {
+                "diff": -0.036714089031665904,
+                "CI95": [
+                  -0.3949059201468563,
+                  0.3122992198256068
+                ]
+              },
+              "R@100": {
+                "diff": 0.07342817806333181,
+                "CI95": [
+                  -0.15626434144102797,
+                  0.28453418999541075
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-180df341b91b98.npy",
+                "sha256": "04bdc2920a7f2cbc12e4db987dc90887e152ebcddfcf599cd14f0bd9dce33df1",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-169591e496b39d.json",
+                  "sha256": "812c9e5cdc8dffb1b931377b66fb72df9a6f73731a4ec73e6841d6da3b25a68b",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-3aeb006e118144.npy",
+                  "sha256": "b247b92e78aa6f24139c955ccdb0ec0a0f2849c00b2b2889f0dd432c7a4c23cf",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-767915ed29d625.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.7985314364387334,
+            "bootstrap_ci": [
+              -1.4960991280403853,
+              -0.10096374483708123
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.18357044515832951,
+                "CI95": [
+                  -0.4958696649839376,
+                  0.14685635612666362
+                ]
+              },
+              "R@5": {
+                "diff": -0.38549793483249195,
+                "CI95": [
+                  -0.7709958696649839,
+                  0.0
+                ]
+              },
+              "R@10": {
+                "diff": -0.18357044515832951,
+                "CI95": [
+                  -0.5507113354749885,
+                  0.16544286369894323
+                ]
+              },
+              "R@100": {
+                "diff": -0.04589261128958238,
+                "CI95": [
+                  -0.27535566773749426,
+                  0.18357044515832951
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "1c9c10e55a72b6c20c176125ff74d0587760dd9681636c0448b804906efd8b52",
+            "n_query": 10895,
+            "n_video": 2179,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-339f367da450a6.npy",
+                "sha256": "280880e80d1772304a5b94abcf1466c2cdd0ffbfbf4e018cc2834535c76a1984",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-fc2925644c7d0b.json",
+                  "sha256": "60c9d9f07923894105bb666a08fe82f60df10ea1c66f1926f71d185af22bbdc3",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-fdec0944daae17.npy",
+                  "sha256": "6219ecdf68922372a514526a6110e25e2f6ca500cceaeca530600b9d6e4f5879",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-cc362dcbc52efd.json",
+                "sha256": "6219a6d7ddd9799723c595f86ceb509448dbc4f16401fb39dd53e146267b1d50",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      },
+      "activitynet": {
+        "diff": -0.11426394972386211,
+        "mean_diff": -0.11426394972386211,
+        "delta_s": [
+          -0.19043991620643685,
+          -0.11426394972386211,
+          -0.03808798324128734
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -0.6765797166745012,
+            0.3003113492299568
+          ],
+          "20261024": [
+            -0.619894245239809,
+            0.380623724962243
+          ],
+          "20261025": [
+            -0.5493662069911476,
+            0.45763761747618464
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": -0.19043991620643685,
+            "bootstrap_ci": [
+              -0.6765797166745012,
+              0.3003113492299568
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.06347997206881228,
+                "CI95": [
+                  -0.2799151747858925,
+                  0.16593962828151468
+                ]
+              },
+              "R@5": {
+                "diff": -0.1333079413445058,
+                "CI95": [
+                  -0.4227157311298407,
+                  0.14717480615799897
+                ]
+              },
+              "R@10": {
+                "diff": 0.0888719608963372,
+                "CI95": [
+                  -0.18375743056439955,
+                  0.360448982634306
+                ]
+              },
+              "R@100": {
+                "diff": -0.08252396368945597,
+                "CI95": [
+                  -0.2561755478539225,
+                  0.08345945647370677
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-9c11807b8cb385.npy",
+                "sha256": "41c309dc87fe16974371c844665ea77706164c11872ce32a4fcd6797105325db",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-9b6ac32747436b.json",
+                  "sha256": "859e3e5e17fbcb0da11cc9ee943da9c0210ae2c836d7770f3e742786ac9b7523",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-c416cdbc023c66.npy",
+                  "sha256": "c57063575653c3ac9b0e5ad1b3fe67c8d80a49f0558c16cfa262f91a2adc7159",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-1d49cfabb4927a.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": -0.11426394972386211,
+            "bootstrap_ci": [
+              -0.619894245239809,
+              0.380623724962243
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.3300958547578239,
+                "CI95": [
+                  0.10801812179844522,
+                  0.5493135161673092
+                ]
+              },
+              "R@5": {
+                "diff": -0.07617596648257474,
+                "CI95": [
+                  -0.3544639170164192,
+                  0.2019405398797557
+                ]
+              },
+              "R@10": {
+                "diff": -0.3300958547578239,
+                "CI95": [
+                  -0.6220534306294887,
+                  -0.04433608294179758
+                ]
+              },
+              "R@100": {
+                "diff": -0.03808798324128737,
+                "CI95": [
+                  -0.19125552263859968,
+                  0.13242694529087606
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-95fc541b50d378.npy",
+                "sha256": "46fb79809e57a05202de3a72a48eecd07457caf30c64dd00e206482b0c7086dc",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-709db7ad43fce6.json",
+                  "sha256": "4d9dfc5d5bde667f89ab480aa5fa0b0e07197ae4e2279802b3b0dc8b9aac14f8",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-ca4ccd0bb2ef9d.npy",
+                  "sha256": "8176f09564f4a15e29f7c208d385b92256949036187ad5b31e16af333bf4263c",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-b3e73920573c6b.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.03808798324128734,
+            "bootstrap_ci": [
+              -0.5493662069911476,
+              0.45763761747618464
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.0888719608963372,
+                "CI95": [
+                  -0.3230818344260285,
+                  0.14612731072450205
+                ]
+              },
+              "R@5": {
+                "diff": 0.1967879134133181,
+                "CI95": [
+                  -0.07621134685294409,
+                  0.4681950718244463
+                ]
+              },
+              "R@10": {
+                "diff": -0.16504792737891194,
+                "CI95": [
+                  -0.43436678474427276,
+                  0.10833478110429531
+                ]
+              },
+              "R@100": {
+                "diff": 0.019043991620643685,
+                "CI95": [
+                  -0.1465446817596437,
+                  0.18551161949160633
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7fb58bdc50fe23e54739fd841dcd02721c75c4d36ae12bc01e9a1047f4ad62a6",
+            "n_query": 15753,
+            "n_video": 4430,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-2c20f5d34d9852.npy",
+                "sha256": "ed3c3c20c8c180bef9e8845d8e80b183e5f3bd12a6e37dba9f8413798cb1955b",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-e09edfaa1e8313.json",
+                  "sha256": "ffb86be4a2f756f88db2971c1677255b45e01eff6040ac55f09c211971e7b26d",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-de4cbeb83b8bcf.npy",
+                  "sha256": "d4b58ed97126f2a1b54581a35fc8819216da94f13d8593898d1b3e0b07390662",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-eea310b9ca7965.json",
+                "sha256": "08ac06bf1b913a4ca719cc5ec91e099018be4d79cbcf33a21b2b304dc891c77f",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      },
+      "charades": {
+        "diff": -0.4659498207885305,
+        "mean_diff": -0.4659498207885305,
+        "delta_s": [
+          -1.1559139784946237,
+          -0.10752688172043012,
+          -0.13440860215053763
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "bootstrap_ci": {
+          "9527": [
+            -2.2336184219984094,
+            -0.13140087256923824
+          ],
+          "20261024": [
+            -1.1934187122444169,
+            1.0503138366481226
+          ],
+          "20261025": [
+            -1.2192719035522954,
+            0.9426807526448336
+          ]
+        },
+        "per_seed": {
+          "9527": {
+            "diff": -1.1559139784946237,
+            "bootstrap_ci": [
+              -2.2336184219984094,
+              -0.13140087256923824
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": -0.10752688172043011,
+                "CI95": [
+                  -0.37675934217363866,
+                  0.16035495921236073
+                ]
+              },
+              "R@5": {
+                "diff": 0.026881720430107527,
+                "CI95": [
+                  -0.44225053565776173,
+                  0.4897837472647042
+                ]
+              },
+              "R@10": {
+                "diff": -0.7795698924731183,
+                "CI95": [
+                  -1.2995310411028769,
+                  -0.23893782170499137
+                ]
+              },
+              "R@100": {
+                "diff": -0.2956989247311828,
+                "CI95": [
+                  -0.9518997754037418,
+                  0.34493053121710776
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-787adc60228537.npy",
+                "sha256": "5d0437961fee5751e41a91b6a944196dc3fb7ff4822f6ffd4ec24c4d3fc7d6d8",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-213275b73fcadf.json",
+                  "sha256": "27992e5862a3b2f1e1377211c11af051afa1e27cdd709c40cc3a3f042fc02f53",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-c239fe6636b4e5.npy",
+                  "sha256": "0908a17be0642ec0ced27c7ff1d9e730561949b8202d7618bdb58e9b0ae266a2",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-748ca8a972f786.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261024": {
+            "diff": -0.10752688172043012,
+            "bootstrap_ci": [
+              -1.1934187122444169,
+              1.0503138366481226
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.08064516129032258,
+                "CI95": [
+                  -0.26710473515248795,
+                  0.43110754935794876
+                ]
+              },
+              "R@5": {
+                "diff": 0.13440860215053763,
+                "CI95": [
+                  -0.3390521128517706,
+                  0.6145703243874784
+                ]
+              },
+              "R@10": {
+                "diff": -0.16129032258064516,
+                "CI95": [
+                  -0.7386109040235873,
+                  0.39710425129890103
+                ]
+              },
+              "R@100": {
+                "diff": -0.16129032258064516,
+                "CI95": [
+                  -0.7584531913021185,
+                  0.45367288818837526
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-ccf85155c28a98.npy",
+                "sha256": "c91e1d8b247aea6246696182c552f7f2f6d73f9d9a10ac3e28aeaffb225eaf86",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-d8fe14dd4922f9.json",
+                  "sha256": "79e6fd531d01fc302bd881e95f99a8830e52e0d104e32aa20b8285003c74c7f3",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-b86f455a1bcc98.npy",
+                  "sha256": "62688ee213d2dde6db46992aa3cc81069456632e258a59d8f00c5d99057b089f",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-a868d70917ce3c.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          },
+          "20261025": {
+            "diff": -0.13440860215053763,
+            "bootstrap_ci": [
+              -1.2192719035522954,
+              0.9426807526448336
+            ],
+            "by_metric": {
+              "R@1": {
+                "diff": 0.0,
+                "CI95": [
+                  -0.2651360378170966,
+                  0.24935444616506205
+                ]
+              },
+              "R@5": {
+                "diff": -0.21505376344086022,
+                "CI95": [
+                  -0.7183297630712613,
+                  0.2753322921683933
+                ]
+              },
+              "R@10": {
+                "diff": 0.0,
+                "CI95": [
+                  -0.5533240820899323,
+                  0.5364382612339987
+                ]
+              },
+              "R@100": {
+                "diff": 0.08064516129032258,
+                "CI95": [
+                  -0.5440204766005478,
+                  0.7204662642196802
+                ]
+              }
+            },
+            "reps": 2000,
+            "seed": 20261023,
+            "method": "linear",
+            "shared_draws_sha256": "7eb6ac6fa6b1876f55752975c66ee1d39e6be668ab2c778b98f910ae7ca50366",
+            "n_query": 3720,
+            "n_video": 1334,
+            "source": {
+              "baseline": {
+                "path": "<WORK>/file-ec8a1c9a84768c.npy",
+                "sha256": "013076bbe29b8791d63d1ad1a872f223f3c0ab1830b9716253254d07fb03e0c5",
+                "producer": "slot-matched result",
+                "role": "uncompressed Dual-Clip after successful original 0.5/0.5 reproduction gate",
+                "kind": "derived_current_analysis"
+              },
+              "compressed": {
+                "result": {
+                  "path": "<WORK>/file-c1f7c7d994da7a.json",
+                  "sha256": "19f0d4878d5032639f925316a1797340be63fdd6a7a77d7d683f07cbca2fa4c4",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 metrics",
+                  "kind": "derived_current_analysis"
+                },
+                "ranks": {
+                  "path": "<WORK>/file-2b3b19cbe5ec13.npy",
+                  "sha256": "0ace0611e5dc514f5597012756f95324eca441306674520a8aabb0b65e618783",
+                  "producer": "slot-matched result",
+                  "role": "DualClip per-branch Ward-16 positive ranks",
+                  "kind": "derived_current_analysis"
+                }
+              },
+              "ids": {
+                "path": "<WORK>/file-8f1cadc0aaaaff.json",
+                "sha256": "3ce79400c72bdad4bf70ac34031818ed71e9cdfa7b318da20abe0337000ea44c",
+                "kind": "existing_file",
+                "field": "query_ids,video_ids"
+              }
+            },
+            "paired": true,
+            "unit": "positive video cluster"
+          }
+        },
+        "descriptive_only": true,
+        "mean_difference_interval": null,
+        "mean_difference_interval_note": "Only the three-seed mean point and per-seed paired video-cluster intervals were requested; no pooled or mean CI is invented."
+      }
+    },
+    "K8": {
+      "tvr": {
+        "diff": 6.9267247973076564,
+        "welch_ci": [
+          4.335781843241325,
+          9.517667751373988
+        ],
+        "df": 3.3391499987992463,
+        "standard_error": 0.8615868408299228,
+        "delta_s": [
+          5.507113354749862,
+          7.838458008260687,
+          7.434603028912363
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          185.46122074346027,
+          185.3510784763653,
+          186.76457090408445
+        ],
+        "published_WideClipOnly_SumR": [
+          179.9541073887104,
+          177.51262046810461,
+          179.3299678751721
+        ],
+        "compressed_dualclip_mean": 185.85895670797004,
+        "published_WideClipOnly_mean": 178.93223191066238,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/tvr"
+        },
+        "direction": "positive"
+      },
+      "activitynet": {
+        "diff": 4.422438054127269,
+        "welch_ci": [
+          3.381023656110712,
+          5.463852452143827
+        ],
+        "df": 3.8420445372534453,
+        "standard_error": 0.36902805367622904,
+        "delta_s": [
+          4.0309782263695695,
+          5.167269726401287,
+          4.069066209610867
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          153.39300450707802,
+          154.14206817749,
+          154.02780422776613
+        ],
+        "published_WideClipOnly_SumR": [
+          149.36202628070845,
+          148.9747984510887,
+          149.95873801815526
+        ],
+        "compressed_dualclip_mean": 153.8542923041114,
+        "published_WideClipOnly_mean": 149.43185424998413,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/activitynet"
+        },
+        "direction": "positive"
+      },
+      "charades": {
+        "diff": 1.8458781362007244,
+        "welch_ci": [
+          0.6618073452128685,
+          3.02994892718858
+        ],
+        "df": 3.285554753633465,
+        "standard_error": 0.3905823426111722,
+        "delta_s": [
+          1.1021505376344152,
+          2.849462365591407,
+          1.5860215053763511
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "compressed_dualclip_SumR": [
+          76.96236559139786,
+          77.55376344086022,
+          76.93548387096774
+        ],
+        "published_WideClipOnly_SumR": [
+          75.86021505376344,
+          74.70430107526882,
+          75.34946236559139
+        ],
+        "compressed_dualclip_mean": 77.15053763440861,
+        "published_WideClipOnly_mean": 75.30465949820788,
+        "independent_seed_samples": true,
+        "seed_identifier_differences_are_not_a_paired_test": true,
+        "descriptive_only": true,
+        "nominal_vectors_per_video": 16,
+        "reference_vectors_per_video": 32,
+        "source": {
+          "path": "results/rq1_branch_controls/RESULTS.json",
+          "sha256": "c43a96792285db64c3e48e89c037a255eb449c6736d83d75b0638fb31e259100",
+          "kind": "git_blob",
+          "field": "runs/WideClipOnly/charades"
+        },
+        "direction": "positive"
+      }
+    }
+  },
+  "wording": {
+    "K6": {
+      "rule": "TVR_and_ActivityNet_strictly_positive",
+      "text": "With parameters and stored vectors both matched (32 per video), two same-granularity branches outperform a single widened branch.",
+      "datasets": {
+        "tvr": {
+          "direction": "positive",
+          "diff": 8.441180969863836,
+          "welch_ci": [
+            5.849555732140573,
+            11.0328062075871
+          ],
+          "text": "tvr: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 8.441181, Welch 95% CI [5.849556, 11.032806])."
+        },
+        "activitynet": {
+          "direction": "positive",
+          "diff": 4.48591802619606,
+          "welch_ci": [
+            3.4092639180947835,
+            5.562572134297337
+          ],
+          "text": "activitynet: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 4.485918, Welch 95% CI [3.409264, 5.562572])."
+        },
+        "charades": {
+          "direction": "positive",
+          "diff": 2.5179211469534124,
+          "welch_ci": [
+            1.2127265865676538,
+            3.823115707339171
+          ],
+          "text": "charades: Dual-Clip with Ward-16 per branch outperformed the widened single branch (difference 2.517921, Welch 95% CI [1.212727, 3.823116])."
+        }
+      },
+      "charades_reported_separately": true,
+      "allowed_section_title": "parameter- and slot-matched",
+      "no_equivalence_claim": true,
+      "descriptive_K7_K8_do_not_change_K6_rule": true
+    }
+  },
+  "parameters": {
+    "tvr": {
+      "B0": 32273440,
+      "ClipOnly": 17086496,
+      "DualClip": 32236480,
+      "SparseFrame": 32236480,
+      "TrainedPool": 32273440,
+      "WideClipOnly": 32238872,
+      "DreamPRVR": 37622976,
+      "DreamClipOnly": 22287424
+    },
+    "activitynet": {
+      "B0": 30791200,
+      "ClipOnly": 16394784,
+      "DualClip": 30754240,
+      "SparseFrame": 30754240,
+      "TrainedPool": 30791200,
+      "WideClipOnly": 30753552,
+      "DreamPRVR": 36139200,
+      "DreamClipOnly": 21594176
+    },
+    "charades": {
+      "B0": 30791200,
+      "ClipOnly": 16394784,
+      "DualClip": 30754240,
+      "SparseFrame": 30754240,
+      "TrainedPool": 30791200,
+      "WideClipOnly": 30753552,
+      "DreamPRVR": 36139968,
+      "DreamClipOnly": 21594944
+    }
+  },
+  "resource": {
+    "training": false,
+    "parameter_updates": 0,
+    "CPU_threads_per_process": 4,
+    "maximum_simultaneous_CPU_compute_threads": 12,
+    "inference_GPU_only": 2,
+    "inference_units": [
+      "tvr/9527",
+      "tvr/20261024",
+      "tvr/20261025",
+      "activitynet/9527",
+      "activitynet/20261024",
+      "activitynet/20261025",
+      "charades/9527",
+      "charades/20261024",
+      "charades/20261025"
+    ],
+    "compression_device": "CPU",
+    "scoring_device": "CPU",
+    "statistics_device": "CPU",
+    "nice": 19,
+    "ionice_class": 3,
+    "new_inference_reason": "Original official runs saved scores/ranks but no per-video clip/query encoding caches."
+  },
+  "source_keys": {
+    "old_metrics": "INPUTS.json:inputs <REVISION> RESULTS.json, field runs/<method>/<dataset>/<seed>",
+    "compressed_metrics": "runs/DualClip_k*/<dataset>/<seed>/source",
+    "contrasts": "statistics.py; unchanged <REVISION> Welch/bootstrap functions; inputs above"
+  }
+}

@@ -1,0 +1,1777 @@
+{
+  "status": "PASS",
+  "method": "HLFormer",
+  "dataset": "charades",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-e571c0027e00e1.ckpt",
+      "bytes": 341480467,
+      "mtime_ns": 1793380127769517571,
+      "sha256": "9dc7b24f5c4cb4488fc6fdbf563ef69512269626871594a7a2e619f2099266c0"
+    },
+    "checkpoint_epoch": 27,
+    "checkpoint_keys": [
+      "config",
+      "epoch",
+      "model_val",
+      "state_dict",
+      "optimizer"
+    ],
+    "checkpoint_model_val": [
+      2.6344086021505375,
+      8.494623655913978,
+      13.655913978494624,
+      53.95161290322581,
+      78.73655913978494
+    ],
+    "source_config": "<WORK>/file-f6661b6c78566c.py",
+    "checkpoint_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "charades",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d_rgb_lgi",
+      "collection": "charades",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-364f918ccd8a9d",
+      "ckpt_path": "<RELEASED>/file-28b350c2483406",
+      "sft_factor": 0.6,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.0002,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        0.003,
+        0.001
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.25,
+      "drop": 0.25,
+      "initializer_range": 0.02,
+      "attention_num": 8,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "effective_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "charades",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d_rgb_lgi",
+      "collection": "charades",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-364f918ccd8a9d",
+      "ckpt_path": "<RELEASED>/file-28b350c2483406",
+      "sft_factor": 0.6,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.0002,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        0.003,
+        0.001
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.25,
+      "drop": 0.25,
+      "initializer_range": 0.02,
+      "attention_num": 8,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 0,
+    "num_workers": 0,
+    "parameters": 28429244,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 157
+      },
+      "encode_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 146
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 259
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 235
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 259
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 126
+      },
+      "collate_text": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 145
+      }
+    }
+  },
+  "encoding": {
+    "seconds": 82.23766054899897,
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-4c05c874fcb820.npy",
+        "bytes": 262275200,
+        "mtime_ns": 1793383591299901084,
+        "sha256": "ee5ce7c382bf4b00a5a4ca58b189153f797dae0ceddff3114bf938e3f19a1cf3"
+      },
+      "clips": {
+        "path": "<WORK>/file-039d4b98e55ce3.npy",
+        "bytes": 65568896,
+        "mtime_ns": 1793383591305901002,
+        "sha256": "8078304635f9faff61aef756f57a9380831c62e961eb3af3ba9ba95f52c97c69"
+      },
+      "mask": {
+        "path": "<WORK>/file-f0e79c5ae1b818.npy",
+        "bytes": 170880,
+        "mtime_ns": 1793383591305901002,
+        "sha256": "14a350c3a36019f64bffd975a9f33df96c81e638611c67588ba0562e45598a03"
+      },
+      "query": {
+        "path": "<WORK>/file-25b95410d632cf.npy",
+        "bytes": 5714048,
+        "mtime_ns": 1793383594479857628,
+        "sha256": "97f5e9bd6df3d26f45beaa15e871554dd7f89bbb695372fd8ddd549ea4b5c420"
+      }
+    },
+    "frames_length_min": 21,
+    "frames_length_max": 128
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 2.6344086021505375,
+        "R@5": 8.494623655913978,
+        "R@10": 13.655913978494624,
+        "R@100": 53.95161290322581,
+        "SumR": 78.73655913978494
+      },
+      "hit_counts": {
+        "R@1": 98,
+        "R@5": 316,
+        "R@10": 508,
+        "R@100": 2007
+      },
+      "ranks": {
+        "path": "<WORK>/file-11ebe0843135c7.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383653370186158,
+        "sha256": "f164b66cef7855f628a29eb64e0fbd1a8825b62c4067138fa46ab3378659ecb7"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 2.1774193548387095,
+          "R@5": 7.849462365591398,
+          "R@10": 13.655913978494624,
+          "R@100": 52.82258064516129,
+          "SumR": 76.50537634408602
+        },
+        "hit_counts": {
+          "R@1": 81,
+          "R@5": 292,
+          "R@10": 508,
+          "R@100": 1965
+        },
+        "ranks": {
+          "path": "<WORK>/file-c2b44804d37396.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383653711419172,
+          "sha256": "ee4eded9f96291e061dfba3d14c90d384ee5063bce8c72794dcb9c286cf0efe8"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 2.3655913978494625,
+          "R@5": 7.849462365591398,
+          "R@10": 13.655913978494624,
+          "R@100": 52.284946236559136,
+          "SumR": 76.15591397849462
+        },
+        "hit_counts": {
+          "R@1": 88,
+          "R@5": 292,
+          "R@10": 508,
+          "R@100": 1945
+        },
+        "ranks": {
+          "path": "<WORK>/file-203e6ec8f9c16d.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383654007515714,
+          "sha256": "fd9e3aefb253ce6404f6a57df92cdba8439a5858f9010739638eee4e842d08de"
+        }
+      },
+      "nominal_vectors": 160,
+      "mean_actual_vectors": 160.0,
+      "mean_valid_vectors": 119.57946026986507,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-1dfaea4db82954.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383652945058740,
+          "sha256": "4fbfceed211b33e1b7adb7af837fb0a35e7e3cfd69a9669acff36141ccba5379"
+        },
+        "frame": {
+          "path": "<WORK>/file-312ba2f9fac7a1.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383652946058726,
+          "sha256": "cd3e21ac0c0e14865595f718d3422d3f37d8f3c7104d7f7fa1b795f9d721cc79"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 58.777492945082486,
+      "unchanged_branch_reused": null,
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 0.0
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 2.60752688172043,
+        "R@5": 8.279569892473118,
+        "R@10": 14.112903225806452,
+        "R@100": 53.60215053763441,
+        "SumR": 78.6021505376344
+      },
+      "hit_counts": {
+        "R@1": 97,
+        "R@5": 308,
+        "R@10": 525,
+        "R@100": 1994
+      },
+      "ranks": {
+        "path": "<WORK>/file-d0720efa24b307.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383666905324088,
+        "sha256": "ec4f010d7336f2199f6f22dc1819b6420447f95f1fe99361a773f05b1a7e51f4"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 2.1774193548387095,
+          "R@5": 7.849462365591398,
+          "R@10": 13.655913978494624,
+          "R@100": 52.82258064516129,
+          "SumR": 76.50537634408602
+        },
+        "hit_counts": {
+          "R@1": 81,
+          "R@5": 292,
+          "R@10": 508,
+          "R@100": 1965
+        },
+        "ranks": {
+          "path": "<WORK>/file-f97faf5a2726d6.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383667240469448,
+          "sha256": "ee4eded9f96291e061dfba3d14c90d384ee5063bce8c72794dcb9c286cf0efe8"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 2.2580645161290325,
+          "R@5": 7.93010752688172,
+          "R@10": 13.25268817204301,
+          "R@100": 51.18279569892473,
+          "SumR": 74.6236559139785
+        },
+        "hit_counts": {
+          "R@1": 84,
+          "R@5": 295,
+          "R@10": 493,
+          "R@100": 1904
+        },
+        "ranks": {
+          "path": "<WORK>/file-b33118f70d249c.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383667572503908,
+          "sha256": "ee809c89aca89a945bac0f4eaa3477e02aeb63458261be029d4072a71102d3ff"
+        }
+      },
+      "nominal_vectors": 40,
+      "mean_actual_vectors": 40.0,
+      "mean_valid_vectors": 40.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 8.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-f7a65d77e9567a.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383666449874226,
+          "sha256": "4fbfceed211b33e1b7adb7af837fb0a35e7e3cfd69a9669acff36141ccba5379"
+        },
+        "frame": {
+          "path": "<WORK>/file-a9b0c3d1444db7.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383666449874226,
+          "sha256": "c7a9c64684253cdd651070c949ca73a2c9d5e27fbd2e90b6cb7964ab23cb9fc9"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 8.331072582979687,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.4901161193847656e-07,
+      "delta_SumR": -0.1344086021505433
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 2.60752688172043,
+        "R@5": 8.655913978494624,
+        "R@10": 14.166666666666666,
+        "R@100": 53.68279569892473,
+        "SumR": 79.11290322580645
+      },
+      "hit_counts": {
+        "R@1": 97,
+        "R@5": 322,
+        "R@10": 527,
+        "R@100": 1997
+      },
+      "ranks": {
+        "path": "<WORK>/file-a13c0b5a21decc.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383676733716936,
+        "sha256": "5e27514ee9c8b1f6fec48f4e9197992961b9002a14f763b021cf10ec3417baef"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 2.1774193548387095,
+          "R@5": 7.849462365591398,
+          "R@10": 13.655913978494624,
+          "R@100": 52.82258064516129,
+          "SumR": 76.50537634408602
+        },
+        "hit_counts": {
+          "R@1": 81,
+          "R@5": 292,
+          "R@10": 508,
+          "R@100": 1965
+        },
+        "ranks": {
+          "path": "<WORK>/file-cc443d7c9420b3.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383677059164192,
+          "sha256": "ee4eded9f96291e061dfba3d14c90d384ee5063bce8c72794dcb9c286cf0efe8"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 2.150537634408602,
+          "R@5": 7.849462365591398,
+          "R@10": 12.903225806451612,
+          "R@100": 51.854838709677416,
+          "SumR": 74.75806451612902
+        },
+        "hit_counts": {
+          "R@1": 80,
+          "R@5": 292,
+          "R@10": 480,
+          "R@100": 1929
+        },
+        "ranks": {
+          "path": "<WORK>/file-af39228872a852.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383677383877785,
+          "sha256": "1634da1002cfd0b07e236e0937d634a42576b5b365218a085d608619921f42fa"
+        }
+      },
+      "nominal_vectors": 48,
+      "mean_actual_vectors": 48.0,
+      "mean_valid_vectors": 48.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 16.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-cc6eb0bdf04f2c.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383676305739570,
+          "sha256": "4fbfceed211b33e1b7adb7af837fb0a35e7e3cfd69a9669acff36141ccba5379"
+        },
+        "frame": {
+          "path": "<WORK>/file-f1a2cad2d5ddfb.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383676305739570,
+          "sha256": "3da831561f1f85924f64523ebd7c37311064e6f98bb17dc742def188718063ba"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 9.811163458041847,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 2.086162567138672e-07,
+      "delta_SumR": 0.37634408602150415
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 2.6881720430107525,
+        "R@5": 8.682795698924732,
+        "R@10": 13.763440860215054,
+        "R@100": 53.79032258064516,
+        "SumR": 78.9247311827957
+      },
+      "hit_counts": {
+        "R@1": 100,
+        "R@5": 323,
+        "R@10": 512,
+        "R@100": 2001
+      },
+      "ranks": {
+        "path": "<WORK>/file-f7a7bc903f1be5.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383690709427220,
+        "sha256": "2ad53e21a49f9ef303bb636b2ca26f8184bb82eb4fc487c2633569bccdac500e"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 2.1774193548387095,
+          "R@5": 7.849462365591398,
+          "R@10": 13.655913978494624,
+          "R@100": 52.82258064516129,
+          "SumR": 76.50537634408602
+        },
+        "hit_counts": {
+          "R@1": 81,
+          "R@5": 292,
+          "R@10": 508,
+          "R@100": 1965
+        },
+        "ranks": {
+          "path": "<WORK>/file-371a2b1baec89e.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383691043139244,
+          "sha256": "ee4eded9f96291e061dfba3d14c90d384ee5063bce8c72794dcb9c286cf0efe8"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 2.5,
+          "R@5": 7.71505376344086,
+          "R@10": 13.172043010752688,
+          "R@100": 52.365591397849464,
+          "SumR": 75.75268817204301
+        },
+        "hit_counts": {
+          "R@1": 93,
+          "R@5": 287,
+          "R@10": 490,
+          "R@100": 1948
+        },
+        "ranks": {
+          "path": "<WORK>/file-e132a700b051b9.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383691380616704,
+          "sha256": "10f786b9edb4d995724d859d7ca45c728a076ff5ca51d3785920bb711f0c9252"
+        }
+      },
+      "nominal_vectors": 64,
+      "mean_actual_vectors": 64.0,
+      "mean_valid_vectors": 64.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-0395052a0205cd.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383690216549521,
+          "sha256": "4fbfceed211b33e1b7adb7af837fb0a35e7e3cfd69a9669acff36141ccba5379"
+        },
+        "frame": {
+          "path": "<WORK>/file-b96b70588abbf8.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383690216549521,
+          "sha256": "013000a794d119695103a0974f1d4decbfe280d66b56997b6751c64c46a59f4e"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 14.018350432976149,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.7881393432617188e-07,
+      "delta_SumR": 0.18817204301075208
+    },
+    {
+      "configuration": "clip8_frame8",
+      "metrics": {
+        "R@1": 2.5268817204301075,
+        "R@5": 7.876344086021505,
+        "R@10": 13.709677419354838,
+        "R@100": 52.983870967741936,
+        "SumR": 77.09677419354838
+      },
+      "hit_counts": {
+        "R@1": 94,
+        "R@5": 293,
+        "R@10": 510,
+        "R@100": 1971
+      },
+      "ranks": {
+        "path": "<WORK>/file-d365cb0c5735d3.npy",
+        "bytes": 15008,
+        "mtime_ns": 1793383695107702648,
+        "sha256": "62a72389a1a6531919837280ddf53dc4200367fecb7651a17c1e1e6a1b3d283f"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 2.3655913978494625,
+          "R@5": 7.5,
+          "R@10": 13.25268817204301,
+          "R@100": 52.17741935483871,
+          "SumR": 75.29569892473118
+        },
+        "hit_counts": {
+          "R@1": 88,
+          "R@5": 279,
+          "R@10": 493,
+          "R@100": 1941
+        },
+        "ranks": {
+          "path": "<WORK>/file-0429ffcb6bf136.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383695444478100,
+          "sha256": "ae00ceb7af78f779d711c22b996eb8b48069a4eb94d97091dea56a1e26535eac"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 2.2580645161290325,
+          "R@5": 7.93010752688172,
+          "R@10": 13.25268817204301,
+          "R@100": 51.18279569892473,
+          "SumR": 74.6236559139785
+        },
+        "hit_counts": {
+          "R@1": 84,
+          "R@5": 295,
+          "R@10": 493,
+          "R@100": 1904
+        },
+        "ranks": {
+          "path": "<WORK>/file-adfaceb26c3a83.npy",
+          "bytes": 15008,
+          "mtime_ns": 1793383695781313553,
+          "sha256": "ee809c89aca89a945bac0f4eaa3477e02aeb63458261be029d4072a71102d3ff"
+        }
+      },
+      "nominal_vectors": 16,
+      "mean_actual_vectors": 16.0,
+      "mean_valid_vectors": 16.0,
+      "mean_clip_vectors": 8.0,
+      "mean_frame_vectors": 8.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-038bfec42f6a90.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383694669488687,
+          "sha256": "6cbec9f8f6f8256529723fb83ae0d4e21a0b3f0e5aceb9aac94dc96a153f8fde"
+        },
+        "frame": {
+          "path": "<WORK>/file-8739b43535b2a2.npy",
+          "bytes": 19850048,
+          "mtime_ns": 1793383694669488687,
+          "sha256": "c7a9c64684253cdd651070c949ca73a2c9d5e27fbd2e90b6cb7964ab23cb9fc9"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 4.373617229051888,
+      "unchanged_branch_reused": "frame",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.4901161193847656e-07,
+      "delta_SumR": -1.63978494623656
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-fc53671ea0c910.md",
+      "line": 107,
+      "text": "| Charades-STA | 2.6 | 8.5 | 13.7 | 54.0 | 78.7 |[Google drive](https://drive.google.com/file/d/1rwM7c63hGFWFENfWDOdnu-Pitzy9NOZJ/view?usp=sharing) |",
+      "metrics": {
+        "R@1": 2.6,
+        "R@5": 8.5,
+        "R@10": 13.7,
+        "R@100": 54.0,
+        "SumR": 78.7
+      }
+    },
+    "delta_vs_README": {
+      "R@1": 0.034408602150537426,
+      "R@5": -0.005376344086021945,
+      "R@10": -0.04408602150537533,
+      "R@100": -0.04838709677419217,
+      "SumR": 0.03655913978494141
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-ce734422f81644.npy",
+      "counts": "<WORK>/file-51338a7cd11ddb.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-c2431c062703e6.npy",
+      "counts": "<WORK>/file-2dc10bb88e2b5d.npy",
+      "min_vectors": 16,
+      "max_vectors": 16,
+      "mean_vectors": 16.0
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-9a9b737db094f2.npy",
+      "counts": "<WORK>/file-9d03964f919a23.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    },
+    "clip_Ward8": {
+      "vectors": "<WORK>/file-0a182de6d67286.npy",
+      "counts": "<WORK>/file-756d9b7472678d.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    }
+  },
+  "queries": 3720,
+  "videos": 1334,
+  "id_order": {
+    "path": "<WORK>/file-a5efa5dcfdbb81.json",
+    "bytes": 88071,
+    "mtime_ns": 1793383512277137778,
+    "sha256": "e8201a61452186cda130816370dd95e34b9687c8301e99f9abe2eb0a384cabce"
+  },
+  "probe": {
+    "path": "<WORK>/file-29b45ee687b287.json",
+    "bytes": 4981,
+    "mtime_ns": 1793382341490347268,
+    "sha256": "fe86af5feeef1c2642652857a18ed7fa5701466b84e69b13be3eb365e908021e"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ]
+    ],
+    "seconds": 193.90818149398547,
+    "peak_RSS_MiB": 2516.69921875
+  }
+}

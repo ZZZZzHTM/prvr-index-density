@@ -1,0 +1,809 @@
+{
+  "status": "PASS",
+  "method": "SDM",
+  "dataset": "activitynet",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-60faba337c3be1.ckpt",
+      "bytes": 309063148,
+      "mtime_ns": 1793381580548912265,
+      "sha256": "834e748618220c2af33a3175e7ed3559b5a2bba8c95cf9b6ceec7b49f1a73050"
+    },
+    "checkpoint_epoch": 96,
+    "checkpoint_keys": [
+      "config",
+      "epoch",
+      "model_val",
+      "state_dict",
+      "optimizer"
+    ],
+    "checkpoint_model_val": [
+      9.09033200025392,
+      27.347171967244336,
+      40.36056624135085,
+      79.79432489049705,
+      156.59239509934616
+    ],
+    "source_config": "<WORK>/file-5aa740dd3cdd70.py",
+    "checkpoint_config": {
+      "model_name": "Bridge_Sementic_Granularity_2",
+      "dataset_name": "activitynet",
+      "seed": 9527,
+      "root": "<WORK>/file-3dd3eaf6274246",
+      "data_root": "<WORK>/file-f2ac96eb9ed97e",
+      "visual_feature": "i3d",
+      "collection": "activitynet",
+      "map_size": 32,
+      "map_size_fine": 16,
+      "clip_scale_w": 0.6,
+      "frame_scale_w": 0.4,
+      "model_root": "<WORK>/file-24f8e0043e417d",
+      "ckpt_path": "<WORK>/file-8fb178ccd511ae",
+      "tb_dir": "<WORK>/file-24f8e0043e417d",
+      "sft_factor": 0.6,
+      "num_workers": 8,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 20,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        2.0,
+        0.003,
+        0.11,
+        0.01,
+        0.05
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.31,
+      "drop": 0.31,
+      "initializer_range": 0.02,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "effective_config": {
+      "model_name": "Bridge_Sementic_Granularity_2",
+      "dataset_name": "activitynet",
+      "seed": 9527,
+      "root": "<WORK>/file-3dd3eaf6274246",
+      "data_root": "<WORK>/file-f2ac96eb9ed97e",
+      "visual_feature": "i3d",
+      "collection": "activitynet",
+      "map_size": 32,
+      "map_size_fine": 16,
+      "clip_scale_w": 0.6,
+      "frame_scale_w": 0.4,
+      "model_root": "<WORK>/file-24f8e0043e417d",
+      "ckpt_path": "<WORK>/file-8fb178ccd511ae",
+      "tb_dir": "<WORK>/file-24f8e0043e417d",
+      "sft_factor": 0.6,
+      "num_workers": 8,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 20,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        2.0,
+        0.003,
+        0.11,
+        0.01,
+        0.05
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.31,
+      "drop": 0.31,
+      "initializer_range": 0.02,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 9527,
+    "num_workers": 0,
+    "parameters": 25732271,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-1ac3181683807c.py",
+        "line": 125
+      },
+      "encode_query": {
+        "file": "<WORK>/file-1ac3181683807c.py",
+        "line": 113
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-1ac3181683807c.py",
+        "line": 198
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-1ac3181683807c.py",
+        "line": 174
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-6e92db12248ddb.py",
+        "line": 261
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-6e92db12248ddb.py",
+        "line": 125
+      },
+      "collate_text": {
+        "file": "<WORK>/file-6e92db12248ddb.py",
+        "line": 146
+      },
+      "frame_score": {
+        "file": "<WORK>/file-3d5d78c27cfaf1.py",
+        "line": 161
+      },
+      "frame_get_scores_batch": {
+        "file": "<WORK>/file-3d5d78c27cfaf1.py",
+        "line": 105
+      },
+      "slot_queries": {
+        "file": "<WORK>/file-055ed4f285cb0a.py",
+        "line": 36
+      }
+    }
+  },
+  "encoding": {
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-4684819423c45c.npy",
+        "bytes": 870973568,
+        "mtime_ns": 1793388915183153510,
+        "sha256": "48cc1bcfe03e32dd12a1d9d940028b1f5d78fd424235d34e2c9db70d694b59fc"
+      },
+      "clips": {
+        "path": "<WORK>/file-054ecb2f0145d4.npy",
+        "bytes": 217743488,
+        "mtime_ns": 1793388915186153371,
+        "sha256": "c4cbf0611938691fea77e636f92b1084efba87876ecd0fd00bb2ee9e425d6f70"
+      },
+      "mask": {
+        "path": "<WORK>/file-ce07c0aefd5300.npy",
+        "bytes": 567168,
+        "mtime_ns": 1793388915186153371,
+        "sha256": "37084ec7eaf615b3edb8eb8e5d0e09293c79620694a0423bba08b00bf9fb312f"
+      },
+      "query": {
+        "path": "<WORK>/file-01e85b09848dd6.npy",
+        "bytes": 24196736,
+        "mtime_ns": 1793388941589952043,
+        "sha256": "3da65f1575442df7a3947a1e5f373686c77f545af50207f8bfbb8720fbd582d6"
+      },
+      "slots": {
+        "path": "<WORK>/file-2e420fe1164562.npy",
+        "bytes": 120983168,
+        "mtime_ns": 1793388941589952043,
+        "sha256": "5e98d527903e703f5521d502ae2f8389cb0c9659e61dda25d9cdbc6c60bac7c5"
+      }
+    },
+    "frames_length_min": 2,
+    "frames_length_max": 128,
+    "recovered_complete_cache": true,
+    "encoder_forwards_this_resume": 0,
+    "original_scores_reused": true
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 9.020504030978227,
+        "R@5": 27.302735986796165,
+        "R@10": 40.31613026090268,
+        "R@100": 79.70545292960071,
+        "SumR": 156.34482320827777
+      },
+      "hit_counts": {
+        "R@1": 1421,
+        "R@5": 4301,
+        "R@10": 6351,
+        "R@100": 12556
+      },
+      "ranks": {
+        "path": "<WORK>/file-80ba169b8bdf94.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793389343755344797,
+        "sha256": "ad4749fdf82860cc4dcb849473bd04edf35a13ea7ba0e2ae6c225261b2b945bf"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.538056243255253,
+          "R@5": 26.60445629403923,
+          "R@10": 39.19888275249159,
+          "R@100": 78.56916142956896,
+          "SumR": 152.91055671935504
+        },
+        "hit_counts": {
+          "R@1": 1345,
+          "R@5": 4191,
+          "R@10": 6175,
+          "R@100": 12377
+        },
+        "ranks": {
+          "path": "<WORK>/file-1b71d5e94a0c55.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793389348700301289,
+          "sha256": "667f350fe79ca77efdc07f6aa3d44fefafe0f55834fd1d3f8f4a403d2390d470"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 6.944708944328064,
+          "R@5": 23.163841807909606,
+          "R@10": 35.675744302672506,
+          "R@100": 76.58223830381515,
+          "SumR": 142.36653335872532
+        },
+        "hit_counts": {
+          "R@1": 1094,
+          "R@5": 3649,
+          "R@10": 5620,
+          "R@100": 12064
+        },
+        "ranks": {
+          "path": "<WORK>/file-0bd6857459f3e2.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793389353763092082,
+          "sha256": "1f8429fac2d37bc5566d6499e8c1aa77c7a780bf09760232402f392f4fac7df6"
+        }
+      },
+      "nominal_vectors": 160,
+      "mean_actual_vectors": 160.0,
+      "mean_valid_vectors": 140.66749435665915,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-257c2437b2febc.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793389335431871159,
+          "sha256": "1e7860f4d91407db93f0b5d4513741f8afcd731fc23dc251fdcc7b4007932003"
+        },
+        "frame": {
+          "path": "<WORK>/file-143f07acc0356e.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793389335434871073,
+          "sha256": "d6d30814a50da6c716430275d77e6b44716f7ccff1ca2d46cc53e3c3d7370d41"
+        }
+      },
+      "fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "seconds": 409.3286932329647,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": null,
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.4901161193847656e-07
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 8.436488287945153,
+        "R@5": 27.124992065003493,
+        "R@10": 39.75115850949025,
+        "R@100": 79.36900907763601,
+        "SumR": 154.68164794007492
+      },
+      "hit_counts": {
+        "R@1": 1329,
+        "R@5": 4273,
+        "R@10": 6262,
+        "R@100": 12503
+      },
+      "ranks": {
+        "path": "<WORK>/file-cdef4aab36c14a.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793391593892235460,
+        "sha256": "21256ca7ccde7d405b963dec29409a2cd73cfcab83c61718557c33c716ad77d8"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.538056243255253,
+          "R@5": 26.60445629403923,
+          "R@10": 39.19888275249159,
+          "R@100": 78.56916142956896,
+          "SumR": 152.91055671935504
+        },
+        "hit_counts": {
+          "R@1": 1345,
+          "R@5": 4191,
+          "R@10": 6175,
+          "R@100": 12377
+        },
+        "ranks": {
+          "path": "<WORK>/file-cdd441945cd0d8.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391598720012461,
+          "sha256": "667f350fe79ca77efdc07f6aa3d44fefafe0f55834fd1d3f8f4a403d2390d470"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 6.690789056052815,
+          "R@5": 22.459214117945788,
+          "R@10": 34.64102075795087,
+          "R@100": 75.62369072557608,
+          "SumR": 139.41471465752556
+        },
+        "hit_counts": {
+          "R@1": 1054,
+          "R@5": 3538,
+          "R@10": 5457,
+          "R@100": 11913
+        },
+        "ranks": {
+          "path": "<WORK>/file-69b4c95eaebd09.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391603448307188,
+          "sha256": "5944515de41f392b1800e9889303b1e8bf9dc4bb3a94f3066a8b30013e40f2c6"
+        }
+      },
+      "nominal_vectors": 40,
+      "mean_actual_vectors": 39.992776523702034,
+      "mean_valid_vectors": 39.992776523702034,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 7.992776523702031,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-adc4d969718c2a.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391562885680425,
+          "sha256": "1e7860f4d91407db93f0b5d4513741f8afcd731fc23dc251fdcc7b4007932003"
+        },
+        "frame": {
+          "path": "<WORK>/file-8db4d2d390dce9.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391562889004696,
+          "sha256": "a142c79391089d8e683325759b4e90bb2f15ebf574cf75441c309dd5f83374a3"
+        }
+      },
+      "fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "seconds": 83.03356755198911,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 5.960464477539063e-08,
+      "delta_SumR": -1.663175268202849
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 8.487272265600204,
+        "R@5": 27.150384053831015,
+        "R@10": 40.01777439217927,
+        "R@100": 79.55310099663556,
+        "SumR": 155.20853170824603
+      },
+      "hit_counts": {
+        "R@1": 1337,
+        "R@5": 4277,
+        "R@10": 6304,
+        "R@100": 12532
+      },
+      "ranks": {
+        "path": "<WORK>/file-2d39ac28405757.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793391728518100453,
+        "sha256": "60e5d974476c66859b67b5b26e28635aeef19c2eb14229259ebad0bbafc5ac39"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.538056243255253,
+          "R@5": 26.60445629403923,
+          "R@10": 39.19888275249159,
+          "R@100": 78.56916142956896,
+          "SumR": 152.91055671935504
+        },
+        "hit_counts": {
+          "R@1": 1345,
+          "R@5": 4191,
+          "R@10": 6175,
+          "R@100": 12377
+        },
+        "ranks": {
+          "path": "<WORK>/file-96ca59a5cfd33e.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391733339725482,
+          "sha256": "667f350fe79ca77efdc07f6aa3d44fefafe0f55834fd1d3f8f4a403d2390d470"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 6.7225290420872215,
+          "R@5": 22.8273979559449,
+          "R@10": 35.32660445629404,
+          "R@100": 76.12518250491969,
+          "SumR": 141.00171395924588
+        },
+        "hit_counts": {
+          "R@1": 1059,
+          "R@5": 3596,
+          "R@10": 5565,
+          "R@100": 11992
+        },
+        "ranks": {
+          "path": "<WORK>/file-1b49095686b75f.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391738157926517,
+          "sha256": "cedeae7e29b0aa571cdaf50afd461dc496b649b5b83664b6689b0f2d01092b2a"
+        }
+      },
+      "nominal_vectors": 48,
+      "mean_actual_vectors": 47.91038374717833,
+      "mean_valid_vectors": 47.91038374717833,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 15.91038374717833,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-5a43d0c5dba08d.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391676955477854,
+          "sha256": "1e7860f4d91407db93f0b5d4513741f8afcd731fc23dc251fdcc7b4007932003"
+        },
+        "frame": {
+          "path": "<WORK>/file-d8c52622087701.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391676959477833,
+          "sha256": "3d0911eaaf7f72020d71c5115271f8315349089504ac35a1dcb325652abd25c6"
+        }
+      },
+      "fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "seconds": 134.8531512710033,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 5.960464477539063e-08,
+      "delta_SumR": -1.1362915000317457
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 8.601536215324066,
+        "R@5": 26.877420173935125,
+        "R@10": 39.833682473179714,
+        "R@100": 79.42614105249794,
+        "SumR": 154.73877991493686
+      },
+      "hit_counts": {
+        "R@1": 1355,
+        "R@5": 4234,
+        "R@10": 6275,
+        "R@100": 12512
+      },
+      "ranks": {
+        "path": "<WORK>/file-b8c463621d0dbf.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793391897492179148,
+        "sha256": "bb3c44bd5da2d7b18c071a6081dd82b43d86406b02b486ed4151583ba81b94a9"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.538056243255253,
+          "R@5": 26.60445629403923,
+          "R@10": 39.19888275249159,
+          "R@100": 78.56916142956896,
+          "SumR": 152.91055671935504
+        },
+        "hit_counts": {
+          "R@1": 1345,
+          "R@5": 4191,
+          "R@10": 6175,
+          "R@100": 12377
+        },
+        "ranks": {
+          "path": "<WORK>/file-f06fc939114313.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391902245791169,
+          "sha256": "667f350fe79ca77efdc07f6aa3d44fefafe0f55834fd1d3f8f4a403d2390d470"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 6.678093061639053,
+          "R@5": 22.6242620453247,
+          "R@10": 34.94572462388116,
+          "R@100": 76.00457055798896,
+          "SumR": 140.25265028883388
+        },
+        "hit_counts": {
+          "R@1": 1052,
+          "R@5": 3564,
+          "R@10": 5505,
+          "R@100": 11973
+        },
+        "ranks": {
+          "path": "<WORK>/file-5fe8897d4cf944.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391907099925983,
+          "sha256": "8a3d69ec4faaaf48ea1f704eb83e19e2f8723b1c0333df4469c1d8d7f35992dc"
+        }
+      },
+      "nominal_vectors": 64,
+      "mean_actual_vectors": 64.0,
+      "mean_valid_vectors": 64.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-57ad5161d9848c.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391850153376600,
+          "sha256": "1e7860f4d91407db93f0b5d4513741f8afcd731fc23dc251fdcc7b4007932003"
+        },
+        "frame": {
+          "path": "<WORK>/file-7c041a71ca2c63.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391850156376578,
+          "sha256": "5fdfee4cc1724f89f3a292a93a77ccde3b660c50e15aad306d8b0e77c96336ce"
+        }
+      },
+      "fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "seconds": 168.82340073399246,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.1920928955078125e-07,
+      "delta_SumR": -1.6060432933409174
+    },
+    {
+      "configuration": "clip8_frame8",
+      "metrics": {
+        "R@1": 8.322224338221291,
+        "R@5": 26.96629213483146,
+        "R@10": 39.70672252904209,
+        "R@100": 79.28648511394655,
+        "SumR": 154.2817241160414
+      },
+      "hit_counts": {
+        "R@1": 1311,
+        "R@5": 4248,
+        "R@10": 6255,
+        "R@100": 12490
+      },
+      "ranks": {
+        "path": "<WORK>/file-ead898cb1d4669.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793391960309598735,
+        "sha256": "ecdd8db651e84691207e2ef0124c763c1fd375c47da1c5df2cc131759263d423"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.150828413635498,
+          "R@5": 26.23627245604012,
+          "R@10": 39.12905478321589,
+          "R@100": 78.30254554687995,
+          "SumR": 151.81870119977145
+        },
+        "hit_counts": {
+          "R@1": 1284,
+          "R@5": 4133,
+          "R@10": 6164,
+          "R@100": 12335
+        },
+        "ranks": {
+          "path": "<WORK>/file-1ae853479582c7.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391965134775888,
+          "sha256": "6961849bd10eb2aa37580159cf786466c630a4baf8db2e08be07f735cb70a7f3"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 6.690789056052815,
+          "R@5": 22.459214117945788,
+          "R@10": 34.64102075795087,
+          "R@100": 75.62369072557608,
+          "SumR": 139.41471465752556
+        },
+        "hit_counts": {
+          "R@1": 1054,
+          "R@5": 3538,
+          "R@10": 5457,
+          "R@100": 11913
+        },
+        "ranks": {
+          "path": "<WORK>/file-d1e64baa0a81bc.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793391969928451978,
+          "sha256": "5944515de41f392b1800e9889303b1e8bf9dc4bb3a94f3066a8b30013e40f2c6"
+        }
+      },
+      "nominal_vectors": 16,
+      "mean_actual_vectors": 15.992776523702032,
+      "mean_valid_vectors": 15.992776523702032,
+      "mean_clip_vectors": 8.0,
+      "mean_frame_vectors": 7.992776523702031,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-3a4c15186fe29f.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391925128811015,
+          "sha256": "384a2724ab980fb1ffc02d865423b2a92a468c34811ed0057984d09aab9d4e05"
+        },
+        "frame": {
+          "path": "<WORK>/file-6b3623be538dac.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793391925133810976,
+          "sha256": "a142c79391089d8e683325759b4e90bb2f15ebf574cf75441c309dd5f83374a3"
+        }
+      },
+      "fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "seconds": 62.93422794097569,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "frame",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.0058283805847168e-07,
+      "delta_SumR": -2.063099092236371
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-ed3988e4058f40.md",
+      "line": 82,
+      "text": "| ActivityNet Captions | 9.1 | 27.3 | 40.4 | 79.8 | 156.6 |",
+      "metrics": {
+        "R@1": 9.1,
+        "R@5": 27.3,
+        "R@10": 40.4,
+        "R@100": 79.8,
+        "SumR": 156.6
+      }
+    },
+    "delta_vs_README": {
+      "R@1": -0.0794959690217727,
+      "R@5": 0.002735986796164269,
+      "R@10": -0.08386973909731665,
+      "R@100": -0.09454707039928678,
+      "SumR": -0.25517679172222074
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.6,
+        0.4
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-b880581fdccef8.npy",
+      "counts": "<WORK>/file-36231d5ce5b231.npy",
+      "min_vectors": 2,
+      "max_vectors": 8,
+      "mean_vectors": 7.992776523702031
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-1cf08dc8d6cb02.npy",
+      "counts": "<WORK>/file-186bfa08103b66.npy",
+      "min_vectors": 2,
+      "max_vectors": 16,
+      "mean_vectors": 15.91038374717833
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-9b83191f81cb7a.npy",
+      "counts": "<WORK>/file-8ba2c0e7e77426.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    },
+    "clip_Ward8": {
+      "vectors": "<WORK>/file-e487875fff5cc7.npy",
+      "counts": "<WORK>/file-f26d60f06f2052.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    }
+  },
+  "queries": 15753,
+  "videos": 4430,
+  "id_order": {
+    "path": "<WORK>/file-05e30932b8fc61.json",
+    "bytes": 518489,
+    "mtime_ns": 1793388609669789088,
+    "sha256": "c12db23b4a2a58c3a3fbf823cc00dc20a28c32a14bc2ea2a3c2c484e80292038"
+  },
+  "probe": {
+    "path": "<WORK>/file-5320aa851dc794.json",
+    "bytes": 5040,
+    "mtime_ns": 1793382489214487098,
+    "sha256": "00662476f85975cc4f93966e4394ca37db768911374ea46c22922a3dd8ec2d89"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [],
+    "seconds": 477.4444081840338,
+    "peak_RSS_MiB": 3430.50390625,
+    "scope": "cache resume only; original encoding/baseline resource totals not saved"
+  },
+  "recovery": {
+    "reason": "README download table confused with performance table",
+    "no_reencoding": true,
+    "no_original_rescoring": true,
+    "original_files_unchanged": {
+      "<WORK>/file-e3c9e27d8e694c.json": "5ab7d8b56efe5a38e3176b66a8931e12c945bf1a7c77e10e1c752d14da21f931",
+      "<WORK>/file-257c2437b2febc.npy": "1e7860f4d91407db93f0b5d4513741f8afcd731fc23dc251fdcc7b4007932003",
+      "<WORK>/file-143f07acc0356e.npy": "d6d30814a50da6c716430275d77e6b44716f7ccff1ca2d46cc53e3c3d7370d41",
+      "<WORK>/file-80ba169b8bdf94.npy": "ad4749fdf82860cc4dcb849473bd04edf35a13ea7ba0e2ae6c225261b2b945bf",
+      "<WORK>/file-1b71d5e94a0c55.npy": "667f350fe79ca77efdc07f6aa3d44fefafe0f55834fd1d3f8f4a403d2390d470",
+      "<WORK>/file-0bd6857459f3e2.npy": "1f8429fac2d37bc5566d6499e8c1aa77c7a780bf09760232402f392f4fac7df6"
+    }
+  }
+}

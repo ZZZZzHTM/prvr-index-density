@@ -1,0 +1,3193 @@
+{
+  "status": "completed",
+  "A_euclid": {
+    "tvr": {
+      "9527": {
+        "8": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 14.71317117944011,
+                "R@5": 35.55759522716843,
+                "R@10": 46.920605782469025,
+                "R@100": 85.74575493345571,
+                "SumR": 182.93712712253327
+              },
+              "SumR": 182.93712712253327,
+              "delta_vs_uncompressed": {
+                "point": -1.4960991280403855,
+                "ci": [
+                  -2.6342358880220282,
+                  -0.37608994951812885
+                ],
+                "ci_low": -2.6342358880220282,
+                "ci_high": -0.37608994951812885,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 15.888022028453419,
+                "R@5": 37.29233593391464,
+                "R@10": 48.7471317117944,
+                "R@100": 86.91142726021111,
+                "SumR": 188.83891693437357
+              },
+              "SumR": 188.83891693437357,
+              "delta_vs_uncompressed": {
+                "point": -0.4497475906379073,
+                "ci": [
+                  -1.0741165672326756,
+                  0.15603487838458008
+                ],
+                "ci_low": -1.0741165672326756,
+                "ci_high": 0.15603487838458008,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "point": -0.4497475906379073,
+            "ci": [
+              -1.0741165672326756,
+              0.15603487838458008
+            ],
+            "reps": {
+              "mean": 7.9990821477742085,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0004589261128958238,
+              "fraction_L_less_than_k": 0.0004589261128958238,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "8": 2178
+              },
+              "n_video": 2179
+            },
+            "runtime": {
+              "clustering_wall_seconds": null,
+              "score_wall_seconds": null,
+              "ranking_bootstrap_wall_seconds": 1.0722404511179775,
+              "total_wall_seconds": null,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": true,
+              "missing_time_reason": "first attempt completed geometry/scoring then hit a tuple-key implementation error; earlier phase clocks were not persisted",
+              "post_error_resume_invocation_wall_seconds": 1.0730576950591058,
+              "supplemental_single_pass_timing": {
+                "kind": "supplemental_single_pass_timing_after_initial_implementation_error",
+                "n_repeats": 1,
+                "no_best_selection": true,
+                "clustering_wall_seconds": 2.2783617610111833,
+                "score_wall_seconds": 1.336903656134382,
+                "total_measured_components_seconds": 3.615265417145565,
+                "includes_ranking": false,
+                "includes_bootstrap": false,
+                "accuracy_used": false,
+                "original_banks_ranks_CIs_not_replaced": true,
+                "original_phase_times": "unrecorded",
+                "source_score": "<WORK>/file-a684f1dde9f3fa.npy",
+                "threads_max": 8,
+                "geometry_workers": 8,
+                "geometry_BLAS_threads": 1,
+                "scoring_Torch_threads": 8
+              }
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "c390cf342c6bf4cece00baf4d4a657e8ae99544c5466c5ff1898a24ca4ce4922",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-1b4b5b2e15ce43.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 14.584671867829279,
+                "R@5": 35.44745296007343,
+                "R@10": 46.847177604405694,
+                "R@100": 85.69986232216613,
+                "SumR": 182.57916475447453
+              },
+              "SumR": 182.57916475447453,
+              "delta_vs_uncompressed": {
+                "point": -1.854061496099128,
+                "ci": [
+                  -3.0197338228545205,
+                  -0.6608536025699863
+                ],
+                "ci_low": -3.0197338228545205,
+                "ci_high": -0.6608536025699863,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 15.823772372648003,
+                "R@5": 37.310692978430474,
+                "R@10": 48.70123910050482,
+                "R@100": 87.00321248279027,
+                "SumR": 188.83891693437357
+              },
+              "SumR": 188.83891693437357,
+              "delta_vs_uncompressed": {
+                "point": -0.4497475906379073,
+                "ci": [
+                  -1.0738871041762277,
+                  0.15603487838458008
+                ],
+                "ci_low": -1.0738871041762277,
+                "ci_high": 0.15603487838458008,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "point": -0.4497475906379073,
+            "ci": [
+              -1.0738871041762277,
+              0.15603487838458008
+            ],
+            "reps": {
+              "mean": 7.9990821477742085,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0004589261128958238,
+              "fraction_L_less_than_k": 0.0004589261128958238,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "8": 2178
+              },
+              "n_video": 2179
+            },
+            "runtime": {
+              "clustering_wall_seconds": 1.9116457239724696,
+              "score_wall_seconds": 1.1749785768333822,
+              "ranking_bootstrap_wall_seconds": 0.8197102290578187,
+              "total_wall_seconds": 3.9220914349425584,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "67a42b7c94b9dfd7587260cf15821f896b0854f12121dfb03e74013963d8d6f7",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-580735d9eba3db.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": -0.35796236805874254,
+              "ci": [
+                -1.0096374483708124,
+                0.32124827902707664
+              ],
+              "ci_low": -1.0096374483708124,
+              "ci_high": 0.32124827902707664,
+              "n_query": 10895,
+              "n_video": 2179,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.0,
+              "ci": [
+                -0.33042680128499313,
+                0.34878384580082605
+              ],
+              "ci_low": -0.33042680128499313,
+              "ci_high": 0.34878384580082605,
+              "n_query": 10895,
+              "n_video": 2179,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.0,
+            "ci": [
+              -0.33042680128499313,
+              0.34878384580082605
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "de6b7a017fce3f383a60dd40171465ef1550393673b7619431dc0e6e8c864dec",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.8680324656326961,
+            "median": 0.8841930992606859,
+            "source": "<WORK>/file-1975173a689e78.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": null,
+              "score_wall_seconds": null,
+              "ranking_bootstrap_wall_seconds": 1.0722404511179775,
+              "total_wall_seconds": null,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": true,
+              "missing_time_reason": "first attempt completed geometry/scoring then hit a tuple-key implementation error; earlier phase clocks were not persisted",
+              "post_error_resume_invocation_wall_seconds": 1.0730576950591058,
+              "supplemental_single_pass_timing": {
+                "kind": "supplemental_single_pass_timing_after_initial_implementation_error",
+                "n_repeats": 1,
+                "no_best_selection": true,
+                "clustering_wall_seconds": 2.2783617610111833,
+                "score_wall_seconds": 1.336903656134382,
+                "total_measured_components_seconds": 3.615265417145565,
+                "includes_ranking": false,
+                "includes_bootstrap": false,
+                "accuracy_used": false,
+                "original_banks_ranks_CIs_not_replaced": true,
+                "original_phase_times": "unrecorded",
+                "source_score": "<WORK>/file-a684f1dde9f3fa.npy",
+                "threads_max": 8,
+                "geometry_workers": 8,
+                "geometry_BLAS_threads": 1,
+                "scoring_Torch_threads": 8
+              }
+            },
+            "euclid": {
+              "clustering_wall_seconds": 1.9116457239724696,
+              "score_wall_seconds": 1.1749785768333822,
+              "ranking_bootstrap_wall_seconds": 0.8197102290578187,
+              "total_wall_seconds": 3.9220914349425584,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 7.9990821477742085,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0004589261128958238,
+              "fraction_L_less_than_k": 0.0004589261128958238,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "8": 2178
+              },
+              "n_video": 2179
+            },
+            "euclid": {
+              "mean": 7.9990821477742085,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0004589261128958238,
+              "fraction_L_less_than_k": 0.0004589261128958238,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "8": 2178
+              },
+              "n_video": 2179
+            }
+          }
+        },
+        "16": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 14.749885268471775,
+                "R@5": 35.58513079394218,
+                "R@10": 47.41624598439651,
+                "R@100": 86.25057365764113,
+                "SumR": 184.0018357044516
+              },
+              "SumR": 184.0018357044516,
+              "delta_vs_uncompressed": {
+                "point": -0.4313905461220744,
+                "ci": [
+                  -1.3127581459385038,
+                  0.431620009178521
+                ],
+                "ci_low": -1.3127581459385038,
+                "ci_high": 0.431620009178521,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 15.851307939421753,
+                "R@5": 37.338228545204224,
+                "R@10": 48.76548875631023,
+                "R@100": 87.03074804956402,
+                "SumR": 188.98577329050022
+              },
+              "SumR": 188.98577329050022,
+              "delta_vs_uncompressed": {
+                "point": -0.30289123451124367,
+                "ci": [
+                  -0.7528682882055989,
+                  0.19274896741624598
+                ],
+                "ci_low": -0.7528682882055989,
+                "ci_high": 0.19274896741624598,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "point": -0.30289123451124367,
+            "ci": [
+              -0.7528682882055989,
+              0.19274896741624598
+            ],
+            "reps": {
+              "mean": 15.99357503441946,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0009178522257916476,
+              "fraction_L_less_than_k": 0.0009178522257916476,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "12": 1,
+                "16": 2177
+              },
+              "n_video": 2179
+            },
+            "runtime": {
+              "clustering_wall_seconds": 2.8141238631214947,
+              "score_wall_seconds": 1.9453134119976312,
+              "ranking_bootstrap_wall_seconds": 0.9851395399309695,
+              "total_wall_seconds": 5.782322208862752,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "9d86c426fb94a14a343bc689c564938ff753d566f94509f032a2d35fc4a5e118",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-99391099755ab1.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 14.92427719137219,
+                "R@5": 35.55759522716843,
+                "R@10": 47.42542450665443,
+                "R@100": 86.15878843506195,
+                "SumR": 184.066085360257
+              },
+              "SumR": 184.066085360257,
+              "delta_vs_uncompressed": {
+                "point": -0.36714089031665903,
+                "ci": [
+                  -1.2023864157870583,
+                  0.5048187241854062
+                ],
+                "ci_low": -1.2023864157870583,
+                "ci_high": 0.5048187241854062,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 15.814593850390088,
+                "R@5": 37.347407067462136,
+                "R@10": 48.79302432308398,
+                "R@100": 87.03074804956402,
+                "SumR": 188.98577329050022
+              },
+              "SumR": 188.98577329050022,
+              "delta_vs_uncompressed": {
+                "point": -0.30289123451124367,
+                "ci": [
+                  -0.7893529141808169,
+                  0.17439192290041303
+                ],
+                "ci_low": -0.7893529141808169,
+                "ci_high": 0.17439192290041303,
+                "n_query": 10895,
+                "n_video": 2179
+              }
+            },
+            "point": -0.30289123451124367,
+            "ci": [
+              -0.7893529141808169,
+              0.17439192290041303
+            ],
+            "reps": {
+              "mean": 15.99357503441946,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0009178522257916476,
+              "fraction_L_less_than_k": 0.0009178522257916476,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "12": 1,
+                "16": 2177
+              },
+              "n_video": 2179
+            },
+            "runtime": {
+              "clustering_wall_seconds": 2.3874067519791424,
+              "score_wall_seconds": 1.6360609650146216,
+              "ranking_bootstrap_wall_seconds": 0.9118923679925501,
+              "total_wall_seconds": 4.953804981894791,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "26afbd4fc9badca471eb9244c17b9713820e3cbc73156ce8dc547927e082c448",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-4108269ee5e055.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.06424965580541532,
+              "ci": [
+                -0.35796236805874254,
+                0.4956402019274897
+              ],
+              "ci_low": -0.35796236805874254,
+              "ci_high": 0.4956402019274897,
+              "n_query": 10895,
+              "n_video": 2179,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.0,
+              "ci": [
+                -0.27535566773749426,
+                0.24782010096374485
+              ],
+              "ci_low": -0.27535566773749426,
+              "ci_high": 0.24782010096374485,
+              "n_query": 10895,
+              "n_video": 2179,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.0,
+            "ci": [
+              -0.27535566773749426,
+              0.24782010096374485
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 2179,
+              "seed": 20261023,
+              "replicate_delta_sha256": "982c6c96518167061cfcc83de9e277057e7d834c840864afe99b5baa585ec4bb",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.9118315806824104,
+            "median": 0.9251518833535844,
+            "source": "<WORK>/file-578a48eccc046e.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 2.8141238631214947,
+              "score_wall_seconds": 1.9453134119976312,
+              "ranking_bootstrap_wall_seconds": 0.9851395399309695,
+              "total_wall_seconds": 5.782322208862752,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 2.3874067519791424,
+              "score_wall_seconds": 1.6360609650146216,
+              "ranking_bootstrap_wall_seconds": 0.9118923679925501,
+              "total_wall_seconds": 4.953804981894791,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 15.99357503441946,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0009178522257916476,
+              "fraction_L_less_than_k": 0.0009178522257916476,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "12": 1,
+                "16": 2177
+              },
+              "n_video": 2179
+            },
+            "euclid": {
+              "mean": 15.99357503441946,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0009178522257916476,
+              "fraction_L_less_than_k": 0.0009178522257916476,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "6": 1,
+                "12": 1,
+                "16": 2177
+              },
+              "n_video": 2179
+            }
+          }
+        }
+      }
+    },
+    "activitynet": {
+      "9527": {
+        "8": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 8.67771218180664,
+                "R@5": 26.896464165555766,
+                "R@10": 39.69402653462833,
+                "R@100": 78.16288960832857,
+                "SumR": 153.43109249031932
+              },
+              "SumR": 153.43109249031932,
+              "delta_vs_uncompressed": {
+                "point": -0.03173998603440614,
+                "ci": [
+                  -0.7820269980941288,
+                  0.7465624441033658
+                ],
+                "ci_low": -0.7820269980941288,
+                "ci_high": 0.7465624441033658,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 8.823716117564908,
+                "R@5": 27.290039992382404,
+                "R@10": 39.95429442011046,
+                "R@100": 78.61359741001714,
+                "SumR": 154.68164794007492
+              },
+              "SumR": 154.68164794007492,
+              "delta_vs_uncompressed": {
+                "point": -0.12695994413762457,
+                "ci": [
+                  -0.5271877673637959,
+                  0.27859750072790124
+                ],
+                "ci_low": -0.5271877673637959,
+                "ci_high": 0.27859750072790124,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "point": -0.12695994413762457,
+            "ci": [
+              -0.5271877673637959,
+              0.27859750072790124
+            ],
+            "reps": {
+              "mean": 7.992776523702031,
+              "median": 8.0,
+              "fraction_less_than_k": 0.002257336343115124,
+              "fraction_L_less_than_k": 0.002257336343115124,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4420
+              },
+              "n_video": 4430
+            },
+            "runtime": {
+              "clustering_wall_seconds": 5.300503581063822,
+              "score_wall_seconds": 4.084637760883197,
+              "ranking_bootstrap_wall_seconds": 1.6938334780279547,
+              "total_wall_seconds": 11.106929399073124,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "129792da7d6df1537bd1c16870162d4238fade529b377255d19a33c414b5713b",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/activitynet/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-e2145f705f0437.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 8.487272265600204,
+                "R@5": 26.655240271694282,
+                "R@10": 39.64324255697328,
+                "R@100": 78.14384561670794,
+                "SumR": 152.9296007109757
+              },
+              "SumR": 152.9296007109757,
+              "delta_vs_uncompressed": {
+                "point": -0.5332317653780233,
+                "ci": [
+                  -1.3044898166611814,
+                  0.21980223709149907
+                ],
+                "ci_low": -1.3044898166611814,
+                "ci_high": 0.21980223709149907,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 8.874500095219958,
+                "R@5": 27.302735986796165,
+                "R@10": 39.95429442011046,
+                "R@100": 78.60724941281026,
+                "SumR": 154.73877991493686
+              },
+              "SumR": 154.73877991493686,
+              "delta_vs_uncompressed": {
+                "point": -0.06982796927569351,
+                "ci": [
+                  -0.4903826837997749,
+                  0.3218087489400691
+                ],
+                "ci_low": -0.4903826837997749,
+                "ci_high": 0.3218087489400691,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "point": -0.06982796927569351,
+            "ci": [
+              -0.4903826837997749,
+              0.3218087489400691
+            ],
+            "reps": {
+              "mean": 7.992776523702031,
+              "median": 8.0,
+              "fraction_less_than_k": 0.002257336343115124,
+              "fraction_L_less_than_k": 0.002257336343115124,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4420
+              },
+              "n_video": 4430
+            },
+            "runtime": {
+              "clustering_wall_seconds": 4.674050024012104,
+              "score_wall_seconds": 3.4451817478984594,
+              "ranking_bootstrap_wall_seconds": 2.1130214240401983,
+              "total_wall_seconds": 10.291423728922382,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "caf23fa447d4ae98aebe4d84d50a900ebbd0d2ecc768e07b9b3535a97ab3d47a",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/activitynet/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-7e2ce37a35cfdd.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": -0.5014917793436171,
+              "ci": [
+                -0.9540594131438789,
+                -0.03836084675970924
+              ],
+              "ci_low": -0.9540594131438789,
+              "ci_high": -0.03836084675970924,
+              "n_query": 15753,
+              "n_video": 4430,
+              "near_zero_or_abs_le_0p3": false
+            },
+            "fusion": {
+              "point": 0.057131974861931056,
+              "ci": [
+                -0.2050185217421085,
+                0.32337222629018386
+              ],
+              "ci_low": -0.2050185217421085,
+              "ci_high": 0.32337222629018386,
+              "n_query": 15753,
+              "n_video": 4430,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.057131974861931056,
+            "ci": [
+              -0.2050185217421085,
+              0.32337222629018386
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "eff5989e8f05e261fafea937214a0ec1476f72d8dc1f033bfb8ca5641c18cc25",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.7895830451622852,
+            "median": 0.79941699213029,
+            "source": "<WORK>/file-4c608f006de652.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 5.300503581063822,
+              "score_wall_seconds": 4.084637760883197,
+              "ranking_bootstrap_wall_seconds": 1.6938334780279547,
+              "total_wall_seconds": 11.106929399073124,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 4.674050024012104,
+              "score_wall_seconds": 3.4451817478984594,
+              "ranking_bootstrap_wall_seconds": 2.1130214240401983,
+              "total_wall_seconds": 10.291423728922382,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 7.992776523702031,
+              "median": 8.0,
+              "fraction_less_than_k": 0.002257336343115124,
+              "fraction_L_less_than_k": 0.002257336343115124,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4420
+              },
+              "n_video": 4430
+            },
+            "euclid": {
+              "mean": 7.992776523702031,
+              "median": 8.0,
+              "fraction_less_than_k": 0.002257336343115124,
+              "fraction_L_less_than_k": 0.002257336343115124,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4420
+              },
+              "n_video": 4430
+            }
+          }
+        },
+        "16": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 8.633276201358472,
+                "R@5": 27.099600076175967,
+                "R@10": 39.490890624008124,
+                "R@100": 78.21367358598363,
+                "SumR": 153.4374404875262
+              },
+              "SumR": 153.4374404875262,
+              "delta_vs_uncompressed": {
+                "point": -0.025391988827524917,
+                "ci": [
+                  -0.7161057939143618,
+                  0.675689335427855
+                ],
+                "ci_low": -0.7161057939143618,
+                "ci_high": 0.675689335427855,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 8.899892084047483,
+                "R@5": 27.213864025899827,
+                "R@10": 39.95429442011046,
+                "R@100": 78.73420935694789,
+                "SumR": 154.80225988700568
+              },
+              "SumR": 154.80225988700568,
+              "delta_vs_uncompressed": {
+                "point": -0.006347997206881229,
+                "ci": [
+                  -0.390158564883432,
+                  0.35387444774105464
+                ],
+                "ci_low": -0.390158564883432,
+                "ci_high": 0.35387444774105464,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "point": -0.006347997206881229,
+            "ci": [
+              -0.390158564883432,
+              0.35387444774105464
+            ],
+            "reps": {
+              "mean": 15.91038374717833,
+              "median": 16.0,
+              "fraction_less_than_k": 0.01851015801354402,
+              "fraction_L_less_than_k": 0.01851015801354402,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4,
+                "9": 7,
+                "10": 7,
+                "11": 8,
+                "12": 15,
+                "13": 10,
+                "14": 11,
+                "15": 10,
+                "16": 4348
+              },
+              "n_video": 4430
+            },
+            "runtime": {
+              "clustering_wall_seconds": 5.89597419812344,
+              "score_wall_seconds": 5.230431875912473,
+              "ranking_bootstrap_wall_seconds": 1.6380898607894778,
+              "total_wall_seconds": 12.820512637961656,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "1152f0e2350ad4b44736de2dd98ab651a8883f8ca5becb7177319a08417eb997",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/activitynet/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-1bd5aa3b7a2df8.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 8.696756173427284,
+                "R@5": 27.105948073382848,
+                "R@10": 39.6368945597664,
+                "R@100": 78.16923760553546,
+                "SumR": 153.608836412112
+              },
+              "SumR": 153.608836412112,
+              "delta_vs_uncompressed": {
+                "point": 0.14600393575826826,
+                "ci": [
+                  -0.5395335615360283,
+                  0.7991045109656864
+                ],
+                "ci_low": -0.5395335615360283,
+                "ci_high": 0.7991045109656864,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 8.912588078461246,
+                "R@5": 27.302735986796165,
+                "R@10": 40.01142639497239,
+                "R@100": 78.69612137370659,
+                "SumR": 154.92287183393637
+              },
+              "SumR": 154.92287183393637,
+              "delta_vs_uncompressed": {
+                "point": 0.11426394972386211,
+                "ci": [
+                  -0.24625876688806958,
+                  0.47451537331423166
+                ],
+                "ci_low": -0.24625876688806958,
+                "ci_high": 0.47451537331423166,
+                "n_query": 15753,
+                "n_video": 4430
+              }
+            },
+            "point": 0.11426394972386211,
+            "ci": [
+              -0.24625876688806958,
+              0.47451537331423166
+            ],
+            "reps": {
+              "mean": 15.91038374717833,
+              "median": 16.0,
+              "fraction_less_than_k": 0.01851015801354402,
+              "fraction_L_less_than_k": 0.01851015801354402,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4,
+                "9": 7,
+                "10": 7,
+                "11": 8,
+                "12": 15,
+                "13": 10,
+                "14": 11,
+                "15": 10,
+                "16": 4348
+              },
+              "n_video": 4430
+            },
+            "runtime": {
+              "clustering_wall_seconds": 5.378895837115124,
+              "score_wall_seconds": 4.614286726806313,
+              "ranking_bootstrap_wall_seconds": 1.7598659640643746,
+              "total_wall_seconds": 11.817535175941885,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "6fbd952279589ceae3f2d9196aa667a4403eea158ac89699b54b6e726918b669",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/activitynet/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-40b4077923fdb0.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.17139592458579317,
+              "ci": [
+                -0.2415044532669986,
+                0.5771002420898242
+              ],
+              "ci_low": -0.2415044532669986,
+              "ci_high": 0.5771002420898242,
+              "n_query": 15753,
+              "n_video": 4430,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.12061194693074334,
+              "ci": [
+                -0.08752138170015882,
+                0.35026675672024266
+              ],
+              "ci_low": -0.08752138170015882,
+              "ci_high": 0.35026675672024266,
+              "n_query": 15753,
+              "n_video": 4430,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.12061194693074334,
+            "ci": [
+              -0.08752138170015882,
+              0.35026675672024266
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 4430,
+              "seed": 20261023,
+              "replicate_delta_sha256": "e69f0dc9297d5eb6f4a69e580e1d5270347224f378d1ca29b6f260e7c41451a1",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.8271903888403189,
+            "median": 0.8376049212544843,
+            "source": "<WORK>/file-102f1221999da7.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 5.89597419812344,
+              "score_wall_seconds": 5.230431875912473,
+              "ranking_bootstrap_wall_seconds": 1.6380898607894778,
+              "total_wall_seconds": 12.820512637961656,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 5.378895837115124,
+              "score_wall_seconds": 4.614286726806313,
+              "ranking_bootstrap_wall_seconds": 1.7598659640643746,
+              "total_wall_seconds": 11.817535175941885,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 15.91038374717833,
+              "median": 16.0,
+              "fraction_less_than_k": 0.01851015801354402,
+              "fraction_L_less_than_k": 0.01851015801354402,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4,
+                "9": 7,
+                "10": 7,
+                "11": 8,
+                "12": 15,
+                "13": 10,
+                "14": 11,
+                "15": 10,
+                "16": 4348
+              },
+              "n_video": 4430
+            },
+            "euclid": {
+              "mean": 15.91038374717833,
+              "median": 16.0,
+              "fraction_less_than_k": 0.01851015801354402,
+              "fraction_L_less_than_k": 0.01851015801354402,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "2": 1,
+                "3": 1,
+                "4": 2,
+                "5": 3,
+                "6": 1,
+                "7": 2,
+                "8": 4,
+                "9": 7,
+                "10": 7,
+                "11": 8,
+                "12": 15,
+                "13": 10,
+                "14": 11,
+                "15": 10,
+                "16": 4348
+              },
+              "n_video": 4430
+            }
+          }
+        }
+      }
+    },
+    "charades": {
+      "9527": {
+        "8": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 1.8279569892473118,
+                "R@5": 7.580645161290323,
+                "R@10": 13.14516129032258,
+                "R@100": 50.69892473118279,
+                "SumR": 73.25268817204301
+              },
+              "SumR": 73.25268817204301,
+              "delta_vs_uncompressed": {
+                "point": -0.6720430107526881,
+                "ci": [
+                  -2.37352380952381,
+                  0.9747632971317176
+                ],
+                "ci_low": -2.37352380952381,
+                "ci_high": 0.9747632971317176,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 2.2311827956989245,
+                "R@5": 8.494623655913978,
+                "R@10": 14.166666666666666,
+                "R@100": 52.60752688172043,
+                "SumR": 77.5
+              },
+              "SumR": 77.5,
+              "delta_vs_uncompressed": {
+                "point": 0.0,
+                "ci": [
+                  -0.8383531368733493,
+                  0.8610433427589964
+                ],
+                "ci_low": -0.8383531368733493,
+                "ci_high": 0.8610433427589964,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "point": 0.0,
+            "ci": [
+              -0.8383531368733493,
+              0.8610433427589964
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 1334
+              },
+              "n_video": 1334
+            },
+            "runtime": {
+              "clustering_wall_seconds": 1.391804909100756,
+              "score_wall_seconds": 0.29518773895688355,
+              "ranking_bootstrap_wall_seconds": 0.26418468705378473,
+              "total_wall_seconds": 1.959384158020839,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "37faa747aef45943ef406872d5059edf118f31906bf8671b432bf74bc3881226",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/charades/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-a18b7f3ffb3931.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 1.9086021505376345,
+                "R@5": 7.741935483870968,
+                "R@10": 13.091397849462366,
+                "R@100": 50.75268817204301,
+                "SumR": 73.49462365591398
+              },
+              "SumR": 73.49462365591398,
+              "delta_vs_uncompressed": {
+                "point": -0.43010752688172044,
+                "ci": [
+                  -2.209544421200628,
+                  1.2685673002587323
+                ],
+                "ci_low": -2.209544421200628,
+                "ci_high": 1.2685673002587323,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 2.2580645161290325,
+                "R@5": 8.46774193548387,
+                "R@10": 14.03225806451613,
+                "R@100": 52.58064516129032,
+                "SumR": 77.33870967741936
+              },
+              "SumR": 77.33870967741936,
+              "delta_vs_uncompressed": {
+                "point": -0.16129032258064516,
+                "ci": [
+                  -1.02340210965878,
+                  0.666323468597828
+                ],
+                "ci_low": -1.02340210965878,
+                "ci_high": 0.666323468597828,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "point": -0.16129032258064516,
+            "ci": [
+              -1.02340210965878,
+              0.666323468597828
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 1334
+              },
+              "n_video": 1334
+            },
+            "runtime": {
+              "clustering_wall_seconds": 1.2410422840621322,
+              "score_wall_seconds": 0.2931028201710433,
+              "ranking_bootstrap_wall_seconds": 0.2625175549183041,
+              "total_wall_seconds": 1.80862816888839,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "7a7112dd1128b0b4b180e57f7d86452f43d058bbc53bcbbfd66beadb6d46c58b",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/charades/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-6efe58cc5512fe.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.24193548387096775,
+              "ci": [
+                -0.6797097834536584,
+                1.1868926090439227
+              ],
+              "ci_low": -0.6797097834536584,
+              "ci_high": 1.1868926090439227,
+              "n_query": 3720,
+              "n_video": 1334,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": -0.16129032258064516,
+              "ci": [
+                -0.691307158294372,
+                0.3433596967630814
+              ],
+              "ci_low": -0.691307158294372,
+              "ci_high": 0.3433596967630814,
+              "n_query": 3720,
+              "n_video": 1334,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": -0.16129032258064516,
+            "ci": [
+              -0.691307158294372,
+              0.3433596967630814
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "1e7708720b582b9e7cf4a62ed882f61bd800273204b8f2768278b39d5f441256",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.856796803464614,
+            "median": 0.8726583346012737,
+            "source": "<WORK>/file-f7f2f88b25fce8.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 1.391804909100756,
+              "score_wall_seconds": 0.29518773895688355,
+              "ranking_bootstrap_wall_seconds": 0.26418468705378473,
+              "total_wall_seconds": 1.959384158020839,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 1.2410422840621322,
+              "score_wall_seconds": 0.2931028201710433,
+              "ranking_bootstrap_wall_seconds": 0.2625175549183041,
+              "total_wall_seconds": 1.80862816888839,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 1334
+              },
+              "n_video": 1334
+            },
+            "euclid": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 1334
+              },
+              "n_video": 1334
+            }
+          }
+        },
+        "16": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 1.6935483870967742,
+                "R@5": 7.876344086021505,
+                "R@10": 13.172043010752688,
+                "R@100": 51.18279569892473,
+                "SumR": 73.9247311827957
+              },
+              "SumR": 73.9247311827957,
+              "delta_vs_uncompressed": {
+                "point": 0.0,
+                "ci": [
+                  -1.2334485044265882,
+                  1.2511187076107584
+                ],
+                "ci_low": -1.2334485044265882,
+                "ci_high": 1.2511187076107584,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 2.1774193548387095,
+                "R@5": 8.387096774193548,
+                "R@10": 14.13978494623656,
+                "R@100": 52.60752688172043,
+                "SumR": 77.31182795698925
+              },
+              "SumR": 77.31182795698925,
+              "delta_vs_uncompressed": {
+                "point": -0.1881720430107527,
+                "ci": [
+                  -0.8312840263381502,
+                  0.4656697339257244
+                ],
+                "ci_low": -0.8312840263381502,
+                "ci_high": 0.4656697339257244,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "point": -0.1881720430107527,
+            "ci": [
+              -0.8312840263381502,
+              0.4656697339257244
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 1334
+              },
+              "n_video": 1334
+            },
+            "runtime": {
+              "clustering_wall_seconds": 1.5958860500250012,
+              "score_wall_seconds": 0.40704895881935954,
+              "ranking_bootstrap_wall_seconds": 0.29049844201654196,
+              "total_wall_seconds": 2.3053508368320763,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "b4a8d0ec8a34068b8dd50357f7e59bb55c82614051afaee11e49acf82d2d188b",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/charades/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-12343ed9e1d3cc.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 1.6129032258064515,
+                "R@5": 7.661290322580645,
+                "R@10": 13.03763440860215,
+                "R@100": 51.45161290322581,
+                "SumR": 73.76344086021506
+              },
+              "SumR": 73.76344086021506,
+              "delta_vs_uncompressed": {
+                "point": -0.16129032258064516,
+                "ci": [
+                  -1.3748312744621394,
+                  1.0564097512833652
+                ],
+                "ci_low": -1.3748312744621394,
+                "ci_high": 1.0564097512833652,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 2.2580645161290325,
+                "R@5": 8.306451612903226,
+                "R@10": 14.166666666666666,
+                "R@100": 52.526881720430104,
+                "SumR": 77.25806451612902
+              },
+              "SumR": 77.25806451612902,
+              "delta_vs_uncompressed": {
+                "point": -0.24193548387096775,
+                "ci": [
+                  -0.8934463203836924,
+                  0.39915911585385727
+                ],
+                "ci_low": -0.8934463203836924,
+                "ci_high": 0.39915911585385727,
+                "n_query": 3720,
+                "n_video": 1334
+              }
+            },
+            "point": -0.24193548387096775,
+            "ci": [
+              -0.8934463203836924,
+              0.39915911585385727
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 1334
+              },
+              "n_video": 1334
+            },
+            "runtime": {
+              "clustering_wall_seconds": 1.6671538702212274,
+              "score_wall_seconds": 0.3700136567931622,
+              "ranking_bootstrap_wall_seconds": 0.2573462468571961,
+              "total_wall_seconds": 2.3066099279094487,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "f4f6b0fb2ab978fa31c0181642cc1bd9c30eef48cc140d9d489e24d405ca5463",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/index_density_stats/RESULTS.json",
+                "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+                "field": "datasets/charades/methods/ward_cos_k8,ward_cos_k16"
+              },
+              "frame_scores": "<WORK>/file-ebee2b4378e8b1.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": -0.16129032258064516,
+              "ci": [
+                -0.8216185151646166,
+                0.5336607789679118
+              ],
+              "ci_low": -0.8216185151646166,
+              "ci_high": 0.5336607789679118,
+              "n_query": 3720,
+              "n_video": 1334,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": -0.053763440860215055,
+              "ci": [
+                -0.42142149610714147,
+                0.3006450553330714
+              ],
+              "ci_low": -0.42142149610714147,
+              "ci_high": 0.3006450553330714,
+              "n_query": 3720,
+              "n_video": 1334,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": -0.053763440860215055,
+            "ci": [
+              -0.42142149610714147,
+              0.3006450553330714
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 1334,
+              "seed": 20261023,
+              "replicate_delta_sha256": "5f6ef61be72a5e5413671a975000a450d1a1e870ac91b906eb2f7a2ec1614597",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.8654524975226331,
+            "median": 0.8731211545602492,
+            "source": "<WORK>/file-95c25b624eb710.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 1.5958860500250012,
+              "score_wall_seconds": 0.40704895881935954,
+              "ranking_bootstrap_wall_seconds": 0.29049844201654196,
+              "total_wall_seconds": 2.3053508368320763,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 1.6671538702212274,
+              "score_wall_seconds": 0.3700136567931622,
+              "ranking_bootstrap_wall_seconds": 0.2573462468571961,
+              "total_wall_seconds": 2.3066099279094487,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 1334
+              },
+              "n_video": 1334
+            },
+            "euclid": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 1334
+              },
+              "n_video": 1334
+            }
+          }
+        }
+      }
+    },
+    "youcook2": {
+      "9527": {
+        "8": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.6059564719358534,
+                "R@5": 10.223367697594501,
+                "R@10": 17.554410080183278,
+                "R@100": 63.94616265750286,
+                "SumR": 94.3298969072165
+              },
+              "SumR": 94.3298969072165,
+              "delta_vs_uncompressed": {
+                "point": -0.6872852233676976,
+                "ci": [
+                  -2.9236235628895106,
+                  1.7365191275848213
+                ],
+                "ci_low": -2.9236235628895106,
+                "ci_high": 1.7365191275848213,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.2359679266895762,
+                "R@5": 11.56930126002291,
+                "R@10": 19.35853379152348,
+                "R@100": 64.89117983963345,
+                "SumR": 99.05498281786942
+              },
+              "SumR": 99.05498281786942,
+              "delta_vs_uncompressed": {
+                "point": -0.37227949599083615,
+                "ci": [
+                  -1.3670907971766566,
+                  0.6781624636150742
+                ],
+                "ci_low": -1.3670907971766566,
+                "ci_high": 0.6781624636150742,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": -0.37227949599083615,
+            "ci": [
+              -1.3670907971766566,
+              0.6781624636150742
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.5242569900583476,
+              "score_wall_seconds": 0.11418294487521052,
+              "ranking_bootstrap_wall_seconds": 0.166827677981928,
+              "total_wall_seconds": 0.8086036059539765,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "aafb4be7d36f303851363db8802858ba346705b1af5eed91776a3780d03c8923",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/9527/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-3919e7377e0f8b.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.7777777777777777,
+                "R@5": 10.481099656357388,
+                "R@10": 17.611683848797252,
+                "R@100": 63.97479954180985,
+                "SumR": 94.84536082474227
+              },
+              "SumR": 94.84536082474227,
+              "delta_vs_uncompressed": {
+                "point": -0.1718213058419244,
+                "ci": [
+                  -2.5840025849498476,
+                  2.3790319494268837
+                ],
+                "ci_low": -2.5840025849498476,
+                "ci_high": 2.3790319494268837,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.150057273768614,
+                "R@5": 11.79839633447881,
+                "R@10": 19.27262313860252,
+                "R@100": 65.14891179839634,
+                "SumR": 99.36998854524629
+              },
+              "SumR": 99.36998854524629,
+              "delta_vs_uncompressed": {
+                "point": -0.057273768613974804,
+                "ci": [
+                  -1.0901552894150726,
+                  1.0700028625996876
+                ],
+                "ci_low": -1.0901552894150726,
+                "ci_high": 1.0700028625996876,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": -0.057273768613974804,
+            "ci": [
+              -1.0901552894150726,
+              1.0700028625996876
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.518891837913543,
+              "score_wall_seconds": 0.1091216099448502,
+              "ranking_bootstrap_wall_seconds": 0.16521796118468046,
+              "total_wall_seconds": 0.7973482180386782,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "22ea7be0f64f896835dc79ae6d71a06bf7aa8496a0481a4698754f563023532b",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/9527/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-c415e687512ec0.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.5154639175257731,
+              "ci": [
+                -0.833086113305261,
+                1.9426061405875066
+              ],
+              "ci_low": -0.833086113305261,
+              "ci_high": 1.9426061405875066,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.3150057273768614,
+              "ci": [
+                -0.4024347699097813,
+                1.0572357820850278
+              ],
+              "ci_low": -0.4024347699097813,
+              "ci_high": 1.0572357820850278,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.3150057273768614,
+            "ci": [
+              -0.4024347699097813,
+              1.0572357820850278
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "2b6c63ec5cfc5cb5dd37b55e895353ac387da82b2d3e99f552803bc400982321",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.7648709547820665,
+            "median": 0.7764472718037699,
+            "source": "<WORK>/file-c0e13a58148945.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 0.5242569900583476,
+              "score_wall_seconds": 0.11418294487521052,
+              "ranking_bootstrap_wall_seconds": 0.166827677981928,
+              "total_wall_seconds": 0.8086036059539765,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 0.518891837913543,
+              "score_wall_seconds": 0.1091216099448502,
+              "ranking_bootstrap_wall_seconds": 0.16521796118468046,
+              "total_wall_seconds": 0.7973482180386782,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "euclid": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            }
+          }
+        },
+        "16": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 3.006872852233677,
+                "R@5": 10.02290950744559,
+                "R@10": 16.809851088201604,
+                "R@100": 64.51890034364261,
+                "SumR": 94.35853379152348
+              },
+              "SumR": 94.35853379152348,
+              "delta_vs_uncompressed": {
+                "point": -0.6586483390607102,
+                "ci": [
+                  -2.794286256116519,
+                  1.489170082082722
+                ],
+                "ci_low": -2.794286256116519,
+                "ci_high": 1.489170082082722,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.293241695303551,
+                "R@5": 11.45475372279496,
+                "R@10": 19.100801832760595,
+                "R@100": 65.12027491408935,
+                "SumR": 98.96907216494846
+              },
+              "SumR": 98.96907216494846,
+              "delta_vs_uncompressed": {
+                "point": -0.45819014891179843,
+                "ci": [
+                  -1.4698468291382785,
+                  0.5615175536411212
+                ],
+                "ci_low": -1.4698468291382785,
+                "ci_high": 0.5615175536411212,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": -0.45819014891179843,
+            "ci": [
+              -1.4698468291382785,
+              0.5615175536411212
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.6142969890497625,
+              "score_wall_seconds": 0.15861614397726953,
+              "ranking_bootstrap_wall_seconds": 0.16612295992672443,
+              "total_wall_seconds": 0.9455508140381426,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "3042125a721570120537117aa342030944fb873b31bc60688fa48146b1ab0b27",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/9527/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-9cdd801ca894d3.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.7491408934707904,
+                "R@5": 10.137457044673539,
+                "R@10": 17.210767468499427,
+                "R@100": 64.37571592210767,
+                "SumR": 94.47308132875143
+              },
+              "SumR": 94.47308132875143,
+              "delta_vs_uncompressed": {
+                "point": -0.5441008018327605,
+                "ci": [
+                  -2.671945410280602,
+                  1.5906387637087593
+                ],
+                "ci_low": -2.671945410280602,
+                "ci_high": 1.5906387637087593,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.2359679266895762,
+                "R@5": 11.941580756013746,
+                "R@10": 19.243986254295532,
+                "R@100": 65.17754868270332,
+                "SumR": 99.59908361970217
+              },
+              "SumR": 99.59908361970217,
+              "delta_vs_uncompressed": {
+                "point": 0.1718213058419244,
+                "ci": [
+                  -0.7676854651066889,
+                  1.1969222000569963
+                ],
+                "ci_low": -0.7676854651066889,
+                "ci_high": 1.1969222000569963,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": 0.1718213058419244,
+            "ci": [
+              -0.7676854651066889,
+              1.1969222000569963
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.6187804159708321,
+              "score_wall_seconds": 0.1654693919699639,
+              "ranking_bootstrap_wall_seconds": 0.16479765297845006,
+              "total_wall_seconds": 0.954266618937254,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "f4ede9d05a8cbddae0a0dcfec043d2174954c5e5d60852b6d4fac122230b2216",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/9527/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-d4b9b66cfd053b.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.11454753722794961,
+              "ci": [
+                -1.1807899591583426,
+                1.4100184448981037
+              ],
+              "ci_low": -1.1807899591583426,
+              "ci_high": 1.4100184448981037,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.6300114547537228,
+              "ci": [
+                0.0,
+                1.2925251528863753
+              ],
+              "ci_low": 0.0,
+              "ci_high": 1.2925251528863753,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.6300114547537228,
+            "ci": [
+              0.0,
+              1.2925251528863753
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "f72dd18bce98863473b1a8ca5bb97ddbc41dbdd34d58cbf30c5558fca7a01924",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.798627550664912,
+            "median": 0.8069737297718016,
+            "source": "<WORK>/file-19e42cd85d1c0e.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 0.6142969890497625,
+              "score_wall_seconds": 0.15861614397726953,
+              "ranking_bootstrap_wall_seconds": 0.16612295992672443,
+              "total_wall_seconds": 0.9455508140381426,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 0.6187804159708321,
+              "score_wall_seconds": 0.1654693919699639,
+              "ranking_bootstrap_wall_seconds": 0.16479765297845006,
+              "total_wall_seconds": 0.954266618937254,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "euclid": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            }
+          }
+        }
+      },
+      "20261024": {
+        "8": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.691867124856816,
+                "R@5": 11.512027491408935,
+                "R@10": 18.413516609392897,
+                "R@100": 64.11798396334478,
+                "SumR": 96.73539518900343
+              },
+              "SumR": 96.73539518900343,
+              "delta_vs_uncompressed": {
+                "point": 0.0,
+                "ci": [
+                  -2.342616456154551,
+                  2.4079409359151427
+                ],
+                "ci_low": -2.342616456154551,
+                "ci_high": 2.4079409359151427,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.579610538373425,
+                "R@5": 11.884306987399771,
+                "R@10": 19.702176403207332,
+                "R@100": 66.1225658648339,
+                "SumR": 101.28865979381443
+              },
+              "SumR": 101.28865979381443,
+              "delta_vs_uncompressed": {
+                "point": 0.057273768613974804,
+                "ci": [
+                  -1.0532608719459708,
+                  1.0603170023584685
+                ],
+                "ci_low": -1.0532608719459708,
+                "ci_high": 1.0603170023584685,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": 0.057273768613974804,
+            "ci": [
+              -1.0532608719459708,
+              1.0603170023584685
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.534288662020117,
+              "score_wall_seconds": 0.11210232996381819,
+              "ranking_bootstrap_wall_seconds": 0.16497845109552145,
+              "total_wall_seconds": 0.8157719760201871,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "fe666926e4b9d247a6f62f039c7eacf9d1e98c98b5bfd64969dc95afd670ae2b",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/20261024/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-01aa881a874c8e.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.577319587628866,
+                "R@5": 11.626575028636884,
+                "R@10": 18.213058419243985,
+                "R@100": 63.94616265750286,
+                "SumR": 96.36311569301259
+              },
+              "SumR": 96.36311569301259,
+              "delta_vs_uncompressed": {
+                "point": -0.37227949599083615,
+                "ci": [
+                  -2.834265679887459,
+                  2.0641157074470455
+                ],
+                "ci_low": -2.834265679887459,
+                "ci_high": 2.0641157074470455,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.4650630011454755,
+                "R@5": 11.827033218785797,
+                "R@10": 19.759450171821307,
+                "R@100": 66.38029782359679,
+                "SumR": 101.43184421534937
+              },
+              "SumR": 101.43184421534937,
+              "delta_vs_uncompressed": {
+                "point": 0.20045819014891178,
+                "ci": [
+                  -0.9282929754404099,
+                  1.1993575467394992
+                ],
+                "ci_low": -0.9282929754404099,
+                "ci_high": 1.1993575467394992,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": 0.20045819014891178,
+            "ci": [
+              -0.9282929754404099,
+              1.1993575467394992
+            ],
+            "reps": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.5112671838141978,
+              "score_wall_seconds": 0.11192264896817505,
+              "ranking_bootstrap_wall_seconds": 0.16477319807745516,
+              "total_wall_seconds": 0.7929920558817685,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "5a6bfc38eb87ab2a009444984f7dbb48bd13e0d06b9eae6ad6eca9fc6c27ebcb",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/20261024/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-f15da083e09f9c.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": -0.37227949599083615,
+              "ci": [
+                -1.8676254757217605,
+                1.1338927167015034
+              ],
+              "ci_low": -1.8676254757217605,
+              "ci_high": 1.1338927167015034,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.143184421534937,
+              "ci": [
+                -0.6329524668392402,
+                0.9148215456233244
+              ],
+              "ci_low": -0.6329524668392402,
+              "ci_high": 0.9148215456233244,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.143184421534937,
+            "ci": [
+              -0.6329524668392402,
+              0.9148215456233244
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "44e30461894a0b9d5e45f95d6d1b28e7d2e2ef12181de1cccc6d21eba94556d9",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.767403909625837,
+            "median": 0.7787955257885725,
+            "source": "<WORK>/file-7c6acc9e59aeb6.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 0.534288662020117,
+              "score_wall_seconds": 0.11210232996381819,
+              "ranking_bootstrap_wall_seconds": 0.16497845109552145,
+              "total_wall_seconds": 0.8157719760201871,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 0.5112671838141978,
+              "score_wall_seconds": 0.11192264896817505,
+              "ranking_bootstrap_wall_seconds": 0.16477319807745516,
+              "total_wall_seconds": 0.7929920558817685,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            },
+            "euclid": {
+              "mean": 8.0,
+              "median": 8.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "8": 457
+              },
+              "n_video": 457
+            }
+          }
+        },
+        "16": {
+          "cosine": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.86368843069874,
+                "R@5": 11.082474226804123,
+                "R@10": 18.413516609392897,
+                "R@100": 64.80526918671248,
+                "SumR": 97.16494845360825
+              },
+              "SumR": 97.16494845360825,
+              "delta_vs_uncompressed": {
+                "point": 0.429553264604811,
+                "ci": [
+                  -1.545264342873648,
+                  2.393481731219522
+                ],
+                "ci_low": -1.545264342873648,
+                "ci_high": 2.393481731219522,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.493699885452463,
+                "R@5": 11.712485681557846,
+                "R@10": 19.84536082474227,
+                "R@100": 66.06529209621993,
+                "SumR": 101.11683848797252
+              },
+              "SumR": 101.11683848797252,
+              "delta_vs_uncompressed": {
+                "point": -0.11454753722794961,
+                "ci": [
+                  -1.179306248432318,
+                  0.844499457878663
+                ],
+                "ci_low": -1.179306248432318,
+                "ci_high": 0.844499457878663,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": -0.11454753722794961,
+            "ci": [
+              -1.179306248432318,
+              0.844499457878663
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.6686918397899717,
+              "score_wall_seconds": 0.1582403110805899,
+              "ranking_bootstrap_wall_seconds": 0.16526705701835454,
+              "total_wall_seconds": 0.998745831195265,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "4cfc1ab8761450d823251fe668632fd781cfdc1ec100bc4513f9cb1bfc9a4951",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/20261024/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-b3e7212fa3d1c6.npy"
+            }
+          },
+          "euclid": {
+            "frame": {
+              "metrics": {
+                "R@1": 2.8923253150057273,
+                "R@5": 11.282932416953036,
+                "R@10": 18.61397479954181,
+                "R@100": 64.63344788087056,
+                "SumR": 97.42268041237114
+              },
+              "SumR": 97.42268041237114,
+              "delta_vs_uncompressed": {
+                "point": 0.6872852233676976,
+                "ci": [
+                  -1.1286107687462472,
+                  2.6394512696422536
+                ],
+                "ci_low": -1.1286107687462472,
+                "ci_high": 2.6394512696422536,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "fusion": {
+              "metrics": {
+                "R@1": 3.493699885452463,
+                "R@5": 11.79839633447881,
+                "R@10": 19.84536082474227,
+                "R@100": 66.06529209621993,
+                "SumR": 101.20274914089347
+              },
+              "SumR": 101.20274914089347,
+              "delta_vs_uncompressed": {
+                "point": -0.028636884306987402,
+                "ci": [
+                  -1.0571460037759597,
+                  0.9630647674186755
+                ],
+                "ci_low": -1.0571460037759597,
+                "ci_high": 0.9630647674186755,
+                "n_query": 3492,
+                "n_video": 457
+              }
+            },
+            "point": -0.028636884306987402,
+            "ci": [
+              -1.0571460037759597,
+              0.9630647674186755
+            ],
+            "reps": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "runtime": {
+              "clustering_wall_seconds": 0.6028045678976923,
+              "score_wall_seconds": 0.16457001818343997,
+              "ranking_bootstrap_wall_seconds": 0.16435115691274405,
+              "total_wall_seconds": 0.937205360038206,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "99aa5e11c9e705241f71594140511d921da07b3753c97acf41c822514b3386ba",
+              "first_rep_expansion_exact": true
+            },
+            "sources": {
+              "reference": {
+                "path": "results/protocol/youcook2_centered/RESULTS.json",
+                "sha256": "edda23a5d7b5ce71cdb697f0390e9980376de92017ab498a2a30a479a3d5fdea",
+                "field": "analysis/20261024/records/frame_Ward8,frame_Ward16/fusion07_03"
+              },
+              "frame_scores": "<WORK>/file-9f475c2ad38692.npy"
+            }
+          },
+          "diff": {
+            "frame": {
+              "point": 0.25773195876288657,
+              "ci": [
+                -0.929905076556673,
+                1.5030304497069578
+              ],
+              "ci_low": -0.929905076556673,
+              "ci_high": 1.5030304497069578,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "fusion": {
+              "point": 0.0859106529209622,
+              "ci": [
+                -0.5482419105294585,
+                0.7188142498201748
+              ],
+              "ci_low": -0.5482419105294585,
+              "ci_high": 0.7188142498201748,
+              "n_query": 3492,
+              "n_video": 457,
+              "near_zero_or_abs_le_0p3": true
+            },
+            "point": 0.0859106529209622,
+            "ci": [
+              -0.5482419105294585,
+              0.7188142498201748
+            ],
+            "bootstrap": {
+              "replicates": 2000,
+              "videos": 457,
+              "seed": 20261023,
+              "replicate_delta_sha256": "34382202658a58197e5b89b91d08212393a238032b1b7b6128060ec7bfb1df59",
+              "first_rep_expansion_exact": true
+            },
+            "main_method_unchanged": true
+          },
+          "ari": {
+            "mean": 0.7910429278417755,
+            "median": 0.8080625792089312,
+            "source": "<WORK>/file-1f9dc1fa9a62c1.npy",
+            "definition": "standard adjusted Rand over all valid original frames per video"
+          },
+          "runtime": {
+            "cosine": {
+              "clustering_wall_seconds": 0.6686918397899717,
+              "score_wall_seconds": 0.1582403110805899,
+              "ranking_bootstrap_wall_seconds": 0.16526705701835454,
+              "total_wall_seconds": 0.998745831195265,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            },
+            "euclid": {
+              "clustering_wall_seconds": 0.6028045678976923,
+              "score_wall_seconds": 0.16457001818343997,
+              "ranking_bootstrap_wall_seconds": 0.16435115691274405,
+              "total_wall_seconds": 0.937205360038206,
+              "threads_max": 8,
+              "geometry_workers": 8,
+              "geometry_BLAS_threads": 1,
+              "scoring_Torch_threads": 8,
+              "phases_not_nested": true,
+              "first_attempt_missing_phase_times": false,
+              "missing_time_reason": null
+            }
+          },
+          "reps": {
+            "cosine": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            },
+            "euclid": {
+              "mean": 16.0,
+              "median": 16.0,
+              "fraction_less_than_k": 0.0,
+              "fraction_L_less_than_k": 0.0,
+              "fraction_fewer_despite_L_greater_k": 0.0,
+              "distribution": {
+                "16": 457
+              },
+              "n_video": 457
+            }
+          }
+        }
+      }
+    }
+  },
+  "B_extra": {
+    "tvr_s9527_k4": {
+      "cosine": {
+        "frame": {
+          "metrics": {
+            "R@1": 13.868747131711794,
+            "R@5": 34.40110142267095,
+            "R@10": 45.54382744378155,
+            "R@100": 85.08490133088573,
+            "SumR": 178.89857732905
+          },
+          "SumR": 178.89857732905,
+          "delta_vs_uncompressed": {
+            "point": -5.534648921523635,
+            "ci": [
+              -6.994263423588802,
+              -4.139284075263884
+            ],
+            "ci_low": -6.994263423588802,
+            "ci_high": -4.139284075263884,
+            "n_query": 10895,
+            "n_video": 2179
+          }
+        },
+        "fusion": {
+          "metrics": {
+            "R@1": 15.741165672326755,
+            "R@5": 37.19137218907756,
+            "R@10": 48.41670491050941,
+            "R@100": 86.98485543827444,
+            "SumR": 188.33409821018816
+          },
+          "SumR": 188.33409821018816,
+          "delta_vs_uncompressed": {
+            "point": -0.9545663148233136,
+            "ci": [
+              -1.6521340064249657,
+              -0.22946305644791187
+            ],
+            "ci_low": -1.6521340064249657,
+            "ci_high": -0.22946305644791187,
+            "n_query": 10895,
+            "n_video": 2179
+          }
+        },
+        "point": -0.9545663148233136,
+        "ci": [
+          -1.6521340064249657,
+          -0.22946305644791187
+        ],
+        "reps": {
+          "mean": 4.0,
+          "median": 4.0,
+          "fraction_less_than_k": 0.0,
+          "fraction_L_less_than_k": 0.0,
+          "fraction_fewer_despite_L_greater_k": 0.0,
+          "distribution": {
+            "4": 2179
+          },
+          "n_video": 2179
+        },
+        "runtime": {
+          "clustering_wall_seconds": 1.9602696921210736,
+          "score_wall_seconds": 0.8913012431003153,
+          "ranking_bootstrap_wall_seconds": 0.9473508959636092,
+          "total_wall_seconds": 3.80632199998945,
+          "threads_max": 8,
+          "geometry_workers": 8,
+          "geometry_BLAS_threads": 1,
+          "scoring_Torch_threads": 8,
+          "phases_not_nested": true,
+          "first_attempt_missing_phase_times": false,
+          "missing_time_reason": null
+        },
+        "bootstrap": {
+          "replicates": 2000,
+          "videos": 2179,
+          "seed": 20261023,
+          "replicate_delta_sha256": "7163d778403b06b04dcd3564c34ce7a6a8fd46826f3d85f02af5367aa3db4ac4",
+          "first_rep_expansion_exact": true
+        },
+        "sources": {
+          "reference": {
+            "path": "results/index_density_stats/RESULTS.json",
+            "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+            "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+          },
+          "frame_scores": "<WORK>/file-def45cf326b307.npy"
+        }
+      },
+      "euclid": {
+        "frame": {
+          "metrics": {
+            "R@1": 14.18999541073887,
+            "R@5": 34.45617255621845,
+            "R@10": 45.67232675539238,
+            "R@100": 85.03900871959614,
+            "SumR": 179.35750344194582
+          },
+          "SumR": 179.35750344194582,
+          "delta_vs_uncompressed": {
+            "point": -5.075722808627811,
+            "ci": [
+              -6.525929325378614,
+              -3.6803579623680602
+            ],
+            "ci_low": -6.525929325378614,
+            "ci_high": -3.6803579623680602,
+            "n_query": 10895,
+            "n_video": 2179
+          }
+        },
+        "fusion": {
+          "metrics": {
+            "R@1": 15.787058283616338,
+            "R@5": 37.15465810004589,
+            "R@10": 48.31574116567233,
+            "R@100": 86.90224873795319,
+            "SumR": 188.15970628728775
+          },
+          "SumR": 188.15970628728775,
+          "delta_vs_uncompressed": {
+            "point": -1.1289582377237266,
+            "ci": [
+              -1.854061496099128,
+              -0.3852684717760453
+            ],
+            "ci_low": -1.854061496099128,
+            "ci_high": -0.3852684717760453,
+            "n_query": 10895,
+            "n_video": 2179
+          }
+        },
+        "point": -1.1289582377237266,
+        "ci": [
+          -1.854061496099128,
+          -0.3852684717760453
+        ],
+        "reps": {
+          "mean": 4.0,
+          "median": 4.0,
+          "fraction_less_than_k": 0.0,
+          "fraction_L_less_than_k": 0.0,
+          "fraction_fewer_despite_L_greater_k": 0.0,
+          "distribution": {
+            "4": 2179
+          },
+          "n_video": 2179
+        },
+        "runtime": {
+          "clustering_wall_seconds": 1.7007544648367912,
+          "score_wall_seconds": 0.8958295159973204,
+          "ranking_bootstrap_wall_seconds": 0.8937632190063596,
+          "total_wall_seconds": 3.4995479111094028,
+          "threads_max": 8,
+          "geometry_workers": 8,
+          "geometry_BLAS_threads": 1,
+          "scoring_Torch_threads": 8,
+          "phases_not_nested": true,
+          "first_attempt_missing_phase_times": false,
+          "missing_time_reason": null
+        },
+        "bootstrap": {
+          "replicates": 2000,
+          "videos": 2179,
+          "seed": 20261023,
+          "replicate_delta_sha256": "f6d6448ebb7ac8eb2c549b4bc85106f7bc0025cb223c56fdc2e2e71d6d71b787",
+          "first_rep_expansion_exact": true
+        },
+        "sources": {
+          "reference": {
+            "path": "results/index_density_stats/RESULTS.json",
+            "sha256": "29cd4035aa511d4044e42dbbd66b383ae0f7023323c095e14ef7f5aa6e269159",
+            "field": "datasets/tvr/methods/ward_cos_k8,ward_cos_k16"
+          },
+          "frame_scores": "<WORK>/file-8520f44d7ffcf1.npy"
+        }
+      },
+      "diff": {
+        "frame": {
+          "point": 0.4589261128958238,
+          "ci": [
+            -0.22969251950435976,
+            1.1840293712712253
+          ],
+          "ci_low": -0.22969251950435976,
+          "ci_high": 1.1840293712712253,
+          "n_query": 10895,
+          "n_video": 2179,
+          "near_zero_or_abs_le_0p3": true
+        },
+        "fusion": {
+          "point": -0.17439192290041303,
+          "ci": [
+            -0.596603946764571,
+            0.22946305644791187
+          ],
+          "ci_low": -0.596603946764571,
+          "ci_high": 0.22946305644791187,
+          "n_query": 10895,
+          "n_video": 2179,
+          "near_zero_or_abs_le_0p3": true
+        },
+        "point": -0.17439192290041303,
+        "ci": [
+          -0.596603946764571,
+          0.22946305644791187
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "videos": 2179,
+          "seed": 20261023,
+          "replicate_delta_sha256": "5908392f091ed20b012d275b302cb168c8b0880434002addf5f6e670be575bdd",
+          "first_rep_expansion_exact": true
+        },
+        "main_method_unchanged": true
+      },
+      "ari": {
+        "mean": 0.8362533200711072,
+        "median": 0.9103039227210952,
+        "source": "<WORK>/file-04c075ee0144ac.npy",
+        "definition": "standard adjusted Rand over all valid original frames per video"
+      },
+      "runtime": {
+        "cosine": {
+          "clustering_wall_seconds": 1.9602696921210736,
+          "score_wall_seconds": 0.8913012431003153,
+          "ranking_bootstrap_wall_seconds": 0.9473508959636092,
+          "total_wall_seconds": 3.80632199998945,
+          "threads_max": 8,
+          "geometry_workers": 8,
+          "geometry_BLAS_threads": 1,
+          "scoring_Torch_threads": 8,
+          "phases_not_nested": true,
+          "first_attempt_missing_phase_times": false,
+          "missing_time_reason": null
+        },
+        "euclid": {
+          "clustering_wall_seconds": 1.7007544648367912,
+          "score_wall_seconds": 0.8958295159973204,
+          "ranking_bootstrap_wall_seconds": 0.8937632190063596,
+          "total_wall_seconds": 3.4995479111094028,
+          "threads_max": 8,
+          "geometry_workers": 8,
+          "geometry_BLAS_threads": 1,
+          "scoring_Torch_threads": 8,
+          "phases_not_nested": true,
+          "first_attempt_missing_phase_times": false,
+          "missing_time_reason": null
+        }
+      },
+      "reps": {
+        "cosine": {
+          "mean": 4.0,
+          "median": 4.0,
+          "fraction_less_than_k": 0.0,
+          "fraction_L_less_than_k": 0.0,
+          "fraction_fewer_despite_L_greater_k": 0.0,
+          "distribution": {
+            "4": 2179
+          },
+          "n_video": 2179
+        },
+        "euclid": {
+          "mean": 4.0,
+          "median": 4.0,
+          "fraction_less_than_k": 0.0,
+          "fraction_L_less_than_k": 0.0,
+          "fraction_fewer_despite_L_greater_k": 0.0,
+          "distribution": {
+            "4": 2179
+          },
+          "n_video": 2179
+        }
+      }
+    }
+  },
+  "artifacts": {
+    "tvr_s9527": "<WORK>/file-a858f4c9658dab.npz",
+    "activitynet_s9527": "<WORK>/file-4458e03baf1c2e.npz",
+    "charades_s9527": "<WORK>/file-a8c54c3c5ab36e.npz",
+    "youcook2_s9527": "<WORK>/file-8771d60c8761c1.npz",
+    "youcook2_s20261024": "<WORK>/file-5aecaa960b29f3.npz"
+  },
+  "model_training": false,
+  "new_encoding": false,
+  "CPU_only": true,
+  "threads_max": 8,
+  "integer_truth_bootstrap_order_preserved": true,
+  "main_method": "cosine-precomputed Token Pooling variant, unchanged"
+}

@@ -1,0 +1,101 @@
+{
+  "dataset": "tvr",
+  "seed": 9527,
+  "checkpoint": "<WORK>/file-07c501159d056b.ckpt",
+  "checkpoint_sha256": "4907fcc45f412063c1b6c2e425f62247fe0f3b4817affc012171130c4a2ed067",
+  "best_epoch": 80,
+  "run_folder": "<WORK>/file-8d6a9a053f934f",
+  "cache": {
+    "encoded_frames.npy": {
+      "path": "<WORK>/file-f13bc3401684a0.npy",
+      "sha256": "4d1b706be5d062abaacc17bc125b018bd3ab390926dfcc05544d6b5a1142b28d"
+    },
+    "encoded_mask.npy": {
+      "path": "<WORK>/file-41c515fd84d21c.npy",
+      "sha256": "77cac42d1cfc32dfd0104a5c1709c64750824b0348f438a770e74a8af36f9e4c"
+    },
+    "encoded_queries.npy": {
+      "path": "<WORK>/file-7400b5a53bd205.npy",
+      "sha256": "9667f6de1831f1e5e82f39c2b22a3385b792517ef13637113006a058ca7cf650"
+    }
+  },
+  "input_shape": [
+    10895,
+    2179
+  ],
+  "device": "cpu",
+  "video_seconds": 40.48383337003179,
+  "query_score_seconds": 49.69430367893074,
+  "total_seconds": 96.31619902292732,
+  "feature_adapter_checks": [
+    {
+      "video": "s06e16_seg02_clip_17",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "friends_s04e13_seg02_clip_04",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "house_s07e20_seg02_clip_17",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    }
+  ],
+  "video_valid_length_min": 6,
+  "video_valid_length_max": 123,
+  "videos_L_below_32": 31,
+  "baseline_metrics": {
+    "R@1": 15.933914639743001,
+    "R@5": 37.356585589720055,
+    "R@10": 49.06837999082148,
+    "R@100": 86.92978430472694,
+    "SumR": 189.28866452501148
+  },
+  "expected_metrics": {
+    "R@1": 15.933914639743001,
+    "R@5": 37.356585589720055,
+    "R@10": 49.06837999082148,
+    "R@100": 86.92978430472694,
+    "SumR": 189.28866452501148
+  },
+  "baseline_errors": {
+    "R@1": 0.0,
+    "R@5": 0.0,
+    "R@10": 0.0,
+    "R@100": 0.0,
+    "SumR": 0.0
+  },
+  "baseline_max_score_abs_error_vs_saved_GPU": {
+    "clip": 5.364418029785156e-07,
+    "frame": 4.76837158203125e-07,
+    "fused": 4.172325134277344e-07
+  },
+  "saved_GPU_RK_hit_disagreements": {
+    "K1": 0,
+    "K5": 0,
+    "K10": 0,
+    "K100": 0
+  },
+  "original_SumR_reproduction_passed": true,
+  "output_files": {
+    "clip": {
+      "path": "<WORK>/file-c3fdc115ece0ee.npy",
+      "sha256": "4144814106710ac0b32e41f910f26716ea5347851f9c3b777d51c2e1387224d0"
+    },
+    "frame_raw": {
+      "path": "<WORK>/file-19531b760a4738.npy",
+      "sha256": "afbaa62336e08611789bd44252898a6705cef446a329275217ebe3f15dc5c112"
+    },
+    "frame_pool": {
+      "path": "<WORK>/file-278806769c8dcb.npy",
+      "sha256": "a708a030f301550160b14fd1cc700fdbc9305abe8afcf6f489ddd1f4b1119a7e"
+    }
+  },
+  "checkpoint_unchanged": true,
+  "optimizer_steps": 0,
+  "CUDA_initialized": false,
+  "prior_score_matrices_byte_equal": true
+}

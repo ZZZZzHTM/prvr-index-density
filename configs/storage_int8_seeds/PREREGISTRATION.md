@@ -1,0 +1,7 @@
+# Frame Ward-8 with per-vector int8 across seeds
+
+Use the three original GMMFormerV2 seeds and three primary datasets at 32 clips plus eight Ward frame centers. FP32 normalize each video vector with eps=1e-12, then set the scale to max(abs(vector))/127, using 1 for a zero vector. Store symmetric int8 values [-127,127], one FP32 scale per vector and one int32 valid length per branch. Decode by FP32 multiplication, without renormalization. Store 40 padded vectors of dimension 384; normalize original query in batches of 50, score in 128-video/128-query blocks, then use native torch.argsort(-scores,stable=False). Verify seed-9527 int8 SumR (TVR 188.9215, ActivityNet 154.5801, Charades 77.4462), fp32 Ward-8 for the two other seeds against their original records, and exactly 15,528 padded bytes per video before new evaluation. Stop this analysis if the numerical gate fails.
+
+For all nine cells report int8 minus uncompressed as primary and int8 minus fp32 Ward-8 as secondary, with paired 2,000 positive-video draws (default_rng(20261023), original shared weights, linear [.025,.975]). Report Q1 and Q4 descriptively and mean change across seeds/datasets, identifying the number of detectably negative cells when at least one occurs. Do not change quantization or tuning.
+
+Average the three seeds within each dataset first, then weight the three datasets equally. Count detectably positive and detectably negative cells separately. Show Q1 and Q4 fp32 Ward-8 point estimates and intervals alongside the int8 counterparts without a directional decision.

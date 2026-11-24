@@ -1,0 +1,3038 @@
+{
+  "job": {
+    "group": "C",
+    "method": "DreamClipOnly",
+    "dataset": "activitynet",
+    "seed": 0
+  },
+  "attempt": 1,
+  "status": "completed",
+  "source": {
+    "path": "<WORK>/file-4c312ac9a81058.json",
+    "sha256": "1ea10120b7eed3202ca41eba2be16e49de4f58dfbae5c895a5fbcdb29002dfbb",
+    "storage": "repository-relative runtime artifact"
+  },
+  "config_file": "<WORK>/file-979e4a0d3d0f11.json",
+  "config_sha256": "3200e68da9fdc3c849407f40c9cbcb1adf73a7e8b9383040cffa21cf308dee0e",
+  "checkpoint_sha256": "51567623d89d766eb9f8b5d912455b096a6a82fdb8acad6e0485cb5643fe7f25",
+  "best_epoch": 95,
+  "epochs": 100,
+  "train_time": 5601.530070994049,
+  "metrics": {
+    "R@1": 8.277788357773122,
+    "R@5": 25.56338475211071,
+    "R@10": 38.037199263632324,
+    "R@100": 77.75026978988129,
+    "SumR": 149.62864216339744
+  },
+  "MemoryPeak_bytes": 9703411712,
+  "CUDA_peak_allocated_bytes": 3660742656,
+  "num_workers": 8,
+  "CPU_threads": 8,
+  "epoch_summary": [
+    {
+      "epoch": 0,
+      "best_epoch": 0,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 73.21279957308434,
+      "train_seconds": 45.70355765381828,
+      "val_seconds": 26.873741164105013,
+      "loss": 1.0055541522066358,
+      "CUDA_peak_allocated_bytes": 3592784896,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 8588390400,
+      "val_metrics": {
+        "clip": {
+          "R@1": 0.526883768171142,
+          "R@5": 2.361454960959817,
+          "R@10": 4.145242176093443,
+          "R@100": 25.391988827524916,
+          "SumR": 32.42556973274932
+        },
+        "fused": {
+          "R@1": 0.526883768171142,
+          "R@5": 2.361454960959817,
+          "R@10": 4.145242176093443,
+          "R@100": 25.391988827524916,
+          "SumR": 32.42556973274932
+        }
+      }
+    },
+    {
+      "epoch": 1,
+      "best_epoch": 1,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 73.58988682902418,
+      "train_seconds": 46.44099791604094,
+      "val_seconds": 26.61641919100657,
+      "loss": 0.5157289223771699,
+      "CUDA_peak_allocated_bytes": 3592784896,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9258913792,
+      "val_metrics": {
+        "clip": {
+          "R@1": 2.253539008442836,
+          "R@5": 8.72849615946169,
+          "R@10": 14.727353519964451,
+          "R@100": 54.61816796800609,
+          "SumR": 80.32755665587507
+        },
+        "fused": {
+          "R@1": 2.253539008442836,
+          "R@5": 8.72849615946169,
+          "R@10": 14.727353519964451,
+          "R@100": 54.61816796800609,
+          "SumR": 80.32755665587507
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "best_epoch": 2,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 69.18615988083184,
+      "train_seconds": 46.18760521407239,
+      "val_seconds": 22.055756406858563,
+      "loss": 0.430624805285897,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9258913792,
+      "val_metrics": {
+        "clip": {
+          "R@1": 2.304322986097886,
+          "R@5": 9.979051609217292,
+          "R@10": 16.89836856471783,
+          "R@100": 58.49044626420364,
+          "SumR": 87.67218942423665
+        },
+        "fused": {
+          "R@1": 2.304322986097886,
+          "R@5": 9.979051609217292,
+          "R@10": 16.89836856471783,
+          "R@100": 58.49044626420364,
+          "SumR": 87.67218942423665
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "best_epoch": 3,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 70.36914033791982,
+      "train_seconds": 44.50755246100016,
+      "val_seconds": 24.856591840973124,
+      "loss": 0.40264122041178424,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 3.3136545419920016,
+          "R@5": 12.321462578556465,
+          "R@10": 21.049958738018155,
+          "R@100": 64.32425569732749,
+          "SumR": 101.00933155589411
+        },
+        "fused": {
+          "R@1": 3.3136545419920016,
+          "R@5": 12.321462578556465,
+          "R@10": 21.049958738018155,
+          "R@100": 64.32425569732749,
+          "SumR": 101.00933155589411
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "best_epoch": 4,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 74.49770713597536,
+      "train_seconds": 44.691347853979096,
+      "val_seconds": 29.231164284050465,
+      "loss": 0.38275422134869536,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 3.421570494508982,
+          "R@5": 12.676950422141815,
+          "R@10": 21.49431854249984,
+          "R@100": 65.44785120294547,
+          "SumR": 103.04069066209611
+        },
+        "fused": {
+          "R@1": 3.421570494508982,
+          "R@5": 12.676950422141815,
+          "R@10": 21.49431854249984,
+          "R@100": 65.44785120294547,
+          "SumR": 103.04069066209611
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "best_epoch": 5,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 70.35882170195691,
+      "train_seconds": 40.76915068295784,
+      "val_seconds": 28.98588257213123,
+      "loss": 0.36947264511820294,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 3.789754332508094,
+          "R@5": 14.194121754586428,
+          "R@10": 23.430457690598615,
+          "R@100": 67.70773820859519,
+          "SumR": 109.12207198628832
+        },
+        "fused": {
+          "R@1": 3.789754332508094,
+          "R@5": 14.194121754586428,
+          "R@10": 23.430457690598615,
+          "R@100": 67.70773820859519,
+          "SumR": 109.12207198628832
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "best_epoch": 6,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 72.32773025915958,
+      "train_seconds": 40.52217313693836,
+      "val_seconds": 31.138750907033682,
+      "loss": 0.35929565698328153,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 3.967498254300768,
+          "R@5": 14.72100552275757,
+          "R@10": 23.779597536977082,
+          "R@100": 68.67263378404114,
+          "SumR": 111.14073509807656
+        },
+        "fused": {
+          "R@1": 3.967498254300768,
+          "R@5": 14.72100552275757,
+          "R@10": 23.779597536977082,
+          "R@100": 68.67263378404114,
+          "SumR": 111.14073509807656
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "best_epoch": 7,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 72.27642882196233,
+      "train_seconds": 43.083618885837495,
+      "val_seconds": 28.619011249160394,
+      "loss": 0.3491592549941909,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 4.024630229162699,
+          "R@5": 15.412937218307624,
+          "R@10": 25.04284898114645,
+          "R@100": 69.27569351869485,
+          "SumR": 113.75610994731161
+        },
+        "fused": {
+          "R@1": 4.024630229162699,
+          "R@5": 15.412937218307624,
+          "R@10": 25.04284898114645,
+          "R@100": 69.27569351869485,
+          "SumR": 113.75610994731161
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "best_epoch": 8,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 74.04902329784818,
+      "train_seconds": 44.756110307062045,
+      "val_seconds": 28.4818634679541,
+      "loss": 0.3433805292760822,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5844762624,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 4.424554053196217,
+          "R@5": 15.95251698089253,
+          "R@10": 26.007744556592396,
+          "R@100": 70.86269282041516,
+          "SumR": 117.2475084110963
+        },
+        "fused": {
+          "R@1": 4.424554053196217,
+          "R@5": 15.95251698089253,
+          "R@10": 26.007744556592396,
+          "R@100": 70.86269282041516,
+          "SumR": 117.2475084110963
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "best_epoch": 9,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 74.78977197990753,
+      "train_seconds": 43.51650473405607,
+      "val_seconds": 30.61667280900292,
+      "loss": 0.3360791420432883,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 4.583253983368247,
+          "R@5": 16.295308830064116,
+          "R@10": 26.337840411350218,
+          "R@100": 71.1864406779661,
+          "SumR": 118.40284390274869
+        },
+        "fused": {
+          "R@1": 4.583253983368247,
+          "R@5": 16.295308830064116,
+          "R@10": 26.337840411350218,
+          "R@100": 71.1864406779661,
+          "SumR": 118.40284390274869
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "best_epoch": 10,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 71.60615558200516,
+      "train_seconds": 43.98036520997994,
+      "val_seconds": 26.722233773209155,
+      "loss": 0.330715235270245,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 4.4499460420237416,
+          "R@5": 16.83488859264902,
+          "R@10": 27.074208087348442,
+          "R@100": 71.21183266679363,
+          "SumR": 119.57087538881483
+        },
+        "fused": {
+          "R@1": 4.4499460420237416,
+          "R@5": 16.83488859264902,
+          "R@10": 27.074208087348442,
+          "R@100": 71.21183266679363,
+          "SumR": 119.57087538881483
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "best_epoch": 11,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 71.38490667799488,
+      "train_seconds": 46.689373748144135,
+      "val_seconds": 24.07561847101897,
+      "loss": 0.3264653099254823,
+      "CUDA_peak_allocated_bytes": 3599418880,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 4.887957849298546,
+          "R@5": 17.387164349647687,
+          "R@10": 27.759791785691615,
+          "R@100": 71.96089633720561,
+          "SumR": 121.99581032184346
+        },
+        "fused": {
+          "R@1": 4.887957849298546,
+          "R@5": 17.387164349647687,
+          "R@10": 27.759791785691615,
+          "R@100": 71.96089633720561,
+          "SumR": 121.99581032184346
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "best_epoch": 12,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 73.64174197404645,
+      "train_seconds": 44.64629136095755,
+      "val_seconds": 28.38486028998159,
+      "loss": 0.322676528507555,
+      "CUDA_peak_allocated_bytes": 3616545280,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.2878816733320635,
+          "R@5": 17.539516282612837,
+          "R@10": 28.19145559575954,
+          "R@100": 72.8750079349965,
+          "SumR": 123.89386148670094
+        },
+        "fused": {
+          "R@1": 5.2878816733320635,
+          "R@5": 17.539516282612837,
+          "R@10": 28.19145559575954,
+          "R@100": 72.8750079349965,
+          "SumR": 123.89386148670094
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "best_epoch": 13,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 72.03709207405336,
+      "train_seconds": 47.06059582391754,
+      "val_seconds": 24.318672289839014,
+      "loss": 0.31855207261904867,
+      "CUDA_peak_allocated_bytes": 3616545280,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.345013648193995,
+          "R@5": 18.352059925093634,
+          "R@10": 28.77547133879261,
+          "R@100": 73.25588776740938,
+          "SumR": 125.72843267948961
+        },
+        "fused": {
+          "R@1": 5.345013648193995,
+          "R@5": 18.352059925093634,
+          "R@10": 28.77547133879261,
+          "R@100": 73.25588776740938,
+          "SumR": 125.72843267948961
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "best_epoch": 14,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 72.95157007593662,
+      "train_seconds": 44.80533956200816,
+      "val_seconds": 27.442391749005765,
+      "loss": 0.3150858081562418,
+      "CUDA_peak_allocated_bytes": 3616545280,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.1672697264013205,
+          "R@5": 18.320319939059228,
+          "R@10": 28.915127277344,
+          "R@100": 73.44632768361582,
+          "SumR": 125.84904462642037
+        },
+        "fused": {
+          "R@1": 5.1672697264013205,
+          "R@5": 18.320319939059228,
+          "R@10": 28.915127277344,
+          "R@100": 73.44632768361582,
+          "SumR": 125.84904462642037
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "best_epoch": 15,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 72.45754188904539,
+      "train_seconds": 42.28162018605508,
+      "val_seconds": 29.29667443386279,
+      "loss": 0.31058313141406424,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.065701771091221,
+          "R@5": 18.63771979940329,
+          "R@10": 29.505491017583953,
+          "R@100": 73.41458769758141,
+          "SumR": 126.62350028565987
+        },
+        "fused": {
+          "R@1": 5.065701771091221,
+          "R@5": 18.63771979940329,
+          "R@10": 29.505491017583953,
+          "R@100": 73.41458769758141,
+          "SumR": 126.62350028565987
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "best_epoch": 16,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 74.6301418049261,
+      "train_seconds": 43.202313913963735,
+      "val_seconds": 30.820617619901896,
+      "loss": 0.3077797759586657,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.281533676125182,
+          "R@5": 19.10112359550562,
+          "R@10": 30.11489874944455,
+          "R@100": 74.28426331492415,
+          "SumR": 128.7818193359995
+        },
+        "fused": {
+          "R@1": 5.281533676125182,
+          "R@5": 19.10112359550562,
+          "R@10": 30.11489874944455,
+          "R@100": 74.28426331492415,
+          "SumR": 128.7818193359995
+        }
+      }
+    },
+    {
+      "epoch": 17,
+      "best_epoch": 16,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": false,
+      "epoch_wall_seconds": 67.39955990412273,
+      "train_seconds": 37.88879853696562,
+      "val_seconds": 29.50482134288177,
+      "loss": 0.30465087504454064,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.440233606297213,
+          "R@5": 19.183647559195073,
+          "R@10": 29.791150891893608,
+          "R@100": 74.01764743223514,
+          "SumR": 128.43267948962102
+        },
+        "fused": {
+          "R@1": 5.440233606297213,
+          "R@5": 19.183647559195073,
+          "R@10": 29.791150891893608,
+          "R@100": 74.01764743223514,
+          "SumR": 128.43267948962102
+        }
+      }
+    },
+    {
+      "epoch": 18,
+      "best_epoch": 18,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": false,
+      "epoch_wall_seconds": 75.10504696611315,
+      "train_seconds": 42.35511103295721,
+      "val_seconds": 31.948440223932266,
+      "loss": 0.30122884772193265,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9455644672,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.560845553227956,
+          "R@5": 19.450263441884086,
+          "R@10": 30.57195454834,
+          "R@100": 74.51913921157875,
+          "SumR": 130.1022027550308
+        },
+        "fused": {
+          "R@1": 5.560845553227956,
+          "R@5": 19.450263441884086,
+          "R@10": 30.57195454834,
+          "R@100": 74.51913921157875,
+          "SumR": 130.1022027550308
+        }
+      }
+    },
+    {
+      "epoch": 19,
+      "best_epoch": 18,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": false,
+      "epoch_wall_seconds": 71.43415643111803,
+      "train_seconds": 42.91499886405654,
+      "val_seconds": 28.512043174821883,
+      "loss": 0.2987589332419382,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9521008640,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.535453564400432,
+          "R@5": 19.26617152288453,
+          "R@10": 30.559258553926238,
+          "R@100": 74.30965530375167,
+          "SumR": 129.67053894496286
+        },
+        "fused": {
+          "R@1": 5.535453564400432,
+          "R@5": 19.26617152288453,
+          "R@10": 30.559258553926238,
+          "R@100": 74.30965530375167,
+          "SumR": 129.67053894496286
+        }
+      }
+    },
+    {
+      "epoch": 20,
+      "best_epoch": 18,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 75.3254309319891,
+      "train_seconds": 44.53517279890366,
+      "val_seconds": 30.78373615304008,
+      "loss": 0.6006034982036537,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9554468864,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.376753634228401,
+          "R@5": 19.069383609471213,
+          "R@10": 30.52751856789183,
+          "R@100": 74.57627118644068,
+          "SumR": 129.5499269980321
+        },
+        "fused": {
+          "R@1": 5.376753634228401,
+          "R@5": 19.069383609471213,
+          "R@10": 30.52751856789183,
+          "R@100": 74.57627118644068,
+          "SumR": 129.5499269980321
+        }
+      }
+    },
+    {
+      "epoch": 21,
+      "best_epoch": 21,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 76.19349902798422,
+      "train_seconds": 42.359328869963065,
+      "val_seconds": 32.76307466998696,
+      "loss": 0.5915240813309038,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9554468864,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.668761505744937,
+          "R@5": 19.951755221227703,
+          "R@10": 31.124230305338667,
+          "R@100": 75.05237097695677,
+          "SumR": 131.79711800926808
+        },
+        "fused": {
+          "R@1": 5.668761505744937,
+          "R@5": 19.951755221227703,
+          "R@10": 31.124230305338667,
+          "R@100": 75.05237097695677,
+          "SumR": 131.79711800926808
+        }
+      }
+    },
+    {
+      "epoch": 22,
+      "best_epoch": 22,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 72.66752928006463,
+      "train_seconds": 43.321599160088226,
+      "val_seconds": 28.644906510133296,
+      "loss": 0.5825037477721631,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9596702720,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.751285469434394,
+          "R@5": 19.856535263124485,
+          "R@10": 31.46067415730337,
+          "R@100": 75.24281089316321,
+          "SumR": 132.31130578302546
+        },
+        "fused": {
+          "R@1": 5.751285469434394,
+          "R@5": 19.856535263124485,
+          "R@10": 31.46067415730337,
+          "R@100": 75.24281089316321,
+          "SumR": 132.31130578302546
+        }
+      }
+    },
+    {
+      "epoch": 23,
+      "best_epoch": 23,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 77.7561521769967,
+      "train_seconds": 44.861166391987354,
+      "val_seconds": 32.32117349491455,
+      "loss": 0.5788926146399807,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.903637402399543,
+          "R@5": 20.281851075985525,
+          "R@10": 31.866945978543768,
+          "R@100": 75.42055481495588,
+          "SumR": 133.47298927188473
+        },
+        "fused": {
+          "R@1": 5.903637402399543,
+          "R@5": 20.281851075985525,
+          "R@10": 31.866945978543768,
+          "R@100": 75.42055481495588,
+          "SumR": 133.47298927188473
+        }
+      }
+    },
+    {
+      "epoch": 24,
+      "best_epoch": 24,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 69.06032501999289,
+      "train_seconds": 45.20032241009176,
+      "val_seconds": 23.15478667500429,
+      "loss": 0.5741208430746911,
+      "CUDA_peak_allocated_bytes": 3640815104,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 5.8845934107788995,
+          "R@5": 20.91030279946677,
+          "R@10": 32.74296959309338,
+          "R@100": 75.97283057195455,
+          "SumR": 135.5106963752936
+        },
+        "fused": {
+          "R@1": 5.8845934107788995,
+          "R@5": 20.91030279946677,
+          "R@10": 32.74296959309338,
+          "R@100": 75.97283057195455,
+          "SumR": 135.5106963752936
+        }
+      }
+    },
+    {
+      "epoch": 25,
+      "best_epoch": 24,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 60.400831755949184,
+      "train_seconds": 39.38124751392752,
+      "val_seconds": 21.01417074794881,
+      "loss": 0.5714861842947947,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.049641338157811,
+          "R@5": 20.853170824604838,
+          "R@10": 32.78105757633467,
+          "R@100": 75.81413064178251,
+          "SumR": 135.49800038087983
+        },
+        "fused": {
+          "R@1": 6.049641338157811,
+          "R@5": 20.853170824604838,
+          "R@10": 32.78105757633467,
+          "R@100": 75.81413064178251,
+          "SumR": 135.49800038087983
+        }
+      }
+    },
+    {
+      "epoch": 26,
+      "best_epoch": 24,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 66.58352289511822,
+      "train_seconds": 41.290729388128966,
+      "val_seconds": 25.286355761811137,
+      "loss": 0.5656245644663421,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.163905287881673,
+          "R@5": 20.85951882181172,
+          "R@10": 32.457309718783726,
+          "R@100": 75.93474258871326,
+          "SumR": 135.41547641719038
+        },
+        "fused": {
+          "R@1": 6.163905287881673,
+          "R@5": 20.85951882181172,
+          "R@10": 32.457309718783726,
+          "R@100": 75.93474258871326,
+          "SumR": 135.41547641719038
+        }
+      }
+    },
+    {
+      "epoch": 27,
+      "best_epoch": 27,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 69.59408041695133,
+      "train_seconds": 40.72861667489633,
+      "val_seconds": 28.178438510978594,
+      "loss": 0.5628845246744828,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.3099092236399414,
+          "R@5": 21.253094648638356,
+          "R@10": 33.21906938360947,
+          "R@100": 76.08074652447154,
+          "SumR": 136.8628197803593
+        },
+        "fused": {
+          "R@1": 6.3099092236399414,
+          "R@5": 21.253094648638356,
+          "R@10": 33.21906938360947,
+          "R@100": 76.08074652447154,
+          "SumR": 136.8628197803593
+        }
+      }
+    },
+    {
+      "epoch": 28,
+      "best_epoch": 28,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 65.44536355417222,
+      "train_seconds": 41.254000053042546,
+      "val_seconds": 23.59856971586123,
+      "loss": 0.5581598768771534,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.786009014156034,
+          "R@5": 21.551450517361772,
+          "R@10": 33.69516917412556,
+          "R@100": 76.31562242112614,
+          "SumR": 138.3482511267695
+        },
+        "fused": {
+          "R@1": 6.786009014156034,
+          "R@5": 21.551450517361772,
+          "R@10": 33.69516917412556,
+          "R@100": 76.31562242112614,
+          "SumR": 138.3482511267695
+        }
+      }
+    },
+    {
+      "epoch": 29,
+      "best_epoch": 29,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 69.41658760095015,
+      "train_seconds": 40.03494704887271,
+      "val_seconds": 28.407237851060927,
+      "loss": 0.5548169831155052,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.747921030914746,
+          "R@5": 21.583190503396178,
+          "R@10": 33.885609090332004,
+          "R@100": 76.63302228147019,
+          "SumR": 138.84974290611314
+        },
+        "fused": {
+          "R@1": 6.747921030914746,
+          "R@5": 21.583190503396178,
+          "R@10": 33.885609090332004,
+          "R@100": 76.63302228147019,
+          "SumR": 138.84974290611314
+        }
+      }
+    },
+    {
+      "epoch": 30,
+      "best_epoch": 30,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 66.93377618608065,
+      "train_seconds": 39.36055406089872,
+      "val_seconds": 26.954952829983085,
+      "loss": 0.5527021624672581,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.893924966673015,
+          "R@5": 22.078334285532915,
+          "R@10": 34.25379292833111,
+          "R@100": 76.55049831778074,
+          "SumR": 139.77655049831776
+        },
+        "fused": {
+          "R@1": 6.893924966673015,
+          "R@5": 22.078334285532915,
+          "R@10": 34.25379292833111,
+          "R@100": 76.55049831778074,
+          "SumR": 139.77655049831776
+        }
+      }
+    },
+    {
+      "epoch": 31,
+      "best_epoch": 30,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 65.37910452391952,
+      "train_seconds": 38.19224119000137,
+      "val_seconds": 27.181646599899977,
+      "loss": 0.548547432036467,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.7542690281216275,
+          "R@5": 22.129118263187966,
+          "R@10": 34.02526502888339,
+          "R@100": 76.65841427029773,
+          "SumR": 139.5670665904907
+        },
+        "fused": {
+          "R@1": 6.7542690281216275,
+          "R@5": 22.129118263187966,
+          "R@10": 34.02526502888339,
+          "R@100": 76.65841427029773,
+          "SumR": 139.5670665904907
+        }
+      }
+    },
+    {
+      "epoch": 32,
+      "best_epoch": 32,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 62.67948043392971,
+      "train_seconds": 38.32097885804251,
+      "val_seconds": 23.708829198032618,
+      "loss": 0.5453621711529476,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.9510569415349455,
+          "R@5": 22.5226940900146,
+          "R@10": 34.60928077191646,
+          "R@100": 76.73459023678029,
+          "SumR": 140.8176220402463
+        },
+        "fused": {
+          "R@1": 6.9510569415349455,
+          "R@5": 22.5226940900146,
+          "R@10": 34.60928077191646,
+          "R@100": 76.73459023678029,
+          "SumR": 140.8176220402463
+        }
+      }
+    },
+    {
+      "epoch": 33,
+      "best_epoch": 32,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 69.76141906809062,
+      "train_seconds": 38.974780661053956,
+      "val_seconds": 30.78182158409618,
+      "loss": 0.542290533512411,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.887576969466133,
+          "R@5": 22.586174062083412,
+          "R@10": 34.36170888084809,
+          "R@100": 76.93137815019361,
+          "SumR": 140.76683806259126
+        },
+        "fused": {
+          "R@1": 6.887576969466133,
+          "R@5": 22.586174062083412,
+          "R@10": 34.36170888084809,
+          "R@100": 76.93137815019361,
+          "SumR": 140.76683806259126
+        }
+      }
+    },
+    {
+      "epoch": 34,
+      "best_epoch": 34,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 61.17502272920683,
+      "train_seconds": 37.332624158822,
+      "val_seconds": 23.140541434055194,
+      "loss": 0.5408496508296107,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 6.798705008569796,
+          "R@5": 23.14479781628896,
+          "R@10": 35.098076556846316,
+          "R@100": 77.13451406081381,
+          "SumR": 142.1760934425189
+        },
+        "fused": {
+          "R@1": 6.798705008569796,
+          "R@5": 23.14479781628896,
+          "R@10": 35.098076556846316,
+          "R@100": 77.13451406081381,
+          "SumR": 142.1760934425189
+        }
+      }
+    },
+    {
+      "epoch": 35,
+      "best_epoch": 35,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 66.61688766791485,
+      "train_seconds": 38.78440313995816,
+      "val_seconds": 27.17194560309872,
+      "loss": 0.5369342032452704,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.008188916396877,
+          "R@5": 23.024185869358217,
+          "R@10": 35.409128419983496,
+          "R@100": 77.17895004126198,
+          "SumR": 142.62045324700057
+        },
+        "fused": {
+          "R@1": 7.008188916396877,
+          "R@5": 23.024185869358217,
+          "R@10": 35.409128419983496,
+          "R@100": 77.17895004126198,
+          "SumR": 142.62045324700057
+        }
+      }
+    },
+    {
+      "epoch": 36,
+      "best_epoch": 36,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 61.35703054512851,
+      "train_seconds": 37.54358961782418,
+      "val_seconds": 22.704549125861377,
+      "loss": 0.5345938423989525,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.078016885672571,
+          "R@5": 23.24636577159906,
+          "R@10": 35.358344442328445,
+          "R@100": 77.15355805243446,
+          "SumR": 142.83628515203452
+        },
+        "fused": {
+          "R@1": 7.078016885672571,
+          "R@5": 23.24636577159906,
+          "R@10": 35.358344442328445,
+          "R@100": 77.15355805243446,
+          "SumR": 142.83628515203452
+        }
+      }
+    },
+    {
+      "epoch": 37,
+      "best_epoch": 37,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 71.08882818603888,
+      "train_seconds": 42.59202663204633,
+      "val_seconds": 27.530508958967403,
+      "loss": 0.5325703499182849,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.122452866120739,
+          "R@5": 23.24001777439218,
+          "R@10": 35.4408684060179,
+          "R@100": 77.29321399098585,
+          "SumR": 143.09655303751668
+        },
+        "fused": {
+          "R@1": 7.122452866120739,
+          "R@5": 23.24001777439218,
+          "R@10": 35.4408684060179,
+          "R@100": 77.29321399098585,
+          "SumR": 143.09655303751668
+        }
+      }
+    },
+    {
+      "epoch": 38,
+      "best_epoch": 38,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 66.28773156087846,
+      "train_seconds": 38.1348180801142,
+      "val_seconds": 27.610993360169232,
+      "loss": 0.5299822381684478,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.166888846568908,
+          "R@5": 23.373325715736684,
+          "R@10": 35.624960325017454,
+          "R@100": 77.34399796864089,
+          "SumR": 143.50917285596393
+        },
+        "fused": {
+          "R@1": 7.166888846568908,
+          "R@5": 23.373325715736684,
+          "R@10": 35.624960325017454,
+          "R@100": 77.34399796864089,
+          "SumR": 143.50917285596393
+        }
+      }
+    },
+    {
+      "epoch": 39,
+      "best_epoch": 39,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 58.90924486820586,
+      "train_seconds": 36.653238612925634,
+      "val_seconds": 21.683799157151952,
+      "loss": 0.5253470607206855,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.217672824223957,
+          "R@5": 23.366977718529803,
+          "R@10": 35.707484288706915,
+          "R@100": 77.29956198819272,
+          "SumR": 143.5916968196534
+        },
+        "fused": {
+          "R@1": 7.217672824223957,
+          "R@5": 23.366977718529803,
+          "R@10": 35.707484288706915,
+          "R@100": 77.29956198819272,
+          "SumR": 143.5916968196534
+        }
+      }
+    },
+    {
+      "epoch": 40,
+      "best_epoch": 40,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 54.48744124500081,
+      "train_seconds": 34.8392693339847,
+      "val_seconds": 19.115531883202493,
+      "loss": 0.5257067155670112,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.268456801879007,
+          "R@5": 23.950993461562877,
+          "R@10": 35.967752174189044,
+          "R@100": 77.34399796864089,
+          "SumR": 144.5312004062718
+        },
+        "fused": {
+          "R@1": 7.268456801879007,
+          "R@5": 23.950993461562877,
+          "R@10": 35.967752174189044,
+          "R@100": 77.34399796864089,
+          "SumR": 144.5312004062718
+        }
+      }
+    },
+    {
+      "epoch": 41,
+      "best_epoch": 41,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.87354288180359,
+      "train_seconds": 29.90072656609118,
+      "val_seconds": 17.45655149803497,
+      "loss": 0.5238055935208227,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.274804799085889,
+          "R@5": 23.627245604011936,
+          "R@10": 36.34228400939504,
+          "R@100": 77.53443788484734,
+          "SumR": 144.7787722973402
+        },
+        "fused": {
+          "R@1": 7.274804799085889,
+          "R@5": 23.627245604011936,
+          "R@10": 36.34228400939504,
+          "R@100": 77.53443788484734,
+          "SumR": 144.7787722973402
+        }
+      }
+    },
+    {
+      "epoch": 42,
+      "best_epoch": 41,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.84359643817879,
+      "train_seconds": 28.879004707094282,
+      "val_seconds": 16.95896311989054,
+      "loss": 0.5213746877623276,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.274804799085889,
+          "R@5": 23.728813559322035,
+          "R@10": 36.17723608201612,
+          "R@100": 77.55348187646797,
+          "SumR": 144.734336316892
+        },
+        "fused": {
+          "R@1": 7.274804799085889,
+          "R@5": 23.728813559322035,
+          "R@10": 36.17723608201612,
+          "R@100": 77.55348187646797,
+          "SumR": 144.734336316892
+        }
+      }
+    },
+    {
+      "epoch": 43,
+      "best_epoch": 43,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.311830344144255,
+      "train_seconds": 30.00757395918481,
+      "val_seconds": 16.782272884156555,
+      "loss": 0.5195896797616717,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.357328762775344,
+          "R@5": 24.103345394528027,
+          "R@10": 36.34228400939504,
+          "R@100": 77.50269789881293,
+          "SumR": 145.30565606551133
+        },
+        "fused": {
+          "R@1": 7.357328762775344,
+          "R@5": 24.103345394528027,
+          "R@10": 36.34228400939504,
+          "R@100": 77.50269789881293,
+          "SumR": 145.30565606551133
+        }
+      }
+    },
+    {
+      "epoch": 44,
+      "best_epoch": 43,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.57553014997393,
+      "train_seconds": 27.58897652896121,
+      "val_seconds": 16.98219791194424,
+      "loss": 0.5152373171188462,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.38272075160287,
+          "R@5": 23.735161556528915,
+          "R@10": 36.234368056878054,
+          "R@100": 77.33130197422713,
+          "SumR": 144.68355233923697
+        },
+        "fused": {
+          "R@1": 7.38272075160287,
+          "R@5": 23.735161556528915,
+          "R@10": 36.234368056878054,
+          "R@100": 77.33130197422713,
+          "SumR": 144.68355233923697
+        }
+      }
+    },
+    {
+      "epoch": 45,
+      "best_epoch": 45,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.80022136610933,
+      "train_seconds": 28.39696407597512,
+      "val_seconds": 17.89584528794512,
+      "loss": 0.5133315161080427,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.3636767599822255,
+          "R@5": 23.96368945597664,
+          "R@10": 36.71046784739415,
+          "R@100": 77.5471338792611,
+          "SumR": 145.58496794261413
+        },
+        "fused": {
+          "R@1": 7.3636767599822255,
+          "R@5": 23.96368945597664,
+          "R@10": 36.71046784739415,
+          "R@100": 77.5471338792611,
+          "SumR": 145.58496794261413
+        }
+      }
+    },
+    {
+      "epoch": 46,
+      "best_epoch": 46,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.85453882999718,
+      "train_seconds": 28.370864784810692,
+      "val_seconds": 18.011973595013842,
+      "loss": 0.5116234753333347,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.357328762775344,
+          "R@5": 24.414397257665208,
+          "R@10": 36.78664381387672,
+          "R@100": 77.64235383736431,
+          "SumR": 146.2007236716816
+        },
+        "fused": {
+          "R@1": 7.357328762775344,
+          "R@5": 24.414397257665208,
+          "R@10": 36.78664381387672,
+          "R@100": 77.64235383736431,
+          "SumR": 146.2007236716816
+        }
+      }
+    },
+    {
+      "epoch": 47,
+      "best_epoch": 46,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.19959525298327,
+      "train_seconds": 28.082155432086438,
+      "val_seconds": 17.112993103917688,
+      "loss": 0.5111462410906671,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.204976829810195,
+          "R@5": 24.154129372183075,
+          "R@10": 36.7612518250492,
+          "R@100": 77.6487018345712,
+          "SumR": 145.76905986161367
+        },
+        "fused": {
+          "R@1": 7.204976829810195,
+          "R@5": 24.154129372183075,
+          "R@10": 36.7612518250492,
+          "R@100": 77.6487018345712,
+          "SumR": 145.76905986161367
+        }
+      }
+    },
+    {
+      "epoch": 48,
+      "best_epoch": 46,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.606031734962016,
+      "train_seconds": 30.210915453964844,
+      "val_seconds": 17.390520225046203,
+      "loss": 0.5093962906951636,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.458896718085444,
+          "R@5": 24.262045324700058,
+          "R@10": 36.602551894877166,
+          "R@100": 77.53443788484734,
+          "SumR": 145.85793182251
+        },
+        "fused": {
+          "R@1": 7.458896718085444,
+          "R@5": 24.262045324700058,
+          "R@10": 36.602551894877166,
+          "R@100": 77.53443788484734,
+          "SumR": 145.85793182251
+        }
+      }
+    },
+    {
+      "epoch": 49,
+      "best_epoch": 46,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.23192946310155,
+      "train_seconds": 28.3211793738883,
+      "val_seconds": 16.90606420999393,
+      "loss": 0.5094163896332324,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.370024757189107,
+          "R@5": 24.23030533866565,
+          "R@10": 37.00882371611757,
+          "R@100": 77.55982987367486,
+          "SumR": 146.1689836856472
+        },
+        "fused": {
+          "R@1": 7.370024757189107,
+          "R@5": 24.23030533866565,
+          "R@10": 37.00882371611757,
+          "R@100": 77.55982987367486,
+          "SumR": 146.1689836856472
+        }
+      }
+    },
+    {
+      "epoch": 50,
+      "best_epoch": 50,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.71961764502339,
+      "train_seconds": 29.14351030695252,
+      "val_seconds": 17.112497032852843,
+      "loss": 0.5041897301103028,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.477940709706088,
+          "R@5": 24.560401193423473,
+          "R@10": 37.123087665841425,
+          "R@100": 77.50269789881293,
+          "SumR": 146.6641274677839
+        },
+        "fused": {
+          "R@1": 7.477940709706088,
+          "R@5": 24.560401193423473,
+          "R@10": 37.123087665841425,
+          "R@100": 77.50269789881293,
+          "SumR": 146.6641274677839
+        }
+      }
+    },
+    {
+      "epoch": 51,
+      "best_epoch": 51,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.18965616612695,
+      "train_seconds": 26.710532885976136,
+      "val_seconds": 17.005668826866895,
+      "loss": 0.5039535462856293,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.585856662223069,
+          "R@5": 24.509617215768426,
+          "R@10": 37.06595569097949,
+          "R@100": 77.61696184853679,
+          "SumR": 146.77839141750778
+        },
+        "fused": {
+          "R@1": 7.585856662223069,
+          "R@5": 24.509617215768426,
+          "R@10": 37.06595569097949,
+          "R@100": 77.61696184853679,
+          "SumR": 146.77839141750778
+        }
+      }
+    },
+    {
+      "epoch": 52,
+      "best_epoch": 51,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.65640232595615,
+      "train_seconds": 26.755486429901794,
+      "val_seconds": 16.89543683291413,
+      "loss": 0.5038329119413671,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.687424617533169,
+          "R@5": 24.43344124928585,
+          "R@10": 37.19291563511712,
+          "R@100": 77.42652193233035,
+          "SumR": 146.74030343426648
+        },
+        "fused": {
+          "R@1": 7.687424617533169,
+          "R@5": 24.43344124928585,
+          "R@10": 37.19291563511712,
+          "R@100": 77.42652193233035,
+          "SumR": 146.74030343426648
+        }
+      }
+    },
+    {
+      "epoch": 53,
+      "best_epoch": 53,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.927967882947996,
+      "train_seconds": 26.944617230910808,
+      "val_seconds": 17.446402083849534,
+      "loss": 0.5003896481554273,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.642988637085,
+          "R@5": 24.573097187837238,
+          "R@10": 36.98977972449692,
+          "R@100": 77.65504983177807,
+          "SumR": 146.86091538119723
+        },
+        "fused": {
+          "R@1": 7.642988637085,
+          "R@5": 24.573097187837238,
+          "R@10": 36.98977972449692,
+          "R@100": 77.65504983177807,
+          "SumR": 146.86091538119723
+        }
+      }
+    },
+    {
+      "epoch": 54,
+      "best_epoch": 54,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.37464425386861,
+      "train_seconds": 26.9187230640091,
+      "val_seconds": 16.907206463161856,
+      "loss": 0.49881645113649503,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.795340570050149,
+          "R@5": 24.64927315431981,
+          "R@10": 37.19291563511712,
+          "R@100": 77.6804418206056,
+          "SumR": 147.31797118009268
+        },
+        "fused": {
+          "R@1": 7.795340570050149,
+          "R@5": 24.64927315431981,
+          "R@10": 37.19291563511712,
+          "R@100": 77.6804418206056,
+          "SumR": 147.31797118009268
+        }
+      }
+    },
+    {
+      "epoch": 55,
+      "best_epoch": 55,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.964384503196925,
+      "train_seconds": 28.3580525489524,
+      "val_seconds": 17.07618418801576,
+      "loss": 0.49668600693554943,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.8524725449120805,
+          "R@5": 24.839713070526248,
+          "R@10": 37.39605154573732,
+          "R@100": 77.56617787088173,
+          "SumR": 147.6544150320574
+        },
+        "fused": {
+          "R@1": 7.8524725449120805,
+          "R@5": 24.839713070526248,
+          "R@10": 37.39605154573732,
+          "R@100": 77.56617787088173,
+          "SumR": 147.6544150320574
+        }
+      }
+    },
+    {
+      "epoch": 56,
+      "best_epoch": 56,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.739522916032,
+      "train_seconds": 26.556793780997396,
+      "val_seconds": 17.63932182197459,
+      "loss": 0.49540535329093394,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.820732558877674,
+          "R@5": 24.858757062146893,
+          "R@10": 37.31987557925474,
+          "R@100": 77.74392179267441,
+          "SumR": 147.7432869929537
+        },
+        "fused": {
+          "R@1": 7.820732558877674,
+          "R@5": 24.858757062146893,
+          "R@10": 37.31987557925474,
+          "R@100": 77.74392179267441,
+          "SumR": 147.7432869929537
+        }
+      }
+    },
+    {
+      "epoch": 57,
+      "best_epoch": 56,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.23871167912148,
+      "train_seconds": 26.427917080931365,
+      "val_seconds": 16.806243815924972,
+      "loss": 0.49398740202608243,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.769948581222624,
+          "R@5": 24.681013140354217,
+          "R@10": 37.38335555132356,
+          "R@100": 77.72487780105376,
+          "SumR": 147.55919507395416
+        },
+        "fused": {
+          "R@1": 7.769948581222624,
+          "R@5": 24.681013140354217,
+          "R@10": 37.38335555132356,
+          "R@100": 77.72487780105376,
+          "SumR": 147.55919507395416
+        }
+      }
+    },
+    {
+      "epoch": 58,
+      "best_epoch": 58,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.8865307578817,
+      "train_seconds": 25.46444413298741,
+      "val_seconds": 17.826410479843616,
+      "loss": 0.493644119148523,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.782644575636387,
+          "R@5": 24.79527709007808,
+          "R@10": 37.38970354853044,
+          "R@100": 77.80740176474322,
+          "SumR": 147.77502697898814
+        },
+        "fused": {
+          "R@1": 7.782644575636387,
+          "R@5": 24.79527709007808,
+          "R@10": 37.38970354853044,
+          "R@100": 77.80740176474322,
+          "SumR": 147.77502697898814
+        }
+      }
+    },
+    {
+      "epoch": 59,
+      "best_epoch": 58,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.386978114023805,
+      "train_seconds": 26.460223119007424,
+      "val_seconds": 17.922192672034726,
+      "loss": 0.49139851247760613,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.909604519774011,
+          "R@5": 24.668317145940456,
+          "R@10": 37.510315495461185,
+          "R@100": 77.61696184853679,
+          "SumR": 147.70519900971243
+        },
+        "fused": {
+          "R@1": 7.909604519774011,
+          "R@5": 24.668317145940456,
+          "R@10": 37.510315495461185,
+          "R@100": 77.61696184853679,
+          "SumR": 147.70519900971243
+        }
+      }
+    },
+    {
+      "epoch": 60,
+      "best_epoch": 58,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.21392054413445,
+      "train_seconds": 27.984946275129914,
+      "val_seconds": 17.223932955181226,
+      "loss": 0.48959962163172976,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.788992572843268,
+          "R@5": 24.674665143147337,
+          "R@10": 37.22465562115153,
+          "R@100": 77.72487780105376,
+          "SumR": 147.41319113819588
+        },
+        "fused": {
+          "R@1": 7.788992572843268,
+          "R@5": 24.674665143147337,
+          "R@10": 37.22465562115153,
+          "R@100": 77.72487780105376,
+          "SumR": 147.41319113819588
+        }
+      }
+    },
+    {
+      "epoch": 61,
+      "best_epoch": 58,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.431357017951086,
+      "train_seconds": 26.607881185831502,
+      "val_seconds": 16.818876328878105,
+      "loss": 0.489295695869016,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.7762965784295055,
+          "R@5": 24.64292515711293,
+          "R@10": 37.35161556528915,
+          "R@100": 77.54078588205421,
+          "SumR": 147.3116231828858
+        },
+        "fused": {
+          "R@1": 7.7762965784295055,
+          "R@5": 24.64292515711293,
+          "R@10": 37.35161556528915,
+          "R@100": 77.54078588205421,
+          "SumR": 147.3116231828858
+        }
+      }
+    },
+    {
+      "epoch": 62,
+      "best_epoch": 62,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.47677647299133,
+      "train_seconds": 27.029416042845696,
+      "val_seconds": 17.001293593086302,
+      "loss": 0.488220107387489,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.808036564463912,
+          "R@5": 24.934933028629466,
+          "R@10": 37.54205548149559,
+          "R@100": 77.71852980384689,
+          "SumR": 148.00355487843586
+        },
+        "fused": {
+          "R@1": 7.808036564463912,
+          "R@5": 24.934933028629466,
+          "R@10": 37.54205548149559,
+          "R@100": 77.71852980384689,
+          "SumR": 148.00355487843586
+        }
+      }
+    },
+    {
+      "epoch": 63,
+      "best_epoch": 62,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.487469295971096,
+      "train_seconds": 28.68127933400683,
+      "val_seconds": 17.801708355080336,
+      "loss": 0.4861752390861511,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.858820542118962,
+          "R@5": 24.661969148733576,
+          "R@10": 37.453183520599254,
+          "R@100": 77.54078588205421,
+          "SumR": 147.514759093506
+        },
+        "fused": {
+          "R@1": 7.858820542118962,
+          "R@5": 24.661969148733576,
+          "R@10": 37.453183520599254,
+          "R@100": 77.54078588205421,
+          "SumR": 147.514759093506
+        }
+      }
+    },
+    {
+      "epoch": 64,
+      "best_epoch": 62,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.97715558600612,
+      "train_seconds": 26.71077049197629,
+      "val_seconds": 18.261546622030437,
+      "loss": 0.48447767151913174,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.858820542118962,
+          "R@5": 24.88414905097442,
+          "R@10": 37.421443534564844,
+          "R@100": 77.6804418206056,
+          "SumR": 147.84485494826382
+        },
+        "fused": {
+          "R@1": 7.858820542118962,
+          "R@5": 24.88414905097442,
+          "R@10": 37.421443534564844,
+          "R@100": 77.6804418206056,
+          "SumR": 147.84485494826382
+        }
+      }
+    },
+    {
+      "epoch": 65,
+      "best_epoch": 62,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.65932465787046,
+      "train_seconds": 29.023195632034913,
+      "val_seconds": 16.631581099005416,
+      "loss": 0.4836286881440122,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.725512600774455,
+          "R@5": 24.820669078905606,
+          "R@10": 37.38970354853044,
+          "R@100": 77.69313781501936,
+          "SumR": 147.62902304322986
+        },
+        "fused": {
+          "R@1": 7.725512600774455,
+          "R@5": 24.820669078905606,
+          "R@10": 37.38970354853044,
+          "R@100": 77.69313781501936,
+          "SumR": 147.62902304322986
+        }
+      }
+    },
+    {
+      "epoch": 66,
+      "best_epoch": 66,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.08905261592008,
+      "train_seconds": 27.49581247800961,
+      "val_seconds": 18.08022840716876,
+      "loss": 0.48315950346664643,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.042912461118517,
+          "R@5": 25.011108995112043,
+          "R@10": 37.827715355805246,
+          "R@100": 77.59156985970927,
+          "SumR": 148.47330667174506
+        },
+        "fused": {
+          "R@1": 8.042912461118517,
+          "R@5": 25.011108995112043,
+          "R@10": 37.827715355805246,
+          "R@100": 77.59156985970927,
+          "SumR": 148.47330667174506
+        }
+      }
+    },
+    {
+      "epoch": 67,
+      "best_epoch": 67,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.31463276199065,
+      "train_seconds": 27.2068311390467,
+      "val_seconds": 17.556119164917618,
+      "loss": 0.4819588623416256,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.00482447787723,
+          "R@5": 25.233288897352885,
+          "R@10": 37.8086713641846,
+          "R@100": 77.55348187646797,
+          "SumR": 148.60026661588267
+        },
+        "fused": {
+          "R@1": 8.00482447787723,
+          "R@5": 25.233288897352885,
+          "R@10": 37.8086713641846,
+          "R@100": 77.55348187646797,
+          "SumR": 148.60026661588267
+        }
+      }
+    },
+    {
+      "epoch": 68,
+      "best_epoch": 68,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.709341380978,
+      "train_seconds": 29.3254118131008,
+      "val_seconds": 16.84894978394732,
+      "loss": 0.4794171863878277,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.985780486256586,
+          "R@5": 25.341204849869865,
+          "R@10": 37.70075541166762,
+          "R@100": 77.6804418206056,
+          "SumR": 148.70818256839965
+        },
+        "fused": {
+          "R@1": 7.985780486256586,
+          "R@5": 25.341204849869865,
+          "R@10": 37.70075541166762,
+          "R@100": 77.6804418206056,
+          "SumR": 148.70818256839965
+        }
+      }
+    },
+    {
+      "epoch": 69,
+      "best_epoch": 69,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.462027536006644,
+      "train_seconds": 26.28040544805117,
+      "val_seconds": 17.659480351023376,
+      "loss": 0.47835842866293143,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.973084491842823,
+          "R@5": 25.163460928077193,
+          "R@10": 37.88484733066718,
+          "R@100": 77.69313781501936,
+          "SumR": 148.71453056560654
+        },
+        "fused": {
+          "R@1": 7.973084491842823,
+          "R@5": 25.163460928077193,
+          "R@10": 37.88484733066718,
+          "R@100": 77.69313781501936,
+          "SumR": 148.71453056560654
+        }
+      }
+    },
+    {
+      "epoch": 70,
+      "best_epoch": 70,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 48.11772100394592,
+      "train_seconds": 30.270443243905902,
+      "val_seconds": 17.252956797135994,
+      "loss": 0.4782499448514321,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.934996508601536,
+          "R@5": 25.341204849869865,
+          "R@10": 38.037199263632324,
+          "R@100": 77.51539389322669,
+          "SumR": 148.8287945153304
+        },
+        "fused": {
+          "R@1": 7.934996508601536,
+          "R@5": 25.341204849869865,
+          "R@10": 38.037199263632324,
+          "R@100": 77.51539389322669,
+          "SumR": 148.8287945153304
+        }
+      }
+    },
+    {
+      "epoch": 71,
+      "best_epoch": 70,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.12784567219205,
+      "train_seconds": 28.44539204100147,
+      "val_seconds": 17.67663787305355,
+      "loss": 0.47633056951240754,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.808036564463912,
+          "R@5": 25.21424490573224,
+          "R@10": 37.99276328318415,
+          "R@100": 77.45826191836476,
+          "SumR": 148.47330667174504
+        },
+        "fused": {
+          "R@1": 7.808036564463912,
+          "R@5": 25.21424490573224,
+          "R@10": 37.99276328318415,
+          "R@100": 77.45826191836476,
+          "SumR": 148.47330667174504
+        }
+      }
+    },
+    {
+      "epoch": 72,
+      "best_epoch": 70,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.050617625936866,
+      "train_seconds": 27.79937314800918,
+      "val_seconds": 17.246202145935968,
+      "loss": 0.47669969268248114,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.928648511394655,
+          "R@5": 25.182504919697834,
+          "R@10": 37.71345140608138,
+          "R@100": 77.60426585412303,
+          "SumR": 148.42887069129688
+        },
+        "fused": {
+          "R@1": 7.928648511394655,
+          "R@5": 25.182504919697834,
+          "R@10": 37.71345140608138,
+          "R@100": 77.60426585412303,
+          "SumR": 148.42887069129688
+        }
+      }
+    },
+    {
+      "epoch": 73,
+      "best_epoch": 73,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.21187937189825,
+      "train_seconds": 27.93407997605391,
+      "val_seconds": 17.790363345993683,
+      "loss": 0.47617835268168385,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.8969085253602485,
+          "R@5": 25.398336824731796,
+          "R@10": 38.037199263632324,
+          "R@100": 77.69948581222624,
+          "SumR": 149.0319304259506
+        },
+        "fused": {
+          "R@1": 7.8969085253602485,
+          "R@5": 25.398336824731796,
+          "R@10": 38.037199263632324,
+          "R@100": 77.69948581222624,
+          "SumR": 149.0319304259506
+        }
+      }
+    },
+    {
+      "epoch": 74,
+      "best_epoch": 73,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 42.26378183392808,
+      "train_seconds": 25.78723029908724,
+      "val_seconds": 16.471997211920097,
+      "loss": 0.47415932635186425,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 7.922300514187774,
+          "R@5": 25.37294483590427,
+          "R@10": 37.86580333904653,
+          "R@100": 77.4773059099854,
+          "SumR": 148.63835459912397
+        },
+        "fused": {
+          "R@1": 7.922300514187774,
+          "R@5": 25.37294483590427,
+          "R@10": 37.86580333904653,
+          "R@100": 77.4773059099854,
+          "SumR": 148.63835459912397
+        }
+      }
+    },
+    {
+      "epoch": 75,
+      "best_epoch": 73,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.115694561973214,
+      "train_seconds": 26.105425287038088,
+      "val_seconds": 17.002433998975903,
+      "loss": 0.47342780862056033,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.10639243318733,
+          "R@5": 25.36659683869739,
+          "R@10": 37.64997143401257,
+          "R@100": 77.56617787088173,
+          "SumR": 148.68913857677904
+        },
+        "fused": {
+          "R@1": 8.10639243318733,
+          "R@5": 25.36659683869739,
+          "R@10": 37.64997143401257,
+          "R@100": 77.56617787088173,
+          "SumR": 148.68913857677904
+        }
+      }
+    },
+    {
+      "epoch": 76,
+      "best_epoch": 73,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.357227228116244,
+      "train_seconds": 29.03515277779661,
+      "val_seconds": 17.317800303921103,
+      "loss": 0.47312498470427283,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.030216466704754,
+          "R@5": 25.46181679680061,
+          "R@10": 37.789627372563956,
+          "R@100": 77.50269789881293,
+          "SumR": 148.78435853488224
+        },
+        "fused": {
+          "R@1": 8.030216466704754,
+          "R@5": 25.46181679680061,
+          "R@10": 37.789627372563956,
+          "R@100": 77.50269789881293,
+          "SumR": 148.78435853488224
+        }
+      }
+    },
+    {
+      "epoch": 77,
+      "best_epoch": 73,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.99488476407714,
+      "train_seconds": 27.820783437928185,
+      "val_seconds": 17.168969406047836,
+      "loss": 0.47147301133249847,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.030216466704754,
+          "R@5": 25.322160858249223,
+          "R@10": 37.75788738652955,
+          "R@100": 77.57252586808862,
+          "SumR": 148.68279057957216
+        },
+        "fused": {
+          "R@1": 8.030216466704754,
+          "R@5": 25.322160858249223,
+          "R@10": 37.75788738652955,
+          "R@100": 77.57252586808862,
+          "SumR": 148.68279057957216
+        }
+      }
+    },
+    {
+      "epoch": 78,
+      "best_epoch": 73,
+      "best_updated": false,
+      "nonimproving_epochs": 5,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.37809101608582,
+      "train_seconds": 28.792890766868368,
+      "val_seconds": 17.580563253024593,
+      "loss": 0.47065593239287257,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.068304449946043,
+          "R@5": 25.41738081635244,
+          "R@10": 37.738843394908905,
+          "R@100": 77.68678981781248,
+          "SumR": 148.91131847901988
+        },
+        "fused": {
+          "R@1": 8.068304449946043,
+          "R@5": 25.41738081635244,
+          "R@10": 37.738843394908905,
+          "R@100": 77.68678981781248,
+          "SumR": 148.91131847901988
+        }
+      }
+    },
+    {
+      "epoch": 79,
+      "best_epoch": 79,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.47564994287677,
+      "train_seconds": 27.792101034196094,
+      "val_seconds": 17.65028688707389,
+      "loss": 0.47032088503031666,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.100044435980449,
+          "R@5": 25.480860788421253,
+          "R@10": 37.84041135021901,
+          "R@100": 77.74392179267441,
+          "SumR": 149.1652383672951
+        },
+        "fused": {
+          "R@1": 8.100044435980449,
+          "R@5": 25.480860788421253,
+          "R@10": 37.84041135021901,
+          "R@100": 77.74392179267441,
+          "SumR": 149.1652383672951
+        }
+      }
+    },
+    {
+      "epoch": 80,
+      "best_epoch": 79,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.50531889195554,
+      "train_seconds": 27.716842808993533,
+      "val_seconds": 17.78412868292071,
+      "loss": 0.4704252519238163,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.131784422014855,
+          "R@5": 25.379292833111155,
+          "R@10": 37.776931378150195,
+          "R@100": 77.66774582619183,
+          "SumR": 148.95575445946804
+        },
+        "fused": {
+          "R@1": 8.131784422014855,
+          "R@5": 25.379292833111155,
+          "R@10": 37.776931378150195,
+          "R@100": 77.66774582619183,
+          "SumR": 148.95575445946804
+        }
+      }
+    },
+    {
+      "epoch": 81,
+      "best_epoch": 79,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.984867222839966,
+      "train_seconds": 28.38243691716343,
+      "val_seconds": 18.596456140978262,
+      "loss": 0.46978777814918843,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.074652447152923,
+          "R@5": 25.303116866628578,
+          "R@10": 37.783279375357075,
+          "R@100": 77.6106138513299,
+          "SumR": 148.77166254046847
+        },
+        "fused": {
+          "R@1": 8.074652447152923,
+          "R@5": 25.303116866628578,
+          "R@10": 37.783279375357075,
+          "R@100": 77.6106138513299,
+          "SumR": 148.77166254046847
+        }
+      }
+    },
+    {
+      "epoch": 82,
+      "best_epoch": 79,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.19251426705159,
+      "train_seconds": 27.411729970946908,
+      "val_seconds": 17.774867790052667,
+      "loss": 0.46865470518528574,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.023868469497874,
+          "R@5": 25.322160858249223,
+          "R@10": 37.87849933346029,
+          "R@100": 77.70583380943313,
+          "SumR": 148.93036247064052
+        },
+        "fused": {
+          "R@1": 8.023868469497874,
+          "R@5": 25.322160858249223,
+          "R@10": 37.87849933346029,
+          "R@100": 77.70583380943313,
+          "SumR": 148.93036247064052
+        }
+      }
+    },
+    {
+      "epoch": 83,
+      "best_epoch": 79,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.800684874877334,
+      "train_seconds": 27.213171458104625,
+      "val_seconds": 19.58169232401997,
+      "loss": 0.46937686624661296,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.023868469497874,
+          "R@5": 25.474512791214373,
+          "R@10": 37.89754332508094,
+          "R@100": 77.6804418206056,
+          "SumR": 149.0763664063988
+        },
+        "fused": {
+          "R@1": 8.023868469497874,
+          "R@5": 25.474512791214373,
+          "R@10": 37.89754332508094,
+          "R@100": 77.6804418206056,
+          "SumR": 149.0763664063988
+        }
+      }
+    },
+    {
+      "epoch": 84,
+      "best_epoch": 84,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.00574778299779,
+      "train_seconds": 26.73304961505346,
+      "val_seconds": 17.68457226990722,
+      "loss": 0.467213726379502,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.112740430394211,
+          "R@5": 25.449120802386847,
+          "R@10": 38.030851266425444,
+          "R@100": 77.78835777312258,
+          "SumR": 149.38107027232908
+        },
+        "fused": {
+          "R@1": 8.112740430394211,
+          "R@5": 25.449120802386847,
+          "R@10": 38.030851266425444,
+          "R@100": 77.78835777312258,
+          "SumR": 149.38107027232908
+        }
+      }
+    },
+    {
+      "epoch": 85,
+      "best_epoch": 84,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.10456321085803,
+      "train_seconds": 28.741707107052207,
+      "val_seconds": 17.35532802110538,
+      "loss": 0.46739379243111945,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.21430838570431,
+          "R@5": 25.41103281914556,
+          "R@10": 37.87849933346029,
+          "R@100": 77.66774582619183,
+          "SumR": 149.171586364502
+        },
+        "fused": {
+          "R@1": 8.21430838570431,
+          "R@5": 25.41103281914556,
+          "R@10": 37.87849933346029,
+          "R@100": 77.66774582619183,
+          "SumR": 149.171586364502
+        }
+      }
+    },
+    {
+      "epoch": 86,
+      "best_epoch": 84,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.373254012083635,
+      "train_seconds": 28.277276761829853,
+      "val_seconds": 19.09129348397255,
+      "loss": 0.46533888998165934,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.150828413635498,
+          "R@5": 25.52529676886942,
+          "R@10": 37.75788738652955,
+          "R@100": 77.65504983177807,
+          "SumR": 149.08906240081257
+        },
+        "fused": {
+          "R@1": 8.150828413635498,
+          "R@5": 25.52529676886942,
+          "R@10": 37.75788738652955,
+          "R@100": 77.65504983177807,
+          "SumR": 149.08906240081257
+        }
+      }
+    },
+    {
+      "epoch": 87,
+      "best_epoch": 84,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.726477725896984,
+      "train_seconds": 29.047712126048282,
+      "val_seconds": 17.673511083004996,
+      "loss": 0.46553368299779757,
+      "CUDA_peak_allocated_bytes": 3651241984,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.22065638291119,
+          "R@5": 25.487208785628134,
+          "R@10": 37.821367358598366,
+          "R@100": 77.68678981781248,
+          "SumR": 149.21602234495018
+        },
+        "fused": {
+          "R@1": 8.22065638291119,
+          "R@5": 25.487208785628134,
+          "R@10": 37.821367358598366,
+          "R@100": 77.68678981781248,
+          "SumR": 149.21602234495018
+        }
+      }
+    },
+    {
+      "epoch": 88,
+      "best_epoch": 84,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.62807743088342,
+      "train_seconds": 27.95427902089432,
+      "val_seconds": 18.669518904061988,
+      "loss": 0.46541135453842053,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.258744366152479,
+          "R@5": 25.404684821938677,
+          "R@10": 37.93563130832222,
+          "R@100": 77.73757379546753,
+          "SumR": 149.3366342918809
+        },
+        "fused": {
+          "R@1": 8.258744366152479,
+          "R@5": 25.404684821938677,
+          "R@10": 37.93563130832222,
+          "R@100": 77.73757379546753,
+          "SumR": 149.3366342918809
+        }
+      }
+    },
+    {
+      "epoch": 89,
+      "best_epoch": 89,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.128033170010895,
+      "train_seconds": 28.93146120500751,
+      "val_seconds": 17.64786407793872,
+      "loss": 0.4633257867584766,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.398336824731796,
+          "R@10": 37.98641528597727,
+          "R@100": 77.75026978988129,
+          "SumR": 149.45089824160476
+        },
+        "fused": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.398336824731796,
+          "R@10": 37.98641528597727,
+          "R@100": 77.75026978988129,
+          "SumR": 149.45089824160476
+        }
+      }
+    },
+    {
+      "epoch": 90,
+      "best_epoch": 89,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 49.10869780508801,
+      "train_seconds": 30.45644839317538,
+      "val_seconds": 18.64404207910411,
+      "loss": 0.46431450902576177,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.37294483590427,
+          "R@10": 37.91658731670158,
+          "R@100": 77.69948581222624,
+          "SumR": 149.30489430584652
+        },
+        "fused": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.37294483590427,
+          "R@10": 37.91658731670158,
+          "R@100": 77.69948581222624,
+          "SumR": 149.30489430584652
+        }
+      }
+    },
+    {
+      "epoch": 91,
+      "best_epoch": 89,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.35600924608298,
+      "train_seconds": 27.63514310703613,
+      "val_seconds": 18.716104466002434,
+      "loss": 0.4625721519262018,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.303116866628578,
+          "R@10": 37.83406335301213,
+          "R@100": 77.59791785691614,
+          "SumR": 149.05097441757124
+        },
+        "fused": {
+          "R@1": 8.31587634101441,
+          "R@5": 25.303116866628578,
+          "R@10": 37.83406335301213,
+          "R@100": 77.59791785691614,
+          "SumR": 149.05097441757124
+        }
+      }
+    },
+    {
+      "epoch": 92,
+      "best_epoch": 89,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.62105862889439,
+      "train_seconds": 28.09092485695146,
+      "val_seconds": 17.525660225190222,
+      "loss": 0.46338101633837525,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.284136354980005,
+          "R@5": 25.50625277724878,
+          "R@10": 37.88484733066718,
+          "R@100": 77.65504983177807,
+          "SumR": 149.330286294674
+        },
+        "fused": {
+          "R@1": 8.284136354980005,
+          "R@5": 25.50625277724878,
+          "R@10": 37.88484733066718,
+          "R@100": 77.65504983177807,
+          "SumR": 149.330286294674
+        }
+      }
+    },
+    {
+      "epoch": 93,
+      "best_epoch": 89,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_wall_seconds": 44.959306590026245,
+      "train_seconds": 27.470660684164613,
+      "val_seconds": 17.484252351801842,
+      "loss": 0.4622701322528678,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.360312321462578,
+          "R@5": 25.46181679680061,
+          "R@10": 37.87215133625341,
+          "R@100": 77.73122579826065,
+          "SumR": 149.42550625277724
+        },
+        "fused": {
+          "R@1": 8.360312321462578,
+          "R@5": 25.46181679680061,
+          "R@10": 37.87215133625341,
+          "R@100": 77.73122579826065,
+          "SumR": 149.42550625277724
+        }
+      }
+    },
+    {
+      "epoch": 94,
+      "best_epoch": 89,
+      "best_updated": false,
+      "nonimproving_epochs": 5,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.861333284992725,
+      "train_seconds": 29.279927727067843,
+      "val_seconds": 17.576726100873202,
+      "loss": 0.46262247293767794,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.284136354980005,
+          "R@5": 25.41738081635244,
+          "R@10": 37.92293531390846,
+          "R@100": 77.74392179267441,
+          "SumR": 149.36837427791534
+        },
+        "fused": {
+          "R@1": 8.284136354980005,
+          "R@5": 25.41738081635244,
+          "R@10": 37.92293531390846,
+          "R@100": 77.74392179267441,
+          "SumR": 149.36837427791534
+        }
+      }
+    },
+    {
+      "epoch": 95,
+      "best_epoch": 95,
+      "best_updated": true,
+      "nonimproving_epochs": 0,
+      "hard_negative": true,
+      "epoch_wall_seconds": 46.76395330601372,
+      "train_seconds": 27.97999265184626,
+      "val_seconds": 18.273172583198175,
+      "loss": 0.46146712588592315,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.277788357773122,
+          "R@5": 25.56338475211071,
+          "R@10": 38.037199263632324,
+          "R@100": 77.75026978988129,
+          "SumR": 149.62864216339744
+        },
+        "fused": {
+          "R@1": 8.277788357773122,
+          "R@5": 25.56338475211071,
+          "R@10": 38.037199263632324,
+          "R@100": 77.75026978988129,
+          "SumR": 149.62864216339744
+        }
+      }
+    },
+    {
+      "epoch": 96,
+      "best_epoch": 95,
+      "best_updated": false,
+      "nonimproving_epochs": 1,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.115814664866775,
+      "train_seconds": 27.55353512405418,
+      "val_seconds": 17.557276092935354,
+      "loss": 0.46007059997236227,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.188916396876785,
+          "R@5": 25.4999047800419,
+          "R@10": 37.91658731670158,
+          "R@100": 77.73122579826065,
+          "SumR": 149.3366342918809
+        },
+        "fused": {
+          "R@1": 8.188916396876785,
+          "R@5": 25.4999047800419,
+          "R@10": 37.91658731670158,
+          "R@100": 77.73122579826065,
+          "SumR": 149.3366342918809
+        }
+      }
+    },
+    {
+      "epoch": 97,
+      "best_epoch": 95,
+      "best_updated": false,
+      "nonimproving_epochs": 2,
+      "hard_negative": true,
+      "epoch_wall_seconds": 45.13428507302888,
+      "train_seconds": 28.499318809015676,
+      "val_seconds": 16.630274483002722,
+      "loss": 0.46097210133579414,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.56338475211071,
+          "R@10": 37.92293531390846,
+          "R@100": 77.75026978988129,
+          "SumR": 149.44455024439787
+        },
+        "fused": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.56338475211071,
+          "R@10": 37.92293531390846,
+          "R@100": 77.75026978988129,
+          "SumR": 149.44455024439787
+        }
+      }
+    },
+    {
+      "epoch": 98,
+      "best_epoch": 95,
+      "best_updated": false,
+      "nonimproving_epochs": 3,
+      "hard_negative": true,
+      "epoch_wall_seconds": 47.762518943985924,
+      "train_seconds": 28.98796524712816,
+      "val_seconds": 18.769721999997273,
+      "loss": 0.46264698010095406,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.52529676886942,
+          "R@10": 37.97371929156351,
+          "R@100": 77.76931378150194,
+          "SumR": 149.4762902304323
+        },
+        "fused": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.52529676886942,
+          "R@10": 37.97371929156351,
+          "R@100": 77.76931378150194,
+          "SumR": 149.4762902304323
+        }
+      }
+    },
+    {
+      "epoch": 99,
+      "best_epoch": 95,
+      "best_updated": false,
+      "nonimproving_epochs": 4,
+      "hard_negative": true,
+      "epoch_wall_seconds": 43.330264396965504,
+      "train_seconds": 26.623957087052986,
+      "val_seconds": 16.701228948077187,
+      "loss": 0.4615719809498585,
+      "CUDA_peak_allocated_bytes": 3660742656,
+      "CUDA_peak_reserved_bytes": 5846859776,
+      "MemoryPeak_bytes": 9703411712,
+      "val_metrics": {
+        "clip": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.557036754903827,
+          "R@10": 37.96102329714975,
+          "R@100": 77.75026978988129,
+          "SumR": 149.4762902304323
+        },
+        "fused": {
+          "R@1": 8.20796038849743,
+          "R@5": 25.557036754903827,
+          "R@10": 37.96102329714975,
+          "R@100": 77.75026978988129,
+          "SumR": 149.4762902304323
+        }
+      }
+    }
+  ],
+  "exporter_source": {
+    "path": "<WORK>/file-0931219de11f35.py",
+    "sha256": "c43f57fe6fa6417b846f3379fc5d43138fc07fad980d5a7577b23e74a9297245"
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "dataset": "charades",
+  "checkpoint": "<WORK>/file-962c5db8561aae.ckpt",
+  "checkpoint_sha256": "4c3241a38f29c870df84ea0427535b0c706ec61cd4ed2d64c3598dc26399fcfc",
+  "best_epoch": 34,
+  "test_videos": 1334,
+  "test_queries": 3720,
+  "dev_videos": 534,
+  "dev_query_ids": [
+    "68JOO#enc#3",
+    "Y1FKP#enc#3",
+    "S2FLE#enc#1",
+    "S2FLE#enc#0",
+    "54XD1#enc#3",
+    "Y1FKP#enc#2",
+    "78FJX#enc#2",
+    "NOLQ7#enc#0",
+    "RRDAM#enc#0",
+    "K6DF2#enc#4",
+    "9UDMH#enc#0",
+    "MU54W#enc#1",
+    "UR7C8#enc#2",
+    "V10LX#enc#0",
+    "LKSBL#enc#0",
+    "RSRZ0#enc#2",
+    "CTOQR#enc#0",
+    "CBPJF#enc#1",
+    "PABBK#enc#1",
+    "SCHOY#enc#1",
+    "XIG01#enc#2",
+    "CLW8L#enc#1",
+    "TXJK7#enc#0",
+    "UGWOG#enc#2",
+    "SAT9P#enc#3",
+    "NXC5X#enc#2",
+    "ACAK4#enc#2",
+    "U3VOM#enc#0",
+    "LH6LE#enc#3",
+    "EPP0O#enc#0",
+    "K7FNC#enc#1",
+    "TODWV#enc#2",
+    "EDPTO#enc#1",
+    "HHAM7#enc#1",
+    "6C65Z#enc#0",
+    "GKII3#enc#0",
+    "8WPPG#enc#0",
+    "953I1#enc#0",
+    "VX1GX#enc#0",
+    "X58SH#enc#1",
+    "VX1GX#enc#1",
+    "XJE4Y#enc#3",
+    "HAIVQ#enc#2",
+    "X3ASU#enc#1",
+    "HAIVQ#enc#3",
+    "OOEME#enc#1",
+    "R9382#enc#3",
+    "XFRYR#enc#0",
+    "X3952#enc#0",
+    "63XVB#enc#0",
+    "CBXVQ#enc#1",
+    "ZKNHG#enc#0",
+    "QRHJJ#enc#0",
+    "7FTBS#enc#2",
+    "5IW8A#enc#0",
+    "AST4H#enc#1",
+    "LFPLP#enc#3",
+    "NY5LX#enc#0",
+    "BQ6UI#enc#1",
+    "QXT9W#enc#3",
+    "LB4AR#enc#0",
+    "QXT9W#enc#1",
+    "T0HLX#enc#1",
+    "99WON#enc#0",
+    "DLQIT#enc#0",
+    "WIPMO#enc#0",
+    "FVPMC#enc#5",
+    "XBXKO#enc#0",
+    "WREDC#enc#0",
+    "WT9CR#enc#0",
+    "XJU8U#enc#2",
+    "K3IGM#enc#5",
+    "PG32H#enc#1",
+    "5EDX4#enc#0",
+    "SCTNB#enc#0",
+    "OLELC#enc#2",
+    "QIQUA#enc#0",
+    "JQKR5#enc#0",
+    "UB2EJ#enc#1",
+    "KKGJ8#enc#4",
+    "73E7V#enc#1",
+    "KKGJ8#enc#0",
+    "5AFC1#enc#0",
+    "E7QDZ#enc#2",
+    "R4ENI#enc#2",
+    "TSYR3#enc#1",
+    "SB7CW#enc#0",
+    "V8JOH#enc#0",
+    "KNN3G#enc#3",
+    "9RSGO#enc#0",
+    "IO712#enc#2",
+    "BQXVG#enc#0",
+    "FZBK6#enc#0",
+    "V9W9C#enc#1",
+    "3FEYY#enc#1",
+    "U7Z37#enc#0",
+    "X75PJ#enc#0",
+    "82B2V#enc#0",
+    "B8DL6#enc#2",
+    "0I0FX#enc#0",
+    "B8DL6#enc#0",
+    "P68QV#enc#1",
+    "U2FA5#enc#1",
+    "2MAZY#enc#0",
+    "IZ2XX#enc#0",
+    "673VM#enc#2",
+    "K1M15#enc#0",
+    "NO9MI#enc#1",
+    "SQY6A#enc#0",
+    "FHXKQ#enc#0",
+    "3C8OG#enc#3",
+    "YBVVZ#enc#3",
+    "3C8OG#enc#0",
+    "4GWNV#enc#0",
+    "2LMQF#enc#4",
+    "I31V9#enc#4",
+    "TMATS#enc#0",
+    "IGT82#enc#0",
+    "CLORP#enc#7",
+    "D9UO2#enc#0",
+    "I9SSV#enc#0",
+    "2LTCY#enc#1",
+    "FTG07#enc#0",
+    "099Y1#enc#1",
+    "937EW#enc#1",
+    "2XSK6#enc#3",
+    "3R7NX#enc#2",
+    "RWPS8#enc#1"
+  ],
+  "accuracy": [
+    {
+      "model": "Ward8",
+      "mode": "fp32",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 2.2311827956989245,
+        "R@5": 8.494623655913978,
+        "R@10": 14.166666666666666,
+        "R@100": 52.60752688172043,
+        "SumR": 77.5
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "selector": {
+          "dataset": "charades",
+          "variant": "ward_cos_k8",
+          "fusion": "0.7/0.3"
+        }
+      }
+    },
+    {
+      "model": "B0",
+      "mode": "fp32",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.225806451612904,
+        "R@10": 14.46236559139785,
+        "R@100": 52.473118279569896,
+        "SumR": 77.5
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "json_pointer": "/datasets/charades/original/results/07_03/metrics"
+      }
+    },
+    {
+      "model": "Ward8",
+      "mode": "fp32",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 2.096774193548387,
+        "R@5": 8.46774193548387,
+        "R@10": 13.602150537634408,
+        "R@100": 52.553763440860216,
+        "SumR": 76.72043010752688
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "selector": {
+          "dataset": "charades",
+          "variant": "ward_cos_k8",
+          "fusion": "0.5/0.5"
+        }
+      }
+    },
+    {
+      "model": "B0",
+      "mode": "fp32",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.413978494623656,
+        "R@10": 14.220430107526882,
+        "R@100": 52.5,
+        "SumR": 77.33870967741936
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "json_pointer": "/datasets/charades/original/results/05_05/metrics"
+      }
+    },
+    {
+      "model": "Ward8",
+      "mode": "int8",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.548387096774194,
+        "R@10": 14.166666666666666,
+        "R@100": 52.526881720430104,
+        "SumR": 77.44623655913978
+      },
+      "rank_file": "<WORK>/file-1f245cb8702b9d.npy",
+      "rank_sha256": "3c04cac0a94dca6c413fb2d98eb69df3630b51b872cc9c48d1f6479e68924f36",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 3720,
+      "video_count": 1334,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "Ward8",
+      "mode": "int8",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 2.096774193548387,
+        "R@5": 8.494623655913978,
+        "R@10": 13.682795698924732,
+        "R@100": 52.60752688172043,
+        "SumR": 76.88172043010752
+      },
+      "rank_file": "<WORK>/file-070d671fa4eb33.npy",
+      "rank_sha256": "855d48d0d5ff7a8b67403a4aef26069332ac73313c0124f5136430fc2ea6eaf6",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 3720,
+      "video_count": 1334,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "B0",
+      "mode": "int8",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.172043010752688,
+        "R@10": 14.35483870967742,
+        "R@100": 52.33870967741935,
+        "SumR": 77.1774193548387
+      },
+      "rank_file": "<WORK>/file-17af6575011b11.npy",
+      "rank_sha256": "7a42ca46d15313b578346cdb4e5d45db88cfcaf60dc6b62659ce752df84b3244",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 3720,
+      "video_count": 1334,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "B0",
+      "mode": "int8",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 2.2311827956989245,
+        "R@5": 8.387096774193548,
+        "R@10": 14.193548387096774,
+        "R@100": 52.5,
+        "SumR": 77.31182795698925
+      },
+      "rank_file": "<WORK>/file-8384e3401ea3b9.npy",
+      "rank_sha256": "0ee61d76191d912c4d3e7865e2a83ed542db64a868a91c98c08f211c2360e50c",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 3720,
+      "video_count": 1334,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    }
+  ],
+  "test_index_sizes": {
+    "fp32": {
+      "padded_bytes_per_video": 61448,
+      "valid_bytes_per_video": 61448.0,
+      "padded_total_bytes": 81971632,
+      "valid_total_bytes": 81971632,
+      "dimension": 384,
+      "scale_bytes_per_vector": 0,
+      "length_bytes_per_video": 8,
+      "valid_only_is_hypothetical_compaction": true
+    },
+    "int8": {
+      "padded_bytes_per_video": 15528,
+      "valid_bytes_per_video": 15528.0,
+      "padded_total_bytes": 20714352,
+      "valid_total_bytes": 20714352,
+      "dimension": 384,
+      "scale_bytes_per_vector": 4,
+      "length_bytes_per_video": 8,
+      "valid_only_is_hypothetical_compaction": true
+    }
+  },
+  "test_clustering": {
+    "raw_seconds": [
+      1.1243575810221955,
+      1.1308313220506534,
+      1.2680748410057276,
+      1.3272298380034044,
+      1.2125013389158994
+    ],
+    "q1_ms": 1130.8313220506534,
+    "median_ms": 1212.5013389158994,
+    "q3_ms": 1268.0748410057276,
+    "iqr_ms": 137.24351895507425,
+    "median_ms_per_item": 0.9089215434152169,
+    "throughput_items_per_second": {
+      "median": 1100.2049706540802,
+      "q1": 1051.98838180717,
+      "q3": 1179.6631150797273,
+      "iqr": 127.6747332725572
+    },
+    "warmup": 3,
+    "repeats": 5,
+    "videos": 1334,
+    "mean_seconds_per_video_by_repeat": [
+      0.0008428467623854539,
+      0.0008476996417171315,
+      0.0009505808403341287,
+      0.0009949249160445311,
+      0.0009089215434152169
+    ],
+    "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+  },
+  "dev_clustering": {
+    "raw_seconds": [
+      0.4409631050657481,
+      0.4408307990524918,
+      0.44109944300726056,
+      0.44174525304697454,
+      0.44100082805380225
+    ],
+    "q1_ms": 440.9631050657481,
+    "median_ms": 441.00082805380225,
+    "q3_ms": 441.09944300726056,
+    "iqr_ms": 0.13633794151246548,
+    "median_ms_per_item": 0.8258442472917645,
+    "throughput_items_per_second": {
+      "median": 1210.8820801008833,
+      "q1": 1210.6113677210203,
+      "q3": 1210.9856672031099,
+      "iqr": 0.37429948208955466
+    },
+    "warmup": 3,
+    "repeats": 5,
+    "videos": 534,
+    "mean_seconds_per_video_by_repeat": [
+      0.0008257736049920376,
+      0.0008255258409222692,
+      0.000826028919489252,
+      0.0008272383015860946,
+      0.0008258442472917645
+    ],
+    "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+  },
+  "all_rebuilt_Ward_centers_exact_<REVISION>": true,
+  "actual_test_cluster_count_equals_min_L8": true,
+  "mean_test_clusters": 8.0,
+  "test_count_min": 8,
+  "test_count_max": 8,
+  "reconstructed_clip_max_score_error": 2.086162567138672e-07,
+  "dev_input_audit": {
+    "query_count": 1236,
+    "verified_query_count": 1236,
+    "hdf5_open_count": 1,
+    "all_original_batches_bitwise_equal": true,
+    "source_disk_open_count": 1,
+    "read_order": "one original-disk sequential read, then original batch order entirely in RAM",
+    "original_loader_reference_uses_same_RAM_hdf5": true,
+    "video_input_audit": {
+      "needed_frames": 49046,
+      "raw_values_checked": 50223104,
+      "all_raw_values_bitwise_equal": true,
+      "source_open_count": 1,
+      "read_pattern": "one increasing sequential pass through original feature.bin",
+      "budget": {
+        "MemTotal": 134769520640,
+        "MemAvailable": 92965314560,
+        "effective_available_bytes": 92965314560,
+        "half_available_bytes": 46482657280
+      },
+      "peak_upper_bytes": 4588560832
+    },
+    "dataset_disk_copy": false
+  },
+  "artifacts": {
+    "dev_frame.npy": {
+      "path": "<WORK>/file-f217e0029532dd.npy",
+      "sha256": "e5bf2e59fb5e585a8ee36da8c793e8e467dfcbec00f4d402e49ffc47426e8bcd"
+    },
+    "dev_lengths.npy": {
+      "path": "<WORK>/file-2bcfc61b271a02.npy",
+      "sha256": "317adbc6b880e6ca23d4b44af51ce0e55e6dd0e614d7f316e01ccd7bf6e66667"
+    },
+    "dev_queries.npy": {
+      "path": "<WORK>/file-b04d37fbfb6e06.npy",
+      "sha256": "1b9e86fa945ad072140cdeedd0b29c884b81e190d949c48d2fc6ed57f2896148"
+    },
+    "dev_clip.npy": {
+      "path": "<WORK>/file-e9f84beb1c4699.npy",
+      "sha256": "f732b3387f336f1e969e9ac4ee27360101ed1c3aaab52a3b0bd719baaa210801"
+    }
+  },
+  "checkpoint_unchanged": true
+}

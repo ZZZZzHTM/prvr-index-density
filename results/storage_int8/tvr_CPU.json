@@ -1,0 +1,466 @@
+{
+  "dataset": "tvr",
+  "checkpoint": "<WORK>/file-9aa5d32f075e69.ckpt",
+  "checkpoint_sha256": "4907fcc45f412063c1b6c2e425f62247fe0f3b4817affc012171130c4a2ed067",
+  "best_epoch": 80,
+  "test_videos": 2179,
+  "test_queries": 10895,
+  "dev_videos": 1744,
+  "dev_query_ids": [
+    "friends_s05e02_seg02_clip_04#enc#0",
+    "s06e01_seg02_clip_10#enc#2",
+    "met_s02e15_seg02_clip_03#enc#0",
+    "house_s08e02_seg02_clip_17#enc#4",
+    "castle_s04e14_seg02_clip_26#enc#0",
+    "friends_s10e11_seg02_clip_18#enc#3",
+    "castle_s02e02_seg02_clip_07#enc#1",
+    "met_s06e12_seg02_clip_08#enc#1",
+    "castle_s03e17_seg02_clip_07#enc#2",
+    "friends_s09e03_seg02_clip_11#enc#2",
+    "friends_s08e23-24_seg02_clip_36#enc#3",
+    "friends_s04e20_seg02_clip_18#enc#3",
+    "met_s06e22_seg02_clip_12#enc#0",
+    "castle_s03e05_seg02_clip_25#enc#1",
+    "castle_s07e11_seg02_clip_02#enc#3",
+    "castle_s06e22_seg02_clip_03#enc#0",
+    "house_s05e02_seg02_clip_25#enc#3",
+    "met_s06e10_seg01_clip_03#enc#0",
+    "grey_s03e08_seg02_clip_04#enc#1",
+    "friends_s10e17-18_seg02_clip_26#enc#4",
+    "s05e17_seg02_clip_05#enc#2",
+    "friends_s08e09_seg02_clip_12#enc#4",
+    "castle_s02e14_seg02_clip_12#enc#3",
+    "castle_s04e22_seg02_clip_27#enc#0",
+    "castle_s04e15_seg02_clip_02#enc#0",
+    "house_s02e22_seg02_clip_12#enc#3",
+    "friends_s02e14_seg02_clip_03#enc#1",
+    "house_s04e07_seg02_clip_02#enc#4",
+    "grey_s03e15_seg02_clip_03#enc#2",
+    "house_s02e16_seg02_clip_00#enc#3",
+    "s05e18_seg02_clip_11#enc#1",
+    "friends_s09e21_seg02_clip_15#enc#4",
+    "castle_s06e06_seg02_clip_14#enc#3",
+    "house_s06e10_seg02_clip_19#enc#3",
+    "castle_s08e11_seg02_clip_15#enc#3",
+    "s05e19_seg02_clip_01#enc#3",
+    "grey_s02e04_seg02_clip_11#enc#3",
+    "house_s03e23_seg02_clip_06#enc#0",
+    "castle_s05e22_seg02_clip_17#enc#1",
+    "s04e24_seg02_clip_03#enc#0",
+    "friends_s05e23-24_seg02_clip_27#enc#0",
+    "grey_s02e05_seg02_clip_19#enc#0",
+    "s08e06_seg02_clip_14#enc#0",
+    "grey_s02e06_seg02_clip_18#enc#4",
+    "grey_s02e14_seg02_clip_25#enc#0",
+    "castle_s02e03_seg02_clip_00#enc#3",
+    "friends_s03e11_seg02_clip_10#enc#4",
+    "met_s03e03_seg01_clip_00#enc#4",
+    "friends_s07e11_seg02_clip_18#enc#2",
+    "castle_s03e01_seg02_clip_13#enc#1",
+    "castle_s01e09_seg02_clip_15#enc#3",
+    "friends_s08e23-24_seg02_clip_18#enc#2",
+    "house_s08e11_seg02_clip_09#enc#3",
+    "met_s03e12_seg02_clip_13#enc#2",
+    "grey_s03e25_seg02_clip_25#enc#1",
+    "house_s07e11_seg02_clip_07#enc#3",
+    "s04e02_seg02_clip_12#enc#0",
+    "s07e11_seg02_clip_14#enc#4",
+    "castle_s05e10_seg02_clip_16#enc#3",
+    "castle_s02e20_seg02_clip_04#enc#0",
+    "house_s06e18_seg02_clip_08#enc#0",
+    "friends_s05e11_seg02_clip_07#enc#1",
+    "castle_s03e07_seg02_clip_13#enc#0",
+    "met_s06e04_seg02_clip_03#enc#2",
+    "house_s03e16_seg02_clip_08#enc#4",
+    "house_s01e15_seg02_clip_19#enc#3",
+    "house_s01e22_seg02_clip_20#enc#1",
+    "friends_s06e15-16_seg02_clip_02#enc#0",
+    "s05e21_seg02_clip_11#enc#2",
+    "friends_s06e04_seg02_clip_06#enc#1",
+    "house_s06e20_seg02_clip_06#enc#1",
+    "house_s08e18_seg02_clip_11#enc#2",
+    "castle_s02e18_seg02_clip_21#enc#4",
+    "met_s06e12_seg02_clip_01#enc#4",
+    "friends_s01e13_seg02_clip_09#enc#3",
+    "house_s07e16_seg02_clip_11#enc#0",
+    "friends_s06e05_seg02_clip_13#enc#1",
+    "friends_s08e07_seg01_clip_00#enc#4",
+    "castle_s07e01_seg02_clip_02#enc#1",
+    "castle_s06e15_seg02_clip_11#enc#1",
+    "castle_s07e14_seg02_clip_25#enc#1",
+    "castle_s04e23_seg02_clip_12#enc#4",
+    "castle_s04e17_seg02_clip_05#enc#4",
+    "friends_s02e10_seg02_clip_15#enc#2",
+    "castle_s03e17_seg02_clip_13#enc#3",
+    "castle_s04e10_seg02_clip_27#enc#3",
+    "friends_s03e07_seg02_clip_05#enc#2",
+    "s07e15_seg02_clip_10#enc#3",
+    "friends_s02e14_seg01_clip_01#enc#2",
+    "friends_s05e13_seg02_clip_10#enc#0",
+    "house_s07e08_seg02_clip_24#enc#2",
+    "house_s03e04_seg02_clip_14#enc#2",
+    "friends_s03e18_seg02_clip_13#enc#2",
+    "s07e04_seg02_clip_07#enc#4",
+    "grey_s03e15_seg02_clip_19#enc#2",
+    "castle_s07e21_seg02_clip_22#enc#2",
+    "castle_s02e23_seg02_clip_13#enc#4",
+    "s04e08_seg02_clip_00#enc#1",
+    "friends_s07e02_seg02_clip_09#enc#0",
+    "s02e20_seg01_clip_00#enc#3",
+    "s07e10_seg02_clip_01#enc#0",
+    "s10e07_seg02_clip_01#enc#1",
+    "s01e14_seg02_clip_08#enc#3",
+    "castle_s07e21_seg02_clip_02#enc#3",
+    "castle_s02e20_seg02_clip_07#enc#2",
+    "s01e15_seg02_clip_09#enc#3",
+    "castle_s03e10_seg02_clip_26#enc#2",
+    "castle_s05e12_seg02_clip_14#enc#3",
+    "house_s01e15_seg02_clip_08#enc#4",
+    "friends_s03e04_seg02_clip_14#enc#1",
+    "s04e09_seg02_clip_09#enc#3",
+    "house_s06e14_seg02_clip_04#enc#2",
+    "s08e11_seg02_clip_12#enc#1",
+    "house_s08e22_seg02_clip_21#enc#1",
+    "house_s03e01_seg02_clip_03#enc#0",
+    "castle_s08e16_seg02_clip_15#enc#4",
+    "s06e24_seg02_clip_14#enc#3",
+    "house_s05e05_seg02_clip_07#enc#0",
+    "castle_s05e14_seg02_clip_25#enc#1",
+    "s09e16_seg01_clip_00#enc#3",
+    "castle_s06e04_seg02_clip_15#enc#4",
+    "castle_s07e22_seg02_clip_21#enc#2",
+    "castle_s02e19_seg02_clip_04#enc#2",
+    "friends_s01e12_seg02_clip_09#enc#3",
+    "friends_s01e16-17_seg02_clip_38#enc#3",
+    "castle_s07e04_seg02_clip_02#enc#2",
+    "s03e06_seg02_clip_13#enc#3",
+    "castle_s05e15_seg02_clip_27#enc#1"
+  ],
+  "accuracy": [
+    {
+      "model": "Ward8",
+      "mode": "fp32",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 15.888022028453419,
+        "R@5": 37.29233593391464,
+        "R@10": 48.7471317117944,
+        "R@100": 86.91142726021111,
+        "SumR": 188.83891693437357
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "selector": {
+          "dataset": "tvr",
+          "variant": "ward_cos_k8",
+          "fusion": "0.7/0.3"
+        }
+      }
+    },
+    {
+      "model": "B0",
+      "mode": "fp32",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 15.933914639743001,
+        "R@5": 37.356585589720055,
+        "R@10": 49.06837999082148,
+        "R@100": 86.92978430472694,
+        "SumR": 189.28866452501148
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "json_pointer": "/datasets/tvr/original/results/07_03/metrics"
+      }
+    },
+    {
+      "model": "Ward8",
+      "mode": "fp32",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 16.025699862322167,
+        "R@5": 37.430013767783386,
+        "R@10": 48.875631023405234,
+        "R@100": 87.15924736117485,
+        "SumR": 189.49059201468563
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "selector": {
+          "dataset": "tvr",
+          "variant": "ward_cos_k8",
+          "fusion": "0.5/0.5"
+        }
+      }
+    },
+    {
+      "model": "B0",
+      "mode": "fp32",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 15.915557595227169,
+        "R@5": 37.65029830197338,
+        "R@10": 49.31620009178522,
+        "R@100": 87.09499770536944,
+        "SumR": 189.97705369435522
+      },
+      "source": {
+        "file": "results/index_density_stats/RESULTS.json",
+        "json_pointer": "/datasets/tvr/original/results/05_05/metrics"
+      }
+    },
+    {
+      "model": "Ward8",
+      "mode": "int8",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 15.943093162000919,
+        "R@5": 37.29233593391464,
+        "R@10": 48.77466727856815,
+        "R@100": 86.91142726021111,
+        "SumR": 188.92152363469484
+      },
+      "rank_file": "<WORK>/file-8d356556c4fb26.npy",
+      "rank_sha256": "eab44e2e52e90725ce217d940eed4daff9cd3e56398aeeef1af15def204bfe42",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 10895,
+      "video_count": 2179,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "Ward8",
+      "mode": "int8",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 16.062413951353832,
+        "R@5": 37.521798990362555,
+        "R@10": 48.921523634694815,
+        "R@100": 87.1317117944011,
+        "SumR": 189.6374483708123
+      },
+      "rank_file": "<WORK>/file-6599321ad9e401.npy",
+      "rank_sha256": "ce147389d8a756934d9ac130f6a49a310d113f97e2a84c715bb30dfbb618f5c8",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 10895,
+      "video_count": 2179,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "B0",
+      "mode": "int8",
+      "fusion": [
+        0.7,
+        0.3
+      ],
+      "metrics": {
+        "R@1": 15.924736117485084,
+        "R@5": 37.319871500688386,
+        "R@10": 49.031665901789815,
+        "R@100": 86.95731987150069,
+        "SumR": 189.23359339146396
+      },
+      "rank_file": "<WORK>/file-2d5d969ec8f54b.npy",
+      "rank_sha256": "e4faddd0ba8f63cdb2dc0f9ada50b93cf89620c7207fc4a74a77a5f6048e452e",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 10895,
+      "video_count": 2179,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    },
+    {
+      "model": "B0",
+      "mode": "int8",
+      "fusion": [
+        0.5,
+        0.5
+      ],
+      "metrics": {
+        "R@1": 15.888022028453419,
+        "R@5": 37.6594768242313,
+        "R@10": 49.27948600275356,
+        "R@100": 87.11335474988527,
+        "SumR": 189.94033960532354
+      },
+      "rank_file": "<WORK>/file-41c3c773b7367b.npy",
+      "rank_sha256": "a8a886492bce53c897ad4031b17ed79cacba25c2ba2b2f0aa4e8991bb43ecfd0",
+      "ties_crossing_K": {
+        "K1": 0,
+        "K5": 0,
+        "K10": 0,
+        "K100": 0
+      },
+      "query_count": 10895,
+      "video_count": 2179,
+      "ranking": "original official CPU torch.argsort(-scores), stable=False",
+      "quantization": "Stage C normalized video vectors; symmetric [-127,127]; per-vector fp32 scale; query fp32; decode without renormalization"
+    }
+  ],
+  "test_index_sizes": {
+    "fp32": {
+      "padded_bytes_per_video": 61448,
+      "valid_bytes_per_video": 61446.59017898118,
+      "padded_total_bytes": 133895192,
+      "valid_total_bytes": 133892120,
+      "dimension": 384,
+      "scale_bytes_per_vector": 0,
+      "length_bytes_per_video": 8,
+      "valid_only_is_hypothetical_compaction": true
+    },
+    "int8": {
+      "padded_bytes_per_video": 15528,
+      "valid_bytes_per_video": 15527.643873336392,
+      "padded_total_bytes": 33835512,
+      "valid_total_bytes": 33834736,
+      "dimension": 384,
+      "scale_bytes_per_vector": 4,
+      "length_bytes_per_video": 8,
+      "valid_only_is_hypothetical_compaction": true
+    }
+  },
+  "test_clustering": {
+    "raw_seconds": [
+      1.316745881922543,
+      1.315873607993126,
+      1.312393881031312,
+      1.3107548530679196,
+      1.3127831210149452
+    ],
+    "q1_ms": 1312.393881031312,
+    "median_ms": 1312.7831210149452,
+    "q3_ms": 1315.873607993126,
+    "iqr_ms": 3.479726961813867,
+    "median_ms_per_item": 0.6024704548026366,
+    "throughput_items_per_second": {
+      "median": 1659.8324316627113,
+      "q1": 1655.9341161369223,
+      "q3": 1660.3247176736966,
+      "iqr": 4.390601536774284
+    },
+    "warmup": 3,
+    "repeats": 5,
+    "videos": 2179,
+    "mean_seconds_per_video_by_repeat": [
+      0.000604289069262296,
+      0.0006038887599784883,
+      0.0006022918224099643,
+      0.000601539629677797,
+      0.0006024704548026367
+    ],
+    "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+  },
+  "dev_clustering": {
+    "raw_seconds": [
+      1.1047668050741777,
+      1.0827264729887247,
+      1.1045694650383666,
+      1.0571614999789745,
+      1.0474164659390226
+    ],
+    "q1_ms": 1057.1614999789745,
+    "median_ms": 1082.7264729887247,
+    "q3_ms": 1104.5694650383666,
+    "iqr_ms": 47.407965059392154,
+    "median_ms_per_item": 0.6208293996494981,
+    "throughput_items_per_second": {
+      "median": 1610.7484609533155,
+      "q1": 1578.8957192831897,
+      "q3": 1649.7006370688734,
+      "iqr": 70.80491778568376
+    },
+    "warmup": 3,
+    "repeats": 5,
+    "videos": 1744,
+    "mean_seconds_per_video_by_repeat": [
+      0.0006334672047443679,
+      0.0006208293996494981,
+      0.0006333540510541093,
+      0.0006061705848503294,
+      0.0006005828359742102
+    ],
+    "timer": "original Ward float64 conversion, cosine distances, linkage, maxclust, group means; preloaded raw frames; excludes encoder, IO, packing, normalization"
+  },
+  "all_rebuilt_Ward_centers_exact_<REVISION>": true,
+  "actual_test_cluster_count_equals_min_L8": true,
+  "mean_test_clusters": 7.9990821477742085,
+  "test_count_min": 6,
+  "test_count_max": 8,
+  "reconstructed_clip_max_score_error": 3.5762786865234375e-07,
+  "dev_input_audit": {
+    "query_count": 8720,
+    "verified_query_count": 8720,
+    "hdf5_open_count": 1,
+    "all_original_batches_bitwise_equal": true,
+    "source_disk_open_count": 1,
+    "read_order": "one original-disk sequential read, then original batch order entirely in RAM",
+    "original_loader_reference_uses_same_RAM_hdf5": true,
+    "video_input_audit": {
+      "needed_frames": 88336,
+      "raw_values_checked": 271368192,
+      "all_raw_values_bitwise_equal": true,
+      "source_open_count": 1,
+      "read_pattern": "one increasing sequential pass through original feature.bin",
+      "budget": {
+        "MemTotal": 134769520640,
+        "MemAvailable": 94125072384,
+        "effective_available_bytes": 94125072384,
+        "half_available_bytes": 47062536192
+      },
+      "peak_upper_bytes": 13534796536
+    },
+    "dataset_disk_copy": false
+  },
+  "artifacts": {
+    "dev_frame.npy": {
+      "path": "<WORK>/file-94f3df56779de4.npy",
+      "sha256": "1d1c39a3a724dcddc81887ce467447e54dfcbbe1d5e34720bd1243bd45abd8c0"
+    },
+    "dev_lengths.npy": {
+      "path": "<WORK>/file-a528c348c72459.npy",
+      "sha256": "b2ff4b5c7947b2d2ca7b26fac1764eb07e98669743dbbdbd2a2ef87907a0705d"
+    },
+    "dev_queries.npy": {
+      "path": "<WORK>/file-15712b31b9a85d.npy",
+      "sha256": "b2fdabf3ec4761a585538a5e46dff13b2c0885794097bcf4767b6077c6f6e0d3"
+    },
+    "dev_clip.npy": {
+      "path": "<WORK>/file-7cdd0b3e40bc19.npy",
+      "sha256": "1500e2142beeadcd295cd50acb8e4e2fb33036e3965c93091059edc20d11ea7b"
+    }
+  },
+  "checkpoint_unchanged": true
+}

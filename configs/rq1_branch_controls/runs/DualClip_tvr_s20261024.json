@@ -1,0 +1,69 @@
+{
+  "job": {
+    "group": "B",
+    "method": "DualClip",
+    "dataset": "tvr",
+    "seed": 20261024
+  },
+  "attempt": 1,
+  "configuration": {
+    "model_name": "gmmformer_v2",
+    "dataset_name": "tvr",
+    "seed": 20261024,
+    "visual_feature": "i3d_resnet",
+    "collection": "tvr",
+    "map_size": 32,
+    "sft_factor": 0.09,
+    "num_workers": 8,
+    "no_core_driver": false,
+    "no_pin_memory": false,
+    "batchsize": 128,
+    "lr": 0.0003,
+    "lr_warmup_proportion": 0.01,
+    "wd": 0.01,
+    "margin": 0.1,
+    "n_epoch": 100,
+    "max_es_cnt": 10,
+    "hard_negative_start_epoch": 20,
+    "hard_pool_size": 20,
+    "use_hard_negative": false,
+    "loss_factor": [
+      0.05,
+      0.04,
+      8e-05,
+      0.09
+    ],
+    "neg_factor": [
+      0.15,
+      32,
+      1
+    ],
+    "eval_query_bsz": 50,
+    "eval_context_bsz": 100,
+    "max_desc_l": 30,
+    "max_ctx_l": 128,
+    "sub_feat_size": 768,
+    "q_feat_size": 768,
+    "max_position_embeddings": 300,
+    "hidden_size": 384,
+    "n_heads": 4,
+    "input_drop": 0.2,
+    "drop": 0.2,
+    "initializer_range": 0.02,
+    "data_root": "<DATA>/tvr",
+    "pin_memory": true,
+    "method": "DualClip",
+    "protocol": "official-v1",
+    "loss_variant": "original",
+    "variant": "DualClip",
+    "score_fusion_weights": [
+      0.5,
+      0.5
+    ],
+    "root": "<WORK>",
+    "model_root": "<WORK>/model",
+    "ckpt_path": "<WORK>/model/checkpoint",
+    "visual_feat_dim": 3072,
+    "prefetch_factor": 1
+  }
+}

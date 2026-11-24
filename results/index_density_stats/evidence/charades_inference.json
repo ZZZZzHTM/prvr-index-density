@@ -1,0 +1,87 @@
+{
+  "dataset": "charades",
+  "seed": 9527,
+  "checkpoint": "<WORK>/file-09a91f47a32acc.ckpt",
+  "checkpoint_sha256": "4c3241a38f29c870df84ea0427535b0c706ec61cd4ed2d64c3598dc26399fcfc",
+  "best_epoch": 34,
+  "run_folder": "<WORK>/file-cc4a4fdc600153",
+  "cache": null,
+  "input_shape": [
+    3720,
+    1334
+  ],
+  "device": "cpu",
+  "video_seconds": 23.34961459704209,
+  "query_score_seconds": 8.720784581964836,
+  "total_seconds": 35.372255271999165,
+  "feature_adapter_checks": [
+    {
+      "video": "GHC5X",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "GH19N",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "9YOI8",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    }
+  ],
+  "video_valid_length_min": 21,
+  "video_valid_length_max": 128,
+  "videos_L_below_32": 12,
+  "baseline_metrics": {
+    "R@1": 2.338709677419355,
+    "R@5": 8.225806451612904,
+    "R@10": 14.46236559139785,
+    "R@100": 52.473118279569896,
+    "SumR": 77.5
+  },
+  "expected_metrics": {
+    "R@1": 2.338709677419355,
+    "R@5": 8.225806451612904,
+    "R@10": 14.46236559139785,
+    "R@100": 52.473118279569896,
+    "SumR": 77.5
+  },
+  "baseline_errors": {
+    "R@1": 0.0,
+    "R@5": 0.0,
+    "R@10": 0.0,
+    "R@100": 0.0,
+    "SumR": 0.0
+  },
+  "baseline_max_score_abs_error_vs_saved_GPU": {
+    "clip": 4.172325134277344e-07,
+    "frame": 4.172325134277344e-07,
+    "fused": 3.2782554626464844e-07
+  },
+  "saved_GPU_RK_hit_disagreements": {
+    "K1": 0,
+    "K5": 0,
+    "K10": 0,
+    "K100": 0
+  },
+  "original_SumR_reproduction_passed": true,
+  "output_files": {
+    "clip": {
+      "path": "<WORK>/file-ee6c726cb62ff7.npy",
+      "sha256": "8c2b70a189ee5aaee5d9a1bdc6d37691932d4c552246bcc5e8edab4620b76edb"
+    },
+    "frame_raw": {
+      "path": "<WORK>/file-82a3d8a07b53db.npy",
+      "sha256": "e4f20f80a7e4cba53d56fe9b823d55852353715fbf50f167d7ae39997d460612"
+    },
+    "frame_pool": {
+      "path": "<WORK>/file-42e5179af90256.npy",
+      "sha256": "13bdd978ae2a9ce8671ab212dde3d774e0910557afc6a5c2df648d50f909c0ca"
+    }
+  },
+  "checkpoint_unchanged": true,
+  "optimizer_steps": 0,
+  "CUDA_initialized": false
+}

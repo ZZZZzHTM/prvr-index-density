@@ -1,0 +1,112 @@
+{
+  "dataset": "charades",
+  "scores": {
+    "uniform_k4": {
+      "path": "<WORK>/file-94a58bf98328a2.npy",
+      "sha256": "651d0ce4f02b1adde925e9598f0bdbea4d26225127a638f5a3be862b774a8df8",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "uniform_k8": {
+      "path": "<WORK>/file-2623924fdd0bba.npy",
+      "sha256": "c0d467d350f0e054f08c3148cd33a3116ee490677b2180a9f9a726dd8bdc7a1a",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "uniform_k16": {
+      "path": "<WORK>/file-5f3edb8b71780d.npy",
+      "sha256": "b751d81614e9daa377c5bbc4f05549da9721167e58a18620a2c80d1f754fb912",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "uniform_k32": {
+      "path": "<WORK>/file-a4eb796c33992c.npy",
+      "sha256": "13bdd978ae2a9ce8671ab212dde3d774e0910557afc6a5c2df648d50f909c0ca",
+      "mode": "reuse prior score matrix; duplicate-set max equivalence for short videos"
+    },
+    "uniform_k64": {
+      "path": "<WORK>/file-dd745cd0750ab5.npy",
+      "sha256": "00d6515f31dff1ce3e840c4bffea0e2e9d88032945fdc3c2a3a6210fdf544be5",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "adjacent_k8": {
+      "path": "<WORK>/file-75e6aed3ea5561.npy",
+      "sha256": "e2e5b07839644a55178b1687467e155eedcbb9f6f6080561018b690a35d4a657",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "adjacent_k16": {
+      "path": "<WORK>/file-46310a4e9c5d24.npy",
+      "sha256": "c3c4b381d5e795fae9e1db23e530c5de6116f996fade10e50061a9692c02cca9",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "adjacent_k32": {
+      "path": "<WORK>/file-2a4003009d5ae4.npy",
+      "sha256": "620322bb6068183c8a8134e99177ec23ac607cc3252caa0203033420ef212048",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "ward_cos_k8": {
+      "path": "<WORK>/file-ebbf5e96e806e7.npy",
+      "sha256": "36858ada8cef6686fa9481df03a4744008019650f6462304df12c07a666cd289",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "ward_cos_k16": {
+      "path": "<WORK>/file-75280e89de7290.npy",
+      "sha256": "a377424ffc3a4442ee015419b2eed2774f7a51ef6b16a511e3efa4b83c93d3f0",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "ward_cos_k32": {
+      "path": "<WORK>/file-74981657522a3d.npy",
+      "sha256": "489d1a3d7dfdc4c3f118fe72c7ad209679fcf6f2282e2ac7f062065aab78703f",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "kmeans_k8": {
+      "path": "<WORK>/file-6af69f26174625.npy",
+      "sha256": "3cba470c953e6105e86205d1982f0d2b305de1a9caf659067b076630b994e063",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "farthest_k8": {
+      "path": "<WORK>/file-ae9eb12977e2e4.npy",
+      "sha256": "3a5df86d24d449ef415c661608c5afe3c3010048a043dd487730863ef178c328",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "hybrid_k8": {
+      "path": "<WORK>/file-aa3b21ff77df11.npy",
+      "sha256": "2cf880117e24989dd99d1612bf41f5b677d4bd38e39aac7143366f446c5b356b",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "kmeans_k16": {
+      "path": "<WORK>/file-79780b808513d9.npy",
+      "sha256": "63f7ee526f3749888d028437a8c02f7b49f1c9346ea7cb4434b744fcbe1eb42e",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "farthest_k16": {
+      "path": "<WORK>/file-2a72cd6684402a.npy",
+      "sha256": "3933caad02a20ddb8dc8529efe91c865a1ab1abecd124f6df981eb855d582e4f",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "hybrid_k16": {
+      "path": "<WORK>/file-643fcbd264ba7c.npy",
+      "sha256": "9338dcb4d05e20f09d6f9cb3ba913cb85a99a9cb11a7cf960dd72cf1179a166a",
+      "mode": "new CPU cosine-max score matrix",
+      "first_block_exact_original_scorer": true
+    },
+    "kmeans_k32": {
+      "path": "<WORK>/file-61d7088323b873.npy",
+      "sha256": "8c2f9222fd61380a663f4245ba8424357d80e7276ac6de730b823b3e226fa7c7",
+      "mode": "reuse prior score matrix; duplicate-set max equivalence for short videos"
+    }
+  },
+  "seconds": 7.9254591329954565
+}

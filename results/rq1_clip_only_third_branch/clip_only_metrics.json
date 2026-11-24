@@ -1,0 +1,3141 @@
+{
+  "status": "interim",
+  "stage": "A",
+  "generated_utc": "2026-11-12T13:25:01.280196+00:00",
+  "task_source": {
+    "path": "<WORK>/file-36ac4e210dc73f.md",
+    "sha256": "29df3213803b1d9e87074e519a1237be2b8358806edf505ad2276bb7b5d34548",
+    "storage": "git blob"
+  },
+  "runs": {
+    "B0": {
+      "tvr": {
+        "9527": {
+          "R1": 15.933914639743001,
+          "R5": 37.356585589720055,
+          "R10": 49.06837999082148,
+          "R100": 86.92978430472694,
+          "SumR": 189.28866452501148,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "tvr",
+          "seed": 9527,
+          "best_epoch": 80,
+          "parameters": 32273440,
+          "checkpoint_sha256": "4907fcc45f412063c1b6c2e425f62247fe0f3b4817affc012171130c4a2ed067",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-9cf85eb177d372.json",
+              "sha256": "1785cd5a377fd4f1b6ef38814b202a6ddce1daa932e9dafbcfb52ff162c50fd9",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-9cf85eb177d372.json",
+              "sha256": "1785cd5a377fd4f1b6ef38814b202a6ddce1daa932e9dafbcfb52ff162c50fd9",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-21ef918fd68c70.json",
+              "sha256": "45203df36bfabc5cba9f78ec0b004f643f5fbe09cb8d2edf2aa7557ae25bf85e",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 15.474988526847177,
+          "R5": 36.92519504359798,
+          "R10": 48.70123910050482,
+          "R100": 86.38825149150986,
+          "SumR": 187.48967416245983,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "best_epoch": 96,
+          "parameters": 32273440,
+          "checkpoint_sha256": "613cb0ce803a3a6747bb756dcb6e343da46e76c38f909df7d889ee41241f0ac3",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-4a498f5a9af3c4.json",
+              "sha256": "8a1e2d50cd3a2e2677de284f6f07cc60d86a5cdb8d53fbc2671b5bd9900d7cac",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-4a498f5a9af3c4.json",
+              "sha256": "8a1e2d50cd3a2e2677de284f6f07cc60d86a5cdb8d53fbc2671b5bd9900d7cac",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-ba1d520b3f5c85.json",
+              "sha256": "b671fca80d2f860ff6f734bbe8a6b843e6131541f2e56099678e4f8c78c76de3",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 15.70445158329509,
+          "R5": 37.44837081229922,
+          "R10": 48.64616796695732,
+          "R100": 86.90224873795319,
+          "SumR": 188.7012391005048,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "best_epoch": 93,
+          "parameters": 32273440,
+          "checkpoint_sha256": "1ce71419d68cdf8488c78e4b18d2b867ac94963b444ef1e48f7fc805339b333a",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-5e93eaa2b73171.json",
+              "sha256": "c5f0c9df217b1f87aa6b05069ebecb3e3620ddcfcaeb3df09210a43bec049935",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-5e93eaa2b73171.json",
+              "sha256": "c5f0c9df217b1f87aa6b05069ebecb3e3620ddcfcaeb3df09210a43bec049935",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-3e30988b9ad30e.json",
+              "sha256": "ff426c463a03b3a036bf8346d6d4b69505d9f2494084dbeb025a6c90dfbff3c0",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 8.817368120358028,
+          "R5": 27.27099600076176,
+          "R10": 39.94159842569669,
+          "R100": 78.77864533739606,
+          "SumR": 154.80860788421253,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "best_epoch": 97,
+          "parameters": 30791200,
+          "checkpoint_sha256": "7e6fc3647aff1b10f2784a6ae0fbc38142430517c8e05aaa815847a1c995091e",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-662006cc4f4c3b.json",
+              "sha256": "4100875f1363006bb590a557b79f4f888f9a9ef21fdcb83b4a74e8b18ea234bf",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-662006cc4f4c3b.json",
+              "sha256": "4100875f1363006bb590a557b79f4f888f9a9ef21fdcb83b4a74e8b18ea234bf",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-d6c23b05411815.json",
+              "sha256": "e27044a73f35d2db73818f175d774b2168416889ddb117bfafc1037ff92ae9c2",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 9.007808036564464,
+          "R5": 27.1567320510379,
+          "R10": 40.18917031676506,
+          "R100": 78.51837745191392,
+          "SumR": 154.87208785628133,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "best_epoch": 88,
+          "parameters": 30791200,
+          "checkpoint_sha256": "453f65215f54de18b3a4e125d641ee482fc302ac8dec1c8e10575c65c638a742",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-43ce5c07105191.json",
+              "sha256": "ce667d404cef2b94687bae546fc521d580df794e14d79a1cee096f98f6728797",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-43ce5c07105191.json",
+              "sha256": "ce667d404cef2b94687bae546fc521d580df794e14d79a1cee096f98f6728797",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-c12014392332a7.json",
+              "sha256": "1aa10061e991e052dbaaf859bddea703718fed29203329de40e3fa75d5472e64",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 8.830064114771789,
+          "R5": 27.099600076175967,
+          "R10": 39.833682473179714,
+          "R100": 78.70881736812036,
+          "SumR": 154.47216403224783,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "best_epoch": 81,
+          "parameters": 30791200,
+          "checkpoint_sha256": "1379d89c54686a989bbd94eddba9fc31e0226ca5a2fd0893b1695b620286b23e",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-13bcf373773418.json",
+              "sha256": "9fddc9d0078769d082fd759d025b0727cf0ee4a8288ce3f8878d67402b64028e",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-13bcf373773418.json",
+              "sha256": "9fddc9d0078769d082fd759d025b0727cf0ee4a8288ce3f8878d67402b64028e",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-b698bf3b7dcf62.json",
+              "sha256": "275f2e4a8bbc9641fed3ddcfa12bcd509e38645321d67523f5c4d01b54dd1f3a",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.338709677419355,
+          "R5": 8.225806451612904,
+          "R10": 14.46236559139785,
+          "R100": 52.473118279569896,
+          "SumR": 77.5,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "charades",
+          "seed": 9527,
+          "best_epoch": 34,
+          "parameters": 30791200,
+          "checkpoint_sha256": "4c3241a38f29c870df84ea0427535b0c706ec61cd4ed2d64c3598dc26399fcfc",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-635bbdb07fa45a.json",
+              "sha256": "e6d1a10d56ec58755be0f8d2d8d7c57f480a416fe3c4136a3fa0391f4c9c439a",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-635bbdb07fa45a.json",
+              "sha256": "e6d1a10d56ec58755be0f8d2d8d7c57f480a416fe3c4136a3fa0391f4c9c439a",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-f93e1091bf52fa.json",
+              "sha256": "3b7a237c94d1629d0e7faaa9c1f062382c0ec533f5cf1fc5a7f43c7fd25b62e2",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 2.661290322580645,
+          "R5": 8.010752688172044,
+          "R10": 13.736559139784946,
+          "R100": 52.41935483870968,
+          "SumR": 76.82795698924731,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "charades",
+          "seed": 20261024,
+          "best_epoch": 38,
+          "parameters": 30791200,
+          "checkpoint_sha256": "0ab1b29445d6ff403fa3a1c2ac75fe81c9aa03b715c8d0a9a442ac6fc74da2bd",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-30b5f1a387c544.json",
+              "sha256": "537da6e7d6012d038c32380ce1c08a70c58588d67bd2a1e20011c97195f2cba8",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-30b5f1a387c544.json",
+              "sha256": "537da6e7d6012d038c32380ce1c08a70c58588d67bd2a1e20011c97195f2cba8",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-0a1453c907621c.json",
+              "sha256": "1aa10061e991e052dbaaf859bddea703718fed29203329de40e3fa75d5472e64",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 2.0698924731182795,
+          "R5": 8.924731182795698,
+          "R10": 14.327956989247312,
+          "R100": 53.064516129032256,
+          "SumR": 78.38709677419354,
+          "status": "completed",
+          "old": true,
+          "method": "B0",
+          "dataset": "charades",
+          "seed": 20261025,
+          "best_epoch": 38,
+          "parameters": 30791200,
+          "checkpoint_sha256": "96923e235ba4955112064e905c80d1130c52da3217ba920ddf48fdc025f17b34",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-8201940f1244da.json",
+              "sha256": "75d841f931d87e41989127c9ea2d6f6c3af14373814f3b07cf2202900291423d",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-8201940f1244da.json",
+              "sha256": "75d841f931d87e41989127c9ea2d6f6c3af14373814f3b07cf2202900291423d",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-d8af20dff31b39.json",
+              "sha256": "275f2e4a8bbc9641fed3ddcfa12bcd509e38645321d67523f5c4d01b54dd1f3a",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      }
+    },
+    "DualClip": {
+      "tvr": {
+        "9527": {
+          "R1": 15.658558972005507,
+          "R5": 36.51216154199174,
+          "R10": 48.35245525470399,
+          "R100": 86.25975217989904,
+          "SumR": 186.78292794860027,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "tvr",
+          "seed": 9527,
+          "best_epoch": 99,
+          "parameters": 32236480,
+          "checkpoint_sha256": "e780eecf535cbbc5a6a4f16073b5c1c13a81d0130dd394cba88ae920053ad005",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-70f60a220b031b.json",
+              "sha256": "cee88f66aebfdfd31537b00e9d4a26cb92e3f732effc383d1e648ce405ab070f",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-70f60a220b031b.json",
+              "sha256": "cee88f66aebfdfd31537b00e9d4a26cb92e3f732effc383d1e648ce405ab070f",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-26411983a6bf44.json",
+              "sha256": "360587f0132c2bb5419afe333bc83b4b87e27d7fca30790a307952e5a413e1b0",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 15.135383203304269,
+          "R5": 36.75080312069757,
+          "R10": 48.29738412115649,
+          "R100": 86.52592932537861,
+          "SumR": 186.70949977053692,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "best_epoch": 97,
+          "parameters": 32236480,
+          "checkpoint_sha256": "44bf63431eabb459b2c32ea9897590492bb9b679af578f603d8f7203bc65b9e2",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-824cb3d36826f1.json",
+              "sha256": "399523cb74b987a02480324428f47e80cfffeb888ddae44f72d5032acab39258",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-75a84a8eb8a3bf.json",
+              "sha256": "0ab31b7e81ad50a43766e43ab51ae2453a877a37c627bbb77517b173f5c766d9",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-045eded42cf238.json",
+              "sha256": "360587f0132c2bb5419afe333bc83b4b87e27d7fca30790a307952e5a413e1b0",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 16.365305185865076,
+          "R5": 37.439192290041305,
+          "R10": 48.6369894446994,
+          "R100": 86.6268930702157,
+          "SumR": 189.06837999082148,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "best_epoch": 96,
+          "parameters": 32236480,
+          "checkpoint_sha256": "ab78d04b3171cce0f1cb57dd66bca8bd92c83cf30eff750d5ed6235599a8eda0",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-1ac1bfaefeb851.json",
+              "sha256": "c61e73651edba38594315db1ed534ecbc394403247f0ad877f2571a25b53686f",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-08bfd89bc566c4.json",
+              "sha256": "efee837d6c01f637118a1682a3860db818287073fd7f1ded3631b2187ff24304",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-f4a0256e34045a.json",
+              "sha256": "360587f0132c2bb5419afe333bc83b4b87e27d7fca30790a307952e5a413e1b0",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 8.639624198565352,
+          "R5": 26.636196280073637,
+          "R10": 39.554370596076936,
+          "R100": 78.75960134577541,
+          "SumR": 153.58979242049134,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "best_epoch": 96,
+          "parameters": 30754240,
+          "checkpoint_sha256": "3f177c2cdd87fb0da19fa07fc8d77e0327a28da40e45fcb9a85f781a8bc20b18",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-a552f0dadc943b.json",
+              "sha256": "23cb2de5fedd6602b0b24d5f82eefc410cc933effe4b6a03c27cadc792a2da42",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-a552f0dadc943b.json",
+              "sha256": "23cb2de5fedd6602b0b24d5f82eefc410cc933effe4b6a03c27cadc792a2da42",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-6b3fb4fa20ce77.json",
+              "sha256": "3a2075032e20ca0092d8974eb260dfc78dfb7109ebca8a87a9e549e504da644b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 8.645972195772234,
+          "R5": 26.737764235383736,
+          "R10": 40.18282231955818,
+          "R100": 78.70246937091348,
+          "SumR": 154.26902812162763,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "best_epoch": 97,
+          "parameters": 30754240,
+          "checkpoint_sha256": "9de6340e65145a4857dc593ad6c64eddcfe15c82238a59131b9d8b6ab84ebf53",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-217660266954a0.json",
+              "sha256": "c8155464b6014c28f19806b9ba2a429a8749c9d9f85f286e982907f086de9f15",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-27375d929d8f20.json",
+              "sha256": "0bf5f0a7b844d9615c7b6bba0d4a43d52e485148f8f46f3363ba912a552a8a47",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-d5c5ca240a4e55.json",
+              "sha256": "3a2075032e20ca0092d8974eb260dfc78dfb7109ebca8a87a9e549e504da644b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 8.690408176220403,
+          "R5": 26.725068240969975,
+          "R10": 39.96064241731734,
+          "R100": 78.86116930108551,
+          "SumR": 154.23728813559322,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "best_epoch": 72,
+          "parameters": 30754240,
+          "checkpoint_sha256": "ba5aff0835e3cb0079d226fe3d6c51257b5141c31db6bbf7ffad65ef880cc066",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-e084b5a802e441.json",
+              "sha256": "1997ad8e67eb2e97a40471b84a36d3e9ac56ca89758a15e5dfe93bbf597f0917",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-f0f620f7b04a9b.json",
+              "sha256": "8eff331db23f84d6727f57c03d11a3e7ebdf0acda2f7f6882c1159efa5d13c1c",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-b5d4a3846bcb19.json",
+              "sha256": "3a2075032e20ca0092d8974eb260dfc78dfb7109ebca8a87a9e549e504da644b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.338709677419355,
+          "R5": 8.46774193548387,
+          "R10": 14.543010752688172,
+          "R100": 53.01075268817204,
+          "SumR": 78.36021505376344,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "charades",
+          "seed": 9527,
+          "best_epoch": 44,
+          "parameters": 30754240,
+          "checkpoint_sha256": "3fe28223d1f0902c16dddad64a9467fe59b870d3ba3e51c6df041e23be883e6f",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-b9e97f843fcf71.json",
+              "sha256": "92310dfe6cce0545e579ffd6086bb05c6cc07c39f0dbfb1c173099fb777edeee",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-b9e97f843fcf71.json",
+              "sha256": "92310dfe6cce0545e579ffd6086bb05c6cc07c39f0dbfb1c173099fb777edeee",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-a57cd19429a725.json",
+              "sha256": "a52a1408702c5d9d92534b3f553acafc1b7114cc0560410ecef4c67e20b45e2d",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 2.661290322580645,
+          "R5": 8.333333333333334,
+          "R10": 14.13978494623656,
+          "R100": 52.903225806451616,
+          "SumR": 78.03763440860216,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "charades",
+          "seed": 20261024,
+          "best_epoch": 30,
+          "parameters": 30754240,
+          "checkpoint_sha256": "d36d83c4bbd68b4d83f7ac1f5caa0a2681ff99f81988fcd233d7345483885ada",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-e9a8074ca81af8.json",
+              "sha256": "f47aaada89721b54ca8bb84a302ad7e83a75482ddbbd8416d7076c255b5a058c",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-01e05a9ed3c320.json",
+              "sha256": "da70995f4e3d9ebf3c256b3460d07d14ccb4fba4fdda9e5a2dbed9858802ddc7",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-116812c79e2759.json",
+              "sha256": "a52a1408702c5d9d92534b3f553acafc1b7114cc0560410ecef4c67e20b45e2d",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 2.338709677419355,
+          "R5": 9.086021505376344,
+          "R10": 14.408602150537634,
+          "R100": 52.634408602150536,
+          "SumR": 78.46774193548387,
+          "status": "completed",
+          "old": true,
+          "method": "DualClip",
+          "dataset": "charades",
+          "seed": 20261025,
+          "best_epoch": 30,
+          "parameters": 30754240,
+          "checkpoint_sha256": "29385f81cef276500d274ec33c103ec9040899a29b8521b5c52b731677c18846",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-2fde537f6b81d4.json",
+              "sha256": "921a74e44c8448ec8f046412f810817faeb145006117290d59970f6094c5b8ff",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-85b692bfde779e.json",
+              "sha256": "d7ae558a94942ae49e2a41061ed5123d9094a9a34119fc1edf00b156e15e188c",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-6321b690295516.json",
+              "sha256": "a52a1408702c5d9d92534b3f553acafc1b7114cc0560410ecef4c67e20b45e2d",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      }
+    },
+    "WideClipOnly": {
+      "tvr": {
+        "9527": {
+          "R1": 14.465351078476365,
+          "R5": 34.47452960073428,
+          "R10": 45.745754933455714,
+          "R100": 85.26847177604405,
+          "SumR": 179.9541073887104,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "tvr",
+          "seed": 9527,
+          "best_epoch": 90,
+          "parameters": 32238872,
+          "checkpoint_sha256": "80d9ac8efc139453c3fc53821fcdd4f18c571acae1a67dd650b5baba117c34d2",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-0bbf55745f1a90.json",
+              "sha256": "d7071d64a0cda438fd62d13eeae3575f396e79b1c5add46ee165862265da10ef",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-75fe3906fdcae0.json",
+              "sha256": "0f9b68449206e51a857e53d837e5824ef2db93fc7d4041eafa19ee46fbfea2bc",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-5ff0397e3503e2.json",
+              "sha256": "db242de75b7b0107c515d8584370bdf65d43334db2e01e1115cf2ba621b122d3",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 13.345571363010555,
+          "R5": 33.4832491968793,
+          "R10": 44.97475906379073,
+          "R100": 85.70904084442405,
+          "SumR": 177.51262046810461,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "best_epoch": 98,
+          "parameters": 32238872,
+          "checkpoint_sha256": "85500ff54bbc8238f9108d4dd38e4944f6c163ba55fad9b8a41b6ebc9f2f21d7",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-87d193a829d3e3.json",
+              "sha256": "d10b2a8f38798789f9efcb45bf9a41968dd564a5e0f046c17f4f961505b10efa",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-2a7ed0dbe4c14a.json",
+              "sha256": "01fb8288685ad57c4be3d880eca6a48079f6f60748c5adc9c4f19fe9a4dc4c16",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-242d526e9f8ffb.json",
+              "sha256": "db242de75b7b0107c515d8584370bdf65d43334db2e01e1115cf2ba621b122d3",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 13.923818265259293,
+          "R5": 34.144102799449286,
+          "R10": 45.690683799908214,
+          "R100": 85.5713630105553,
+          "SumR": 179.3299678751721,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "best_epoch": 77,
+          "parameters": 32238872,
+          "checkpoint_sha256": "3dddad86de63e280005e11a715e3a21391e3a45cdfb6e440100dc4a820a5f6df",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-ad29786cecaa57.json",
+              "sha256": "79dfd0ef193cc9a3bbec97425d905d2b17c9f4fc9699b1fbead3d91c89969eb5",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-66805bcd5cb612.json",
+              "sha256": "780a4d3ec2fbc58f9a61956e590a7e160e5bce95204851474c0e13b865b75758",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-023dafe5b7a7bf.json",
+              "sha256": "db242de75b7b0107c515d8584370bdf65d43334db2e01e1115cf2ba621b122d3",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 7.738208595188218,
+          "R5": 25.550688757696946,
+          "R10": 38.37364311559703,
+          "R100": 77.69948581222624,
+          "SumR": 149.36202628070845,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "best_epoch": 94,
+          "parameters": 30753552,
+          "checkpoint_sha256": "b6a324651d9670cf031617c66635898eec0c971fc4369ee2fb6ace10f66f38a6",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-fe1f3d0212b22d.json",
+              "sha256": "750273a2b27dfef58e66bc92f7145d6ce8d9d9ba94f5cf8cdc51606e9cb7c858",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-421d5bbded249c.json",
+              "sha256": "fc71c0bff14d36a0a92ad56e9df59eae055c131ded9ccbe37ea3bb177dcb4c18",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-58374b334b717e.json",
+              "sha256": "ab10131c5781a6f99505ddaa7795c7f912efb3c2c658fbfb551930db369571d1",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 8.125436424807972,
+          "R5": 25.182504919697834,
+          "R10": 38.094331238494256,
+          "R100": 77.57252586808862,
+          "SumR": 148.9747984510887,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "best_epoch": 74,
+          "parameters": 30753552,
+          "checkpoint_sha256": "c3cefa3adbbd44f6ae4b6656db6e8566553586d478e56a9cdcb20422b2f77cb5",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-afe54ef54af1eb.json",
+              "sha256": "fb9bec6aae7f75be26c47478e2d16e4c4f0297170193729c7ab204115dccf180",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-881aa7da2a8602.json",
+              "sha256": "d0378b29f0befd198d64f7f4a7330713b278d4599b56c2b2ee50bff08149e448",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-0115428f61bf9a.json",
+              "sha256": "ab10131c5781a6f99505ddaa7795c7f912efb3c2c658fbfb551930db369571d1",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 8.05560845553228,
+          "R5": 25.753824668317147,
+          "R10": 38.341903129562624,
+          "R100": 77.80740176474322,
+          "SumR": 149.95873801815526,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "best_epoch": 83,
+          "parameters": 30753552,
+          "checkpoint_sha256": "b2503172db10b426a8016919a78b082eea26d0cf6a22307d20a64f9a70caa93d",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-15f96a9c66e319.json",
+              "sha256": "63f1ee4ac1e5380278ca3617db89ccba21d232bc97b4daee3b782bae21cb8a01",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-84dec446a8ed51.json",
+              "sha256": "d9350106c3d1a40e4e46266d0ae5d4bc42524cdef480b495387d9e315640afc6",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-890ad2733eba35.json",
+              "sha256": "ab10131c5781a6f99505ddaa7795c7f912efb3c2c658fbfb551930db369571d1",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.043010752688172,
+          "R5": 8.413978494623656,
+          "R10": 13.897849462365592,
+          "R100": 51.505376344086024,
+          "SumR": 75.86021505376344,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "charades",
+          "seed": 9527,
+          "best_epoch": 30,
+          "parameters": 30753552,
+          "checkpoint_sha256": "a69828bf0b2045619b2ad84a128e14b3b77787f2261c57091bc71d3be2c0c465",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-d7701c61484e14.json",
+              "sha256": "1e9719d9e403deb3ce8de0e3b6d96a3cb258034f599b764a09e6dc1f8c537cfc",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-91d082ff474f55.json",
+              "sha256": "6247e07d9ddff8079e8d0e7ecccb7e355ceb85c252b83d063b7f3eb6faf2b36e",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-afdfc7ca4c1ef4.json",
+              "sha256": "9132c2f620b7dc7fa3a3fb271cae65d1b7027852b01fa197cf4128c8cfc2f92b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 2.204301075268817,
+          "R5": 7.768817204301075,
+          "R10": 13.172043010752688,
+          "R100": 51.55913978494624,
+          "SumR": 74.70430107526882,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "charades",
+          "seed": 20261024,
+          "best_epoch": 31,
+          "parameters": 30753552,
+          "checkpoint_sha256": "3c416a10d0c549f88e1d6f5190f91c5c768681f0536dd28e9bc17cbdaabd651b",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-b97da6ffc551c6.json",
+              "sha256": "123643ec9b5f16daa0905865a64216f15ae9e3ab5195b4471a58099a64868bb9",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-7153e04401ea5e.json",
+              "sha256": "cc23cee654f820c7f33382c29d9862aac5c0b86ed37c48669f49da99ce85fe3f",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-fd6a0c825528d5.json",
+              "sha256": "9132c2f620b7dc7fa3a3fb271cae65d1b7027852b01fa197cf4128c8cfc2f92b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261025": {
+          "R1": 2.0698924731182795,
+          "R5": 7.741935483870968,
+          "R10": 13.602150537634408,
+          "R100": 51.935483870967744,
+          "SumR": 75.34946236559139,
+          "status": "completed",
+          "old": true,
+          "method": "WideClipOnly",
+          "dataset": "charades",
+          "seed": 20261025,
+          "best_epoch": 26,
+          "parameters": 30753552,
+          "checkpoint_sha256": "77baec3411f057b38f7c2c0e4599e3c270a530bfb98b59858f8f582b0e04c661",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-a91cf054539f9d.json",
+              "sha256": "b3b0b07749bd1420d30474c345b5ab70712c881faa781d6394b309f627777fbe",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-1258e6e68dc8fb.json",
+              "sha256": "96575bccf68f9a8ea131863703d914f11001086288c1ed14c569b67640a57a9a",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-5c5d4f44f0e278.json",
+              "sha256": "9132c2f620b7dc7fa3a3fb271cae65d1b7027852b01fa197cf4128c8cfc2f92b",
+              "field": "parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      }
+    },
+    "ClipOnly": {
+      "tvr": {
+        "9527": {
+          "R1": 13.694355208811382,
+          "R5": 34.024782010096374,
+          "R10": 45.635612666360714,
+          "R100": 84.95640201927489,
+          "SumR": 178.31115190454335,
+          "status": "completed",
+          "old": true,
+          "method": "ClipOnly",
+          "dataset": "tvr",
+          "seed": 9527,
+          "best_epoch": 97,
+          "parameters": 17086496,
+          "checkpoint_sha256": "130c08851fcc1d9a26d53eaf5432566e17034d53f3f95e4ab89611f0fc0553d4",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-597afd28af33b7.json",
+              "sha256": "f4c39db7f7d55c38fc1766ac32ce37e78213fe41c0eb7623bc5d72479769a630",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-597afd28af33b7.json",
+              "sha256": "f4c39db7f7d55c38fc1766ac32ce37e78213fe41c0eb7623bc5d72479769a630",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-75084f0d4ccd86.json",
+              "sha256": "8ed54a8a2d45b27513025db6d5e9576009008f5b6f247b081f2c955dc4f51ee9",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 13.923818265259293,
+          "R5": 34.052317576870124,
+          "R10": 45.52547039926572,
+          "R100": 85.43368517668655,
+          "SumR": 178.9352914180817,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "tvr",
+          "seed": 20261024,
+          "best_epoch": 94,
+          "epochs": 100,
+          "parameters": 17086496,
+          "checkpoint_sha256": "6e63dccf31b178053e845aa5bf8b341107e7824e2418a50109c44a4e0a8d1275",
+          "attempt": 1,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-dd29a9cefb427f.json",
+              "sha256": "c210923597706157c8f2b9de523a34cceea325b4c0de776939a41a1dec9ba235",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:50:08.378493+00:00",
+          "finished_utc": "2026-11-12T13:24:15.352348+00:00",
+          "train_wall_seconds": 12846.970462444238,
+          "MemoryPeak_bytes": 9421164544,
+          "CUDA_peak_allocated_bytes": 2919139328,
+          "CUDA_peak_reserved_bytes": 3112173568,
+          "gpu": 1,
+          "concurrency": {
+            "initial_card_processes": [],
+            "initial_batch_concurrency": 1,
+            "peak_batch_card_concurrency": 2,
+            "peak_physical_card_concurrency": 2,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-4fdd0ec7dfec98.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        },
+        "20261025": {
+          "R1": 13.675998164295548,
+          "R5": 34.263423588802205,
+          "R10": 45.791647544745295,
+          "R100": 85.5162918770078,
+          "SumR": 179.24736117485085,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "tvr",
+          "seed": 20261025,
+          "best_epoch": 96,
+          "epochs": 100,
+          "parameters": 17086496,
+          "checkpoint_sha256": "a984a7ab09ab5014ab32d0eda6d2284b9f3bceb2ae406c8a08bf374fac53f160",
+          "attempt": 1,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-887a5db68ceb41.json",
+              "sha256": "9311abc5dfc9bc3fde76f89e24963740780e6c6b6502fc15cd9843d5a03f5170",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:52:50.815820+00:00",
+          "finished_utc": "2026-11-12T13:24:37.486177+00:00",
+          "train_wall_seconds": 12706.66704145167,
+          "MemoryPeak_bytes": 4518543360,
+          "CUDA_peak_allocated_bytes": 2919139328,
+          "CUDA_peak_reserved_bytes": 3112173568,
+          "gpu": 1,
+          "concurrency": {
+            "initial_card_processes": [
+              {
+                "pid": 2832388,
+                "used": 3651141632
+              }
+            ],
+            "initial_batch_concurrency": 2,
+            "peak_batch_card_concurrency": 2,
+            "peak_physical_card_concurrency": 2,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-b1969d78d8b763.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 7.934996508601536,
+          "R5": 25.05554497556021,
+          "R10": 37.84041135021901,
+          "R100": 77.63600584015742,
+          "SumR": 148.46695867453818,
+          "status": "completed",
+          "old": true,
+          "method": "ClipOnly",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "best_epoch": 78,
+          "parameters": 16394784,
+          "checkpoint_sha256": "f9c18c8d7110d30f55b3659a66696d047b4b3ec91db03461b54938d34baa4aeb",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-9c46378fda5cd6.json",
+              "sha256": "14a48a68b4e31b23a7044e00ae0c2de3f36377b508679f6541db3c2755b09f60",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-9c46378fda5cd6.json",
+              "sha256": "14a48a68b4e31b23a7044e00ae0c2de3f36377b508679f6541db3c2755b09f60",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-a1887dc81cf3f3.json",
+              "sha256": "c7942240e87781e292425c7ad950f822239ec4f017a74ffb641597a7b7c741dd",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 7.966736494635942,
+          "R5": 25.449120802386847,
+          "R10": 38.32920713514886,
+          "R100": 77.92166571446708,
+          "SumR": 149.66673014663874,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "activitynet",
+          "seed": 20261024,
+          "best_epoch": 95,
+          "epochs": 100,
+          "parameters": 16394784,
+          "checkpoint_sha256": "ff908eb6ad957058df1aaf6b57d94fc760bfd10f7178aa8b271ed3069be51a5f",
+          "attempt": 1,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-952e12c7a8e6b0.json",
+              "sha256": "5abf7c845a761d27d6f07332a18fd1054e9fe9d7844cd649b0bb1a0fb003467a",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:51:04.084693+00:00",
+          "finished_utc": "2026-11-12T12:55:51.396826+00:00",
+          "train_wall_seconds": 11087.311324080918,
+          "MemoryPeak_bytes": 9723600896,
+          "CUDA_peak_allocated_bytes": 2858552320,
+          "CUDA_peak_reserved_bytes": 4387241984,
+          "gpu": 2,
+          "concurrency": {
+            "initial_card_processes": [],
+            "initial_batch_concurrency": 1,
+            "peak_batch_card_concurrency": 2,
+            "peak_physical_card_concurrency": 2,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-6fcb9e2eb2feab.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        },
+        "20261025": {
+          "R1": 7.8842125309464866,
+          "R5": 25.734780676696502,
+          "R10": 38.43712308766584,
+          "R100": 77.96610169491525,
+          "SumR": 150.02221799022408,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "activitynet",
+          "seed": 20261025,
+          "best_epoch": 99,
+          "epochs": 100,
+          "parameters": 16394784,
+          "checkpoint_sha256": "d74b2e14476f69025560750251e3ab2aee99ab26a95e89e2aa9968cedfaf56b4",
+          "attempt": 1,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-c03c76f7996d28.json",
+              "sha256": "1a241189009242b97a72fac1521677e6a1949c966894ecb181dfdbdab328d8b6",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:53:34.756302+00:00",
+          "finished_utc": "2026-11-12T12:58:10.221770+00:00",
+          "train_wall_seconds": 11075.464872098994,
+          "MemoryPeak_bytes": 6516658176,
+          "CUDA_peak_allocated_bytes": 2850189824,
+          "CUDA_peak_reserved_bytes": 4076863488,
+          "gpu": 2,
+          "concurrency": {
+            "initial_card_processes": [
+              {
+                "pid": 2832805,
+                "used": 4924112896
+              }
+            ],
+            "initial_batch_concurrency": 2,
+            "peak_batch_card_concurrency": 2,
+            "peak_physical_card_concurrency": 2,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-e988e6c1301141.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        }
+      },
+      "charades": {
+        "9527": {
+          "R1": 2.204301075268817,
+          "R5": 8.548387096774194,
+          "R10": 14.086021505376344,
+          "R100": 51.854838709677416,
+          "SumR": 76.69354838709677,
+          "status": "completed",
+          "old": true,
+          "method": "ClipOnly",
+          "dataset": "charades",
+          "seed": 9527,
+          "best_epoch": 36,
+          "parameters": 16394784,
+          "checkpoint_sha256": "0d4d8ce5d5470f7f2aff579469f5d615b6354ddd77365deba5a2a57b20932c3c",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-2b3c8ccbffa51e.json",
+              "sha256": "7006042029e96e29e50de3803c0a7188770da6d1a3c01ccf9654d870ca8d3373",
+              "storage": "repository-relative runtime artifact"
+            },
+            "completion": {
+              "path": "<WORK>/file-2b3c8ccbffa51e.json",
+              "sha256": "7006042029e96e29e50de3803c0a7188770da6d1a3c01ccf9654d870ca8d3373",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-f661caab89304b.json",
+              "sha256": "794ccbddf72e041d0c9b53ef97200aeb8da3b7ac520f4cff15a83ff9b5ad6121",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        },
+        "20261024": {
+          "R1": 1.935483870967742,
+          "R5": 7.5,
+          "R10": 13.494623655913978,
+          "R100": 51.61290322580645,
+          "SumR": 74.54301075268816,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "charades",
+          "seed": 20261024,
+          "best_epoch": 25,
+          "epochs": 37,
+          "parameters": 16394784,
+          "checkpoint_sha256": "7fdd33159afa602d792ea93706a927d7ce8dde885c831a599110ee11264a86a5",
+          "attempt": 2,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-fa04636f233f07.json",
+              "sha256": "ea42818840c206cb4fb8cf635256170e06a51a5f513a182dd57b65deaac63658",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:33:06.619254+00:00",
+          "finished_utc": "2026-11-12T09:50:03.416204+00:00",
+          "train_wall_seconds": 1016.7962402827106,
+          "MemoryPeak_bytes": 2784468992,
+          "CUDA_peak_allocated_bytes": 1813544960,
+          "CUDA_peak_reserved_bytes": 2239758336,
+          "gpu": 1,
+          "concurrency": {
+            "initial_card_processes": [],
+            "initial_batch_concurrency": 1,
+            "peak_batch_card_concurrency": 1,
+            "peak_physical_card_concurrency": 1,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-b3837b56629c2d.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        },
+        "20261025": {
+          "R1": 2.0698924731182795,
+          "R5": 7.5,
+          "R10": 13.46774193548387,
+          "R100": 51.47849462365591,
+          "SumR": 74.51612903225806,
+          "status": "completed",
+          "old": false,
+          "method": "ClipOnly",
+          "dataset": "charades",
+          "seed": 20261025,
+          "best_epoch": 26,
+          "epochs": 38,
+          "parameters": 16394784,
+          "checkpoint_sha256": "dc6f2d6951fa37db7c33b8e859107caf5b6b4e7592208568689e3a918efbbed8",
+          "attempt": 2,
+          "source": {
+            "FINAL": {
+              "path": "<WORK>/file-937624139b8c64.json",
+              "sha256": "8c74b96617b5c7359c4d6a9029bc78c35f930c2ac5b83ef846c95911604a6f18",
+              "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+              "storage": "new runtime artifact"
+            }
+          },
+          "started_utc": "2026-11-12T09:33:09.710115+00:00",
+          "finished_utc": "2026-11-12T09:50:57.389737+00:00",
+          "train_wall_seconds": 1067.6791048902087,
+          "MemoryPeak_bytes": 2924412928,
+          "CUDA_peak_allocated_bytes": 1807467520,
+          "CUDA_peak_reserved_bytes": 2189426688,
+          "gpu": 2,
+          "concurrency": {
+            "initial_card_processes": [],
+            "initial_batch_concurrency": 1,
+            "peak_batch_card_concurrency": 1,
+            "peak_physical_card_concurrency": 1,
+            "sample_interval_seconds": 10,
+            "samples": "<WORK>/file-ed3dd6a98c1624.jsonl"
+          },
+          "num_workers": 2,
+          "CPU_threads": 4,
+          "sources": null
+        }
+      }
+    },
+    "TripleClip": {
+      "charades": {
+        "9527": {
+          "R1": 2.338709677419355,
+          "R5": 8.817204301075268,
+          "R10": 14.301075268817204,
+          "R100": 53.575268817204304,
+          "SumR": 79.03225806451613,
+          "status": "completed",
+          "old": true,
+          "method": "TripleClip",
+          "dataset": "charades",
+          "seed": 9527,
+          "best_epoch": 39,
+          "parameters": 30420413,
+          "checkpoint_sha256": "56647accb96f19bb1cef4717b1a3a8be9359f8cdb1d825524bcf9165b484ae84",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-f0cbecdc40b685.json",
+              "sha256": "6fe3ffd6271e9f2835ab0cccefb30a6eac31e3e98ec6c68facde5aa6accff66c",
+              "storage": "git blob",
+              "field": "charades/row"
+            },
+            "completion": {
+              "path": "<WORK>/file-dc198bee1426ad.json",
+              "sha256": "6b57e1807e319a1a4f0687404667f1ec28a74de1cefb3bdc98a6ea4716906d28",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-1c2b6e63fd90c6.json",
+              "sha256": "4be84eecec641c2a10910d906c629dd46a214bca973e71559efd2fb4c4b2c48b",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "activitynet": {
+        "9527": {
+          "R1": 8.639624198565352,
+          "R5": 26.947248143210818,
+          "R10": 39.71941852345585,
+          "R100": 78.6643813876722,
+          "SumR": 153.97067225290422,
+          "status": "completed",
+          "old": true,
+          "method": "TripleClip",
+          "dataset": "activitynet",
+          "seed": 9527,
+          "best_epoch": 92,
+          "parameters": 30420413,
+          "checkpoint_sha256": "cfe91fb43ed51bf3601bb1bb4b325151bd27b06f8aab12e43376117c00db1174",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-f0cbecdc40b685.json",
+              "sha256": "6fe3ffd6271e9f2835ab0cccefb30a6eac31e3e98ec6c68facde5aa6accff66c",
+              "storage": "git blob",
+              "field": "activitynet/row"
+            },
+            "completion": {
+              "path": "<WORK>/file-7bc12e792f7298.json",
+              "sha256": "8e33da67b41a58b20af1fe65cbc80876b7ade1e65aba16f51663b2c5dad03d08",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-bc9a26a39401b9.json",
+              "sha256": "ffb5bc26a90e0c3e8dfe6544865a00e572d77e7d59fc9baad5a49ab41abf8339",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      },
+      "tvr": {
+        "9527": {
+          "R1": 15.67691601652134,
+          "R5": 36.87012391005048,
+          "R10": 48.59109683340982,
+          "R100": 86.59017898118402,
+          "SumR": 187.72831574116566,
+          "status": "completed",
+          "old": true,
+          "method": "TripleClip",
+          "dataset": "tvr",
+          "seed": 9527,
+          "best_epoch": 92,
+          "parameters": 32693181,
+          "checkpoint_sha256": "43e2f2048d7ec294e3fcbb491f13b6f504686df310d2013f123353f5cbaebc08",
+          "epochs": null,
+          "train_wall_seconds": null,
+          "started_utc": null,
+          "finished_utc": null,
+          "MemoryPeak_bytes": null,
+          "CUDA_peak_allocated_bytes": null,
+          "gpu": null,
+          "concurrency": null,
+          "resource_note": "Historical resource values are not inferred by this statistics script.",
+          "source": {
+            "registered_reference": {
+              "path": "<WORK>/file-f0cbecdc40b685.json",
+              "sha256": "6fe3ffd6271e9f2835ab0cccefb30a6eac31e3e98ec6c68facde5aa6accff66c",
+              "storage": "git blob",
+              "field": "tvr/row"
+            },
+            "completion": {
+              "path": "<WORK>/file-efa3d4e8747e51.json",
+              "sha256": "bbd26e0c73b3d9b47d9ccc4f287b26ba60d2c6ffeff510c5864d93846d8f1215",
+              "field": "best_checkpoint_test.metrics,best_epoch,checkpoint_sha256",
+              "storage": "existing runtime artifact"
+            },
+            "parameters": {
+              "path": "<WORK>/file-1a92a0d2b44e23.json",
+              "sha256": "996d385d6333d7c3a448510d630c46d354fa9ee6b415075c792bcd7c687b8f02",
+              "field": "total_parameters",
+              "storage": "existing runtime artifact"
+            }
+          }
+        }
+      }
+    }
+  },
+  "summary": {
+    "B0": {
+      "tvr": {
+        "status": "complete",
+        "seeds": {
+          "9527": 189.28866452501148,
+          "20261024": 187.48967416245983,
+          "20261025": 188.7012391005048
+        },
+        "n": 3,
+        "mean": 188.49319259599204,
+        "sd": 0.9173625739959166,
+        "mean_SumR": 188.49319259599204,
+        "sample_sd_ddof1": 0.9173625739959166,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/B0/tvr/9527",
+          "runs/B0/tvr/20261024",
+          "runs/B0/tvr/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": 0.0
+      },
+      "activitynet": {
+        "status": "complete",
+        "seeds": {
+          "9527": 154.80860788421253,
+          "20261024": 154.87208785628133,
+          "20261025": 154.47216403224783
+        },
+        "n": 3,
+        "mean": 154.71761992424726,
+        "sd": 0.21492759920814944,
+        "mean_SumR": 154.71761992424726,
+        "sample_sd_ddof1": 0.21492759920814944,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/B0/activitynet/9527",
+          "runs/B0/activitynet/20261024",
+          "runs/B0/activitynet/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": 0.0
+      },
+      "charades": {
+        "status": "complete",
+        "seeds": {
+          "9527": 77.5,
+          "20261024": 76.82795698924731,
+          "20261025": 78.38709677419354
+        },
+        "n": 3,
+        "mean": 77.5716845878136,
+        "sd": 0.7820378682314857,
+        "mean_SumR": 77.5716845878136,
+        "sample_sd_ddof1": 0.7820378682314857,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/B0/charades/9527",
+          "runs/B0/charades/20261024",
+          "runs/B0/charades/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": 0.0
+      }
+    },
+    "DualClip": {
+      "tvr": {
+        "status": "complete",
+        "seeds": {
+          "9527": 186.78292794860027,
+          "20261024": 186.70949977053692,
+          "20261025": 189.06837999082148
+        },
+        "n": 3,
+        "mean": 187.5202692366529,
+        "sd": 1.341205839799677,
+        "mean_SumR": 187.5202692366529,
+        "sample_sd_ddof1": 1.341205839799677,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/DualClip/tvr/9527",
+          "runs/DualClip/tvr/20261024",
+          "runs/DualClip/tvr/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -0.9729233593391484
+      },
+      "activitynet": {
+        "status": "complete",
+        "seeds": {
+          "9527": 153.58979242049134,
+          "20261024": 154.26902812162763,
+          "20261025": 154.23728813559322
+        },
+        "n": 3,
+        "mean": 154.03203622590408,
+        "sd": 0.38332302859052475,
+        "mean_SumR": 154.03203622590408,
+        "sample_sd_ddof1": 0.38332302859052475,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/DualClip/activitynet/9527",
+          "runs/DualClip/activitynet/20261024",
+          "runs/DualClip/activitynet/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -0.68558369834318
+      },
+      "charades": {
+        "status": "complete",
+        "seeds": {
+          "9527": 78.36021505376344,
+          "20261024": 78.03763440860216,
+          "20261025": 78.46774193548387
+        },
+        "n": 3,
+        "mean": 78.28853046594982,
+        "sd": 0.22383505370603132,
+        "mean_SumR": 78.28853046594982,
+        "sample_sd_ddof1": 0.22383505370603132,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/DualClip/charades/9527",
+          "runs/DualClip/charades/20261024",
+          "runs/DualClip/charades/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": 0.7168458781362119
+      }
+    },
+    "WideClipOnly": {
+      "tvr": {
+        "status": "complete",
+        "seeds": {
+          "9527": 179.9541073887104,
+          "20261024": 177.51262046810461,
+          "20261025": 179.3299678751721
+        },
+        "n": 3,
+        "mean": 178.93223191066238,
+        "sd": 1.2684084590425317,
+        "mean_SumR": 178.93223191066238,
+        "sample_sd_ddof1": 1.2684084590425317,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/WideClipOnly/tvr/9527",
+          "runs/WideClipOnly/tvr/20261024",
+          "runs/WideClipOnly/tvr/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -9.560960685329661
+      },
+      "activitynet": {
+        "status": "complete",
+        "seeds": {
+          "9527": 149.36202628070845,
+          "20261024": 148.9747984510887,
+          "20261025": 149.95873801815526
+        },
+        "n": 3,
+        "mean": 149.43185424998413,
+        "sd": 0.4956724996201177,
+        "mean_SumR": 149.43185424998413,
+        "sample_sd_ddof1": 0.4956724996201177,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/WideClipOnly/activitynet/9527",
+          "runs/WideClipOnly/activitynet/20261024",
+          "runs/WideClipOnly/activitynet/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -5.285765674263132
+      },
+      "charades": {
+        "status": "complete",
+        "seeds": {
+          "9527": 75.86021505376344,
+          "20261024": 74.70430107526882,
+          "20261025": 75.34946236559139
+        },
+        "n": 3,
+        "mean": 75.30465949820788,
+        "sd": 0.5792579340105372,
+        "mean_SumR": 75.30465949820788,
+        "sample_sd_ddof1": 0.5792579340105372,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/WideClipOnly/charades/9527",
+          "runs/WideClipOnly/charades/20261024",
+          "runs/WideClipOnly/charades/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -2.267025089605724
+      }
+    },
+    "ClipOnly": {
+      "tvr": {
+        "status": "complete",
+        "seeds": {
+          "9527": 178.31115190454335,
+          "20261024": 178.9352914180817,
+          "20261025": 179.24736117485085
+        },
+        "n": 3,
+        "mean": 178.83126816582532,
+        "sd": 0.47669442750039037,
+        "mean_SumR": 178.83126816582532,
+        "sample_sd_ddof1": 0.47669442750039037,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/ClipOnly/tvr/9527",
+          "runs/ClipOnly/tvr/20261024",
+          "runs/ClipOnly/tvr/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -9.66192443016672
+      },
+      "activitynet": {
+        "status": "complete",
+        "seeds": {
+          "9527": 148.46695867453818,
+          "20261024": 149.66673014663874,
+          "20261025": 150.02221799022408
+        },
+        "n": 3,
+        "mean": 149.385302270467,
+        "sd": 0.8149289060230028,
+        "mean_SumR": 149.385302270467,
+        "sample_sd_ddof1": 0.8149289060230028,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/ClipOnly/activitynet/9527",
+          "runs/ClipOnly/activitynet/20261024",
+          "runs/ClipOnly/activitynet/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -5.332317653780251
+      },
+      "charades": {
+        "status": "complete",
+        "seeds": {
+          "9527": 76.69354838709677,
+          "20261024": 74.54301075268816,
+          "20261025": 74.51612903225806
+        },
+        "n": 3,
+        "mean": 75.25089605734767,
+        "sd": 1.2494458632214558,
+        "mean_SumR": 75.25089605734767,
+        "sample_sd_ddof1": 1.2494458632214558,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [],
+        "sources": [
+          "runs/ClipOnly/charades/9527",
+          "runs/ClipOnly/charades/20261024",
+          "runs/ClipOnly/charades/20261025"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": -2.320788530465933
+      }
+    },
+    "TripleClip": {
+      "tvr": {
+        "status": "not_estimable_prespecified_three_seeds_incomplete",
+        "seeds": {
+          "9527": 187.72831574116566
+        },
+        "n": 1,
+        "mean": null,
+        "sd": null,
+        "mean_SumR": null,
+        "sample_sd_ddof1": null,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [
+          20261024,
+          20261025
+        ],
+        "sources": [
+          "runs/TripleClip/tvr/9527"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": null
+      },
+      "activitynet": {
+        "status": "not_estimable_prespecified_three_seeds_incomplete",
+        "seeds": {
+          "9527": 153.97067225290422
+        },
+        "n": 1,
+        "mean": null,
+        "sd": null,
+        "mean_SumR": null,
+        "sample_sd_ddof1": null,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [
+          20261024,
+          20261025
+        ],
+        "sources": [
+          "runs/TripleClip/activitynet/9527"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": null
+      },
+      "charades": {
+        "status": "not_estimable_prespecified_three_seeds_incomplete",
+        "seeds": {
+          "9527": 79.03225806451613
+        },
+        "n": 1,
+        "mean": null,
+        "sd": null,
+        "mean_SumR": null,
+        "sample_sd_ddof1": null,
+        "required_seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "missing_seeds": [
+          20261024,
+          20261025
+        ],
+        "sources": [
+          "runs/TripleClip/charades/9527"
+        ],
+        "mean_delta_vs_B0_three_seed_mean": null
+      }
+    }
+  },
+  "macro_average": {
+    "B0": {
+      "status": "complete",
+      "mean": 140.26083236935096,
+      "per_seed": {
+        "9527": 140.53242413640803,
+        "20261024": 139.72990633599616,
+        "20261025": 140.52016663564874
+      },
+      "sd": 0.45983627657202314,
+      "dataset_weighting": "equal three datasets",
+      "mean_CI": null,
+      "sources": [
+        "summary/B0/tvr",
+        "summary/B0/activitynet",
+        "summary/B0/charades"
+      ]
+    },
+    "DualClip": {
+      "status": "complete",
+      "mean": 139.94694530950227,
+      "per_seed": {
+        "9527": 139.5776451409517,
+        "20261024": 139.67205410025556,
+        "20261025": 140.59113668729955
+      },
+      "sd": 0.5598795953778659,
+      "dataset_weighting": "equal three datasets",
+      "mean_CI": null,
+      "sources": [
+        "summary/DualClip/tvr",
+        "summary/DualClip/activitynet",
+        "summary/DualClip/charades"
+      ]
+    },
+    "WideClipOnly": {
+      "status": "complete",
+      "mean": 134.55624855295147,
+      "per_seed": {
+        "9527": 135.05878290772742,
+        "20261024": 133.73057333148736,
+        "20261025": 134.87938941963958
+      },
+      "sd": 0.7206595481896511,
+      "dataset_weighting": "equal three datasets",
+      "mean_CI": null,
+      "sources": [
+        "summary/WideClipOnly/tvr",
+        "summary/WideClipOnly/activitynet",
+        "summary/WideClipOnly/charades"
+      ]
+    },
+    "ClipOnly": {
+      "status": "complete",
+      "mean": 134.48915549788,
+      "per_seed": {
+        "9527": 134.49055298872608,
+        "20261024": 134.38167743913618,
+        "20261025": 134.59523606577764
+      },
+      "sd": 0.10678617180489762,
+      "dataset_weighting": "equal three datasets",
+      "mean_CI": null,
+      "sources": [
+        "summary/ClipOnly/tvr",
+        "summary/ClipOnly/activitynet",
+        "summary/ClipOnly/charades"
+      ]
+    },
+    "TripleClip": {
+      "status": "not_estimable_all_datasets_and_three_seeds_required",
+      "mean": null,
+      "per_seed": {
+        "9527": 140.24374868619532
+      },
+      "sd": null,
+      "dataset_weighting": "equal three datasets",
+      "mean_CI": null,
+      "sources": [
+        "summary/TripleClip/tvr",
+        "summary/TripleClip/activitynet",
+        "summary/TripleClip/charades"
+      ]
+    }
+  },
+  "contrasts": {
+    "L1": {
+      "tvr": {
+        "status": "complete",
+        "left": "ClipOnly",
+        "right": "B0",
+        "diff": -9.66192443016672,
+        "welch_ci": [
+          -11.559070549650606,
+          -7.7647783106828365
+        ],
+        "df": 3.0066863776523496,
+        "standard_error": 0.5968784547902357,
+        "delta_s": [
+          -10.977512620468133,
+          -8.554382744378131,
+          -9.453877925653956
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          178.31115190454335,
+          178.9352914180817,
+          179.24736117485085
+        ],
+        "right_values": [
+          189.28866452501148,
+          187.48967416245983,
+          188.7012391005048
+        ],
+        "left_mean": 178.83126816582532,
+        "right_mean": 188.49319259599204,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": false,
+        "direction": "negative",
+        "ci_excludes_zero": true,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/ClipOnly/tvr/9527",
+            "runs/ClipOnly/tvr/20261024",
+            "runs/ClipOnly/tvr/20261025"
+          ],
+          "right": [
+            "runs/B0/tvr/9527",
+            "runs/B0/tvr/20261024",
+            "runs/B0/tvr/20261025"
+          ]
+        }
+      },
+      "activitynet": {
+        "status": "complete",
+        "left": "ClipOnly",
+        "right": "B0",
+        "diff": -5.332317653780251,
+        "welch_ci": [
+          -7.199917917051849,
+          -3.4647173905086537
+        ],
+        "df": 2.2768909459006093,
+        "standard_error": 0.4865877772040817,
+        "delta_s": [
+          -6.341649209674358,
+          -5.205357709642584,
+          -4.449946042023754
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          148.46695867453818,
+          149.66673014663874,
+          150.02221799022408
+        ],
+        "right_values": [
+          154.80860788421253,
+          154.87208785628133,
+          154.47216403224783
+        ],
+        "left_mean": 149.385302270467,
+        "right_mean": 154.71761992424726,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": false,
+        "direction": "negative",
+        "ci_excludes_zero": true,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/ClipOnly/activitynet/9527",
+            "runs/ClipOnly/activitynet/20261024",
+            "runs/ClipOnly/activitynet/20261025"
+          ],
+          "right": [
+            "runs/B0/activitynet/9527",
+            "runs/B0/activitynet/20261024",
+            "runs/B0/activitynet/20261025"
+          ]
+        }
+      },
+      "charades": {
+        "status": "complete",
+        "left": "ClipOnly",
+        "right": "B0",
+        "diff": -2.320788530465933,
+        "welch_ci": [
+          -4.872670339101101,
+          0.23109327816923564
+        ],
+        "df": 3.3585386234789865,
+        "standard_error": 0.8510186430525979,
+        "delta_s": [
+          -0.8064516129032313,
+          -2.2849462365591506,
+          -3.8709677419354733
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          76.69354838709677,
+          74.54301075268816,
+          74.51612903225806
+        ],
+        "right_values": [
+          77.5,
+          76.82795698924731,
+          78.38709677419354
+        ],
+        "left_mean": 75.25089605734767,
+        "right_mean": 77.5716845878136,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": false,
+        "direction": "no detectable difference",
+        "ci_excludes_zero": false,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/ClipOnly/charades/9527",
+            "runs/ClipOnly/charades/20261024",
+            "runs/ClipOnly/charades/20261025"
+          ],
+          "right": [
+            "runs/B0/charades/9527",
+            "runs/B0/charades/20261024",
+            "runs/B0/charades/20261025"
+          ]
+        }
+      }
+    },
+    "L2": {
+      "tvr": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "DualClip",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/tvr/20261024",
+          "TripleClip/tvr/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      },
+      "activitynet": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "DualClip",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/activitynet/20261024",
+          "TripleClip/activitynet/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      },
+      "charades": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "DualClip",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/charades/20261024",
+          "TripleClip/charades/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      }
+    },
+    "L3": {
+      "tvr": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "B0",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/tvr/20261024",
+          "TripleClip/tvr/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      },
+      "activitynet": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "B0",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/activitynet/20261024",
+          "TripleClip/activitynet/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      },
+      "charades": {
+        "status": "not_estimable_prespecified_three_seed_comparison_incomplete",
+        "left": "TripleClip",
+        "right": "B0",
+        "diff": null,
+        "welch_ci": null,
+        "df": null,
+        "standard_error": null,
+        "delta_s": null,
+        "missing": [
+          "TripleClip/charades/20261024",
+          "TripleClip/charades/20261025"
+        ],
+        "descriptive_only": false,
+        "direction": null
+      }
+    },
+    "L4": {
+      "tvr": {
+        "status": "complete",
+        "left": "WideClipOnly",
+        "right": "ClipOnly",
+        "diff": 0.10096374483705972,
+        "welch_ci": [
+          -2.653788493059789,
+          2.8557159827339085
+        ],
+        "df": 2.5539153160995185,
+        "standard_error": 0.7823250808073277,
+        "delta_s": [
+          1.6429554841670608,
+          -1.422670949977089,
+          0.08260670032123585
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          179.9541073887104,
+          177.51262046810461,
+          179.3299678751721
+        ],
+        "right_values": [
+          178.31115190454335,
+          178.9352914180817,
+          179.24736117485085
+        ],
+        "left_mean": 178.93223191066238,
+        "right_mean": 178.83126816582532,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": true,
+        "direction": null,
+        "ci_excludes_zero": false,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/WideClipOnly/tvr/9527",
+            "runs/WideClipOnly/tvr/20261024",
+            "runs/WideClipOnly/tvr/20261025"
+          ],
+          "right": [
+            "runs/ClipOnly/tvr/9527",
+            "runs/ClipOnly/tvr/20261024",
+            "runs/ClipOnly/tvr/20261025"
+          ]
+        }
+      },
+      "activitynet": {
+        "status": "complete",
+        "left": "WideClipOnly",
+        "right": "ClipOnly",
+        "diff": 0.04655197951711898,
+        "welch_ci": [
+          -1.6188143497712653,
+          1.7119183088055032
+        ],
+        "df": 3.30166831888238,
+        "standard_error": 0.5506966341981472,
+        "delta_s": [
+          0.8950676061702723,
+          -0.6919316955500392,
+          -0.06347997206881928
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          149.36202628070845,
+          148.9747984510887,
+          149.95873801815526
+        ],
+        "right_values": [
+          148.46695867453818,
+          149.66673014663874,
+          150.02221799022408
+        ],
+        "left_mean": 149.43185424998413,
+        "right_mean": 149.385302270467,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": true,
+        "direction": null,
+        "ci_excludes_zero": false,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/WideClipOnly/activitynet/9527",
+            "runs/WideClipOnly/activitynet/20261024",
+            "runs/WideClipOnly/activitynet/20261025"
+          ],
+          "right": [
+            "runs/ClipOnly/activitynet/9527",
+            "runs/ClipOnly/activitynet/20261024",
+            "runs/ClipOnly/activitynet/20261025"
+          ]
+        }
+      },
+      "charades": {
+        "status": "complete",
+        "left": "WideClipOnly",
+        "right": "ClipOnly",
+        "diff": 0.05376344086020879,
+        "welch_ci": [
+          -2.5695283367047184,
+          2.677055218425136
+        ],
+        "df": 2.8217797227868964,
+        "standard_error": 0.7951215251426171,
+        "delta_s": [
+          -0.8333333333333286,
+          0.1612903225806548,
+          0.8333333333333286
+        ],
+        "seeds": [
+          9527,
+          20261024,
+          20261025
+        ],
+        "left_values": [
+          75.86021505376344,
+          74.70430107526882,
+          75.34946236559139
+        ],
+        "right_values": [
+          76.69354838709677,
+          74.54301075268816,
+          74.51612903225806
+        ],
+        "left_mean": 75.30465949820788,
+        "right_mean": 75.25089605734767,
+        "independent_samples": true,
+        "paired_seed_test": false,
+        "same_number_seed_differences_describe_direction_only": true,
+        "descriptive_only": true,
+        "direction": null,
+        "ci_excludes_zero": false,
+        "widened_detectably_worse_for_user_review": false,
+        "sources": {
+          "left": [
+            "runs/WideClipOnly/charades/9527",
+            "runs/WideClipOnly/charades/20261024",
+            "runs/WideClipOnly/charades/20261025"
+          ],
+          "right": [
+            "runs/ClipOnly/charades/9527",
+            "runs/ClipOnly/charades/20261024",
+            "runs/ClipOnly/charades/20261025"
+          ]
+        }
+      }
+    }
+  },
+  "M1": {
+    "status": "complete",
+    "point": 5.771676871470959,
+    "definition": "macro(B0 three-seed means minus ClipOnly three-seed means), datasets equally weighted",
+    "per_seed": {
+      "9527": 6.041871147681945,
+      "20261024": 5.348228896859979,
+      "20261025": 5.924930569871094
+    },
+    "CI": null,
+    "sources": [
+      "macro_average/B0",
+      "macro_average/ClipOnly"
+    ]
+  },
+  "wording": {
+    "table2": {
+      "action": "Always replace ClipOnly/TripleClip rows with three-seed mean +/- sample SD and remove dagger; MeanDelta is versus B0 three-seed mean.",
+      "incomplete_seed_action": "Mark main three-seed quantities unestimable; do not substitute a smaller sample."
+    },
+    "section4_1_first_sentence": {
+      "action": "Use the registered M1 sentence; qualify detectable datasets if any interval includes zero.",
+      "suggested_sentence": "Removing the frame branch and retraining costs GMMFormerV2 5.77 SumR on average across three seeds (detectable differences on tvr, activitynet).",
+      "detectable_datasets": [
+        "tvr",
+        "activitynet"
+      ],
+      "directions": {
+        "tvr": "negative",
+        "activitynet": "negative",
+        "charades": "no detectable difference"
+      }
+    },
+    "introduction_widening": {
+      "action": "Keep the existing widened-control three-seed loss5.70 sentence.",
+      "L4_descriptive_only": true,
+      "widened_detectably_worse_datasets_requiring_user_review": []
+    },
+    "TripleClip_body": {
+      "action": "Pending: do not infer a three-dataset conclusion from incomplete seeds.",
+      "suggested_sentence": null,
+      "detectable_datasets": {}
+    },
+    "section7_seed_sentence": {
+      "suggested_text": "the DreamPRVR controls use one seed"
+    },
+    "headline": {
+      "default": "Keep the existing same-seed9527 pair6.04 versus0.19.",
+      "paper_changed": false,
+      "optional_three_seed_pair_requires_user_choice": true,
+      "optional_three_seed_pair": {
+        "retrained_loss_M1": 5.771676871470959,
+        "frameWard8_loss_reference": 0.14,
+        "frameWard8_source": {
+          "path": "results/rq1_ward_seeds/RESULTS.json",
+          "sha256": "43ccfdbc1385911e4208d976e24160270405734c78d362afedce93193b096110",
+          "storage": "git blob",
+          "field": "macro/frameWard8"
+        },
+        "rule": "Switch both numbers together or neither, independent of result direction."
+      }
+    },
+    "terms": {
+      "CI_excludes_zero": "detectable",
+      "CI_includes_zero": "no detectable difference",
+      "endpoints_zero_include_zero": true,
+      "no_equivalence_claim": true
+    },
+    "L4_no_general_direction_judgement": true
+  },
+  "attempts": {
+    "ClipOnly_tvr_s20261024": [
+      {
+        "attempt": 1,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-dd29a9cefb427f.json",
+          "sha256": "c210923597706157c8f2b9de523a34cceea325b4c0de776939a41a1dec9ba235",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "ClipOnly_activitynet_s20261024": [
+      {
+        "attempt": 1,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-952e12c7a8e6b0.json",
+          "sha256": "5abf7c845a761d27d6f07332a18fd1054e9fe9d7844cd649b0bb1a0fb003467a",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "ClipOnly_charades_s20261024": [
+      {
+        "attempt": 1,
+        "status": "failed",
+        "job": {
+          "group": "A",
+          "method": "ClipOnly",
+          "dataset": "charades",
+          "seed": 20261024
+        },
+        "source": {
+          "path": "<WORK>/file-3b1d962b44ab6a.json",
+          "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+          "storage": "new runtime artifact"
+        },
+        "error": "OSError: AF_UNIX path too long",
+        "raw_error_source": {
+          "path": "<WORK>/file-3b1d962b44ab6a.json",
+          "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+          "storage": "new runtime artifact",
+          "field": "error"
+        },
+        "full_original_error_preserved": true,
+        "resource_sources": {
+          "train_wall_seconds": null,
+          "started_utc": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "started_utc"
+          },
+          "finished_utc": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "finished_utc"
+          },
+          "gpu": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "gpu"
+          },
+          "GPU_peak_bytes": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "GPU_peak_bytes"
+          },
+          "MemoryPeak_bytes": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "MemoryPeak_bytes"
+          },
+          "CUDA_peak_allocated_bytes": {
+            "path": "<WORK>/file-fc22c3a6dd2cc8.json",
+            "sha256": "660d6d55a4f7ee13d893c9d5308e25d94727677203ebb721e2d4cfbc4aadff30",
+            "storage": "new runtime artifact",
+            "field": "CUDA_peak_allocated_bytes"
+          },
+          "CUDA_peak_reserved_bytes": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "CUDA_peak_reserved_bytes"
+          },
+          "completed_epochs": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "completed_epochs"
+          },
+          "optimizer_steps": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "optimizer_steps"
+          },
+          "failure_stage": {
+            "path": "<WORK>/file-3b1d962b44ab6a.json",
+            "sha256": "02903174445f3fc9e065b713f6d896b110b87335c3001216a51d88357daef9dc",
+            "storage": "new runtime artifact",
+            "field": "failure_stage"
+          },
+          "peak_batch_card_concurrency": {
+            "path": "<WORK>/file-fc22c3a6dd2cc8.json",
+            "sha256": "660d6d55a4f7ee13d893c9d5308e25d94727677203ebb721e2d4cfbc4aadff30",
+            "storage": "new runtime artifact",
+            "field": "peak_batch_card_concurrency"
+          },
+          "peak_physical_card_concurrency": {
+            "path": "<WORK>/file-fc22c3a6dd2cc8.json",
+            "sha256": "660d6d55a4f7ee13d893c9d5308e25d94727677203ebb721e2d4cfbc4aadff30",
+            "storage": "new runtime artifact",
+            "field": "peak_physical_card_concurrency"
+          },
+          "batch_card_concurrency": {
+            "path": "<WORK>/file-fc22c3a6dd2cc8.json",
+            "sha256": "660d6d55a4f7ee13d893c9d5308e25d94727677203ebb721e2d4cfbc4aadff30",
+            "storage": "new runtime artifact",
+            "field": "batch_card_concurrency"
+          },
+          "physical_card_concurrency": {
+            "path": "<WORK>/file-fc22c3a6dd2cc8.json",
+            "sha256": "660d6d55a4f7ee13d893c9d5308e25d94727677203ebb721e2d4cfbc4aadff30",
+            "storage": "new runtime artifact",
+            "field": "physical_card_concurrency"
+          }
+        },
+        "train_wall_seconds": null,
+        "started_utc": "2026-11-12T09:12:49.642855+00:00",
+        "finished_utc": "2026-11-12T09:21:17.604609+00:00",
+        "gpu": 1,
+        "GPU_peak_bytes": 532676608,
+        "MemoryPeak_bytes": 1441869824,
+        "CUDA_peak_allocated_bytes": 65579520,
+        "CUDA_peak_reserved_bytes": 85983232,
+        "completed_epochs": 0,
+        "optimizer_steps": 0,
+        "failure_stage": "First DataLoader tensor IPC delivery; resource_sharer SocketListener.bind failed and parent waited.",
+        "concurrency": {
+          "peak_batch_card_concurrency": 1,
+          "peak_physical_card_concurrency": 1,
+          "batch_card_concurrency": 1,
+          "physical_card_concurrency": 1
+        },
+        "missing_resource_values_are_not_estimated": true
+      },
+      {
+        "attempt": 2,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-fa04636f233f07.json",
+          "sha256": "ea42818840c206cb4fb8cf635256170e06a51a5f513a182dd57b65deaac63658",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "ClipOnly_tvr_s20261025": [
+      {
+        "attempt": 1,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-887a5db68ceb41.json",
+          "sha256": "9311abc5dfc9bc3fde76f89e24963740780e6c6b6502fc15cd9843d5a03f5170",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "ClipOnly_activitynet_s20261025": [
+      {
+        "attempt": 1,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-c03c76f7996d28.json",
+          "sha256": "1a241189009242b97a72fac1521677e6a1949c966894ecb181dfdbdab328d8b6",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "ClipOnly_charades_s20261025": [
+      {
+        "attempt": 1,
+        "status": "failed",
+        "job": {
+          "group": "A",
+          "method": "ClipOnly",
+          "dataset": "charades",
+          "seed": 20261025
+        },
+        "source": {
+          "path": "<WORK>/file-b1fde957ad6544.json",
+          "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+          "storage": "new runtime artifact"
+        },
+        "error": "OSError: AF_UNIX path too long",
+        "raw_error_source": {
+          "path": "<WORK>/file-b1fde957ad6544.json",
+          "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+          "storage": "new runtime artifact",
+          "field": "error"
+        },
+        "full_original_error_preserved": true,
+        "resource_sources": {
+          "train_wall_seconds": null,
+          "started_utc": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "started_utc"
+          },
+          "finished_utc": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "finished_utc"
+          },
+          "gpu": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "gpu"
+          },
+          "GPU_peak_bytes": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "GPU_peak_bytes"
+          },
+          "MemoryPeak_bytes": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "MemoryPeak_bytes"
+          },
+          "CUDA_peak_allocated_bytes": {
+            "path": "<WORK>/file-438a9f83fd24a5.json",
+            "sha256": "be9f519bcf2b344d8846797f0a255deaa53f36ae812098c4844f9990023f645b",
+            "storage": "new runtime artifact",
+            "field": "CUDA_peak_allocated_bytes"
+          },
+          "CUDA_peak_reserved_bytes": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "CUDA_peak_reserved_bytes"
+          },
+          "completed_epochs": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "completed_epochs"
+          },
+          "optimizer_steps": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "optimizer_steps"
+          },
+          "failure_stage": {
+            "path": "<WORK>/file-b1fde957ad6544.json",
+            "sha256": "9120115a403fdd21b0a15f9c399c86bb99749618c79ed9f1680969ae148b291e",
+            "storage": "new runtime artifact",
+            "field": "failure_stage"
+          },
+          "peak_batch_card_concurrency": {
+            "path": "<WORK>/file-438a9f83fd24a5.json",
+            "sha256": "be9f519bcf2b344d8846797f0a255deaa53f36ae812098c4844f9990023f645b",
+            "storage": "new runtime artifact",
+            "field": "peak_batch_card_concurrency"
+          },
+          "peak_physical_card_concurrency": {
+            "path": "<WORK>/file-438a9f83fd24a5.json",
+            "sha256": "be9f519bcf2b344d8846797f0a255deaa53f36ae812098c4844f9990023f645b",
+            "storage": "new runtime artifact",
+            "field": "peak_physical_card_concurrency"
+          },
+          "batch_card_concurrency": {
+            "path": "<WORK>/file-438a9f83fd24a5.json",
+            "sha256": "be9f519bcf2b344d8846797f0a255deaa53f36ae812098c4844f9990023f645b",
+            "storage": "new runtime artifact",
+            "field": "batch_card_concurrency"
+          },
+          "physical_card_concurrency": {
+            "path": "<WORK>/file-438a9f83fd24a5.json",
+            "sha256": "be9f519bcf2b344d8846797f0a255deaa53f36ae812098c4844f9990023f645b",
+            "storage": "new runtime artifact",
+            "field": "physical_card_concurrency"
+          }
+        },
+        "train_wall_seconds": null,
+        "started_utc": "2026-11-12T09:12:52.693679+00:00",
+        "finished_utc": "2026-11-12T09:21:17.770573+00:00",
+        "gpu": 2,
+        "GPU_peak_bytes": 532676608,
+        "MemoryPeak_bytes": 1436762112,
+        "CUDA_peak_allocated_bytes": 65579520,
+        "CUDA_peak_reserved_bytes": 85983232,
+        "completed_epochs": 0,
+        "optimizer_steps": 0,
+        "failure_stage": "First DataLoader tensor IPC delivery; resource_sharer SocketListener.bind failed and parent waited.",
+        "concurrency": {
+          "peak_batch_card_concurrency": 1,
+          "peak_physical_card_concurrency": 1,
+          "batch_card_concurrency": 1,
+          "physical_card_concurrency": 1
+        },
+        "missing_resource_values_are_not_estimated": true
+      },
+      {
+        "attempt": 2,
+        "status": "completed",
+        "source": {
+          "path": "<WORK>/file-937624139b8c64.json",
+          "sha256": "8c74b96617b5c7359c4d6a9029bc78c35f930c2ac5b83ef846c95911604a6f18",
+          "field": "metrics,best_epoch,epochs,parameters,checkpoint_sha256,resources",
+          "storage": "new runtime artifact"
+        }
+      }
+    ],
+    "TripleClip_tvr_s20261024": [],
+    "TripleClip_activitynet_s20261024": [],
+    "TripleClip_charades_s20261024": [],
+    "TripleClip_tvr_s20261025": [],
+    "TripleClip_activitynet_s20261025": [],
+    "TripleClip_charades_s20261025": []
+  },
+  "missing_prespecified_runs": [
+    {
+      "method": "TripleClip",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "job": "TripleClip_tvr_s20261024",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    },
+    {
+      "method": "TripleClip",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "job": "TripleClip_activitynet_s20261024",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    },
+    {
+      "method": "TripleClip",
+      "dataset": "charades",
+      "seed": 20261024,
+      "job": "TripleClip_charades_s20261024",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    },
+    {
+      "method": "TripleClip",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "job": "TripleClip_tvr_s20261025",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    },
+    {
+      "method": "TripleClip",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "job": "TripleClip_activitynet_s20261025",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    },
+    {
+      "method": "TripleClip",
+      "dataset": "charades",
+      "seed": 20261025,
+      "job": "TripleClip_charades_s20261025",
+      "status": "pending",
+      "attempt": 1,
+      "terminal_failure": false
+    }
+  ],
+  "groups_terminal": {
+    "A": {
+      "total": 6,
+      "completed": 6,
+      "terminal_failed": 0,
+      "terminal": 6
+    },
+    "B": {
+      "total": 6,
+      "completed": 0,
+      "terminal_failed": 0,
+      "terminal": 0
+    }
+  },
+  "methods": {
+    "Welch": {
+      "path": "<WORK>/file-ce7c534fc0833c.py",
+      "sha256": "8265e1a2a1c512301bec6a21ac9856593dbe7852e8fcfae80ae03d15fbfa91f7",
+      "storage": "git blob",
+      "field": "welch",
+      "function_sha256": "432d36f0a0abbd8c3c2d562337fb31457e95258f2f50c5c8da8ffcf7fb8b23df"
+    },
+    "samples": "independent3vs3",
+    "variance_ddof": 1,
+    "confidence": 0.95,
+    "degrees_of_freedom": "Welch-Satterthwaite",
+    "same_number_seed_deltas": "direction only, no paired test",
+    "rounded_values_used": false,
+    "macro_weighting": "equal three datasets",
+    "macro_CI": false,
+    "bootstrap_performed": false
+  },
+  "execution": {
+    "CPU_only": true,
+    "CPU_threads_max": 4,
+    "nice": 19,
+    "training": false,
+    "inference": false,
+    "encoding": false,
+    "evaluation": false,
+    "ranking": false
+  },
+  "epoch_indexing": "zero-based",
+  "training_time_used_for_paper": false
+}

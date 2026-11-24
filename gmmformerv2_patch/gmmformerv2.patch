@@ -1,0 +1,588 @@
+diff --git a/src/Configs/act.py b/src/Configs/act.py
+index a3071ccf28b5f0feeba42f827c00d09ee6f93348..6e75ce2a5e5aed97840bb20854bb6e0d1bcc6ec9 100644
+--- a/src/Configs/act.py
++++ b/src/Configs/act.py
+@@ -1,5 +1,5 @@
+ import os
+-import yaml
++from Configs.common import finalize_config
+ 
+ cfg = {}
+ 
+@@ -7,8 +7,8 @@ cfg = {}
+ cfg['model_name'] = 'gmmformer_v2'
+ cfg['dataset_name'] = 'activitynet'
+ cfg['seed'] = 9527
+-<UPSTREAM_LINE src/Configs/act.py 10>
+-<UPSTREAM_LINE src/Configs/act.py 11>
++cfg['root'] = os.environ.get('GMMV2_OUTPUT_ROOT', os.environ.get('GMMV2_RUN_ROOT', 'outputs'))
++cfg['data_root'] = os.environ.get('GMMV2_DATA_ROOT', 'data')
+ 
+ cfg['visual_feature'] = 'i3d'
+ cfg['collection'] = 'activitynet'
+@@ -25,7 +25,7 @@ cfg['sft_factor'] = 0.6
+ 
+ 
+ # dataset
+-cfg['num_workers'] = 32
++cfg['num_workers'] = int(os.environ.get('GMMV2_NUM_WORKERS', '32'))
+ cfg['no_core_driver'] = False
+ cfg['no_pin_memory'] = False
+ cfg['batchsize'] = 128
+@@ -66,17 +66,5 @@ cfg['drop'] = 0.31
+ cfg['initializer_range'] = 0.02
+ 
+ 
+-cfg['num_workers'] = 1 if cfg['no_core_driver'] else cfg['num_workers']
+-cfg['pin_memory'] = not cfg['no_pin_memory']
+-
+-
+-if not os.path.exists(cfg['model_root']):
+-    os.makedirs(cfg['model_root'], exist_ok=True)
+-if not os.path.exists(cfg['ckpt_path']):
+-    os.makedirs(cfg['ckpt_path'], exist_ok=True)
+-
+-
+-def get_cfg_defaults():
+-    with open(os.path.join(cfg['model_root'], 'hyperparams.yaml'), 'w') as yaml_file:
+-        yaml.dump(cfg, yaml_file)
+-    return cfg
+\ No newline at end of file
++def get_cfg_defaults(overrides=None, write=False):
++    return finalize_config(cfg, overrides, write)
+diff --git a/src/Configs/builder.py b/src/Configs/builder.py
+index 577ee59582186f88e5bf83543b0a170fc292528e..c9bfa8014b4062eecfb7e7f487a26805e1d21bcd 100644
+--- a/src/Configs/builder.py
++++ b/src/Configs/builder.py
+@@ -1,10 +1,11 @@
+-def get_configs(dataset_name):
+-    if dataset_name in ['tvr']:
+-        import Configs.tvr as tvr
+-        return tvr.get_cfg_defaults()
+-    elif dataset_name in ['act']:
+-        import Configs.act as act
+-        return act.get_cfg_defaults()
+-    elif dataset_name in ['cha']:
+-        import Configs.cha as cha
+-        return cha.get_cfg_defaults()
+\ No newline at end of file
++"""Load dataset defaults; overrides never modify module globals."""
++import importlib
++
++ALIASES = {'cha': 'cha', 'charades': 'cha', 'act': 'act', 'activitynet': 'act', 'tvr': 'tvr'}
++
++
++def get_configs(dataset_name, overrides=None, write=False):
++    if dataset_name not in ALIASES:
++        raise ValueError('Unknown dataset: ' + str(dataset_name))
++    module = importlib.import_module('Configs.' + ALIASES[dataset_name])
++    return module.get_cfg_defaults(overrides=overrides, write=write)
+diff --git a/src/Configs/cha.py b/src/Configs/cha.py
+index 81933bec8a19b60708af8b5cea0e211d60385448..b02205a34e415d83e982591752814136a6cdd5d8 100644
+--- a/src/Configs/cha.py
++++ b/src/Configs/cha.py
+@@ -1,5 +1,5 @@
+ import os
+-import yaml
++from Configs.common import finalize_config
+ 
+ 
+ cfg = {}
+@@ -8,8 +8,8 @@ cfg = {}
+ cfg['model_name'] = 'gmmformer_v2'
+ cfg['dataset_name'] = 'charades'
+ cfg['seed'] = 9527
+-<UPSTREAM_LINE src/Configs/cha.py 11>
+-<UPSTREAM_LINE src/Configs/cha.py 12>
++cfg['root'] = os.environ.get('GMMV2_OUTPUT_ROOT', os.environ.get('GMMV2_RUN_ROOT', 'outputs'))
++cfg['data_root'] = os.environ.get('GMMV2_DATA_ROOT', 'data')
+ 
+ cfg['visual_feature'] = 'i3d_rgb_lgi'
+ cfg['collection'] = 'charades'
+@@ -26,7 +26,7 @@ cfg['sft_factor'] = 0.6
+ 
+ 
+ # dataset
+-cfg['num_workers'] = 32
++cfg['num_workers'] = int(os.environ.get('GMMV2_NUM_WORKERS', '32'))
+ cfg['no_core_driver'] = False
+ cfg['no_pin_memory'] = False
+ cfg['batchsize'] = 128
+@@ -67,17 +67,5 @@ cfg['drop'] = 0.25
+ cfg['initializer_range'] = 0.02
+ 
+ 
+-cfg['num_workers'] = 1 if cfg['no_core_driver'] else cfg['num_workers']
+-cfg['pin_memory'] = not cfg['no_pin_memory']
+-
+-
+-if not os.path.exists(cfg['model_root']):
+-    os.makedirs(cfg['model_root'], exist_ok=True)
+-if not os.path.exists(cfg['ckpt_path']):
+-    os.makedirs(cfg['ckpt_path'], exist_ok=True)
+-
+-
+-def get_cfg_defaults():
+-    with open(os.path.join(cfg['model_root'], 'hyperparams.yaml'), 'w') as yaml_file:
+-        yaml.dump(cfg, yaml_file)
+-    return cfg
+\ No newline at end of file
++def get_cfg_defaults(overrides=None, write=False):
++    return finalize_config(cfg, overrides, write)
+diff --git a/src/Configs/common.py b/src/Configs/common.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..64c3896e71d9ce173bd96aeb2f667df9dbe4c8bc
+--- /dev/null
++++ b/src/Configs/common.py
+@@ -0,0 +1,21 @@
++"""Portable configuration without import-time filesystem writes."""
++import copy
++import os
++
++
++def finalize_config(defaults, overrides=None, write=False):
++    cfg = copy.deepcopy(defaults)
++    cfg.update({key: value for key, value in (overrides or {}).items() if value is not None})
++    cfg['num_workers'] = int(cfg['num_workers'])
++    if cfg['num_workers'] < 0:
++        raise ValueError('num_workers must be nonnegative')
++    cfg['num_workers'] = 1 if cfg['no_core_driver'] else cfg['num_workers']
++    cfg['pin_memory'] = not cfg['no_pin_memory']
++    cfg['model_root'] = os.path.join(str(cfg['root']), 'results', cfg['dataset_name'], cfg['model_name'])
++    cfg['ckpt_path'] = os.path.join(cfg['model_root'], 'ckpt')
++    if write:
++        import yaml
++        os.makedirs(cfg['ckpt_path'], exist_ok=True)
++        with open(os.path.join(cfg['model_root'], 'hyperparams.yaml'), 'w', encoding='utf-8') as stream:
++            yaml.safe_dump(cfg, stream, allow_unicode=True)
++    return cfg
+diff --git a/src/Configs/tvr.py b/src/Configs/tvr.py
+index de5d94f3c22a192199ac984a052444f38a2a9397..057ecc39a112eeb5de5e262fff44a67d22d7aba2 100644
+--- a/src/Configs/tvr.py
++++ b/src/Configs/tvr.py
+@@ -1,5 +1,5 @@
+ import os
+-import yaml
++from Configs.common import finalize_config
+ 
+ 
+ cfg = {}
+@@ -8,8 +8,8 @@ cfg = {}
+ cfg['model_name'] = 'gmmformer_v2'
+ cfg['dataset_name'] = 'tvr'
+ cfg['seed'] = 9527
+-<UPSTREAM_LINE src/Configs/tvr.py 11>
+-<UPSTREAM_LINE src/Configs/tvr.py 12>
++cfg['root'] = os.environ.get('GMMV2_OUTPUT_ROOT', os.environ.get('GMMV2_RUN_ROOT', 'outputs'))
++cfg['data_root'] = os.environ.get('GMMV2_DATA_ROOT', 'data')
+ 
+ cfg['visual_feature'] = 'i3d_resnet'
+ cfg['collection'] = 'tvr'
+@@ -26,7 +26,7 @@ cfg['sft_factor'] = 0.09
+ 
+ 
+ # dataset
+-cfg['num_workers'] = 32
++cfg['num_workers'] = int(os.environ.get('GMMV2_NUM_WORKERS', '32'))
+ cfg['no_core_driver'] = False
+ cfg['no_pin_memory'] = False
+ cfg['batchsize'] = 128
+@@ -67,17 +67,5 @@ cfg['drop'] = 0.2
+ cfg['initializer_range'] = 0.02
+ 
+ 
+-cfg['num_workers'] = 1 if cfg['no_core_driver'] else cfg['num_workers']
+-cfg['pin_memory'] = not cfg['no_pin_memory']
+-
+-
+-if not os.path.exists(cfg['model_root']):
+-    os.makedirs(cfg['model_root'], exist_ok=True)
+-if not os.path.exists(cfg['ckpt_path']):
+-    os.makedirs(cfg['ckpt_path'], exist_ok=True)
+-
+-
+-def get_cfg_defaults():
+-    with open(os.path.join(cfg['model_root'], 'hyperparams.yaml'), 'w') as yaml_file:
+-        yaml.dump(cfg, yaml_file)
+-    return cfg
+\ No newline at end of file
++def get_cfg_defaults(overrides=None, write=False):
++    return finalize_config(cfg, overrides, write)
+diff --git a/src/Utils/dev_split.py b/src/Utils/dev_split.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..4de5910e609f99b01d9f8bf8f73838ae0328a766
+--- /dev/null
++++ b/src/Utils/dev_split.py
+@@ -0,0 +1,29 @@
++"""Train-only, video-level development split; no tensor or feature imports."""
++import math
++import random
++
++
++def split_captions(lines, split_seed=20261023, dev_fraction=0.1):
++    if not 0 < dev_fraction < 1:
++        raise ValueError('dev_fraction must be between zero and one')
++    query_ids = [line.split(' ', 1)[0] for line in lines]
++    if len(query_ids) != len(set(query_ids)):
++        raise ValueError('Duplicate query IDs in training annotations')
++    video_order = list(dict.fromkeys(query.split('#', 1)[0] for query in query_ids))
++    ndev = math.ceil(len(video_order) * dev_fraction)
++    if not 0 < ndev < len(video_order):
++        raise ValueError('The train/dev split needs at least one video on each side')
++    selected = set(random.Random(split_seed).sample(video_order, ndev))
++    ids = {'train_sub': [v for v in video_order if v not in selected],
++           'dev': [v for v in video_order if v in selected]}
++    captions = {}
++    for side, videos in ids.items():
++        membership = set(videos)
++        captions[side] = [line for line in lines if line.split(' ', 1)[0].split('#', 1)[0] in membership]
++    assert not set(ids['train_sub']) & set(ids['dev'])
++    assert sum(len(rows) for rows in captions.values()) == len(lines)
++    return ids, captions
++
++
++def encoded_lines(lines):
++    return ('\n'.join(lines) + '\n').encode('utf-8')
+diff --git a/src/Utils/run_audit.py b/src/Utils/run_audit.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..cf34b950953e9b8d8edc53b2363b67d1736c7ca2
+--- /dev/null
++++ b/src/Utils/run_audit.py
+@@ -0,0 +1,85 @@
++"""Read-only experiment instrumentation; does not consume random numbers."""
++import hashlib
++import importlib.metadata
++import json
++import os
++import platform
++import sys
++import time
++from pathlib import Path
++
++import torch
++
++
++def write_json(path, value):
++    Path(path).parent.mkdir(parents=True, exist_ok=True)
++    Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False), encoding='utf-8')
++
++
++def environment():
++    return {
++        'python_executable': sys.executable, 'python': sys.version,
++        'platform': platform.platform(), 'torch': torch.__version__,
++        'cuda_runtime': torch.version.cuda, 'cudnn': torch.backends.cudnn.version(),
++        'gpu': torch.cuda.get_device_name(0),
++        'gpu_total_memory': torch.cuda.get_device_properties(0).total_memory,
++        'cuda_visible_devices': os.environ.get('CUDA_VISIBLE_DEVICES'),
++        'matmul_allow_tf32': torch.backends.cuda.matmul.allow_tf32,
++        'cudnn_allow_tf32': torch.backends.cudnn.allow_tf32,
++        'cudnn_enabled': torch.backends.cudnn.enabled,
++        'cudnn_benchmark': torch.backends.cudnn.benchmark,
++        'cudnn_deterministic': torch.backends.cudnn.deterministic,
++        'deterministic_algorithms': torch.are_deterministic_algorithms_enabled(),
++        'float32_matmul_precision': torch.get_float32_matmul_precision(),
++        'packages': {d.metadata['Name']: d.version for d in importlib.metadata.distributions()},
++        'env': {k: os.environ.get(k) for k in ['OMP_NUM_THREADS', 'MKL_NUM_THREADS', 'PYTHONHASHSEED', 'CUBLAS_WORKSPACE_CONFIG']},
++    }
++
++
++def state_hash(model):
++    digest = hashlib.sha256()
++    for name, tensor in model.state_dict().items():
++        digest.update(name.encode())
++        digest.update(tensor.detach().cpu().contiguous().numpy().tobytes())
++    return digest.hexdigest()
++
++
++def start(cfg, args, model, train_loader):
++    folder = Path(cfg['root'])
++    phase = 'eval' if args.eval else 'train'
++    write_json(folder / f'{phase}_environment.json', environment())
++    write_json(folder / f'{phase}_config.json', cfg)
++    write_json(folder / f'{phase}_initialization.json', {
++        'argv': sys.argv, 'cwd': os.getcwd(), 'resume': args.resume,
++        'seed': cfg['seed'], 'model_state_sha256': state_hash(model),
++        'parameter_count': sum(p.numel() for p in model.parameters()),
++        'train_videos': len(train_loader.dataset), 'train_batches': len(train_loader),
++        'batch_size': train_loader.batch_size, 'drop_last': train_loader.drop_last,
++        'sampler': type(train_loader.sampler).__name__,
++        'num_workers': train_loader.num_workers,
++    })
++    return time.perf_counter()
++
++
++def epoch(cfg, epoch_index, metrics, best, improved, loss, elapsed, failures):
++    row = {
++        'epoch_zero_based': epoch_index, 'epoch_one_based': epoch_index + 1,
++        'metrics': metrics, 'best_metrics': best, 'improved': improved,
++        'mean_batch_loss': loss, 'elapsed_seconds': elapsed,
++        'consecutive_non_improving': failures,
++        'hard_negative': epoch_index >= cfg['hard_negative_start_epoch'],
++        'peak_allocated_bytes': torch.cuda.max_memory_allocated(),
++        'peak_reserved_bytes': torch.cuda.max_memory_reserved(),
++    }
++    with (Path(cfg['root']) / 'epochs.jsonl').open('a', encoding='utf-8') as stream:
++        stream.write(json.dumps(row) + '\n')
++
++
++def finish(cfg, phase, reason, started, last_epoch=None):
++    torch.cuda.synchronize()
++    write_json(Path(cfg['root']) / f'{phase}_completion.json', {
++        'reason': reason, 'last_epoch_zero_based': last_epoch,
++        'elapsed_seconds': time.perf_counter() - started,
++        'peak_allocated_bytes': torch.cuda.max_memory_allocated(),
++        'peak_reserved_bytes': torch.cuda.max_memory_reserved(),
++    })
+diff --git a/src/Utils/utils.py b/src/Utils/utils.py
+index c5668929497b6d2201e3554d53a75100f23603de..e951c24ff435284b38fa7a313acef2e4f2a55469 100644
+--- a/src/Utils/utils.py
++++ b/src/Utils/utils.py
+@@ -40,17 +40,58 @@ def set_log(file_path, file_name):
+ 
+ 
+ def save_ckpt(model, optimizer, config, ckpt_file, epoch, model_val):
+-    torch.save({
++    import tempfile
++    import time
++    payload = {
+         'config': config,
+         'epoch': epoch,
+         'model_val': model_val,
+         'state_dict': model.state_dict(),
+         'optimizer': optimizer.state_dict(),
+-    }, ckpt_file)
++    }
++    # Windows readers may temporarily map best.ckpt and prevent truncating it.
++    # Finish a new file first; retain it if replacement ultimately fails.
++    descriptor, pending = tempfile.mkstemp(prefix='checkpoint_', suffix='.tmp',
++                                           dir=os.path.dirname(os.path.abspath(ckpt_file)))
++    with os.fdopen(descriptor, 'wb') as stream:
++        torch.save(payload, stream)
++        stream.flush()
++        os.fsync(stream.fileno())
++    deadline = time.monotonic() + 120
++    retries = 0
++    while True:
++        try:
++            os.replace(pending, ckpt_file)
++            if retries:
++                logging.info('Checkpoint replacement succeeded after %d Windows sharing retries', retries)
++            break
++        except OSError as error:
++            if os.name != 'nt' or error.winerror not in (5, 32, 33, 1224) or time.monotonic() >= deadline:
++                logging.error('Checkpoint replacement failed; complete pending file preserved at %s', pending)
++                raise
++            if retries == 0:
++                logging.warning('Checkpoint temporarily in use; retrying atomic replacement: %s', error)
++            retries += 1
++            time.sleep(0.5)
+ 
+ 
+ def load_ckpt(ckpt_file):
+-    ckpt = torch.load(ckpt_file, map_location="cpu")
++    # Only this run's self-produced, SHA-256-pinned checkpoint may use pickle.
++    import hashlib
++    import pickle
++    try:
++        ckpt = torch.load(ckpt_file, map_location="cpu")
++    except pickle.UnpicklingError:
++        expected = os.environ.get('GMMV2_TRUSTED_CKPT_SHA256')
++        with open(ckpt_file, 'rb') as stream:
++            digest = hashlib.sha256()
++            for chunk in iter(lambda: stream.read(8 * 1024 * 1024), b''):
++                digest.update(chunk)
++            actual = digest.hexdigest()
++        if not expected or actual != expected:
++            raise
++        logging.info('Loading trusted self-produced checkpoint with weights_only=False; SHA256=%s', actual)
++        ckpt = torch.load(ckpt_file, map_location="cpu", weights_only=False)
+     config = ckpt['config']
+     model = ckpt['state_dict']
+     optimizer = ckpt['optimizer']
+diff --git a/src/Validations/validations.py b/src/Validations/validations.py
+index 079dd017150b91db724d6dbf0b359e52b1e38aa1..d00162f19515d51e5b1f9756a3df7c5260479729 100644
+--- a/src/Validations/validations.py
++++ b/src/Validations/validations.py
+@@ -60,6 +60,9 @@ def eval_q2m(scores, q2m_gts):
+     r10 = 100.0 * len(torch.where(gt_ranks <= 10)[0]) / n_q
+     r100 = 100.0 * len(torch.where(gt_ranks <= 100)[0]) / n_q
+ 
++    if os.environ.get('GMMV2_EXPORT_DIR'):
++        np.save(os.path.join(os.environ['GMMV2_EXPORT_DIR'], 'positive_ranks.npy'), gt_ranks.cpu().numpy())
++
+     return (r1, r5, r10, r100)
+ 
+ 
+@@ -94,6 +97,17 @@ class validations(nn.Module):
+         t2v_rsum = 0
+         t2v_rsum += (t2v_r1 + t2v_r5 + t2v_r10 + t2v_r100)
+ 
++        if os.environ.get('GMMV2_EXPORT_DIR'):
++            export_dir = os.environ['GMMV2_EXPORT_DIR']
++            np.save(os.path.join(export_dir, 'fused_scores.npy'), score_sum.cpu().numpy())
++            with open(os.path.join(export_dir, 'id_order.json'), 'w', encoding='utf-8') as stream:
++                json.dump({'query_ids': query_metas, 'video_ids': video_metas,
++                           'q2v_gt': t2v_gt, 'score_direction': 'larger_is_better',
++                           'ranking': 'torch.argsort(-score_row) ascending, default stable=False'}, stream, indent=2)
++            with open(os.path.join(export_dir, 'official_metrics.json'), 'w', encoding='utf-8') as stream:
++                json.dump(dict(zip(['R@1', 'R@5', 'R@10', 'R@100', 'SumR'],
++                    [t2v_r1, t2v_r5, t2v_r10, t2v_r100, t2v_rsum])), stream, indent=2)
++
+         return [t2v_r1, t2v_r5, t2v_r10, t2v_r100, t2v_rsum]
+ 
+ 
+@@ -165,4 +179,4 @@ class validations(nn.Module):
+             video_proposal_feat=vid_proposal_feat,
+             video_feat=cat_tensor(frame_feat),
+             video_mask=cat_tensor(frame_mask)
+-            )
+\ No newline at end of file
++            )
+diff --git a/src/main.py b/src/main.py
+index b22523030e72d3aeec580deade4a47b4e18aad64..7b2017fdad5352b30ffeaef15d1767ea2dddbc94 100644
+--- a/src/main.py
++++ b/src/main.py
+@@ -1,41 +1,45 @@
+-import os
++"""Official GMMFormerV2 training/evaluation with portable runtime settings."""
+ import argparse
+-import numpy as np
+-import random
++import json
++import os
+ import sys
+ import time
+-from tqdm import tqdm
+-import ipdb
+-import pickle
+-
+-import torch
+-import torch.nn as nn
++from pathlib import Path
+ 
++sys.dont_write_bytecode = True
++sys.path.insert(0, str(Path(__file__).resolve().parent))
+ from Configs.builder import get_configs
+-from Models.builder import get_models
+-from Datasets.builder import get_datasets
+-from Opts.builder import get_opts
+-from Losses.builder import get_losses
+-from Validations.builder import get_validations
+-
+-from Utils.basic_utils import AverageMeter, BigFile, read_dict, log_config
+-from Utils.utils import set_seed, set_log, gpu, save_ckpt, load_ckpt
+-
+ 
+-root_path = os.path.dirname(os.path.abspath(__file__))
+-sys.path.insert(0, root_path)
+ 
+-parser = argparse.ArgumentParser(description="Partially Relevant Video Retrieval")
+-parser.add_argument(
+-    '-d', '--dataset_name', default='tvr', type=str, metavar='DATASET', help='dataset name', 
+-    choices=['tvr', 'act', 'cha']
+-)
+-parser.add_argument(
+-    '--gpu', default = '0', type = str, help = 'specify gpu device'
+-    )
+-parser.add_argument('--eval', action='store_true')
+-parser.add_argument('--resume', default='', type=str)
+-args = parser.parse_args()
++def build_parser():
++    parser = argparse.ArgumentParser(description='GMMFormerV2 official protocol')
++    parser.add_argument('-d', '--dataset_name', '--dataset', default='tvr', choices=['cha','act','tvr','charades','activitynet'])
++    parser.add_argument('--gpu', default=os.environ.get('CUDA_VISIBLE_DEVICES', '0'))
++    parser.add_argument('--data-root', default=None, help='Parent of charades/activitynet/tvr; GMMV2_DATA_ROOT or ./data')
++    parser.add_argument('--output-root', '--run-root', default=None, help='Run directory; GMMV2_OUTPUT_ROOT or ./outputs')
++    parser.add_argument('--seed', type=int, default=None, help='Override dataset training seed')
++    parser.add_argument('--num-workers', type=int, default=None, help='Default 32; GMMV2_NUM_WORKERS; use 0 on Windows')
++    parser.add_argument('--eval', action='store_true')
++    parser.add_argument('--resume', default='')
++    parser.add_argument('--export-dir', default=None, help='Optional local evaluation export only')
++    parser.add_argument('--dry-run', action='store_true', help='Print config without torch, data, GPU or output writes')
++    return parser
++
++
++def load_runtime():
++    global torch, nn, tqdm, AverageMeter, set_seed, set_log, gpu, save_ckpt, load_ckpt
++    global get_models, get_datasets, get_opts, get_losses, get_validations, run_audit
++    import torch
++    import torch.nn as nn
++    from tqdm import tqdm
++    from Utils.basic_utils import AverageMeter
++    from Utils.utils import set_seed, set_log, gpu, save_ckpt, load_ckpt
++    from Models.builder import get_models
++    from Datasets.builder import get_datasets
++    from Opts.builder import get_opts
++    from Losses.builder import get_losses
++    from Validations.builder import get_validations
++    from Utils import run_audit
+ 
+ 
+ def train_one_epoch(epoch, train_loader, model, criterion, cfg, optimizer):
+@@ -113,8 +117,7 @@ def validation(context_dataloader, query_eval_loader, model, val_criterion, cfg,
+     logger.info('==========================================================================================================')
+ 
+ 
+-def main():
+-    cfg = get_configs(args.dataset_name)
++def run_training(args, cfg):
+ 
+     # set logging
+     logger = set_log(cfg['model_root'], 'log.txt')
+@@ -154,6 +157,7 @@ def main():
+     
+     criterion = get_losses(cfg)
+     val_criterion = get_validations(cfg)
++    audit_started = run_audit.start(cfg, args, model, train_loader)
+ 
+     if args.eval:
+         if args.resume == '':
+@@ -161,6 +165,7 @@ def main():
+         else:
+             with torch.no_grad():
+                 validation(test_context_dataloader, test_query_eval_loader, model, val_criterion, cfg, logger, args.resume)
++            run_audit.finish(cfg, 'eval', 'completed', audit_started)
+         exit(0)
+ 
+     optimizer = get_opts(cfg, model, train_loader)
+@@ -182,10 +187,37 @@ def main():
+             es_cnt = 0
+         else:
+             es_cnt += 1
++        run_audit.epoch(cfg, epoch, val_meter, best_val, not es, loss_meter,
++                        time.perf_counter() - audit_started, es_cnt)
++        if es:
+             if cfg['max_es_cnt'] != -1 and es_cnt > cfg['max_es_cnt']:  # early stop
+                 logger.info('Early Stop !!!') 
++                run_audit.finish(cfg, 'train', 'early_stop_non_improving_gt_10', audit_started, epoch)
+                 exit(0)
+ 
++    run_audit.finish(cfg, 'train', 'max_epochs', audit_started, epoch)
++
++
++def main():
++    parser = build_parser()
++    args = parser.parse_args()
++    overrides = {'data_root': args.data_root, 'root': args.output_root, 'seed': args.seed, 'num_workers': args.num_workers}
++    cfg = get_configs(args.dataset_name, overrides=overrides)
++    if args.dry_run:
++        print(json.dumps({'mode':'eval' if args.eval else 'train', 'config':cfg, 'gpu':args.gpu}, indent=2))
++        return
++    if args.export_dir and not args.eval:
++        parser.error('--export-dir is only available with --eval')
++    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
++    if args.eval and args.export_dir:
++        Path(args.export_dir).mkdir(parents=True, exist_ok=True)
++        os.environ['GMMV2_EXPORT_DIR'] = args.export_dir
++    elif not args.eval:
++        os.environ.pop('GMMV2_EXPORT_DIR', None)
++    cfg = get_configs(args.dataset_name, overrides=overrides, write=True)
++    load_runtime()
++    run_training(args, cfg)
++
+ 
+ if __name__ == '__main__':
+-    main()
+\ No newline at end of file
++    main()

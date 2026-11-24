@@ -1,0 +1,207 @@
+{
+  "dataset": "activitynet",
+  "indexes": {
+    "uniform_k4": {
+      "vectors_file": "<WORK>/file-7e412538abd236.npy",
+      "vectors_sha256": "12ee6f916e06d0e8efb6a1f67620fc18520c4457c0af0fc0cda13280dffd246b",
+      "offset_file": "<WORK>/file-7351c32606ee36.npy",
+      "offset_sha256": "710e532d9b3fdfd18855600975282e4c0dced2144ada6e624bc915a92f74b517",
+      "count_min": 2,
+      "count_max": 4,
+      "mean_frame_vectors": 3.9993227990970657,
+      "total_frame_vectors": 17717,
+      "videos": 4430
+    },
+    "uniform_k8": {
+      "vectors_file": "<WORK>/file-91706ad6b38b26.npy",
+      "vectors_sha256": "c31b8f0f2c291df480c595189da354c056ab1c5e14e0fc517710f6956fe5eee9",
+      "offset_file": "<WORK>/file-e02ebaa35d55ab.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "uniform_k16": {
+      "vectors_file": "<WORK>/file-69d95e6251e29f.npy",
+      "vectors_sha256": "1a53dc6c59a391ace003d1ad7d617b4a633ac91d35b933db624042c193ad46fe",
+      "offset_file": "<WORK>/file-e84df76921c7d6.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "uniform_k32": {
+      "vectors_file": "<WORK>/file-0665849cdcad5a.npy",
+      "vectors_sha256": "4d4755a39c3dce6124ec5b44ee7852bf236e1ecf5b0919dc32a771d78c44a15b",
+      "offset_file": "<WORK>/file-05bb28a63dd1d6.npy",
+      "offset_sha256": "0475a95b81ec5225686a3a46d9b005f40e8ecc5ff036268be3e17c672f2b212c",
+      "count_min": 2,
+      "count_max": 32,
+      "mean_frame_vectors": 31.29841986455982,
+      "total_frame_vectors": 138652,
+      "videos": 4430
+    },
+    "uniform_k64": {
+      "vectors_file": "<WORK>/file-c14ed617ea98ae.npy",
+      "vectors_sha256": "be8ffff799995fb70ec9cc8edb518dedc9055e268f764745f06fec3b6bec6c7f",
+      "offset_file": "<WORK>/file-b40c2647c56617.npy",
+      "offset_sha256": "7201ce93e8d93ab8a5963d96e7c65ee7a3096119f30aa8674d686bd802abbf3e",
+      "count_min": 2,
+      "count_max": 64,
+      "mean_frame_vectors": 59.896613995485325,
+      "total_frame_vectors": 265342,
+      "videos": 4430
+    },
+    "adjacent_k8": {
+      "vectors_file": "<WORK>/file-a2ed97778c129b.npy",
+      "vectors_sha256": "25098cbe0d54106933ac4f0c2eefe06f82e6faed6f864aa7a5893bc161463566",
+      "offset_file": "<WORK>/file-9210e5ce25e7b1.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "adjacent_k16": {
+      "vectors_file": "<WORK>/file-cde054d26e58f2.npy",
+      "vectors_sha256": "ef6fe57fe6f749ec03b5e4f5acde048971968c06cbc90b6feb641cf0fee51b0d",
+      "offset_file": "<WORK>/file-9a7b589cae23e5.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "adjacent_k32": {
+      "vectors_file": "<WORK>/file-9d0d90c1b0bacf.npy",
+      "vectors_sha256": "ad00b61f008e333f3c428f69fcf187a3c131d8403ef62728e40df96f1791cf12",
+      "offset_file": "<WORK>/file-7b1552bc454884.npy",
+      "offset_sha256": "0475a95b81ec5225686a3a46d9b005f40e8ecc5ff036268be3e17c672f2b212c",
+      "count_min": 2,
+      "count_max": 32,
+      "mean_frame_vectors": 31.29841986455982,
+      "total_frame_vectors": 138652,
+      "videos": 4430
+    },
+    "ward_cos_k8": {
+      "vectors_file": "<WORK>/file-9d255f6ec35569.npy",
+      "vectors_sha256": "9fb1ce2fc74ada12e38c918b70238b4361b92c3bcd70cca87b9ea75102a656d4",
+      "offset_file": "<WORK>/file-735db0c6e2ca02.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "ward_cos_k16": {
+      "vectors_file": "<WORK>/file-4a160a3ee792e0.npy",
+      "vectors_sha256": "478c72a44936b438a575295efcb938dfbb307fd113b1b2fb12feca18fa41415b",
+      "offset_file": "<WORK>/file-2038b6ab1cd2a6.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "ward_cos_k32": {
+      "vectors_file": "<WORK>/file-95ba12efcce6cb.npy",
+      "vectors_sha256": "0cbf2904463e862fc24f20f55449f4c1904fb577bd9be409dffb2cc2f5a3f6c7",
+      "offset_file": "<WORK>/file-d59ab7065ae058.npy",
+      "offset_sha256": "0475a95b81ec5225686a3a46d9b005f40e8ecc5ff036268be3e17c672f2b212c",
+      "count_min": 2,
+      "count_max": 32,
+      "mean_frame_vectors": 31.29841986455982,
+      "total_frame_vectors": 138652,
+      "videos": 4430
+    },
+    "kmeans_k8": {
+      "vectors_file": "<WORK>/file-b9462225102f2e.npy",
+      "vectors_sha256": "7decc156cf2b0a6de9406f6d14c19f1884495d387d8ddeec92f7acf5f83251f8",
+      "offset_file": "<WORK>/file-dd9e0dd4026fda.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "farthest_k8": {
+      "vectors_file": "<WORK>/file-d9794b98350898.npy",
+      "vectors_sha256": "03405b3ccc7ab1df763ac9c99247185115c64e96bb9a7b8530be37d475ef7220",
+      "offset_file": "<WORK>/file-1dcfc8a284fb40.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "hybrid_k8": {
+      "vectors_file": "<WORK>/file-9d9bde0c124792.npy",
+      "vectors_sha256": "2a188c37e2f83d3f4cd60e42d45db3fb56d2ac3c6d24236cf65b2ec034c31bff",
+      "offset_file": "<WORK>/file-f9087326d5dfdb.npy",
+      "offset_sha256": "9b78b92726b2c29011bb696969f0c2e8405c37467b709ae1f94649b557f91c45",
+      "count_min": 2,
+      "count_max": 8,
+      "mean_frame_vectors": 7.992776523702031,
+      "total_frame_vectors": 35408,
+      "videos": 4430
+    },
+    "kmeans_k16": {
+      "vectors_file": "<WORK>/file-db43df97ca2cb4.npy",
+      "vectors_sha256": "abf80629220669b7a415eeebc7a4a764950dda5cc5e0b5d0108330e39a705f77",
+      "offset_file": "<WORK>/file-68afd099014d42.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "farthest_k16": {
+      "vectors_file": "<WORK>/file-981eeef7c69250.npy",
+      "vectors_sha256": "f8632a16743851217fd24d863eca5be9d85149a67b9438ed9d1277121e28f610",
+      "offset_file": "<WORK>/file-bba525af5cd116.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "hybrid_k16": {
+      "vectors_file": "<WORK>/file-07e67bd90ff5aa.npy",
+      "vectors_sha256": "817cada0dde1fae0d331b10f70c80510af212642901d0f0cfc0968dd89acf045",
+      "offset_file": "<WORK>/file-19bbee306fe922.npy",
+      "offset_sha256": "d845dc406b6bdd992c9acfe21d05c546810ec120c5b232fa23c5ff4a3da19546",
+      "count_min": 2,
+      "count_max": 16,
+      "mean_frame_vectors": 15.91038374717833,
+      "total_frame_vectors": 70483,
+      "videos": 4430
+    },
+    "kmeans_k32": {
+      "vectors_file": "<WORK>/file-1fecf08d5a26ad.npy",
+      "vectors_sha256": "e0dd819a7574b91d22c50762c5846a22f09a6c2f80fa0f874f5835510a86fc77",
+      "offset_file": "<WORK>/file-e7e969cd94f28a.npy",
+      "offset_sha256": "0475a95b81ec5225686a3a46d9b005f40e8ecc5ff036268be3e17c672f2b212c",
+      "count_min": 2,
+      "count_max": 32,
+      "mean_frame_vectors": 31.29841986455982,
+      "total_frame_vectors": 138652,
+      "videos": 4430
+    }
+  },
+  "prior_encoded_vectors_all_SHA_exact": true,
+  "valid_lengths_file": "<WORK>/file-022c623d75c7d8.npy",
+  "mean_valid_L": 108.66749435665915,
+  "seconds": 378.89130637201015
+}

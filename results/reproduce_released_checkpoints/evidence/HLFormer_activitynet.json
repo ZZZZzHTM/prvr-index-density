@@ -1,0 +1,4014 @@
+{
+  "status": "PASS",
+  "method": "HLFormer",
+  "dataset": "activitynet",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-f3f74f118cd42f.ckpt",
+      "bytes": 341480467,
+      "mtime_ns": 1793379904927092000,
+      "sha256": "42bafa6f3b3db157ba4b17fc371f44608f82f04b3eb580640f2b5656b47344e4"
+    },
+    "checkpoint_epoch": 98,
+    "checkpoint_keys": [
+      "config",
+      "epoch",
+      "model_val",
+      "state_dict",
+      "optimizer"
+    ],
+    "checkpoint_model_val": [
+      8.684060179013521,
+      27.105948073382848,
+      40.144734336316894,
+      78.96908525360249,
+      154.90382784231576
+    ],
+    "source_config": "<WORK>/file-d1025918de31d8.py",
+    "checkpoint_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "activitynet",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d",
+      "collection": "activitynet",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-c01a4ca3095f9a",
+      "ckpt_path": "<RELEASED>/file-9d420fdb3a82cb",
+      "sft_factor": 0.6,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        0.003,
+        0.001
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.31,
+      "drop": 0.31,
+      "initializer_range": 0.02,
+      "attention_num": 8,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "effective_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "activitynet",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d",
+      "collection": "activitynet",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-c01a4ca3095f9a",
+      "ckpt_path": "<RELEASED>/file-9d420fdb3a82cb",
+      "sft_factor": 0.6,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.2,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.02,
+        0.04,
+        0.003,
+        0.001
+      ],
+      "neg_factor": [
+        0.2,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 1024,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.31,
+      "drop": 0.31,
+      "initializer_range": 0.02,
+      "attention_num": 8,
+      "pin_memory": true,
+      "visual_feat_dim": 1024
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 0,
+    "num_workers": 0,
+    "parameters": 28429244,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 157
+      },
+      "encode_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 146
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 259
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 235
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 259
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 126
+      },
+      "collate_text": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 145
+      }
+    }
+  },
+  "encoding": {
+    "seconds": 370.72099645703565,
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-6945b07363d708.npy",
+        "bytes": 870973568,
+        "mtime_ns": 1793386785922937454,
+        "sha256": "a23a7f40ac3e0fff3cda4e1d11e8f0f8c0f64aadb1f47452aa8f790f7acd9cdd"
+      },
+      "clips": {
+        "path": "<WORK>/file-a8133a184a63e7.npy",
+        "bytes": 217743488,
+        "mtime_ns": 1793386785930216637,
+        "sha256": "4b44256d0653ade432ad84e814390437a4df789d7b5ae39137f5b5895b45080c"
+      },
+      "mask": {
+        "path": "<WORK>/file-87fcf42bbc52ad.npy",
+        "bytes": 567168,
+        "mtime_ns": 1793386785930216637,
+        "sha256": "37084ec7eaf615b3edb8eb8e5d0e09293c79620694a0423bba08b00bf9fb312f"
+      },
+      "query": {
+        "path": "<WORK>/file-9fb21b77a45933.npy",
+        "bytes": 24196736,
+        "mtime_ns": 1793386806258739838,
+        "sha256": "780c1f8d788e71135c7e5de3370e0373666745d37c7626606014229fc8389aaf"
+      }
+    },
+    "frames_length_min": 2,
+    "frames_length_max": 128
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 8.684060179013521,
+        "R@5": 27.105948073382848,
+        "R@10": 40.144734336316894,
+        "R@100": 78.96908525360249,
+        "SumR": 154.90382784231576
+      },
+      "hit_counts": {
+        "R@1": 1368,
+        "R@5": 4270,
+        "R@10": 6324,
+        "R@100": 12440
+      },
+      "ranks": {
+        "path": "<WORK>/file-1d6e6bad01c205.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793386989848822439,
+        "sha256": "58d70c792da0632cc57b9387b724e436c75995db7cdc146be09aad8589e229ef"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.239700374531836,
+          "R@5": 25.98235256776487,
+          "R@10": 39.07192280835397,
+          "R@100": 78.19462959436298,
+          "SumR": 151.48860534501364
+        },
+        "hit_counts": {
+          "R@1": 1298,
+          "R@5": 4093,
+          "R@10": 6155,
+          "R@100": 12318
+        },
+        "ranks": {
+          "path": "<WORK>/file-dfe0486380c078.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793386994779300090,
+          "sha256": "e25c80ffa0731c3e70a1b661c846db453b8e2fece8ac9e91d3d6439b150d574b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 8.652320192979115,
+          "R@5": 26.38227639179839,
+          "R@10": 39.541674601663175,
+          "R@100": 78.5945534183965,
+          "SumR": 153.17082460483718
+        },
+        "hit_counts": {
+          "R@1": 1363,
+          "R@5": 4156,
+          "R@10": 6229,
+          "R@100": 12381
+        },
+        "ranks": {
+          "path": "<WORK>/file-c314674b71be1d.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793386999432497585,
+          "sha256": "b7ee54bcf6b96c73a3202d0f9323348251356a40729d05a111119c00e08bd7c9"
+        }
+      },
+      "nominal_vectors": 160,
+      "mean_actual_vectors": 160.0,
+      "mean_valid_vectors": 140.66749435665915,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-9a1c2b703fef34.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793386982759012632,
+          "sha256": "fed769cc0c329c7cb3df1970fd9e4221c8591e6921416c45777833d8a88210be"
+        },
+        "frame": {
+          "path": "<WORK>/file-04408a2643c6e6.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793386982763012592,
+          "sha256": "3f3cb0de74c6adeaea3786242ff7f91950d523581ba64a609cab517e392b30d6"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 191.96679029101506,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": null,
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.4901161193847656e-07
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 8.830064114771789,
+        "R@5": 27.048816098520916,
+        "R@10": 40.01142639497239,
+        "R@100": 78.98178124801625,
+        "SumR": 154.87208785628133
+      },
+      "hit_counts": {
+        "R@1": 1391,
+        "R@5": 4261,
+        "R@10": 6303,
+        "R@100": 12442
+      },
+      "ranks": {
+        "path": "<WORK>/file-b47347c9be4cdf.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793387067512275911,
+        "sha256": "9417e353dea6f2a4bce4c51ef32d1c8e28df17031d06b18afeb4e4f34d1b1615"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.239700374531836,
+          "R@5": 25.98235256776487,
+          "R@10": 39.07192280835397,
+          "R@100": 78.19462959436298,
+          "SumR": 151.48860534501364
+        },
+        "hit_counts": {
+          "R@1": 1298,
+          "R@5": 4093,
+          "R@10": 6155,
+          "R@100": 12318
+        },
+        "ranks": {
+          "path": "<WORK>/file-953ea527945b87.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387072415957398,
+          "sha256": "e25c80ffa0731c3e70a1b661c846db453b8e2fece8ac9e91d3d6439b150d574b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 8.645972195772234,
+          "R@5": 26.725068240969975,
+          "R@10": 39.43375864914619,
+          "R@100": 78.37872151336254,
+          "SumR": 153.18352059925093
+        },
+        "hit_counts": {
+          "R@1": 1362,
+          "R@5": 4210,
+          "R@10": 6212,
+          "R@100": 12347
+        },
+        "ranks": {
+          "path": "<WORK>/file-04c5ca69d94bcd.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387077386387932,
+          "sha256": "68283a701182c59b12203eb13470d71fb4b55d775c9368aeae669fc65e827c44"
+        }
+      },
+      "nominal_vectors": 40,
+      "mean_actual_vectors": 39.992776523702034,
+      "mean_valid_vectors": 39.992776523702034,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 7.992776523702031,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-0895dac206235d.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387060942241763,
+          "sha256": "fed769cc0c329c7cb3df1970fd9e4221c8591e6921416c45777833d8a88210be"
+        },
+        "frame": {
+          "path": "<WORK>/file-d0b884c58b543f.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387060950241684,
+          "sha256": "a59b4ec0ffdef3032bd37bc281044cafb42886a7cd70ff90fe0b3e5b68a37477"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 57.51384704303928,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.1920928955078125e-07,
+      "delta_SumR": -0.03173998603443806
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 8.925284072875009,
+        "R@5": 26.953596140417698,
+        "R@10": 40.195518313971945,
+        "R@100": 79.03891322287818,
+        "SumR": 155.11331175014283
+      },
+      "hit_counts": {
+        "R@1": 1406,
+        "R@5": 4246,
+        "R@10": 6332,
+        "R@100": 12451
+      },
+      "ranks": {
+        "path": "<WORK>/file-8555e4a4d797f1.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793387110412402930,
+        "sha256": "70d660189600975a400aadac10e8558a467930deb69e606c98647c72e0733e9a"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.239700374531836,
+          "R@5": 25.98235256776487,
+          "R@10": 39.07192280835397,
+          "R@100": 78.19462959436298,
+          "SumR": 151.48860534501364
+        },
+        "hit_counts": {
+          "R@1": 1298,
+          "R@5": 4093,
+          "R@10": 6155,
+          "R@100": 12318
+        },
+        "ranks": {
+          "path": "<WORK>/file-8cbd67d42da850.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387115290966931,
+          "sha256": "e25c80ffa0731c3e70a1b661c846db453b8e2fece8ac9e91d3d6439b150d574b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 8.741192153875453,
+          "R@5": 26.667936266108043,
+          "R@10": 39.586110582111345,
+          "R@100": 78.43585348822447,
+          "SumR": 153.43109249031932
+        },
+        "hit_counts": {
+          "R@1": 1377,
+          "R@5": 4201,
+          "R@10": 6236,
+          "R@100": 12356
+        },
+        "ranks": {
+          "path": "<WORK>/file-2303e7d9ce92c1.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387120165697124,
+          "sha256": "553753ec9a4c7950399c880b82a3bce987e99f701ab0c32e2aebde3e2534a8ca"
+        }
+      },
+      "nominal_vectors": 48,
+      "mean_actual_vectors": 47.91038374717833,
+      "mean_valid_vectors": 47.91038374717833,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 15.91038374717833,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-4afdf33de40e81.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387105040805679,
+          "sha256": "fed769cc0c329c7cb3df1970fd9e4221c8591e6921416c45777833d8a88210be"
+        },
+        "frame": {
+          "path": "<WORK>/file-5a7ce75a8c6eb9.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387105041805669,
+          "sha256": "53d48a483559b3614d6124af41e146f4e2f10b5f881f3361f52f0098d8d820b1"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 42.48216280795168,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 0.0,
+      "delta_SumR": 0.20948390782706383
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 8.791976131530502,
+        "R@5": 27.086904081762203,
+        "R@10": 39.91620643686917,
+        "R@100": 78.94369326477496,
+        "SumR": 154.73877991493683
+      },
+      "hit_counts": {
+        "R@1": 1385,
+        "R@5": 4267,
+        "R@10": 6288,
+        "R@100": 12436
+      },
+      "ranks": {
+        "path": "<WORK>/file-136c6df6154db6.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793387180689197986,
+        "sha256": "f74cee2c03548c8f5ff4a30b5559e0a2b33cd50ee24affeb764663727f5ca542"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.239700374531836,
+          "R@5": 25.98235256776487,
+          "R@10": 39.07192280835397,
+          "R@100": 78.19462959436298,
+          "SumR": 151.48860534501364
+        },
+        "hit_counts": {
+          "R@1": 1298,
+          "R@5": 4093,
+          "R@10": 6155,
+          "R@100": 12318
+        },
+        "ranks": {
+          "path": "<WORK>/file-30eb2255c05d0a.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387185475579149,
+          "sha256": "e25c80ffa0731c3e70a1b661c846db453b8e2fece8ac9e91d3d6439b150d574b"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 8.493620262807084,
+          "R@5": 26.49654034152225,
+          "R@10": 39.541674601663175,
+          "R@100": 78.53742144353457,
+          "SumR": 153.06925664952706
+        },
+        "hit_counts": {
+          "R@1": 1338,
+          "R@5": 4174,
+          "R@10": 6229,
+          "R@100": 12372
+        },
+        "ranks": {
+          "path": "<WORK>/file-1cb91e5eb1cfe8.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387190302307774,
+          "sha256": "f83c660abb455383ddb0bbe1adfb367b3b80f6068ddbdd41409e7d91aff22738"
+        }
+      },
+      "nominal_vectors": 64,
+      "mean_actual_vectors": 64.0,
+      "mean_valid_vectors": 64.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-5867fc885c5901.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387174350118637,
+          "sha256": "fed769cc0c329c7cb3df1970fd9e4221c8591e6921416c45777833d8a88210be"
+        },
+        "frame": {
+          "path": "<WORK>/file-137dbbafb74fca.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387174355175785,
+          "sha256": "8594c7669ce2ab316dbbab5579b53e0298ff80277936ce036ced5938284c0d5d"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 70.15914061502554,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 0.0,
+      "delta_SumR": -0.1650479273789358
+    },
+    {
+      "configuration": "clip8_frame8",
+      "metrics": {
+        "R@1": 8.842760109185551,
+        "R@5": 27.290039992382404,
+        "R@10": 39.852726464800355,
+        "R@100": 78.81673332063734,
+        "SumR": 154.80225988700565
+      },
+      "hit_counts": {
+        "R@1": 1393,
+        "R@5": 4299,
+        "R@10": 6278,
+        "R@100": 12416
+      },
+      "ranks": {
+        "path": "<WORK>/file-ce1dbb09c243d9.npy",
+        "bytes": 63140,
+        "mtime_ns": 1793387215099713849,
+        "sha256": "2264affd54e026c4661a4fe1534d069e282a4ca4b5fec8c7c2065665209f49bc"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 8.531708246048371,
+          "R@5": 26.369580397384624,
+          "R@10": 39.21792674411223,
+          "R@100": 78.19462959436298,
+          "SumR": 152.3138449819082
+        },
+        "hit_counts": {
+          "R@1": 1344,
+          "R@5": 4154,
+          "R@10": 6178,
+          "R@100": 12318
+        },
+        "ranks": {
+          "path": "<WORK>/file-dfa90ea8a8be65.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387219990363633,
+          "sha256": "9273ba679b319e41deaf5d0b5bf5c2c46b28740cc2cf99b9a59cbc4649072ce8"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 8.645972195772234,
+          "R@5": 26.725068240969975,
+          "R@10": 39.43375864914619,
+          "R@100": 78.37872151336254,
+          "SumR": 153.18352059925093
+        },
+        "hit_counts": {
+          "R@1": 1362,
+          "R@5": 4210,
+          "R@10": 6212,
+          "R@100": 12347
+        },
+        "ranks": {
+          "path": "<WORK>/file-e6cfce95a8c89f.npy",
+          "bytes": 63140,
+          "mtime_ns": 1793387225009846501,
+          "sha256": "68283a701182c59b12203eb13470d71fb4b55d775c9368aeae669fc65e827c44"
+        }
+      },
+      "nominal_vectors": 16,
+      "mean_actual_vectors": 15.992776523702032,
+      "mean_valid_vectors": 15.992776523702032,
+      "mean_clip_vectors": 8.0,
+      "mean_frame_vectors": 7.992776523702031,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-ac89d70a6de359.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387208384780592,
+          "sha256": "a859d1766a9d490d3bc587876af00d231968ba598a99e94d0c147877ddf01255"
+        },
+        "frame": {
+          "path": "<WORK>/file-4f4218aab7a3cd.npy",
+          "bytes": 279143288,
+          "mtime_ns": 1793387208389780543,
+          "sha256": "a59b4ec0ffdef3032bd37bc281044cafb42886a7cd70ff90fe0b3e5b68a37477"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 34.77661585598253,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "frame",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 3.2782554626464844e-07,
+      "delta_SumR": -0.10156795531011653
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-fc53671ea0c910.md",
+      "line": 106,
+      "text": "| ActivityNet Captions | 8.7 | 27.1 | 40.1 | 79.0 | 154.9 |[Google drive](https://drive.google.com/file/d/1B3mxKkUxtfNEggiJSwExFCV0gEbuZSzf/view?usp=sharing) |",
+      "metrics": {
+        "R@1": 8.7,
+        "R@5": 27.1,
+        "R@10": 40.1,
+        "R@100": 79.0,
+        "SumR": 154.9
+      }
+    },
+    "delta_vs_README": {
+      "R@1": -0.01593982098647828,
+      "R@5": 0.00594807338284653,
+      "R@10": 0.04473433631689261,
+      "R@100": -0.03091474639751368,
+      "SumR": 0.0038278423157578345
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-6dd1c63fda2aaf.npy",
+      "counts": "<WORK>/file-e92bc2624aa3ce.npy",
+      "min_vectors": 2,
+      "max_vectors": 8,
+      "mean_vectors": 7.992776523702031
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-a6bafd09215863.npy",
+      "counts": "<WORK>/file-b889ec6bc40459.npy",
+      "min_vectors": 2,
+      "max_vectors": 16,
+      "mean_vectors": 15.91038374717833
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-280f3297065cd5.npy",
+      "counts": "<WORK>/file-5940e9639d0d4f.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    },
+    "clip_Ward8": {
+      "vectors": "<WORK>/file-37458c4f7d011b.npy",
+      "counts": "<WORK>/file-3ccdfcfc5fce6f.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    }
+  },
+  "queries": 15753,
+  "videos": 4430,
+  "id_order": {
+    "path": "<WORK>/file-3f307759bed567.json",
+    "bytes": 518489,
+    "mtime_ns": 1793386435566101957,
+    "sha256": "c12db23b4a2a58c3a3fbf823cc00dc20a28c32a14bc2ea2a3c2c484e80292038"
+  },
+  "probe": {
+    "path": "<WORK>/file-233515d242351e.json",
+    "bytes": 4995,
+    "mtime_ns": 1793382326788064654,
+    "sha256": "50c5c54f24b1b9c92cc4f6209e579db3df579295f28b4fb5e5d85025e5a8aa33"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ]
+    ],
+    "seconds": 826.1690164209576,
+    "peak_RSS_MiB": 8312.89453125
+  }
+}

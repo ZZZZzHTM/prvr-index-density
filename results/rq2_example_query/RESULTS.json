@@ -1,0 +1,398 @@
+{
+  "status": "selected",
+  "example": {
+    "main": {
+      "dataset": "activitynet",
+      "model": "GMMFormerV2 our run",
+      "seed": 9527,
+      "query": {
+        "id": "v_LsK452h29ng#enc#0",
+        "text": "We see a man talking while sitting on a rowing machine.",
+        "cache_index_zero_based": 11170,
+        "score_matrix_index_zero_based": 11170
+      },
+      "positive_video": {
+        "id": "v_LsK452h29ng",
+        "effective_rank": 29.377651276836104,
+        "L": 128,
+        "quartile": "Q1"
+      },
+      "ranks": {
+        "original": 3,
+        "F": 1,
+        "O": 4,
+        "C": 1
+      },
+      "positive_fused_scores": {
+        "original": 0.5019150376319885,
+        "F": 0.49753808975219727,
+        "change": -0.00437694787979126
+      },
+      "crossing_competitors": {
+        "direction": "overtaken_by_positive",
+        "total": 2,
+        "quartile_counts": {
+          "Q1": 0,
+          "Q2": 0,
+          "Q3": 1,
+          "Q4": 1
+        },
+        "ordered_video_ids": [
+          "v_MnZ9L54twws",
+          "v_pBaeRTgaNBM"
+        ],
+        "by_video": {
+          "v_MnZ9L54twws": {
+            "video_id": "v_MnZ9L54twws",
+            "effective_rank": 49.95134586987837,
+            "quartile": "Q3",
+            "fused_scores": {
+              "original": 0.5070698261260986,
+              "F": 0.49718767404556274,
+              "change": -0.009882152080535889
+            },
+            "candidate_ranks": {
+              "original": 1,
+              "F": 2
+            }
+          },
+          "v_pBaeRTgaNBM": {
+            "video_id": "v_pBaeRTgaNBM",
+            "effective_rank": 63.36789280085056,
+            "quartile": "Q4",
+            "fused_scores": {
+              "original": 0.5041590332984924,
+              "F": 0.4874364137649536,
+              "change": -0.01672261953353882
+            },
+            "candidate_ranks": {
+              "original": 2,
+              "F": 6
+            }
+          }
+        },
+        "top5": [
+          {
+            "video_id": "v_MnZ9L54twws",
+            "effective_rank": 49.95134586987837,
+            "quartile": "Q3",
+            "fused_scores": {
+              "original": 0.5070698261260986,
+              "F": 0.49718767404556274,
+              "change": -0.009882152080535889
+            },
+            "candidate_ranks": {
+              "original": 1,
+              "F": 2
+            }
+          },
+          {
+            "video_id": "v_pBaeRTgaNBM",
+            "effective_rank": 63.36789280085056,
+            "quartile": "Q4",
+            "fused_scores": {
+              "original": 0.5041590332984924,
+              "F": 0.4874364137649536,
+              "change": -0.01672261953353882
+            },
+            "candidate_ranks": {
+              "original": 2,
+              "F": 6
+            }
+          }
+        ],
+        "order": "original fused score descending; video_id lexical tie break"
+      },
+      "opposite_direction_crossing_count": 0,
+      "selection": {
+        "candidate_count": 1155,
+        "median_position_change": 2.0,
+        "exact_median_count": 235,
+        "median_definition": "usual sample median; no nearest/lower-median fallback",
+        "tie_break": [
+          "smallest original positive rank",
+          "lexicographically smallest original query_id"
+        ],
+        "selected_position_change": 2,
+        "smallest_original_rank_among_median": 3,
+        "count_tied_at_smallest_original_rank": 2
+      },
+      "sources": {
+        "input_registration": "<WORK>/file-b58601cce08372.json",
+        "decomposition_cache": "<WORK>/file-4e3fd1b66f8b7f.npz",
+        "score_paths": {
+          "clip": "<WORK>/file-480757015bc803.npy",
+          "frame": "<WORK>/file-4fe7a27c62e315.npy",
+          "ward": "<WORK>/file-1542bdbe728d06.npy"
+        },
+        "id_order": "<WORK>/file-083507dc70b930.json",
+        "video_statistics": "<WORK>/file-9e306af7b3830d.gz",
+        "effective_rank_cuts": [
+          32.81376515146026,
+          46.112174058907435,
+          56.22265396409788
+        ],
+        "effective_rank_definition_source": {
+          "file": "results/rq2_usage_redundancy/RESULTS.json",
+          "field": [
+            "cases",
+            1,
+            "effective_rank_quartile_cuts"
+          ]
+        },
+        "caption": "<WORK>/file-a63f6e7a7b87de.txt",
+        "caption_path_record": "<WORK>/file-28381129d30f02.json"
+      }
+    },
+    "mirror": {
+      "dataset": "activitynet",
+      "model": "GMMFormerV2 our run",
+      "seed": 9527,
+      "query": {
+        "id": "v_GJDl-whUpq4#enc#3",
+        "text": "Then the brown cat goes under the chair and jumps up to grab the yarn and pulls it away.",
+        "cache_index_zero_based": 8008,
+        "score_matrix_index_zero_based": 8008
+      },
+      "positive_video": {
+        "id": "v_GJDl-whUpq4",
+        "effective_rank": 57.9523101468968,
+        "L": 128,
+        "quartile": "Q4"
+      },
+      "ranks": {
+        "original": 1,
+        "F": 3,
+        "O": 3,
+        "C": 1
+      },
+      "positive_fused_scores": {
+        "original": 0.5314878225326538,
+        "F": 0.5136587619781494,
+        "change": -0.017829060554504395
+      },
+      "crossing_competitors": {
+        "direction": "overtook_positive",
+        "total": 2,
+        "quartile_counts": {
+          "Q1": 1,
+          "Q2": 0,
+          "Q3": 1,
+          "Q4": 0
+        },
+        "ordered_video_ids": [
+          "v_GI8tylrKKlA",
+          "v_HlhQ3-WOdgI"
+        ],
+        "by_video": {
+          "v_GI8tylrKKlA": {
+            "video_id": "v_GI8tylrKKlA",
+            "effective_rank": 50.097443929899974,
+            "quartile": "Q3",
+            "fused_scores": {
+              "original": 0.5304832458496094,
+              "F": 0.5233400464057922,
+              "change": -0.007143199443817139
+            },
+            "candidate_ranks": {
+              "original": 2,
+              "F": 1
+            }
+          },
+          "v_HlhQ3-WOdgI": {
+            "video_id": "v_HlhQ3-WOdgI",
+            "effective_rank": 17.377136626539098,
+            "quartile": "Q1",
+            "fused_scores": {
+              "original": 0.5186285972595215,
+              "F": 0.5139251947402954,
+              "change": -0.004703402519226074
+            },
+            "candidate_ranks": {
+              "original": 3,
+              "F": 2
+            }
+          }
+        },
+        "top5": [
+          {
+            "video_id": "v_GI8tylrKKlA",
+            "effective_rank": 50.097443929899974,
+            "quartile": "Q3",
+            "fused_scores": {
+              "original": 0.5304832458496094,
+              "F": 0.5233400464057922,
+              "change": -0.007143199443817139
+            },
+            "candidate_ranks": {
+              "original": 2,
+              "F": 1
+            }
+          },
+          {
+            "video_id": "v_HlhQ3-WOdgI",
+            "effective_rank": 17.377136626539098,
+            "quartile": "Q1",
+            "fused_scores": {
+              "original": 0.5186285972595215,
+              "F": 0.5139251947402954,
+              "change": -0.004703402519226074
+            },
+            "candidate_ranks": {
+              "original": 3,
+              "F": 2
+            }
+          }
+        ],
+        "order": "original fused score descending; video_id lexical tie break"
+      },
+      "opposite_direction_crossing_count": 0,
+      "selection": {
+        "candidate_count": 1187,
+        "median_position_change": 2.0,
+        "exact_median_count": 240,
+        "median_definition": "usual sample median; no nearest/lower-median fallback",
+        "tie_break": [
+          "smallest original positive rank",
+          "lexicographically smallest original query_id"
+        ],
+        "selected_position_change": 2,
+        "smallest_original_rank_among_median": 1,
+        "count_tied_at_smallest_original_rank": 8
+      },
+      "sources": {
+        "input_registration": "<WORK>/file-b58601cce08372.json",
+        "decomposition_cache": "<WORK>/file-4e3fd1b66f8b7f.npz",
+        "score_paths": {
+          "clip": "<WORK>/file-480757015bc803.npy",
+          "frame": "<WORK>/file-4fe7a27c62e315.npy",
+          "ward": "<WORK>/file-1542bdbe728d06.npy"
+        },
+        "id_order": "<WORK>/file-083507dc70b930.json",
+        "video_statistics": "<WORK>/file-9e306af7b3830d.gz",
+        "effective_rank_cuts": [
+          32.81376515146026,
+          46.112174058907435,
+          56.22265396409788
+        ],
+        "effective_rank_definition_source": {
+          "file": "results/rq2_usage_redundancy/RESULTS.json",
+          "field": [
+            "cases",
+            1,
+            "effective_rank_quartile_cuts"
+          ]
+        },
+        "caption": "<WORK>/file-a63f6e7a7b87de.txt",
+        "caption_path_record": "<WORK>/file-28381129d30f02.json"
+      }
+    }
+  },
+  "typicality": {
+    "main": {
+      "n_query": 1155,
+      "n_video": 758,
+      "denominator": "complete candidate pool before median and tie breaking",
+      "own_score_decreased_and_rank_improved": {
+        "count": 973,
+        "n_query": 1155,
+        "fraction": 0.8424242424242424,
+        "percentage": 84.24242424242425,
+        "definition": "F positive fused score < original; F rank < original"
+      },
+      "O_worse_C_better": {
+        "count": 682,
+        "n_query": 1155,
+        "fraction": 0.5904761904761905,
+        "percentage": 59.04761904761905,
+        "definition": "O rank > original AND C rank < original; strict, excludes ties"
+      }
+    },
+    "mirror": {
+      "n_query": 1187,
+      "n_video": 737,
+      "denominator": "complete candidate pool before median and tie breaking",
+      "own_score_decreased_and_rank_worsened": {
+        "count": 1187,
+        "n_query": 1187,
+        "fraction": 1.0,
+        "percentage": 100.0,
+        "definition": "F positive fused score < original; F rank > original"
+      },
+      "O_worse_C_better": {
+        "count": 1005,
+        "n_query": 1187,
+        "fraction": 0.8466722830665543,
+        "percentage": 84.66722830665543,
+        "definition": "O rank > original AND C rank < original; strict, excludes ties"
+      }
+    }
+  },
+  "validation": {
+    "selected_query_ranks": {
+      "main": {
+        "query_id": "v_LsK452h29ng#enc#0",
+        "original": {
+          "recomputed": 3,
+          "cached": 3
+        },
+        "F": {
+          "recomputed": 1,
+          "cached": 1
+        },
+        "passed": true
+      },
+      "mirror": {
+        "query_id": "v_GJDl-whUpq4#enc#3",
+        "original": {
+          "recomputed": 1,
+          "cached": 1
+        },
+        "F": {
+          "recomputed": 3,
+          "cached": 3
+        },
+        "passed": true
+      }
+    }
+  },
+  "resources": {
+    "CPU_only": true,
+    "nice": 19,
+    "ionice": "idle",
+    "compute_threads": 4,
+    "PyTorch_interop": 1
+  },
+  "weights": [
+    0.7,
+    0.3
+  ],
+  "compression": "frame Ward8",
+  "sources": {
+    "input_registration": "<WORK>/file-b58601cce08372.json",
+    "decomposition_cache": "<WORK>/file-4e3fd1b66f8b7f.npz",
+    "score_paths": {
+      "clip": "<WORK>/file-480757015bc803.npy",
+      "frame": "<WORK>/file-4fe7a27c62e315.npy",
+      "ward": "<WORK>/file-1542bdbe728d06.npy"
+    },
+    "id_order": "<WORK>/file-083507dc70b930.json",
+    "video_statistics": "<WORK>/file-9e306af7b3830d.gz",
+    "effective_rank_cuts": [
+      32.81376515146026,
+      46.112174058907435,
+      56.22265396409788
+    ],
+    "effective_rank_definition_source": {
+      "file": "results/rq2_usage_redundancy/RESULTS.json",
+      "field": [
+        "cases",
+        1,
+        "effective_rank_quartile_cuts"
+      ]
+    },
+    "caption": "<WORK>/file-a63f6e7a7b87de.txt",
+    "caption_path_record": "<WORK>/file-28381129d30f02.json"
+  },
+  "generated_UTC": "2026-11-04T17:29:39.995469+00:00"
+}

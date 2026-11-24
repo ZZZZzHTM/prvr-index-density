@@ -1,0 +1,652 @@
+{
+  "status": "completed",
+  "B_tvr_ratio": {
+    "cosine": {
+      "k8": {
+        "rho_fusion": {
+          "n": 2179,
+          "rho": 0.04076274964674162,
+          "CI95": [
+            -0.0016138767129591286,
+            0.08274379413377457
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "rho_frame": {
+          "n": 2179,
+          "rho": 0.03941036396391242,
+          "CI95": [
+            -0.0036981278779936837,
+            0.07998712095140106
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "partial_rho": {
+          "fusion": {
+            "n": 2179,
+            "rho": -0.013315831509072866,
+            "CI95": [
+              -0.05329920642425954,
+              0.027723422195226183
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          },
+          "frame": {
+            "n": 2179,
+            "rho": -0.011104511383931714,
+            "CI95": [
+              -0.05337852943536243,
+              0.03165709353306213
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          }
+        },
+        "ratio": {
+          "mean": 6.314823313446535,
+          "median": 5.75,
+          "n_video": 2179,
+          "definition": "L / actual nonempty representatives; video equal weight",
+          "mean_actual_representatives": 7.9990821477742085,
+          "fraction_representatives_less_than_k": 0.0004589261128958238
+        },
+        "Q1": {
+          "point": -0.1834862385321101,
+          "ci_low": -1.2110091743119256,
+          "ci_high": 0.8073394495413027,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 18.53211009174312,
+            "R@5": 42.23853211009174,
+            "R@10": 54.825688073394495,
+            "R@100": 89.13761467889908,
+            "SumR": 204.73394495412845
+          },
+          "compressed": {
+            "R@1": 18.238532110091743,
+            "R@5": 42.53211009174312,
+            "R@10": 54.56880733944954,
+            "R@100": 89.21100917431193,
+            "SumR": 204.55045871559633
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "Q4": {
+          "point": -0.5871559633027523,
+          "ci_low": -1.8715596330275446,
+          "ci_high": 0.6614678899082733,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 13.577981651376147,
+            "R@5": 33.174311926605505,
+            "R@10": 45.61467889908257,
+            "R@100": 85.06422018348624,
+            "SumR": 177.43119266055047
+          },
+          "compressed": {
+            "R@1": 13.61467889908257,
+            "R@5": 33.43119266055046,
+            "R@10": 44.80733944954128,
+            "R@100": 84.99082568807339,
+            "SumR": 176.8440366972477
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "effective_rank_quartile_cuts": [
+          22.16246340655077,
+          26.233334525130832,
+          33.825368986779324
+        ],
+        "loss_definition": "per video, mean over its positive queries of compressed_rank - original_rank; positive is worse",
+        "frame_and_fusion_original_baseline": "<REVISION> stored original query ranks, aligned by query ID",
+        "origin": "<REVISION> original stored ranks/video loss and representative counts, reused as prescribed",
+        "sources": [
+          {
+            "path": "<WORK>/file-6ec8f6f3b1294a.gz",
+            "sha256": "a4171cdb2753e23af893e2bd91c222e7bdc7abf32e7d56b75c56d8f24ad49379",
+            "field": "frame_effective_rank,L,frame_ward8_clusters"
+          },
+          {
+            "path": "<WORK>/file-8227266fdcbf90.gz",
+            "sha256": "1cc16ff37344d1b5a035532bbb4ea2918d8feb55e1f729abd04e3653cab26acb",
+            "field": "positive_video,baseline_rank,baseline_frame_rank,ward8_rank,ward8_frame_rank"
+          }
+        ],
+        "reps": 2000,
+        "video_order": "<REVISION> original video CSV order"
+      },
+      "k4": {
+        "rho_fusion": {
+          "n": 2179,
+          "rho": 0.0608357483313694,
+          "CI95": [
+            0.01831804481398102,
+            0.10377138101705065
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "rho_frame": {
+          "n": 2179,
+          "rho": 0.09466851289558884,
+          "CI95": [
+            0.05257420703440247,
+            0.13682767400931872
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "partial_rho": {
+          "fusion": {
+            "n": 2179,
+            "rho": -0.02076560452339912,
+            "CI95": [
+              -0.06370614911404367,
+              0.02241437205772263
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          },
+          "frame": {
+            "n": 2179,
+            "rho": 0.0026021865251543066,
+            "CI95": [
+              -0.040777708300620955,
+              0.04744796787454402
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          }
+        },
+        "ratio": {
+          "mean": 12.629417163836623,
+          "median": 11.5,
+          "n_video": 2179,
+          "definition": "L / actual nonempty representatives; video equal weight",
+          "mean_actual_representatives": 4.0,
+          "fraction_representatives_less_than_k": 0.0
+        },
+        "Q1": {
+          "point": -0.7339449541284404,
+          "ci_low": -2.0183486238532007,
+          "ci_high": 0.5137614678899354,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 18.53211009174312,
+            "R@5": 42.23853211009174,
+            "R@10": 54.825688073394495,
+            "R@100": 89.13761467889908,
+            "SumR": 204.73394495412845
+          },
+          "compressed": {
+            "R@1": 18.458715596330276,
+            "R@5": 42.42201834862385,
+            "R@10": 54.01834862385321,
+            "R@100": 89.10091743119266,
+            "SumR": 204.0
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "Q4": {
+          "point": -1.3211009174311927,
+          "ci_low": -2.825688073394474,
+          "ci_high": 0.25688073394493927,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 13.577981651376147,
+            "R@5": 33.174311926605505,
+            "R@10": 45.61467889908257,
+            "R@100": 85.06422018348624,
+            "SumR": 177.43119266055047
+          },
+          "compressed": {
+            "R@1": 13.10091743119266,
+            "R@5": 33.02752293577982,
+            "R@10": 44.95412844036697,
+            "R@100": 85.02752293577981,
+            "SumR": 176.11009174311926
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "effective_rank_quartile_cuts": [
+          22.16246340655077,
+          26.233334525130832,
+          33.825368986779324
+        ],
+        "loss_definition": "per video, mean over its positive queries of compressed_rank - original_rank; positive is worse",
+        "frame_and_fusion_original_baseline": "<REVISION> stored original query ranks, aligned by query ID",
+        "origin": "<WORK>/file-a858f4c9658dab.npz",
+        "sources": [
+          {
+            "path": "<WORK>/file-6ec8f6f3b1294a.gz",
+            "sha256": "a4171cdb2753e23af893e2bd91c222e7bdc7abf32e7d56b75c56d8f24ad49379",
+            "field": "frame_effective_rank,L,frame_ward8_clusters"
+          },
+          {
+            "path": "<WORK>/file-8227266fdcbf90.gz",
+            "sha256": "1cc16ff37344d1b5a035532bbb4ea2918d8feb55e1f729abd04e3653cab26acb",
+            "field": "positive_video,baseline_rank,baseline_frame_rank,ward8_rank,ward8_frame_rank"
+          }
+        ],
+        "reps": 2000,
+        "video_order": "<REVISION> original video CSV order"
+      }
+    },
+    "euclid": {
+      "k8": {
+        "rho_fusion": {
+          "n": 2179,
+          "rho": 0.055185018703507845,
+          "CI95": [
+            0.014081455834451815,
+            0.09864844123313805
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "rho_frame": {
+          "n": 2179,
+          "rho": 0.0603668264034216,
+          "CI95": [
+            0.01812814160410521,
+            0.1023119828420594
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "partial_rho": {
+          "fusion": {
+            "n": 2179,
+            "rho": -0.019186520513112076,
+            "CI95": [
+              -0.06135949589216945,
+              0.02177366407940088
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          },
+          "frame": {
+            "n": 2179,
+            "rho": -0.016274762523173916,
+            "CI95": [
+              -0.057310200912298624,
+              0.0266460796303316
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          }
+        },
+        "ratio": {
+          "mean": 6.314823313446535,
+          "median": 5.75,
+          "n_video": 2179,
+          "definition": "L / actual nonempty representatives; video equal weight",
+          "mean_actual_representatives": 7.9990821477742085,
+          "fraction_representatives_less_than_k": 0.0004589261128958238
+        },
+        "Q1": {
+          "point": -0.47706422018348627,
+          "ci_low": -1.5412844036696924,
+          "ci_high": 0.550458715596335,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 18.53211009174312,
+            "R@5": 42.23853211009174,
+            "R@10": 54.825688073394495,
+            "R@100": 89.13761467889908,
+            "SumR": 204.73394495412845
+          },
+          "compressed": {
+            "R@1": 18.01834862385321,
+            "R@5": 42.49541284403669,
+            "R@10": 54.34862385321101,
+            "R@100": 89.39449541284404,
+            "SumR": 204.25688073394497
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "Q4": {
+          "point": -0.6605504587155964,
+          "ci_low": -2.0183486238532,
+          "ci_high": 0.6605504587155906,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 13.577981651376147,
+            "R@5": 33.174311926605505,
+            "R@10": 45.61467889908257,
+            "R@100": 85.06422018348624,
+            "SumR": 177.43119266055047
+          },
+          "compressed": {
+            "R@1": 13.541284403669726,
+            "R@5": 33.13761467889908,
+            "R@10": 44.95412844036697,
+            "R@100": 85.13761467889908,
+            "SumR": 176.77064220183485
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "effective_rank_quartile_cuts": [
+          22.16246340655077,
+          26.233334525130832,
+          33.825368986779324
+        ],
+        "loss_definition": "per video, mean over its positive queries of compressed_rank - original_rank; positive is worse",
+        "frame_and_fusion_original_baseline": "<REVISION> stored original query ranks, aligned by query ID",
+        "origin": "<WORK>/file-a858f4c9658dab.npz",
+        "sources": [
+          {
+            "path": "<WORK>/file-6ec8f6f3b1294a.gz",
+            "sha256": "a4171cdb2753e23af893e2bd91c222e7bdc7abf32e7d56b75c56d8f24ad49379",
+            "field": "frame_effective_rank,L,frame_ward8_clusters"
+          },
+          {
+            "path": "<WORK>/file-8227266fdcbf90.gz",
+            "sha256": "1cc16ff37344d1b5a035532bbb4ea2918d8feb55e1f729abd04e3653cab26acb",
+            "field": "positive_video,baseline_rank,baseline_frame_rank,ward8_rank,ward8_frame_rank"
+          }
+        ],
+        "reps": 2000,
+        "video_order": "<REVISION> original video CSV order"
+      },
+      "k4": {
+        "rho_fusion": {
+          "n": 2179,
+          "rho": 0.047538098675142935,
+          "CI95": [
+            0.004800231912216579,
+            0.09022938920462734
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "rho_frame": {
+          "n": 2179,
+          "rho": 0.08341195507896296,
+          "CI95": [
+            0.04244451172294483,
+            0.12543036075785016
+          ],
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0
+        },
+        "partial_rho": {
+          "fusion": {
+            "n": 2179,
+            "rho": -0.02217008908344285,
+            "CI95": [
+              -0.06352574570415417,
+              0.021211980324440147
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          },
+          "frame": {
+            "n": 2179,
+            "rho": 0.0006445102780336353,
+            "CI95": [
+              -0.04017960269795683,
+              0.04372378653447249
+            ],
+            "valid_bootstrap": 2000,
+            "undefined_bootstrap": 0,
+            "control": "average tied rank of L; intercept included by centered ranks",
+            "control_constant": false
+          }
+        },
+        "ratio": {
+          "mean": 12.629417163836623,
+          "median": 11.5,
+          "n_video": 2179,
+          "definition": "L / actual nonempty representatives; video equal weight",
+          "mean_actual_representatives": 4.0,
+          "fraction_representatives_less_than_k": 0.0
+        },
+        "Q1": {
+          "point": -1.1009174311926606,
+          "ci_low": -2.348623853210995,
+          "ci_high": 0.18348623853211166,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 18.53211009174312,
+            "R@5": 42.23853211009174,
+            "R@10": 54.825688073394495,
+            "R@100": 89.13761467889908,
+            "SumR": 204.73394495412845
+          },
+          "compressed": {
+            "R@1": 18.495412844036696,
+            "R@5": 42.1651376146789,
+            "R@10": 53.79816513761468,
+            "R@100": 89.17431192660551,
+            "SumR": 203.63302752293578
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "Q4": {
+          "point": -1.651376146788991,
+          "ci_low": -3.2660550458715534,
+          "ci_high": 0.036697247706428016,
+          "n_query": 2725,
+          "n_video": 545,
+          "baseline": {
+            "R@1": 13.577981651376147,
+            "R@5": 33.174311926605505,
+            "R@10": 45.61467889908257,
+            "R@100": 85.06422018348624,
+            "SumR": 177.43119266055047
+          },
+          "compressed": {
+            "R@1": 13.137614678899082,
+            "R@5": 32.95412844036697,
+            "R@10": 44.91743119266055,
+            "R@100": 84.77064220183486,
+            "SumR": 175.7798165137615
+          },
+          "reps": 2000,
+          "seed": 20261023,
+          "unit": "positive video cluster",
+          "quantile_method": "linear"
+        },
+        "effective_rank_quartile_cuts": [
+          22.16246340655077,
+          26.233334525130832,
+          33.825368986779324
+        ],
+        "loss_definition": "per video, mean over its positive queries of compressed_rank - original_rank; positive is worse",
+        "frame_and_fusion_original_baseline": "<REVISION> stored original query ranks, aligned by query ID",
+        "origin": "<WORK>/file-a858f4c9658dab.npz",
+        "sources": [
+          {
+            "path": "<WORK>/file-6ec8f6f3b1294a.gz",
+            "sha256": "a4171cdb2753e23af893e2bd91c222e7bdc7abf32e7d56b75c56d8f24ad49379",
+            "field": "frame_effective_rank,L,frame_ward8_clusters"
+          },
+          {
+            "path": "<WORK>/file-8227266fdcbf90.gz",
+            "sha256": "1cc16ff37344d1b5a035532bbb4ea2918d8feb55e1f729abd04e3653cab26acb",
+            "field": "positive_video,baseline_rank,baseline_frame_rank,ward8_rank,ward8_frame_rank"
+          }
+        ],
+        "reps": 2000,
+        "video_order": "<REVISION> original video CSV order"
+      }
+    },
+    "delta_rho": {
+      "cosine": {
+        "fusion": {
+          "point": 0.02007299868462778,
+          "ci_low": -0.016125803633065504,
+          "ci_high": 0.05596187451888193,
+          "reps": 2000,
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0,
+          "seed": 20261023,
+          "quantile_method": "linear",
+          "unit": "video",
+          "paired": true,
+          "registered_reading": "includes_zero",
+          "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+        },
+        "frame": {
+          "point": 0.05525814893167642,
+          "ci_low": 0.01818129525938575,
+          "ci_high": 0.09430265243532904,
+          "reps": 2000,
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0,
+          "seed": 20261023,
+          "quantile_method": "linear",
+          "unit": "video",
+          "paired": true,
+          "registered_reading": "positive_excludes_zero",
+          "paper_text": "On TVR, stronger compression (k = 4, ratio ≈ 12.629) strengthens the effective-rank relation (ρ from 0.03941 to 0.09467)."
+        },
+        "paired_video_resampling": "same video indices for k4 and k8; all average-tied ranks recomputed within every resample"
+      },
+      "euclid": {
+        "fusion": {
+          "point": -0.007646920028364909,
+          "ci_low": -0.04507602213804194,
+          "ci_high": 0.027929466437569495,
+          "reps": 2000,
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0,
+          "seed": 20261023,
+          "quantile_method": "linear",
+          "unit": "video",
+          "paired": true,
+          "registered_reading": "includes_zero",
+          "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+        },
+        "frame": {
+          "point": 0.023045128675541357,
+          "ci_low": -0.013496900915613863,
+          "ci_high": 0.061558530813108074,
+          "reps": 2000,
+          "valid_bootstrap_replicates": 2000,
+          "undefined_bootstrap_replicates": 0,
+          "seed": 20261023,
+          "quantile_method": "linear",
+          "unit": "video",
+          "paired": true,
+          "registered_reading": "includes_zero",
+          "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+        },
+        "paired_video_resampling": "same video indices for k4 and k8; all average-tied ranks recomputed within every resample"
+      }
+    },
+    "activitynet_reference": {
+      "rho_fusion": {
+        "n": 4430,
+        "rho": 0.44483981957717084,
+        "CI95": [
+          0.41999814139303143,
+          0.46858900956417615
+        ],
+        "valid_bootstrap_replicates": 2000,
+        "undefined_bootstrap_replicates": 0
+      },
+      "ratio": {
+        "mean": 13.58433972911964,
+        "median": 16.0,
+        "definition": "L / actual original Ward8 representatives"
+      },
+      "source": {
+        "path": "results/rq2_usage_redundancy/RESULTS.json",
+        "sha256": "8d7a2422ca6a78e7c4d26f2da4da85f5c4e0ea7caa7d6060786e9a4df437a0d7",
+        "field": "cases/1/correlations/fusion/frame_effective_rank"
+      },
+      "ratio_source": {
+        "path": "<WORK>/file-3bfa7f43c519e4.gz",
+        "sha256": "e3a9225ae2967ef52dcf66d2b302ba3471ed57a6e66cdddb8d6ddfd1d8bd72fb",
+        "field": "L,frame_ward8_clusters"
+      }
+    }
+  },
+  "registered_readings": {
+    "cosine": {
+      "fusion": {
+        "reading": "includes_zero",
+        "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+      },
+      "frame": {
+        "reading": "positive_excludes_zero",
+        "paper_text": "On TVR, stronger compression (k = 4, ratio ≈ 12.629) strengthens the effective-rank relation (ρ from 0.03941 to 0.09467)."
+      }
+    },
+    "euclid": {
+      "fusion": {
+        "reading": "includes_zero",
+        "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+      },
+      "frame": {
+        "reading": "includes_zero",
+        "paper_text": "Matching the compression ratio does not restore the relation on TVR."
+      }
+    }
+  },
+  "bootstrap": {
+    "unit": "video",
+    "reps": 2000,
+    "seed": 20261023,
+    "quantile_method": "linear",
+    "paired_k4_k8": true
+  },
+  "execution": {
+    "CPU_only": true,
+    "nice": 19,
+    "ionice": 3,
+    "threads_max": 4,
+    "inference": false,
+    "training": false,
+    "compression_computed_in_B": false,
+    "seconds": 4.047397437971085,
+    "generated_utc": "2026-11-06T15:16:10.307530+00:00"
+  }
+}

@@ -1,0 +1,2215 @@
+{
+  "status": "COMPLETE_REQUIRES_AUTHOR_DECISION",
+  "model_labels": {
+    "B0": "GMMFormerV2",
+    "DualClip": "Dual-Clip",
+    "SparseFrame": "Sparse-Frame",
+    "TrainedPool": "Trained-Pool"
+  },
+  "cells": [
+    {
+      "method": "B0",
+      "dataset": "charades",
+      "seed": 9527,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.225806451612904,
+        "R@10": 14.46236559139785,
+        "R@100": 52.473118279569896,
+        "SumR": 77.5
+      },
+      "source_main": {
+        "path": "<WORK>/file-b98e0a8eb914d0.npy",
+        "sha256": "041cc7580e1bef4ef3c8a1bc13616be46d31d4ce530fac8d0e37f64052079fef",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.225806451612904,
+        "R@10": 14.46236559139785,
+        "R@100": 52.473118279569896,
+        "SumR": 77.5
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.413978494623656,
+        "R@10": 14.220430107526882,
+        "R@100": 52.5,
+        "SumR": 77.33870967741936
+      },
+      "equal_origin": "existing <REVISION> datasets.B0_equal_reference"
+    },
+    {
+      "method": "B0",
+      "dataset": "charades",
+      "seed": 20261024,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.010752688172044,
+        "R@10": 13.736559139784946,
+        "R@100": 52.41935483870968,
+        "SumR": 76.82795698924731
+      },
+      "source_main": {
+        "path": "<WORK>/file-4883f1b219316c.npy",
+        "sha256": "09e5d20d26de0b0109f1a6509ba7346a40aa57159c44bf13ee2b9d04e9e5d94c",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.010752688172044,
+        "R@10": 13.736559139784946,
+        "R@100": 52.41935483870968,
+        "SumR": 76.82795698924731
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 2.446236559139785,
+        "R@5": 8.118279569892474,
+        "R@10": 13.629032258064516,
+        "R@100": 52.204301075268816,
+        "SumR": 76.3978494623656
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-cf313cd061abf4.npy",
+        "sha256": "836c08553d4fa16263c86b888424e52f80f327736ea78e6f2497108783622b49"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-7dae509d41edcf.npy",
+        "sha256": "b1a2f8b79838d215a2126cbff69fd365d5773385a7a691840a7690426c41b2dc"
+      }
+    },
+    {
+      "method": "B0",
+      "dataset": "charades",
+      "seed": 20261025,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 2.0698924731182795,
+        "R@5": 8.924731182795698,
+        "R@10": 14.327956989247312,
+        "R@100": 53.064516129032256,
+        "SumR": 78.38709677419354
+      },
+      "source_main": {
+        "path": "<WORK>/file-0a2a1b2de52c0b.npy",
+        "sha256": "9196fb8b7bf489bf28f445c602044e67b6a8701d831e08d2946f98602b82da0d",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.0698924731182795,
+        "R@5": 8.924731182795698,
+        "R@10": 14.327956989247312,
+        "R@100": 53.064516129032256,
+        "SumR": 78.38709677419354
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 2.043010752688172,
+        "R@5": 8.763440860215054,
+        "R@10": 14.193548387096774,
+        "R@100": 52.983870967741936,
+        "SumR": 77.98387096774194
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-e871aca383b684.npy",
+        "sha256": "465ddd431dfde02d013c9e915a045631b4fce0312192d4fed3724bd304feb730"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-b99e899efc3ed9.npy",
+        "sha256": "98ab992219a37780e3fc07fb0beb7c1cd88e4da8fc98a7fd04e878be65d1e921"
+      }
+    },
+    {
+      "method": "B0",
+      "dataset": "activitynet",
+      "seed": 9527,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 8.817368120358028,
+        "R@5": 27.27099600076176,
+        "R@10": 39.94159842569669,
+        "R@100": 78.77864533739606,
+        "SumR": 154.80860788421253
+      },
+      "source_main": {
+        "path": "<WORK>/file-acdd3a9bd0afdd.npy",
+        "sha256": "1accf04b3f68c815816dffdd40a28ed237bc8401d4b9f3f4f1634594a7551a3c",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.817368120358028,
+        "R@5": 27.27099600076176,
+        "R@10": 39.94159842569669,
+        "R@100": 78.77864533739606,
+        "SumR": 154.80860788421253
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.982416047736939,
+        "R@5": 27.835967752174188,
+        "R@10": 40.1764743223513,
+        "R@100": 78.79134133180982,
+        "SumR": 155.78619945407223
+      },
+      "equal_origin": "existing <REVISION> datasets.B0_equal_reference"
+    },
+    {
+      "method": "B0",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 9.007808036564464,
+        "R@5": 27.1567320510379,
+        "R@10": 40.18917031676506,
+        "R@100": 78.51837745191392,
+        "SumR": 154.87208785628133
+      },
+      "source_main": {
+        "path": "<WORK>/file-fa2cada7e92eb6.npy",
+        "sha256": "517aaacbd2a754dfbfea77d1b0f570f578dc7433225609b981b27efaa3a0175a",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 9.007808036564464,
+        "R@5": 27.1567320510379,
+        "R@10": 40.18917031676506,
+        "R@100": 78.51837745191392,
+        "SumR": 154.87208785628133
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 9.128419983495208,
+        "R@5": 27.391607947692503,
+        "R@10": 40.13203834190313,
+        "R@100": 78.73420935694789,
+        "SumR": 155.3862756300387
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-90a6b2f0739994.npy",
+        "sha256": "32554f2cda7cda4bb4629418eaa39f8093172a53ff7b9b3a1d16b16ef4c9a687"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-0d6aba9ebd9282.npy",
+        "sha256": "7829623cf67430823a2d26a70596eac5d581a2bfd5fe9888008abd5bcc694d13"
+      }
+    },
+    {
+      "method": "B0",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 8.830064114771789,
+        "R@5": 27.099600076175967,
+        "R@10": 39.833682473179714,
+        "R@100": 78.70881736812036,
+        "SumR": 154.47216403224783
+      },
+      "source_main": {
+        "path": "<WORK>/file-c9f03f0f77667e.npy",
+        "sha256": "a89be0222f9d65070e370bc75e75a785a68ff0ed92ba8a97c0f149ce91e7543a",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.830064114771789,
+        "R@5": 27.099600076175967,
+        "R@10": 39.833682473179714,
+        "R@100": 78.70881736812036,
+        "SumR": 154.47216403224783
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 8.925284072875009,
+        "R@5": 27.27099600076176,
+        "R@10": 40.05586237542055,
+        "R@100": 78.83577731225799,
+        "SumR": 155.0879197613153
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-76de18bcfbc41c.npy",
+        "sha256": "f2ee203becce424bb07b0ab217ac3547a2f63de073ae788e6f7d8cf48cc61036"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-d32bcb0d7509d8.npy",
+        "sha256": "3f27d5e42ea512d7493a7647a6c730c9633eea31a5a695c05d6b5a050c009830"
+      }
+    },
+    {
+      "method": "B0",
+      "dataset": "tvr",
+      "seed": 9527,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 15.933914639743001,
+        "R@5": 37.356585589720055,
+        "R@10": 49.06837999082148,
+        "R@100": 86.92978430472694,
+        "SumR": 189.28866452501148
+      },
+      "source_main": {
+        "path": "<WORK>/file-4743d2408f1aab.npy",
+        "sha256": "885ee3b972f304a7df51abe806735ab0efde0b26140af213f0c3edd7dcaa04c9",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.933914639743001,
+        "R@5": 37.356585589720055,
+        "R@10": 49.06837999082148,
+        "R@100": 86.92978430472694,
+        "SumR": 189.28866452501148
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.915557595227169,
+        "R@5": 37.65029830197338,
+        "R@10": 49.31620009178522,
+        "R@100": 87.09499770536944,
+        "SumR": 189.97705369435522
+      },
+      "equal_origin": "existing <REVISION> datasets.B0_equal_reference"
+    },
+    {
+      "method": "B0",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 15.474988526847177,
+        "R@5": 36.92519504359798,
+        "R@10": 48.70123910050482,
+        "R@100": 86.38825149150986,
+        "SumR": 187.48967416245983
+      },
+      "source_main": {
+        "path": "<WORK>/file-22ad1bdf1bf885.npy",
+        "sha256": "796c4628b323de904c2c336e3b47fde90cda2ca1aeb1e585f97ccb9534e5700a",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.474988526847177,
+        "R@5": 36.92519504359798,
+        "R@10": 48.70123910050482,
+        "R@100": 86.38825149150986,
+        "SumR": 187.48967416245983
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 15.787058283616338,
+        "R@5": 37.23726480036714,
+        "R@10": 49.26112895823773,
+        "R@100": 86.41578705828361,
+        "SumR": 188.70123910050484
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-8c977dea1b2e3a.npy",
+        "sha256": "cfa0f61cddff7f9120faa870800f1248c60285596bcd2572c2a408b4c552a36a"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-0b714011550d34.npy",
+        "sha256": "c24add5a293b54f08f3675621ecf2a072a68f278ed9e9038e15ce3e42260aa8e"
+      }
+    },
+    {
+      "method": "B0",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "original_weights": [
+        0.7,
+        0.3
+      ],
+      "original_main": {
+        "R@1": 15.70445158329509,
+        "R@5": 37.44837081229922,
+        "R@10": 48.64616796695732,
+        "R@100": 86.90224873795319,
+        "SumR": 188.7012391005048
+      },
+      "source_main": {
+        "path": "<WORK>/file-98b354e7457058.npy",
+        "sha256": "6b3cd7637c1b34edddfb5fd9528cbb911b6b35dbeae554dd34838ef4363b0043",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.70445158329509,
+        "R@5": 37.44837081229922,
+        "R@10": 48.64616796695732,
+        "R@100": 86.90224873795319,
+        "SumR": 188.7012391005048
+      },
+      "equal_origin": "new CPU fusion of cached native branch scores; no model inference",
+      "weight_0.5_0.5": {
+        "R@1": 16.025699862322167,
+        "R@5": 37.77879761358421,
+        "R@10": 49.26112895823773,
+        "R@100": 87.08581918311152,
+        "SumR": 190.1514456172556
+      },
+      "equal_scores": {
+        "path": "<WORK>/file-2d877e9b2487dc.npy",
+        "sha256": "12aae17cf98a37e00cc796a4a7b81b2e6366a98297140ef4c026ae1f5119d535"
+      },
+      "equal_ranks": {
+        "path": "<WORK>/file-ebf46bdccf9e16.npy",
+        "sha256": "360d2cd4aa9e1bdf95f767826d7674c53b6442391c8a51e4bc052dd36c9f1d8b"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "charades",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.46774193548387,
+        "R@10": 14.543010752688172,
+        "R@100": 53.01075268817204,
+        "SumR": 78.36021505376344
+      },
+      "source_main": {
+        "path": "<WORK>/file-914ebba6f461ce.npy",
+        "sha256": "5d0437961fee5751e41a91b6a944196dc3fb7ff4822f6ffd4ec24c4d3fc7d6d8",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.338709677419355,
+        "R@5": 8.46774193548387,
+        "R@10": 14.543010752688172,
+        "R@100": 53.01075268817204,
+        "SumR": 78.36021505376344
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.6344086021505375,
+        "R@5": 8.279569892473118,
+        "R@10": 14.301075268817204,
+        "R@100": 52.634408602150536,
+        "SumR": 77.84946236559139
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-0ae717a9a229ca.npy",
+        "sha256": "41611f7da9159e52ccd34338fc9cc82b485e141cb1d0d1587c900e80d8447323",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "charades",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.333333333333334,
+        "R@10": 14.13978494623656,
+        "R@100": 52.903225806451616,
+        "SumR": 78.03763440860216
+      },
+      "source_main": {
+        "path": "<WORK>/file-c0ecfea0cb1653.npy",
+        "sha256": "c91e1d8b247aea6246696182c552f7f2f6d73f9d9a10ac3e28aeaffb225eaf86",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.661290322580645,
+        "R@5": 8.333333333333334,
+        "R@10": 14.13978494623656,
+        "R@100": 52.903225806451616,
+        "SumR": 78.03763440860216
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.7419354838709675,
+        "R@5": 8.548387096774194,
+        "R@10": 14.24731182795699,
+        "R@100": 52.8494623655914,
+        "SumR": 78.38709677419355
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-2079d7e71191e8.npy",
+        "sha256": "c3912af2f81bad3b3bdf0294bac57c9f2eb53455dd5f7d6c03822287adbef276",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "charades",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.338709677419355,
+        "R@5": 9.086021505376344,
+        "R@10": 14.408602150537634,
+        "R@100": 52.634408602150536,
+        "SumR": 78.46774193548387
+      },
+      "source_main": {
+        "path": "<WORK>/file-4b6e06b758e27a.npy",
+        "sha256": "013076bbe29b8791d63d1ad1a872f223f3c0ab1830b9716253254d07fb03e0c5",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.338709677419355,
+        "R@5": 9.086021505376344,
+        "R@10": 14.408602150537634,
+        "R@100": 52.634408602150536,
+        "SumR": 78.46774193548387
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.043010752688172,
+        "R@5": 9.220430107526882,
+        "R@10": 14.13978494623656,
+        "R@100": 52.096774193548384,
+        "SumR": 77.5
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-b667a717a92270.npy",
+        "sha256": "09a2aff68fbac1fe4112716699dacc8c5029a4da6078cb544c869b369b39785e",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "activitynet",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.639624198565352,
+        "R@5": 26.636196280073637,
+        "R@10": 39.554370596076936,
+        "R@100": 78.75960134577541,
+        "SumR": 153.58979242049134
+      },
+      "source_main": {
+        "path": "<WORK>/file-2e001a76558e49.npy",
+        "sha256": "43a497ecc6d6892b1d7f2e7b28f5efd65dd3c41f0ca51f46b2a7bc917d7ce1c8",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.639624198565352,
+        "R@5": 26.636196280073637,
+        "R@10": 39.554370596076936,
+        "R@100": 78.75960134577541,
+        "SumR": 153.58979242049134
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.639624198565352,
+        "R@5": 26.375928394591508,
+        "R@10": 39.41471465752555,
+        "R@100": 78.6580333904653,
+        "SumR": 153.08830064114773
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-c6781768ef660d.npy",
+        "sha256": "9f6556b8ec9235bd6b5f4a9edb2f353d52c4bd717e2cce3d99242eb61f5d14c6",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.645972195772234,
+        "R@5": 26.737764235383736,
+        "R@10": 40.18282231955818,
+        "R@100": 78.70246937091348,
+        "SumR": 154.26902812162763
+      },
+      "source_main": {
+        "path": "<WORK>/file-44032210b5b8a9.npy",
+        "sha256": "46fb79809e57a05202de3a72a48eecd07457caf30c64dd00e206482b0c7086dc",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.645972195772234,
+        "R@5": 26.737764235383736,
+        "R@10": 40.18282231955818,
+        "R@100": 78.70246937091348,
+        "SumR": 154.26902812162763
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.620580206944709,
+        "R@5": 26.788548213038787,
+        "R@10": 40.01142639497239,
+        "R@100": 78.56281343236209,
+        "SumR": 153.98336824731797
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-bdda96da2fcb12.npy",
+        "sha256": "ab99d4326228a5ef60548f7374e9529d961c1dc23120a4b81e89447eaf1ce5bd",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.690408176220403,
+        "R@5": 26.725068240969975,
+        "R@10": 39.96064241731734,
+        "R@100": 78.86116930108551,
+        "SumR": 154.23728813559322
+      },
+      "source_main": {
+        "path": "<WORK>/file-a869a09d66c6dc.npy",
+        "sha256": "bb57cfb9b758210b2b6aaa7bf3bb908b9e0276c26a555232b4eef5b9978a63b5",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.690408176220403,
+        "R@5": 26.725068240969975,
+        "R@10": 39.96064241731734,
+        "R@100": 78.86116930108551,
+        "SumR": 154.23728813559322
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.652320192979115,
+        "R@5": 26.76315622421126,
+        "R@10": 39.586110582111345,
+        "R@100": 78.77229734018917,
+        "SumR": 153.7738843394909
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-051f37e6896ab3.npy",
+        "sha256": "374b60e460adb28db1e64291a81fca8aa707ca650b6b46c3c8cc80ee3612e14c",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "tvr",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.658558972005507,
+        "R@5": 36.51216154199174,
+        "R@10": 48.35245525470399,
+        "R@100": 86.25975217989904,
+        "SumR": 186.78292794860027
+      },
+      "source_main": {
+        "path": "<WORK>/file-07663977f10ec7.npy",
+        "sha256": "ec9ef9950f88c27dce03fb26dc40ff2d61c5a7afb1792913ef1e9f13f395713b",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.658558972005507,
+        "R@5": 36.51216154199174,
+        "R@10": 48.35245525470399,
+        "R@100": 86.25975217989904,
+        "SumR": 186.78292794860027
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.199632859109684,
+        "R@5": 36.59476824231299,
+        "R@10": 47.68242312987609,
+        "R@100": 86.2413951353832,
+        "SumR": 185.71821936668198
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-aff97bd0ad09dd.npy",
+        "sha256": "e8c6d8091b046be03d7cbebb51c4aecf77194de279e34cebfde533ebab9ddcb2",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.135383203304269,
+        "R@5": 36.75080312069757,
+        "R@10": 48.29738412115649,
+        "R@100": 86.52592932537861,
+        "SumR": 186.70949977053692
+      },
+      "source_main": {
+        "path": "<WORK>/file-b768e6071d230b.npy",
+        "sha256": "04bdc2920a7f2cbc12e4db987dc90887e152ebcddfcf599cd14f0bd9dce33df1",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.135383203304269,
+        "R@5": 36.75080312069757,
+        "R@10": 48.29738412115649,
+        "R@100": 86.52592932537861,
+        "SumR": 186.70949977053692
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.33731069297843,
+        "R@5": 36.52134006424966,
+        "R@10": 47.921064708581916,
+        "R@100": 86.34235888022029,
+        "SumR": 186.12207434603027
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-1dfc76a2a0999b.npy",
+        "sha256": "abad5bfcc9f62196bba3611b2b26e2c502892eff6f80b94badb3be8efba78cb1",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "DualClip",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 16.365305185865076,
+        "R@5": 37.439192290041305,
+        "R@10": 48.6369894446994,
+        "R@100": 86.6268930702157,
+        "SumR": 189.06837999082148
+      },
+      "source_main": {
+        "path": "<WORK>/file-feffbc67ed701b.npy",
+        "sha256": "280880e80d1772304a5b94abcf1466c2cdd0ffbfbf4e018cc2834535c76a1984",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 16.365305185865076,
+        "R@5": 37.439192290041305,
+        "R@10": 48.6369894446994,
+        "R@100": 86.6268930702157,
+        "SumR": 189.06837999082148
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.970628728774667,
+        "R@5": 36.98026617714548,
+        "R@10": 48.20559889857733,
+        "R@100": 86.66360715924736,
+        "SumR": 187.82010096374484
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-dd28f7bd1acfa8.npy",
+        "sha256": "b1edba1b46c49d7bcac29379301a7a3857dee1af99456deb1dd0a16f03a9ddb5",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "charades",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 1.9086021505376345,
+        "R@5": 7.634408602150538,
+        "R@10": 13.602150537634408,
+        "R@100": 53.60215053763441,
+        "SumR": 76.74731182795699
+      },
+      "source_main": {
+        "path": "<WORK>/file-081abb1fb00443.npy",
+        "sha256": "002afb269c94da3f0304cade1c077f862b3f7c82f548d6bbc538e6ecec29d135",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 1.9086021505376345,
+        "R@5": 7.634408602150538,
+        "R@10": 13.602150537634408,
+        "R@100": 53.60215053763441,
+        "SumR": 76.74731182795699
+      },
+      "weight_0.7_0.3": {
+        "R@1": 1.989247311827957,
+        "R@5": 7.526881720430108,
+        "R@10": 13.225806451612904,
+        "R@100": 53.494623655913976,
+        "SumR": 76.23655913978494
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-81a1f212b4cd7c.npy",
+        "sha256": "b4013a1957c9fb2dfd7bd81684e8f095f342b0272d30c330566bd6a650868087",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "charades",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.5806451612903225,
+        "R@5": 8.306451612903226,
+        "R@10": 14.13978494623656,
+        "R@100": 52.526881720430104,
+        "SumR": 77.55376344086021
+      },
+      "source_main": {
+        "path": "<WORK>/file-388f8f8e637522.npy",
+        "sha256": "ec32c448d25da24a2c3f273fb497ce57e0cdb7fc9ed07963c859b19641bc4207",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.5806451612903225,
+        "R@5": 8.306451612903226,
+        "R@10": 14.13978494623656,
+        "R@100": 52.526881720430104,
+        "SumR": 77.55376344086021
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.3118279569892475,
+        "R@5": 7.876344086021505,
+        "R@10": 13.279569892473118,
+        "R@100": 52.204301075268816,
+        "SumR": 75.67204301075269
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-e621ca96eee2f9.npy",
+        "sha256": "e8cc8952641a45bc5a8331b336be06dc8c789a91ed0e0df68a4f52fe53f49849",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "charades",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.602150537634408,
+        "R@10": 13.978494623655914,
+        "R@100": 53.17204301075269,
+        "SumR": 77.95698924731182
+      },
+      "source_main": {
+        "path": "<WORK>/file-e2f54621479fbf.npy",
+        "sha256": "46c93b643f3e0a121d7293b39ce397f6d833d8486c20a91b0c6a3988eadb143f",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.602150537634408,
+        "R@10": 13.978494623655914,
+        "R@100": 53.17204301075269,
+        "SumR": 77.95698924731182
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.1236559139784945,
+        "R@5": 8.655913978494624,
+        "R@10": 14.005376344086022,
+        "R@100": 52.553763440860216,
+        "SumR": 77.33870967741936
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-42d07a01df476e.npy",
+        "sha256": "bcfe2c2dcadbada61b152b1311b026472d80f7ef8cd89c6f731a265b1dddd3ef",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "activitynet",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.607884212530946,
+        "R@5": 26.731416238176855,
+        "R@10": 39.79559448993842,
+        "R@100": 78.60724941281026,
+        "SumR": 153.7421443534565
+      },
+      "source_main": {
+        "path": "<WORK>/file-946b3194decb37.npy",
+        "sha256": "485d9d175a3dc8df53611d741eddcf960957756a15c24c2f8d8f35abd607b069",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.607884212530946,
+        "R@5": 26.731416238176855,
+        "R@10": 39.79559448993842,
+        "R@100": 78.60724941281026,
+        "SumR": 153.7421443534565
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.56979622928966,
+        "R@5": 26.420364375039675,
+        "R@10": 39.61785056814575,
+        "R@100": 78.4929854630864,
+        "SumR": 153.10099663556147
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-32c2aeb7a70d06.npy",
+        "sha256": "34320233d516cd6f65a03f1b5a0d9ba6dd6b78789ab5138423cfcdede3a3dcb3",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.398400304703866,
+        "R@5": 27.02977210690027,
+        "R@10": 39.82733447597283,
+        "R@100": 78.47394147146575,
+        "SumR": 153.72944835904272
+      },
+      "source_main": {
+        "path": "<WORK>/file-f191944b9b0307.npy",
+        "sha256": "90944bc5f79c30be1e21cd330a5705de9de7a2a0658cc665e8842bf39977511c",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.398400304703866,
+        "R@5": 27.02977210690027,
+        "R@10": 39.82733447597283,
+        "R@100": 78.47394147146575,
+        "SumR": 153.72944835904272
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.31587634101441,
+        "R@5": 26.890116168348886,
+        "R@10": 39.71941852345585,
+        "R@100": 78.41046149939694,
+        "SumR": 153.3358725322161
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-17e4b3000d7a89.npy",
+        "sha256": "cb6a586510f89d325dc912c7f979312c8eecebc2ef2912a7488a40d1ea8a9977",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.645972195772234,
+        "R@5": 26.8520281851076,
+        "R@10": 39.903510442455406,
+        "R@100": 78.79768932901669,
+        "SumR": 154.19920015235192
+      },
+      "source_main": {
+        "path": "<WORK>/file-fb9b54116ea11f.npy",
+        "sha256": "ea5390e9eef561f6521dea40c68a88b9f092385f9260005633d77cfff6831956",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.645972195772234,
+        "R@5": 26.8520281851076,
+        "R@10": 39.903510442455406,
+        "R@100": 78.79768932901669,
+        "SumR": 154.19920015235192
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.42379229353139,
+        "R@5": 26.629848282866757,
+        "R@10": 39.77655049831778,
+        "R@100": 78.81673332063734,
+        "SumR": 153.64692439535327
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-91f829fe2794cf.npy",
+        "sha256": "622fd3392a6a00a8608bb292eaff6c3e493de3e4dbc7dd71a144247884575688",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "tvr",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.419917393299679,
+        "R@5": 36.77833868747132,
+        "R@10": 48.17806333180358,
+        "R@100": 86.4066085360257,
+        "SumR": 186.78292794860027
+      },
+      "source_main": {
+        "path": "<WORK>/file-bbd29446851576.npy",
+        "sha256": "124751ff74fc1648f26183ce91d186bb9b96b1a2b77a635334a555893610b7af",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.419917393299679,
+        "R@5": 36.77833868747132,
+        "R@10": 48.17806333180358,
+        "R@100": 86.4066085360257,
+        "SumR": 186.78292794860027
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.419917393299679,
+        "R@5": 36.346948141349245,
+        "R@10": 47.70995869664984,
+        "R@100": 86.37907296925195,
+        "SumR": 185.85589720055071
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-d65ee0fb5d60ae.npy",
+        "sha256": "1b4046b4e9862305bec1d36dc74dd6e90702c5e55acfa68c9b2d247c7a7650d4",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.933914639743001,
+        "R@5": 36.95273061037173,
+        "R@10": 48.33409821018816,
+        "R@100": 86.5718219366682,
+        "SumR": 187.7925653969711
+      },
+      "source_main": {
+        "path": "<WORK>/file-6d0a9ff40ee8c0.npy",
+        "sha256": "bcb6524423b5ec966118ffbd3c167fdc7ec5e3ba834ffd1884913ba2d5750ab9",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.933914639743001,
+        "R@5": 36.95273061037173,
+        "R@10": 48.33409821018816,
+        "R@100": 86.5718219366682,
+        "SumR": 187.7925653969711
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.915557595227169,
+        "R@5": 36.59476824231299,
+        "R@10": 48.0770995869665,
+        "R@100": 86.25975217989904,
+        "SumR": 186.8471776044057
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-1aca1f29f1eb2d.npy",
+        "sha256": "b9701bb455e99b9ccb3d7b08f7c6c50cba52a0cec5e35866139607d0d947aa2f",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "SparseFrame",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.695273061037174,
+        "R@5": 36.41119779715466,
+        "R@10": 48.26067003212483,
+        "R@100": 86.92060578246902,
+        "SumR": 187.28774667278566
+      },
+      "source_main": {
+        "path": "<WORK>/file-e66547bea6939b.npy",
+        "sha256": "48f585a7e8428369a93dd6162619525c2dade5311b297e9d321a0f66992002f0",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.695273061037174,
+        "R@5": 36.41119779715466,
+        "R@10": 48.26067003212483,
+        "R@100": 86.92060578246902,
+        "SumR": 187.28774667278566
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.575952271684258,
+        "R@5": 36.402019274896745,
+        "R@10": 47.62735199632859,
+        "R@100": 86.59017898118402,
+        "SumR": 186.19550252409363
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-23457aba1846da.npy",
+        "sha256": "eca043605bbaabe7ca47d0502773b0674815c252c04772dbbecb7bef01a006ff",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "charades",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.763440860215054,
+        "R@10": 14.24731182795699,
+        "R@100": 53.17204301075269,
+        "SumR": 78.38709677419355
+      },
+      "source_main": {
+        "path": "<WORK>/file-f3c0bc68eb4e32.npy",
+        "sha256": "3e26b13654e7bda6d1d1213838dd26f00ff87f9f3bca7671090c5e417c131b80",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.204301075268817,
+        "R@5": 8.763440860215054,
+        "R@10": 14.24731182795699,
+        "R@100": 53.17204301075269,
+        "SumR": 78.38709677419355
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.306451612903226,
+        "R@10": 14.274193548387096,
+        "R@100": 52.983870967741936,
+        "SumR": 77.8763440860215
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-534ac52bad9754.npy",
+        "sha256": "e506c60442a86e4b9c57c868dd47bd190d02ba9cb13b476bba946bcb952d175c",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "charades",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.1774193548387095,
+        "R@5": 8.333333333333334,
+        "R@10": 14.327956989247312,
+        "R@100": 52.096774193548384,
+        "SumR": 76.93548387096774
+      },
+      "source_main": {
+        "path": "<WORK>/file-7dcf4adda4bbdf.npy",
+        "sha256": "10de0cf0417c30035eb4b01df6e48102623f8c6ad96da8c3c10dd9da5a3f2374",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.1774193548387095,
+        "R@5": 8.333333333333334,
+        "R@10": 14.327956989247312,
+        "R@100": 52.096774193548384,
+        "SumR": 76.93548387096774
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.3118279569892475,
+        "R@5": 8.25268817204301,
+        "R@10": 13.790322580645162,
+        "R@100": 51.72043010752688,
+        "SumR": 76.0752688172043
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-d03f41102ff5e9.npy",
+        "sha256": "3f95e9ed690398a8185f7645495f4dad08e316a5ba25212df6f5a3b118c24005",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "charades",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 2.28494623655914,
+        "R@5": 8.763440860215054,
+        "R@10": 13.844086021505376,
+        "R@100": 52.876344086021504,
+        "SumR": 77.76881720430107
+      },
+      "source_main": {
+        "path": "<WORK>/file-af8ab107b472a0.npy",
+        "sha256": "e42b807a327b39f37732df7b518db6d717d49d929715bb5249a3a4e7ed939df6",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 2.28494623655914,
+        "R@5": 8.763440860215054,
+        "R@10": 13.844086021505376,
+        "R@100": 52.876344086021504,
+        "SumR": 77.76881720430107
+      },
+      "weight_0.7_0.3": {
+        "R@1": 2.4731182795698925,
+        "R@5": 8.440860215053764,
+        "R@10": 13.736559139784946,
+        "R@100": 52.795698924731184,
+        "SumR": 77.44623655913978
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-120685d9b37d5b.npy",
+        "sha256": "503ed886a0699cc01efefb35d988ee25d31eb020b65301ed2d8c320a1486b85c",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "activitynet",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.67771218180664,
+        "R@5": 26.826636196280074,
+        "R@10": 39.82733447597283,
+        "R@100": 78.53742144353457,
+        "SumR": 153.8691042975941
+      },
+      "source_main": {
+        "path": "<WORK>/file-97022f4b0df4ca.npy",
+        "sha256": "1d72c1edcdb96a4a9a2abb4167a7eedf7b2974e92c7852432e47109b6bc1416f",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.67771218180664,
+        "R@5": 26.826636196280074,
+        "R@10": 39.82733447597283,
+        "R@100": 78.53742144353457,
+        "SumR": 153.8691042975941
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.645972195772234,
+        "R@5": 26.902812162762647,
+        "R@10": 39.52263061004253,
+        "R@100": 78.53107344632768,
+        "SumR": 153.6024884149051
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-aabd5b82ae07a9.npy",
+        "sha256": "69100f060f3b292ecee7933342fdf823043c159acee0ce983fc76d2896879877",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 8.899892084047483,
+        "R@5": 27.404303942106264,
+        "R@10": 40.03047038659303,
+        "R@100": 78.80403732622358,
+        "SumR": 155.13870373897035
+      },
+      "source_main": {
+        "path": "<WORK>/file-fc17e47e91e9f6.npy",
+        "sha256": "81a9f3c1d67d3a4d7c97d01834070ef564b476e46291de18b8006a8f4112b014",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 8.899892084047483,
+        "R@5": 27.404303942106264,
+        "R@10": 40.03047038659303,
+        "R@100": 78.80403732622358,
+        "SumR": 155.13870373897035
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.791976131530502,
+        "R@5": 27.18212403986542,
+        "R@10": 40.10029835586872,
+        "R@100": 78.6580333904653,
+        "SumR": 154.73243191772997
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-4f3d08fd41fb69.npy",
+        "sha256": "3f6b7a93d96f36f311cd799064bd53133574013d3c1956b1ae226a4434d33f8f",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 9.115723989081445,
+        "R@5": 27.18212403986542,
+        "R@10": 40.39865422459214,
+        "R@100": 78.77229734018917,
+        "SumR": 155.4687995937282
+      },
+      "source_main": {
+        "path": "<WORK>/file-dc8eed23a0acf9.npy",
+        "sha256": "e68bd5e20dac8e0476afa79f33eae2ef31d6b8042d87f3c127f625edc4c37191",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 9.115723989081445,
+        "R@5": 27.18212403986542,
+        "R@10": 40.39865422459214,
+        "R@100": 78.77229734018917,
+        "SumR": 155.4687995937282
+      },
+      "weight_0.7_0.3": {
+        "R@1": 8.899892084047483,
+        "R@5": 26.883768171142005,
+        "R@10": 40.18282231955818,
+        "R@100": 78.56916142956896,
+        "SumR": 154.53564400431662
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-9068d0b93484ab.npy",
+        "sha256": "0b723f58a7ee19f2ee6d7bafe1f3f8fee036db3fb86eaf4b2ff44c285042f5a8",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "tvr",
+      "seed": 9527,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 16.007342817806332,
+        "R@5": 37.310692978430474,
+        "R@10": 49.09591555759523,
+        "R@100": 86.48003671408904,
+        "SumR": 188.89398806792107
+      },
+      "source_main": {
+        "path": "<WORK>/file-a66396fed4283d.npy",
+        "sha256": "6676b8bd1f50a261738bf98a33efaa1583f4bfdfa32aed80d8bc88f192cf5686",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 16.007342817806332,
+        "R@5": 37.310692978430474,
+        "R@10": 49.09591555759523,
+        "R@100": 86.48003671408904,
+        "SumR": 188.89398806792107
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.768701239100505,
+        "R@5": 36.95273061037173,
+        "R@10": 48.67370353373107,
+        "R@100": 86.32400183570445,
+        "SumR": 187.71913721890775
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-d28a6cd9bf9261.npy",
+        "sha256": "93b09194ce94a1e49aa0876a6550c26c0e4a9d56b00085c3c5748ff3cd1b01a7",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 15.759522716842588,
+        "R@5": 37.19137218907756,
+        "R@10": 48.912345112436896,
+        "R@100": 86.81964203763194,
+        "SumR": 188.68288205598898
+      },
+      "source_main": {
+        "path": "<WORK>/file-9dc20ba48d7eee.npy",
+        "sha256": "48a2d2a8cf4ee820adecfb3607231377bf28e9a97cb5aab7a84bbb607b8484f4",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 15.759522716842588,
+        "R@5": 37.19137218907756,
+        "R@10": 48.912345112436896,
+        "R@100": 86.81964203763194,
+        "SumR": 188.68288205598898
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.484167049105094,
+        "R@5": 36.78751720972923,
+        "R@10": 48.8022028453419,
+        "R@100": 86.53510784763652,
+        "SumR": 187.60899495181275
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-373ed5cfe4f38e.npy",
+        "sha256": "ee3cea8cd4ad25b803b288652e04b70269144652c81ff7cacde7886ab5b04730",
+        "storage": "repository-relative runtime artifact"
+      }
+    },
+    {
+      "method": "TrainedPool",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "original_weights": [
+        0.5,
+        0.5
+      ],
+      "original_main": {
+        "R@1": 16.089949518127582,
+        "R@5": 37.44837081229922,
+        "R@10": 48.893988067921065,
+        "R@100": 86.54428636989445,
+        "SumR": 188.9765947682423
+      },
+      "source_main": {
+        "path": "<WORK>/file-1783ae56f0f928.npy",
+        "sha256": "6b04255175d6bd4d96b04c4399f81eb41a4261408fba67f36d83623edca54ee1",
+        "storage": "repository-relative runtime artifact"
+      },
+      "weight_0.5_0.5": {
+        "R@1": 16.089949518127582,
+        "R@5": 37.44837081229922,
+        "R@10": 48.893988067921065,
+        "R@100": 86.54428636989445,
+        "SumR": 188.9765947682423
+      },
+      "weight_0.7_0.3": {
+        "R@1": 15.970628728774667,
+        "R@5": 36.301055530059664,
+        "R@10": 48.43506195502524,
+        "R@100": 86.2964662689307,
+        "SumR": 187.00321248279027
+      },
+      "source_secondary": {
+        "path": "<WORK>/file-6b0434d47c294f.npy",
+        "sha256": "3b112f8da8a392487f93b4bc380a1b97c7037da178cdd3c2d6b65e6b9d56212a",
+        "storage": "repository-relative runtime artifact"
+      }
+    }
+  ],
+  "summaries": {
+    "0.7_0.3": {
+      "B0": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              77.5,
+              76.82795698924731,
+              78.38709677419354
+            ],
+            "mean": 77.5716845878136,
+            "sample_sd": 0.7820378682314857
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              154.80860788421253,
+              154.87208785628133,
+              154.47216403224783
+            ],
+            "mean": 154.71761992424726,
+            "sample_sd": 0.21492759920814944
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              189.28866452501148,
+              187.48967416245983,
+              188.7012391005048
+            ],
+            "mean": 188.49319259599204,
+            "sample_sd": 0.9173625739959166
+          }
+        },
+        "three_dataset_mean": 140.26083236935096,
+        "Mean_Delta_vs_GMM": 0.0
+      },
+      "DualClip": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              77.84946236559139,
+              78.38709677419355,
+              77.5
+            ],
+            "mean": 77.91218637992831,
+            "sample_sd": 0.44686228099611974
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.08830064114773,
+              153.98336824731797,
+              153.7738843394909
+            ],
+            "mean": 153.61518440931886,
+            "sample_sd": 0.46816210417043597
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              185.71821936668198,
+              186.12207434603027,
+              187.82010096374484
+            ],
+            "mean": 186.5534648921524,
+            "sample_sd": 1.1153698554652225
+          }
+        },
+        "three_dataset_mean": 139.36027856046653,
+        "Mean_Delta_vs_GMM": -0.9005538088844484
+      },
+      "SparseFrame": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              76.23655913978494,
+              75.67204301075269,
+              77.33870967741936
+            ],
+            "mean": 76.415770609319,
+            "sample_sd": 0.8476626732102014
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.10099663556147,
+              153.3358725322161,
+              153.64692439535327
+            ],
+            "mean": 153.3612645210436,
+            "sample_sd": 0.27384821443691143
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              185.85589720055071,
+              186.8471776044057,
+              186.19550252409363
+            ],
+            "mean": 186.29952577635,
+            "sample_sd": 0.503760694699592
+          }
+        },
+        "three_dataset_mean": 138.69218696890422,
+        "Mean_Delta_vs_GMM": -1.5686454004467645
+      },
+      "TrainedPool": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              77.8763440860215,
+              76.0752688172043,
+              77.44623655913978
+            ],
+            "mean": 77.1326164874552,
+            "sample_sd": 0.9406041638270689
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.6024884149051,
+              154.73243191772997,
+              154.53564400431662
+            ],
+            "mean": 154.29018811231722,
+            "sample_sd": 0.6036385723940605
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              187.71913721890775,
+              187.60899495181275,
+              187.00321248279027
+            ],
+            "mean": 187.44378155117025,
+            "sample_sd": 0.38549793483248407
+          }
+        },
+        "three_dataset_mean": 139.62219538364755,
+        "Mean_Delta_vs_GMM": -0.638636985703414
+      }
+    },
+    "0.5_0.5": {
+      "B0": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              77.33870967741936,
+              76.3978494623656,
+              77.98387096774194
+            ],
+            "mean": 77.24014336917564,
+            "sample_sd": 0.7975917136728877
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              155.78619945407223,
+              155.3862756300387,
+              155.0879197613153
+            ],
+            "mean": 155.42013161514208,
+            "sample_sd": 0.35036881014820204
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              189.97705369435522,
+              188.70123910050484,
+              190.1514456172556
+            ],
+            "mean": 189.60991280403854,
+            "sample_sd": 0.7917506301314101
+          }
+        },
+        "three_dataset_mean": 140.7567292627854,
+        "Mean_Delta_vs_GMM": 0.0
+      },
+      "DualClip": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              78.36021505376344,
+              78.03763440860216,
+              78.46774193548387
+            ],
+            "mean": 78.28853046594982,
+            "sample_sd": 0.22383505370603132
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.58979242049134,
+              154.26902812162763,
+              154.23728813559322
+            ],
+            "mean": 154.03203622590408,
+            "sample_sd": 0.38332302859052475
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              186.78292794860027,
+              186.70949977053692,
+              189.06837999082148
+            ],
+            "mean": 187.5202692366529,
+            "sample_sd": 1.341205839799677
+          }
+        },
+        "three_dataset_mean": 139.94694530950227,
+        "Mean_Delta_vs_GMM": -0.8097839532831586
+      },
+      "SparseFrame": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              76.74731182795699,
+              77.55376344086021,
+              77.95698924731182
+            ],
+            "mean": 77.41935483870968,
+            "sample_sd": 0.6159375934080394
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.7421443534565,
+              153.72944835904272,
+              154.19920015235192
+            ],
+            "mean": 153.8902642882837,
+            "sample_sd": 0.2676216044141738
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              186.78292794860027,
+              187.7925653969711,
+              187.28774667278566
+            ],
+            "mean": 187.2877466727857,
+            "sample_sd": 0.5048187241854123
+          }
+        },
+        "three_dataset_mean": 139.53245526659302,
+        "Mean_Delta_vs_GMM": -1.2242739961923992
+      },
+      "TrainedPool": {
+        "datasets": {
+          "charades": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              78.38709677419355,
+              76.93548387096774,
+              77.76881720430107
+            ],
+            "mean": 77.69713261648745,
+            "sample_sd": 0.7284565980897014
+          },
+          "activitynet": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              153.8691042975941,
+              155.13870373897035,
+              155.4687995937282
+            ],
+            "mean": 154.82553587676423,
+            "sample_sd": 0.8445779079264687
+          },
+          "tvr": {
+            "seeds": [
+              9527,
+              20261024,
+              20261025
+            ],
+            "values": [
+              188.89398806792107,
+              188.68288205598898,
+              188.9765947682423
+            ],
+            "mean": 188.85115496405078,
+            "sample_sd": 0.15146879356875098
+          }
+        },
+        "three_dataset_mean": 140.45794115243416,
+        "Mean_Delta_vs_GMM": -0.29878811035126773
+      }
+    }
+  },
+  "contrasts": {
+    "0.7_0.3": {
+      "DualClip_minus_B0": {
+        "charades": {
+          "diff": 0.34050179211470777,
+          "welch_ci": [
+            -1.2626328732249883,
+            1.9436364574544038
+          ],
+          "df": 3.1802081426321993,
+          "standard_error": 0.5200221551450482,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -1.102435514928402,
+          "welch_ci": [
+            -2.086809250552193,
+            -0.11806177930461104
+          ],
+          "df": 2.807191265863102,
+          "standard_error": 0.2974164469127809,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -1.939727703839651,
+          "welch_ci": [
+            -4.2890952809640766,
+            0.40963987328477414
+          ],
+          "df": 3.856372364468229,
+          "standard_error": 0.8337873443208657,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -0.9005538088844484
+      },
+      "TrainedPool_minus_SparseFrame": {
+        "charades": {
+          "diff": 0.7168458781361977,
+          "welch_ci": [
+            -1.321484104866237,
+            2.7551758611386323
+          ],
+          "df": 3.957470600357731,
+          "standard_error": 0.7310422241710083,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": 0.928923591273616,
+          "welch_ci": [
+            -0.34259069206611303,
+            2.2004378746133453
+          ],
+          "df": 2.78978539664464,
+          "standard_error": 0.382697605006104,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": 1.1442557748202375,
+          "welch_ci": [
+            0.09943800349819121,
+            2.189073546142284
+          ],
+          "df": 3.74423838260542,
+          "standard_error": 0.36623466761277784,
+          "interpretation": "detectable positive",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": 0.9300084147433504
+      },
+      "SparseFrame_minus_B0": {
+        "charades": {
+          "diff": -1.1559139784946098,
+          "welch_ci": [
+            -3.009365559881168,
+            0.6975376028919487
+          ],
+          "df": 3.974305840215674,
+          "standard_error": 0.6658616560272139,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -1.3563554032036507,
+          "welch_ci": [
+            -1.927034225358576,
+            -0.7856765810487254
+          ],
+          "df": 3.7861814687249975,
+          "standard_error": 0.20098649826266402,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -2.193666819642033,
+          "welch_ci": [
+            -4.080146445564624,
+            -0.3071871937194408
+          ],
+          "df": 3.105674958733991,
+          "standard_error": 0.6042430332497648,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -1.5686454004467645
+      },
+      "TrainedPool_minus_B0": {
+        "charades": {
+          "diff": -0.43906810035841204,
+          "welch_ci": [
+            -2.4259422257055743,
+            1.5478060249887504
+          ],
+          "df": 3.8710009554882845,
+          "standard_error": 0.7062387274278829,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -0.42743181193003466,
+          "welch_ci": [
+            -1.7502003949701135,
+            0.8953367711100442
+          ],
+          "df": 2.4990752812437966,
+          "standard_error": 0.369942968119555,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -1.0494110448217953,
+          "welch_ci": [
+            -3.005284524218357,
+            0.9064624345747663
+          ],
+          "df": 2.6849929992700257,
+          "standard_error": 0.5745034812567932,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -0.638636985703414
+      }
+    },
+    "0.5_0.5": {
+      "DualClip_minus_B0": {
+        "charades": {
+          "diff": 1.048387096774178,
+          "welch_ci": [
+            -0.7643085785369277,
+            2.8610827720852834
+          ],
+          "df": 2.31309013991588,
+          "standard_error": 0.4782797901463241,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -1.3880953892380035,
+          "welch_ci": [
+            -2.223203412554383,
+            -0.5529873659216241
+          ],
+          "df": 3.968107574646898,
+          "standard_error": 0.29983042283513034,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -2.08964356738565,
+          "welch_ci": [
+            -4.833751252663594,
+            0.6544641178922945
+          ],
+          "df": 3.2429933676653997,
+          "standard_error": 0.8992037524065836,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -0.8097839532831586
+      },
+      "TrainedPool_minus_SparseFrame": {
+        "charades": {
+          "diff": 0.27777777777777146,
+          "welch_ci": [
+            -1.2682010993208273,
+            1.8237566548763702
+          ],
+          "df": 3.8924480701362953,
+          "standard_error": 0.5507655684813362,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": 0.935271588480532,
+          "welch_ci": [
+            -0.9502974058172815,
+            2.8208405827783456
+          ],
+          "df": 2.3976184001190703,
+          "standard_error": 0.5115118655211129,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": 1.563408291265091,
+          "welch_ci": [
+            0.4270412433967852,
+            2.6997753391333967
+          ],
+          "df": 2.357214979915103,
+          "standard_error": 0.3042941229103624,
+          "interpretation": "detectable positive",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": 0.9254858858411316
+      },
+      "SparseFrame_minus_B0": {
+        "charades": {
+          "diff": 0.17921146953403877,
+          "welch_ci": [
+            -1.4777259626406303,
+            1.8361489017087078
+          ],
+          "df": 3.7596414195073207,
+          "standard_error": 0.5818165978762669,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -1.5298673268583798,
+          "welch_ci": [
+            -2.2563123873874478,
+            -0.8034222663293116
+          ],
+          "df": 3.7410799645506905,
+          "standard_error": 0.2545451016184777,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -2.3221661312528568,
+          "welch_ci": [
+            -3.9391649408420117,
+            -0.7051673216637018
+          ],
+          "df": 3.3954951576669976,
+          "standard_error": 0.5421288298924505,
+          "interpretation": "detectable negative",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -1.2242739961923992
+      },
+      "TrainedPool_minus_B0": {
+        "charades": {
+          "diff": 0.45698924731181023,
+          "welch_ci": [
+            -1.2801260653887037,
+            2.194104560012324
+          ],
+          "df": 3.967561288424423,
+          "standard_error": 0.6236456143837017,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "activitynet": {
+          "diff": -0.5945957383778477,
+          "welch_ci": [
+            -2.3990767618931392,
+            1.2098852851374438
+          ],
+          "df": 2.668583534260744,
+          "standard_error": 0.5279110233369879,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "tvr": {
+          "diff": -0.7587578399877657,
+          "welch_ci": [
+            -2.636038913175015,
+            1.1185232331994832
+          ],
+          "df": 2.1462002601455152,
+          "standard_error": 0.4654072967980691,
+          "interpretation": "no detectable difference",
+          "independent_three_seed_samples": true
+        },
+        "Mean_Delta": -0.29878811035126773
+      }
+    }
+  },
+  "decision": {
+    "criterion_met": false,
+    "action": "Stop this comparison and refer the decision for review",
+    "paper_sentence": null,
+    "paper_modified": false
+  },
+  "existing_cells": {
+    "main_36": true,
+    "control_secondary_27": true,
+    "GMM_equal_seed9527_3": true
+  },
+  "newly_computed_only_missing": [
+    {
+      "method": "B0",
+      "dataset": "charades",
+      "seed": 20261024,
+      "SumR": 76.3978494623656,
+      "new_model_forward_calls": 0
+    },
+    {
+      "method": "B0",
+      "dataset": "charades",
+      "seed": 20261025,
+      "SumR": 77.98387096774194,
+      "new_model_forward_calls": 0
+    },
+    {
+      "method": "B0",
+      "dataset": "activitynet",
+      "seed": 20261024,
+      "SumR": 155.3862756300387,
+      "new_model_forward_calls": 0
+    },
+    {
+      "method": "B0",
+      "dataset": "activitynet",
+      "seed": 20261025,
+      "SumR": 155.0879197613153,
+      "new_model_forward_calls": 0
+    },
+    {
+      "method": "B0",
+      "dataset": "tvr",
+      "seed": 20261024,
+      "SumR": 188.70123910050484,
+      "new_model_forward_calls": 0
+    },
+    {
+      "method": "B0",
+      "dataset": "tvr",
+      "seed": 20261025,
+      "SumR": 190.1514456172556,
+      "new_model_forward_calls": 0
+    }
+  ],
+  "resources": {
+    "device": "cpu",
+    "start_utc": "2026-11-22T14:33:15.652978+00:00",
+    "end_utc": "2026-11-22T14:33:33.725209+00:00",
+    "elapsed_seconds": 18.07224095519632,
+    "nice": 19,
+    "CPU_threads": 1,
+    "affinity": [
+      1
+    ],
+    "GPU_used": false
+  },
+  "unavailable": []
+}

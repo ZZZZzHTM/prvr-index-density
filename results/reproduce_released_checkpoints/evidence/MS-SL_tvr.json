@@ -1,0 +1,633 @@
+{
+  "status": "PASS",
+  "method": "MS-SL",
+  "dataset": "tvr",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-62d5cde0b7859e.ckpt",
+      "bytes": 19433219,
+      "mtime_ns": 1793381396441679618,
+      "sha256": "921d82ad9046ac63a4ce9639433497a21b50a7893710848ea7a64283779df2f8"
+    },
+    "checkpoint_epoch": 96,
+    "checkpoint_keys": [
+      "model",
+      "model_cfg",
+      "epoch"
+    ],
+    "checkpoint_model_val": null,
+    "source_config": "<WORK>/file-dbaf713cc23048.json",
+    "checkpoint_config": {
+      "visual_input_size": 3072,
+      "query_input_size": 768,
+      "hidden_size": 384,
+      "max_ctx_l": 128,
+      "max_desc_l": 30,
+      "map_size": 32,
+      "input_drop": 0.1,
+      "device": [
+        0
+      ],
+      "drop": 0.1,
+      "n_heads": 4,
+      "initializer_range": 0.02,
+      "margin": 0.1,
+      "use_hard_negative": true,
+      "hard_pool_size": 20
+    },
+    "effective_config": {
+      "dset_name": "tvr",
+      "eval_split_name": "val",
+      "debug": false,
+      "results_root": "results",
+      "exp_id": "checkpoint_tvr",
+      "seed": 2018,
+      "device": 0,
+      "device_ids": [
+        0
+      ],
+      "num_workers": 8,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "lr": 0.00025,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "bsz": 128,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 200,
+      "eval_untrained": false,
+      "grad_clip": -1,
+      "margin": 0.1,
+      "train_span_start_epoch": 0,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "max_sub_l": 50,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "train_path": null,
+      "eval_path": null,
+      "sub_feat_size": 768,
+      "q_feat_size": 768,
+      "no_norm_vfeat": false,
+      "no_norm_tfeat": false,
+      "vid_feat_size": null,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.1,
+      "drop": 0.1,
+      "initializer_range": 0.02,
+      "model_name": "MS_SL_Net",
+      "root_path": "<RELEASED>/file-f7125710fe2fc3",
+      "visual_feature": "i3d_resnet",
+      "collection": "tvr",
+      "map_size": 32,
+      "use_sub": false,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "results_dir": "checkpoint_tvr"
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 2018,
+    "num_workers": 0,
+    "parameters": 4852992,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 124
+      },
+      "encode_query": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 117
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 250
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 184
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 260
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 125
+      },
+      "collate_text": {
+        "file": "<WORK>/file-1ba6fae91100ec.py",
+        "line": 144
+      },
+      "key_clip_guided_attention": {
+        "file": "<WORK>/file-fe6f468c3c39bd.py",
+        "line": 229
+      }
+    }
+  },
+  "encoding": {
+    "seconds": 72.55406680889428,
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-6b8eca7ec41c36.npy",
+        "bytes": 428408960,
+        "mtime_ns": 1793389429979260344,
+        "sha256": "b3aab1d6a8006868fb86d9db88b1a51c8197c6099f08dba541716d4b231af8fb"
+      },
+      "clips": {
+        "path": "<WORK>/file-88bbce90fc3af5.npy",
+        "bytes": 1767186560,
+        "mtime_ns": 1793389430242253380,
+        "sha256": "ffd360193fc3b8661798a2ebd08e65ef11669f630746b51c217f0493cedeabaa"
+      },
+      "mask": {
+        "path": "<WORK>/file-3526c0e52d2ed6.npy",
+        "bytes": 279040,
+        "mtime_ns": 1793389430242253380,
+        "sha256": "77cac42d1cfc32dfd0104a5c1709c64750824b0348f438a770e74a8af36f9e4c"
+      },
+      "query": {
+        "path": "<WORK>/file-a0b71f23afe002.npy",
+        "bytes": 16734848,
+        "mtime_ns": 1793389437994048732,
+        "sha256": "6624e8f88e01f9dc57acc5471898caa7154cd6f2b218827a9b5e13234c78a176"
+      }
+    },
+    "frames_length_min": 6,
+    "frames_length_max": 123
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 13.501606241395136,
+        "R@5": 32.060578246902246,
+        "R@10": 43.38687471317118,
+        "R@100": 83.43276732446076,
+        "SumR": 172.38182652592934
+      },
+      "hit_counts": {
+        "R@1": 1471,
+        "R@5": 3493,
+        "R@10": 4727,
+        "R@100": 9090
+      },
+      "ranks": {
+        "path": "<WORK>/file-edcb0d11d76f5b.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793389793003030867,
+        "sha256": "2ee2317587bb92c8421808c680da8610eab5dc674513f30e66bf533cafef779b"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 12.748967416245984,
+          "R@5": 30.711335474988527,
+          "R@10": 41.87241854061496,
+          "R@100": 82.18448829738412,
+          "SumR": 167.5172097292336
+        },
+        "hit_counts": {
+          "R@1": 1389,
+          "R@5": 3346,
+          "R@10": 4562,
+          "R@100": 8954
+        },
+        "ranks": {
+          "path": "<WORK>/file-d0521d05295f9f.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793389793455537155,
+          "sha256": "980a6da5059413902b953d5a964f957d806cfeedeb265afbf013b5718d5157a5"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 10.004589261128958,
+          "R@5": 26.782927948600275,
+          "R@10": 36.89765947682423,
+          "R@100": 79.1647544745296,
+          "SumR": 152.84993116108308
+        },
+        "hit_counts": {
+          "R@1": 1090,
+          "R@5": 2918,
+          "R@10": 4020,
+          "R@100": 8625
+        },
+        "ranks": {
+          "path": "<WORK>/file-7a1055e554e43c.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793389793914503610,
+          "sha256": "3540dbbf30ee8be3a8fa0a7f91eaab7c620d12a6c8247bad158dbb9f60420de7"
+        }
+      },
+      "nominal_vectors": 656,
+      "mean_actual_vectors": 656.0,
+      "mean_valid_vectors": 578.5176686553465,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-708e5abaa22fab.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793389792391831458,
+          "sha256": "c9423e8ffc25fbbbfb2cf1661ab2e5711c1a4a7e1f40128dbc2915bc320a5235"
+        },
+        "frame": {
+          "path": "<WORK>/file-b2be5b5a657acf.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793389792392831438,
+          "sha256": "9ee81f75d55dd0e1cc1447fd968ffb682635d7b62d4e49c8e3e0f7ee37d71f9a"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 350.6550832890207,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": null,
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 2.682209014892578e-07,
+      "key_clip_indices": {
+        "path": "<WORK>/file-a9a7bc61bdb9b5.npy",
+        "bytes": 47480538,
+        "mtime_ns": 1793389792389831500,
+        "sha256": "302f83e96b6aebaf4cabbddaceaa7a1c8c48d3d66627759d8fe0e872bfa24f74"
+      }
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 13.602569986232217,
+        "R@5": 32.335933914639746,
+        "R@10": 43.818265259293256,
+        "R@100": 83.6163377696191,
+        "SumR": 173.3731069297843
+      },
+      "hit_counts": {
+        "R@1": 1482,
+        "R@5": 3523,
+        "R@10": 4774,
+        "R@100": 9110
+      },
+      "ranks": {
+        "path": "<WORK>/file-20e45baf5c37e7.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793389938054912173,
+        "sha256": "ab68bf574b85f0a0515d75c52115785cf9f62ef3d8f57ca296e6c8634bcb4f7a"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 12.748967416245984,
+          "R@5": 30.711335474988527,
+          "R@10": 41.87241854061496,
+          "R@100": 82.18448829738412,
+          "SumR": 167.5172097292336
+        },
+        "hit_counts": {
+          "R@1": 1389,
+          "R@5": 3346,
+          "R@10": 4562,
+          "R@100": 8954
+        },
+        "ranks": {
+          "path": "<WORK>/file-e8934bcd36ca84.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793389938469653058,
+          "sha256": "980a6da5059413902b953d5a964f957d806cfeedeb265afbf013b5718d5157a5"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 10.380908673703534,
+          "R@5": 27.801743919229004,
+          "R@10": 38.375401560348784,
+          "R@100": 80.03671408903166,
+          "SumR": 156.59476824231297
+        },
+        "hit_counts": {
+          "R@1": 1131,
+          "R@5": 3029,
+          "R@10": 4181,
+          "R@100": 8720
+        },
+        "ranks": {
+          "path": "<WORK>/file-0c7213a66e305d.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793389938885758857,
+          "sha256": "14a2eccf131e0e7d90679237427f1a2634934072c322407f0b125da504352e43"
+        }
+      },
+      "nominal_vectors": 536,
+      "mean_actual_vectors": 535.9990821477742,
+      "mean_valid_vectors": 535.9990821477742,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 7.9990821477742085,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-c5bee310b52060.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793389937505932720,
+          "sha256": "c9423e8ffc25fbbbfb2cf1661ab2e5711c1a4a7e1f40128dbc2915bc320a5235"
+        },
+        "frame": {
+          "path": "<WORK>/file-16622bb896d792.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793389937506932701,
+          "sha256": "80f06bebe115600d43b320811c6eb52b31db6916904f3345c42f3c77b65ad291"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 140.59694123791996,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": true,
+      "unchanged_branch_reuse_max_abs_error": 8.940696716308594e-08,
+      "delta_SumR": 0.9912804038549723
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 13.40982101881597,
+        "R@5": 32.060578246902246,
+        "R@10": 43.57044515832951,
+        "R@100": 83.44194584671868,
+        "SumR": 172.4827902707664
+      },
+      "hit_counts": {
+        "R@1": 1461,
+        "R@5": 3493,
+        "R@10": 4747,
+        "R@100": 9091
+      },
+      "ranks": {
+        "path": "<WORK>/file-453670012d8173.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390076744316698,
+        "sha256": "e7bf4a9e84970f59ceda06eaadabea7a6ee8132f0260e83aec76450875479d7a"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 12.748967416245984,
+          "R@5": 30.711335474988527,
+          "R@10": 41.87241854061496,
+          "R@100": 82.18448829738412,
+          "SumR": 167.5172097292336
+        },
+        "hit_counts": {
+          "R@1": 1389,
+          "R@5": 3346,
+          "R@10": 4562,
+          "R@100": 8954
+        },
+        "ranks": {
+          "path": "<WORK>/file-13f634a1b74597.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390077221993702,
+          "sha256": "980a6da5059413902b953d5a964f957d806cfeedeb265afbf013b5718d5157a5"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 9.821018815970628,
+          "R@5": 27.223497016980268,
+          "R@10": 37.93483249196879,
+          "R@100": 79.47682423129876,
+          "SumR": 154.45617255621846
+        },
+        "hit_counts": {
+          "R@1": 1070,
+          "R@5": 2966,
+          "R@10": 4133,
+          "R@100": 8659
+        },
+        "ranks": {
+          "path": "<WORK>/file-c4cb4bbc9393a1.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390077699322893,
+          "sha256": "5fd64703a8a37df1e29944ae79de2ded61f522adaa0917ad5316ac5868143d73"
+        }
+      },
+      "nominal_vectors": 544,
+      "mean_actual_vectors": 543.9935750344195,
+      "mean_valid_vectors": 543.9935750344195,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 15.99357503441946,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-cf360cabc02155.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390075811333780,
+          "sha256": "c9423e8ffc25fbbbfb2cf1661ab2e5711c1a4a7e1f40128dbc2915bc320a5235"
+        },
+        "frame": {
+          "path": "<WORK>/file-404e218e740042.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390075813333744,
+          "sha256": "d94443a2f08b8725cea7ae63e5f7705030ba4edd7aa002575030ba2ad4074872"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 139.0029697449645,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": true,
+      "unchanged_branch_reuse_max_abs_error": 5.960464477539063e-08,
+      "delta_SumR": 0.10096374483705972
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 13.5933914639743,
+        "R@5": 31.730151445617256,
+        "R@10": 43.27673244607618,
+        "R@100": 83.3409821018816,
+        "SumR": 171.94125745754934
+      },
+      "hit_counts": {
+        "R@1": 1481,
+        "R@5": 3457,
+        "R@10": 4715,
+        "R@100": 9080
+      },
+      "ranks": {
+        "path": "<WORK>/file-2ab5dbc16c7c40.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390259969305769,
+        "sha256": "e43eda3e38162da3e873355ba08c757cc2445853dadd06c3381164e743e069c0"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 12.748967416245984,
+          "R@5": 30.711335474988527,
+          "R@10": 41.87241854061496,
+          "R@100": 82.18448829738412,
+          "SumR": 167.5172097292336
+        },
+        "hit_counts": {
+          "R@1": 1389,
+          "R@5": 3346,
+          "R@10": 4562,
+          "R@100": 8954
+        },
+        "ranks": {
+          "path": "<WORK>/file-100cacb7a53995.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390260433547168,
+          "sha256": "980a6da5059413902b953d5a964f957d806cfeedeb265afbf013b5718d5157a5"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 9.885268471776044,
+          "R@5": 26.53510784763653,
+          "R@10": 36.91601652134006,
+          "R@100": 79.17393299678751,
+          "SumR": 152.51032583754017
+        },
+        "hit_counts": {
+          "R@1": 1077,
+          "R@5": 2891,
+          "R@10": 4022,
+          "R@100": 8626
+        },
+        "ranks": {
+          "path": "<WORK>/file-0cb710b10b6fb9.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390260895056309,
+          "sha256": "f2a551138736140cf8a92cab49e1cf2b719804a1a0047a5a10b2e590d8063acd"
+        }
+      },
+      "nominal_vectors": 560,
+      "mean_actual_vectors": 560.0,
+      "mean_valid_vectors": 560.0,
+      "mean_clip_vectors": 528.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-67f12ae6cb9200.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390259061378343,
+          "sha256": "c9423e8ffc25fbbbfb2cf1661ab2e5711c1a4a7e1f40128dbc2915bc320a5235"
+        },
+        "frame": {
+          "path": "<WORK>/file-b323ac69fee944.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390259063072229,
+          "sha256": "44a328f2fe5141b622ff5bd1b57d74a41e0fb5ae955d1f6ec34a658195d285f5"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 183.15742048900574,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": true,
+      "unchanged_branch_reuse_max_abs_error": 2.8312206268310547e-07,
+      "delta_SumR": -0.4405690683800003
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-492706c512b9d2.md",
+      "line": 111,
+      "text": "| Text-to-Video | 13.5 | 32.1 | 43.4 | 83.4  | 172.3 |",
+      "metrics": {
+        "R@1": 13.5,
+        "R@5": 32.1,
+        "R@10": 43.4,
+        "R@100": 83.4,
+        "SumR": 172.3
+      }
+    },
+    "delta_vs_README": {
+      "R@1": 0.0016062413951356547,
+      "R@5": -0.03942175309775564,
+      "R@10": -0.013125286828817195,
+      "R@100": 0.03276732446074959,
+      "SumR": 0.08182652592932982
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-820feb376f51fa.npy",
+      "counts": "<WORK>/file-a7cdf546f33351.npy",
+      "min_vectors": 6,
+      "max_vectors": 8,
+      "mean_vectors": 7.9990821477742085
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-862803e2336555.npy",
+      "counts": "<WORK>/file-effe5c5255731e.npy",
+      "min_vectors": 6,
+      "max_vectors": 16,
+      "mean_vectors": 15.99357503441946
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-bff06e6a287076.npy",
+      "counts": "<WORK>/file-2bc7c3f3abf17d.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    }
+  },
+  "queries": 10895,
+  "videos": 2179,
+  "id_order": {
+    "path": "<WORK>/file-d12fa931a070dc.json",
+    "bytes": 502335,
+    "mtime_ns": 1793389367283076816,
+    "sha256": "9920bf3dc747017a0b656560632aedc8f6c4349b74f3e776b4f6f73043e13e63"
+  },
+  "probe": {
+    "path": "<WORK>/file-ad85cafc60b2c1.json",
+    "bytes": 3229,
+    "mtime_ns": 1793382462949961719,
+    "sha256": "8f0a80c3b2c93a16f467746aee6b6261a6ab30863d725c144352a2e934bdc04c"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [],
+    "seconds": 902.3628205109853,
+    "peak_RSS_MiB": 5215.26171875
+  }
+}

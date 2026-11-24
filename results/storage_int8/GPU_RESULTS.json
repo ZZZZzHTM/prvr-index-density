@@ -1,0 +1,3583 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-29T19:35:50.444174+00:00",
+  "admission": {
+    "utc": "2026-10-29T19:35:44.584220+00:00",
+    "monotonic": 924017.109701546,
+    "gpu": 2,
+    "all_compute_apps": [
+      {
+        "pid": 2177978,
+        "name": "<ENV>/file-3ba1d3c99dabd4",
+        "memory_MiB": "11052"
+      },
+      {
+        "pid": 2221942,
+        "name": "<ENV>/file-3ba1d3c99dabd4",
+        "memory_MiB": "12904"
+      },
+      {
+        "pid": 2177851,
+        "name": "<ENV>/file-3ba1d3c99dabd4",
+        "memory_MiB": "14840"
+      },
+      {
+        "pid": 2234245,
+        "name": "<ENV>/file-3ba1d3c99dabd4",
+        "memory_MiB": "7964"
+      }
+    ],
+    "selected_compute_apps": [],
+    "foreign_compute_apps": [],
+    "reset_monotonic": null,
+    "continuous_idle_seconds": 777.4745326610282,
+    "sampling_seconds": 10,
+    "maximum_gap_seconds": 25,
+    "batch_reservation_released": true,
+    "ready": true,
+    "measurement_pid": 2262588,
+    "admission_utc": "2026-10-29T19:35:50.157234+00:00",
+    "batch_B_release": {
+      "released_for_this_measurement": true,
+      "utc": "2026-10-29T19:26:55.743499+00:00",
+      "source": "User explicitly authorized GPU2; batch B waits for 300s whole-card idle; stop and re-wait on foreign compute; remeasure B0 and Uniform32 throughput in same session"
+    }
+  },
+  "cases": [
+    {
+      "dataset": "charades",
+      "model": "Ward8",
+      "query_ids": [
+        "68JOO#enc#3",
+        "Y1FKP#enc#3",
+        "S2FLE#enc#1",
+        "S2FLE#enc#0",
+        "54XD1#enc#3",
+        "Y1FKP#enc#2",
+        "78FJX#enc#2",
+        "NOLQ7#enc#0",
+        "RRDAM#enc#0",
+        "K6DF2#enc#4",
+        "9UDMH#enc#0",
+        "MU54W#enc#1",
+        "UR7C8#enc#2",
+        "V10LX#enc#0",
+        "LKSBL#enc#0",
+        "RSRZ0#enc#2",
+        "CTOQR#enc#0",
+        "CBPJF#enc#1",
+        "PABBK#enc#1",
+        "SCHOY#enc#1",
+        "XIG01#enc#2",
+        "CLW8L#enc#1",
+        "TXJK7#enc#0",
+        "UGWOG#enc#2",
+        "SAT9P#enc#3",
+        "NXC5X#enc#2",
+        "ACAK4#enc#2",
+        "U3VOM#enc#0",
+        "LH6LE#enc#3",
+        "EPP0O#enc#0",
+        "K7FNC#enc#1",
+        "TODWV#enc#2",
+        "EDPTO#enc#1",
+        "HHAM7#enc#1",
+        "6C65Z#enc#0",
+        "GKII3#enc#0",
+        "8WPPG#enc#0",
+        "953I1#enc#0",
+        "VX1GX#enc#0",
+        "X58SH#enc#1",
+        "VX1GX#enc#1",
+        "XJE4Y#enc#3",
+        "HAIVQ#enc#2",
+        "X3ASU#enc#1",
+        "HAIVQ#enc#3",
+        "OOEME#enc#1",
+        "R9382#enc#3",
+        "XFRYR#enc#0",
+        "X3952#enc#0",
+        "63XVB#enc#0",
+        "CBXVQ#enc#1",
+        "ZKNHG#enc#0",
+        "QRHJJ#enc#0",
+        "7FTBS#enc#2",
+        "5IW8A#enc#0",
+        "AST4H#enc#1",
+        "LFPLP#enc#3",
+        "NY5LX#enc#0",
+        "BQ6UI#enc#1",
+        "QXT9W#enc#3",
+        "LB4AR#enc#0",
+        "QXT9W#enc#1",
+        "T0HLX#enc#1",
+        "99WON#enc#0",
+        "DLQIT#enc#0",
+        "WIPMO#enc#0",
+        "FVPMC#enc#5",
+        "XBXKO#enc#0",
+        "WREDC#enc#0",
+        "WT9CR#enc#0",
+        "XJU8U#enc#2",
+        "K3IGM#enc#5",
+        "PG32H#enc#1",
+        "5EDX4#enc#0",
+        "SCTNB#enc#0",
+        "OLELC#enc#2",
+        "QIQUA#enc#0",
+        "JQKR5#enc#0",
+        "UB2EJ#enc#1",
+        "KKGJ8#enc#4",
+        "73E7V#enc#1",
+        "KKGJ8#enc#0",
+        "5AFC1#enc#0",
+        "E7QDZ#enc#2",
+        "R4ENI#enc#2",
+        "TSYR3#enc#1",
+        "SB7CW#enc#0",
+        "V8JOH#enc#0",
+        "KNN3G#enc#3",
+        "9RSGO#enc#0",
+        "IO712#enc#2",
+        "BQXVG#enc#0",
+        "FZBK6#enc#0",
+        "V9W9C#enc#1",
+        "3FEYY#enc#1",
+        "U7Z37#enc#0",
+        "X75PJ#enc#0",
+        "82B2V#enc#0",
+        "B8DL6#enc#2",
+        "0I0FX#enc#0",
+        "B8DL6#enc#0",
+        "P68QV#enc#1",
+        "U2FA5#enc#1",
+        "2MAZY#enc#0",
+        "IZ2XX#enc#0",
+        "673VM#enc#2",
+        "K1M15#enc#0",
+        "NO9MI#enc#1",
+        "SQY6A#enc#0",
+        "FHXKQ#enc#0",
+        "3C8OG#enc#3",
+        "YBVVZ#enc#3",
+        "3C8OG#enc#0",
+        "4GWNV#enc#0",
+        "2LMQF#enc#4",
+        "I31V9#enc#4",
+        "TMATS#enc#0",
+        "IGT82#enc#0",
+        "CLORP#enc#7",
+        "D9UO2#enc#0",
+        "I9SSV#enc#0",
+        "2LTCY#enc#1",
+        "FTG07#enc#0",
+        "099Y1#enc#1",
+        "937EW#enc#1",
+        "2XSK6#enc#3",
+        "3R7NX#enc#2",
+        "RWPS8#enc#1"
+      ],
+      "videos": 534,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61448.0,
+          "padded_total_bytes": 32813232,
+          "valid_total_bytes": 32813232,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15528.0,
+          "padded_total_bytes": 8291952,
+          "valid_total_bytes": 8291952,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 6144800000,
+          "free_before_bytes": 47045214208,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.04349973797798157,
+                  0.041052561020478606,
+                  0.039550737012177706,
+                  0.038774931919761,
+                  0.03550722892396152
+                ],
+                "q1_ms": 38.774931919761,
+                "median_ms": 39.550737012177706,
+                "q3_ms": 41.052561020478606,
+                "iqr_ms": 2.277629100717604,
+                "median_ms_per_item": 0.3089901329076383,
+                "throughput_items_per_second": {
+                  "median": 3236.3492988914136,
+                  "q1": 3117.9540768759502,
+                  "q3": 3301.1018630510325,
+                  "iqr": 183.14778617508227
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6296398336,
+                "peak_reserved_bytes": 6377439232
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.035727615002542734,
+                  0.03565627499483526,
+                  0.040671796072274446,
+                  0.03441275598015636,
+                  0.03430955903604627
+                ],
+                "q1_ms": 34.41275598015636,
+                "median_ms": 35.65627499483526,
+                "q3_ms": 35.727615002542734,
+                "iqr_ms": 1.314859022386372,
+                "median_ms_per_item": 0.27856464839715045,
+                "throughput_items_per_second": {
+                  "median": 3589.8309629522587,
+                  "q1": 3582.6628783054857,
+                  "q3": 3719.5509733021504,
+                  "iqr": 136.88809499666468
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6277861888,
+                    "baseline_reserved_bytes": 6377439232,
+                    "gpu_peak_allocated_bytes": 6296398336,
+                    "gpu_peak_reserved_bytes": 6377439232,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6296398336,
+                "peak_reserved_bytes": 6377439232
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 6144800000,
+          "fits_with_batch128_workspace": true
+        },
+        {
+          "mode": "fp32",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 61448000000,
+          "free_before_bytes": 46936162304,
+          "total_device_bytes": 47665709056,
+          "status": "does_not_fit",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [],
+          "capacity_evidence": "actual CUDA allocation/search OOM",
+          "error": "CUDA out of memory. Tried to allocate 45.78 GiB. GPU 0 has a total capacity of 44.39 GiB of which 43.69 GiB is free. Including non-PyTorch memory, this process has 700.00 MiB memory in use. Of the allocated memory 152.27 MiB is allocated by PyTorch, and 43.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+        },
+        {
+          "mode": "int8",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 15528000000,
+          "free_before_bytes": 46936162304,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.46643111598677933,
+                  0.4663140788907185,
+                  0.4664964550174773,
+                  0.466312253032811,
+                  0.46659011801239103
+                ],
+                "q1_ms": 466.3140788907185,
+                "median_ms": 466.43111598677933,
+                "q3_ms": 466.4964550174773,
+                "iqr_ms": 0.18237612675875425,
+                "median_ms_per_item": 3.6439930936467135,
+                "throughput_items_per_second": {
+                  "median": 274.4242303157752,
+                  "q1": 274.38579355378914,
+                  "q3": 274.4931062439507,
+                  "iqr": 0.10731269016156375
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15742184960,
+                "peak_reserved_bytes": 15774777344
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.46653386496473104,
+                  0.46640613896306604,
+                  0.46659130207262933,
+                  0.4663291210308671,
+                  0.4666530709946528
+                ],
+                "q1_ms": 466.40613896306604,
+                "median_ms": 466.53386496473104,
+                "q3_ms": 466.59130207262933,
+                "iqr_ms": 0.18516310956329107,
+                "median_ms_per_item": 3.6447958200369612,
+                "throughput_items_per_second": {
+                  "median": 274.3637913823823,
+                  "q1": 274.3300173651235,
+                  "q3": 274.43892630696297,
+                  "iqr": 0.1089089418394451
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15660733952,
+                    "baseline_reserved_bytes": 15774777344,
+                    "gpu_peak_allocated_bytes": 15742184960,
+                    "gpu_peak_reserved_bytes": 15774777344,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15742184960,
+                "peak_reserved_bytes": 15774777344
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 15528000000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "charades",
+      "model": "B0",
+      "query_ids": [
+        "68JOO#enc#3",
+        "Y1FKP#enc#3",
+        "S2FLE#enc#1",
+        "S2FLE#enc#0",
+        "54XD1#enc#3",
+        "Y1FKP#enc#2",
+        "78FJX#enc#2",
+        "NOLQ7#enc#0",
+        "RRDAM#enc#0",
+        "K6DF2#enc#4",
+        "9UDMH#enc#0",
+        "MU54W#enc#1",
+        "UR7C8#enc#2",
+        "V10LX#enc#0",
+        "LKSBL#enc#0",
+        "RSRZ0#enc#2",
+        "CTOQR#enc#0",
+        "CBPJF#enc#1",
+        "PABBK#enc#1",
+        "SCHOY#enc#1",
+        "XIG01#enc#2",
+        "CLW8L#enc#1",
+        "TXJK7#enc#0",
+        "UGWOG#enc#2",
+        "SAT9P#enc#3",
+        "NXC5X#enc#2",
+        "ACAK4#enc#2",
+        "U3VOM#enc#0",
+        "LH6LE#enc#3",
+        "EPP0O#enc#0",
+        "K7FNC#enc#1",
+        "TODWV#enc#2",
+        "EDPTO#enc#1",
+        "HHAM7#enc#1",
+        "6C65Z#enc#0",
+        "GKII3#enc#0",
+        "8WPPG#enc#0",
+        "953I1#enc#0",
+        "VX1GX#enc#0",
+        "X58SH#enc#1",
+        "VX1GX#enc#1",
+        "XJE4Y#enc#3",
+        "HAIVQ#enc#2",
+        "X3ASU#enc#1",
+        "HAIVQ#enc#3",
+        "OOEME#enc#1",
+        "R9382#enc#3",
+        "XFRYR#enc#0",
+        "X3952#enc#0",
+        "63XVB#enc#0",
+        "CBXVQ#enc#1",
+        "ZKNHG#enc#0",
+        "QRHJJ#enc#0",
+        "7FTBS#enc#2",
+        "5IW8A#enc#0",
+        "AST4H#enc#1",
+        "LFPLP#enc#3",
+        "NY5LX#enc#0",
+        "BQ6UI#enc#1",
+        "QXT9W#enc#3",
+        "LB4AR#enc#0",
+        "QXT9W#enc#1",
+        "T0HLX#enc#1",
+        "99WON#enc#0",
+        "DLQIT#enc#0",
+        "WIPMO#enc#0",
+        "FVPMC#enc#5",
+        "XBXKO#enc#0",
+        "WREDC#enc#0",
+        "WT9CR#enc#0",
+        "XJU8U#enc#2",
+        "K3IGM#enc#5",
+        "PG32H#enc#1",
+        "5EDX4#enc#0",
+        "SCTNB#enc#0",
+        "OLELC#enc#2",
+        "QIQUA#enc#0",
+        "JQKR5#enc#0",
+        "UB2EJ#enc#1",
+        "KKGJ8#enc#4",
+        "73E7V#enc#1",
+        "KKGJ8#enc#0",
+        "5AFC1#enc#0",
+        "E7QDZ#enc#2",
+        "R4ENI#enc#2",
+        "TSYR3#enc#1",
+        "SB7CW#enc#0",
+        "V8JOH#enc#0",
+        "KNN3G#enc#3",
+        "9RSGO#enc#0",
+        "IO712#enc#2",
+        "BQXVG#enc#0",
+        "FZBK6#enc#0",
+        "V9W9C#enc#1",
+        "3FEYY#enc#1",
+        "U7Z37#enc#0",
+        "X75PJ#enc#0",
+        "82B2V#enc#0",
+        "B8DL6#enc#2",
+        "0I0FX#enc#0",
+        "B8DL6#enc#0",
+        "P68QV#enc#1",
+        "U2FA5#enc#1",
+        "2MAZY#enc#0",
+        "IZ2XX#enc#0",
+        "673VM#enc#2",
+        "K1M15#enc#0",
+        "NO9MI#enc#1",
+        "SQY6A#enc#0",
+        "FHXKQ#enc#0",
+        "3C8OG#enc#3",
+        "YBVVZ#enc#3",
+        "3C8OG#enc#0",
+        "4GWNV#enc#0",
+        "2LMQF#enc#4",
+        "I31V9#enc#4",
+        "TMATS#enc#0",
+        "IGT82#enc#0",
+        "CLORP#enc#7",
+        "D9UO2#enc#0",
+        "I9SSV#enc#0",
+        "2LTCY#enc#1",
+        "FTG07#enc#0",
+        "099Y1#enc#1",
+        "937EW#enc#1",
+        "2XSK6#enc#3",
+        "3R7NX#enc#2",
+        "RWPS8#enc#1"
+      ],
+      "videos": 534,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 245768,
+          "valid_bytes_per_video": 186905.2584269663,
+          "padded_total_bytes": 131240112,
+          "valid_total_bytes": 99807408,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 24576800000,
+          "free_before_bytes": 46936162304,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.10743034305050969,
+                  0.1067603820702061,
+                  0.10671781108248979,
+                  0.10659105505328625,
+                  0.10604882705956697
+                ],
+                "q1_ms": 106.59105505328625,
+                "median_ms": 106.71781108248979,
+                "q3_ms": 106.7603820702061,
+                "iqr_ms": 0.1693270169198513,
+                "median_ms_per_item": 0.8337328990819515,
+                "throughput_items_per_second": {
+                  "median": 1199.4249010697913,
+                  "q1": 1198.9466271844797,
+                  "q3": 1200.8512340553448,
+                  "iqr": 1.9046068708651092
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24779222528,
+                "peak_reserved_bytes": 25144852480
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.10733757796697319,
+                  0.10721300006844103,
+                  0.10753691801801324,
+                  0.1066923999460414,
+                  0.1054459570441395
+                ],
+                "q1_ms": 106.6923999460414,
+                "median_ms": 107.21300006844103,
+                "q3_ms": 107.33757796697319,
+                "iqr_ms": 0.6451780209317803,
+                "median_ms_per_item": 0.8376015630346956,
+                "throughput_items_per_second": {
+                  "median": 1193.8850691454327,
+                  "q1": 1192.4994249393671,
+                  "q3": 1199.7105704317712,
+                  "iqr": 7.211145492404057
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24709730816,
+                    "baseline_reserved_bytes": 25144852480,
+                    "gpu_peak_allocated_bytes": 24779222528,
+                    "gpu_peak_reserved_bytes": 25144852480,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24779222528,
+                "peak_reserved_bytes": 25144852480
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 24576800000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "charades",
+      "model": "Uniform32",
+      "query_ids": [
+        "68JOO#enc#3",
+        "Y1FKP#enc#3",
+        "S2FLE#enc#1",
+        "S2FLE#enc#0",
+        "54XD1#enc#3",
+        "Y1FKP#enc#2",
+        "78FJX#enc#2",
+        "NOLQ7#enc#0",
+        "RRDAM#enc#0",
+        "K6DF2#enc#4",
+        "9UDMH#enc#0",
+        "MU54W#enc#1",
+        "UR7C8#enc#2",
+        "V10LX#enc#0",
+        "LKSBL#enc#0",
+        "RSRZ0#enc#2",
+        "CTOQR#enc#0",
+        "CBPJF#enc#1",
+        "PABBK#enc#1",
+        "SCHOY#enc#1",
+        "XIG01#enc#2",
+        "CLW8L#enc#1",
+        "TXJK7#enc#0",
+        "UGWOG#enc#2",
+        "SAT9P#enc#3",
+        "NXC5X#enc#2",
+        "ACAK4#enc#2",
+        "U3VOM#enc#0",
+        "LH6LE#enc#3",
+        "EPP0O#enc#0",
+        "K7FNC#enc#1",
+        "TODWV#enc#2",
+        "EDPTO#enc#1",
+        "HHAM7#enc#1",
+        "6C65Z#enc#0",
+        "GKII3#enc#0",
+        "8WPPG#enc#0",
+        "953I1#enc#0",
+        "VX1GX#enc#0",
+        "X58SH#enc#1",
+        "VX1GX#enc#1",
+        "XJE4Y#enc#3",
+        "HAIVQ#enc#2",
+        "X3ASU#enc#1",
+        "HAIVQ#enc#3",
+        "OOEME#enc#1",
+        "R9382#enc#3",
+        "XFRYR#enc#0",
+        "X3952#enc#0",
+        "63XVB#enc#0",
+        "CBXVQ#enc#1",
+        "ZKNHG#enc#0",
+        "QRHJJ#enc#0",
+        "7FTBS#enc#2",
+        "5IW8A#enc#0",
+        "AST4H#enc#1",
+        "LFPLP#enc#3",
+        "NY5LX#enc#0",
+        "BQ6UI#enc#1",
+        "QXT9W#enc#3",
+        "LB4AR#enc#0",
+        "QXT9W#enc#1",
+        "T0HLX#enc#1",
+        "99WON#enc#0",
+        "DLQIT#enc#0",
+        "WIPMO#enc#0",
+        "FVPMC#enc#5",
+        "XBXKO#enc#0",
+        "WREDC#enc#0",
+        "WT9CR#enc#0",
+        "XJU8U#enc#2",
+        "K3IGM#enc#5",
+        "PG32H#enc#1",
+        "5EDX4#enc#0",
+        "SCTNB#enc#0",
+        "OLELC#enc#2",
+        "QIQUA#enc#0",
+        "JQKR5#enc#0",
+        "UB2EJ#enc#1",
+        "KKGJ8#enc#4",
+        "73E7V#enc#1",
+        "KKGJ8#enc#0",
+        "5AFC1#enc#0",
+        "E7QDZ#enc#2",
+        "R4ENI#enc#2",
+        "TSYR3#enc#1",
+        "SB7CW#enc#0",
+        "V8JOH#enc#0",
+        "KNN3G#enc#3",
+        "9RSGO#enc#0",
+        "IO712#enc#2",
+        "BQXVG#enc#0",
+        "FZBK6#enc#0",
+        "V9W9C#enc#1",
+        "3FEYY#enc#1",
+        "U7Z37#enc#0",
+        "X75PJ#enc#0",
+        "82B2V#enc#0",
+        "B8DL6#enc#2",
+        "0I0FX#enc#0",
+        "B8DL6#enc#0",
+        "P68QV#enc#1",
+        "U2FA5#enc#1",
+        "2MAZY#enc#0",
+        "IZ2XX#enc#0",
+        "673VM#enc#2",
+        "K1M15#enc#0",
+        "NO9MI#enc#1",
+        "SQY6A#enc#0",
+        "FHXKQ#enc#0",
+        "3C8OG#enc#3",
+        "YBVVZ#enc#3",
+        "3C8OG#enc#0",
+        "4GWNV#enc#0",
+        "2LMQF#enc#4",
+        "I31V9#enc#4",
+        "TMATS#enc#0",
+        "IGT82#enc#0",
+        "CLORP#enc#7",
+        "D9UO2#enc#0",
+        "I9SSV#enc#0",
+        "2LTCY#enc#1",
+        "FTG07#enc#0",
+        "099Y1#enc#1",
+        "937EW#enc#1",
+        "2XSK6#enc#3",
+        "3R7NX#enc#2",
+        "RWPS8#enc#1"
+      ],
+      "videos": 534,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 98312,
+          "valid_bytes_per_video": 98312.0,
+          "padded_total_bytes": 52498608,
+          "valid_total_bytes": 52498608,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 9831200000,
+          "free_before_bytes": 46936162304,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.046148792025633156,
+                  0.04564159002620727,
+                  0.04519854101818055,
+                  0.04499155096709728,
+                  0.04511804797220975
+                ],
+                "q1_ms": 45.11804797220975,
+                "median_ms": 45.19854101818055,
+                "q3_ms": 45.64159002620727,
+                "iqr_ms": 0.5235420539975166,
+                "median_ms_per_item": 0.35311360170453554,
+                "throughput_items_per_second": {
+                  "median": 2831.9498177720734,
+                  "q1": 2804.4597027952527,
+                  "q3": 2837.0021699263452,
+                  "iqr": 32.54246713109251
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9983715840,
+                "peak_reserved_bytes": 10091495424
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.04529595491476357,
+                  0.04505053209140897,
+                  0.044888966949656606,
+                  0.04509251692797989,
+                  0.04495825699996203
+                ],
+                "q1_ms": 44.95825699996203,
+                "median_ms": 45.05053209140897,
+                "q3_ms": 45.09251692797989,
+                "iqr_ms": 0.1342599280178547,
+                "median_ms_per_item": 0.35195728196413256,
+                "throughput_items_per_second": {
+                  "median": 2841.253899960247,
+                  "q1": 2838.6084592358616,
+                  "q3": 2847.085464191997,
+                  "iqr": 8.47700495613526
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9964655104,
+                    "baseline_reserved_bytes": 10091495424,
+                    "gpu_peak_allocated_bytes": 9983715840,
+                    "gpu_peak_reserved_bytes": 10091495424,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9983715840,
+                "peak_reserved_bytes": 10091495424
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 9831200000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "activitynet",
+      "model": "Ward8",
+      "query_ids": [
+        "v_rAuz_Pf3lp8#enc#0",
+        "v_IWuiVS3-Z7k#enc#2",
+        "v_aDDq5ofaFHI#enc#1",
+        "v_BsceC-igcTY#enc#0",
+        "v_gV6W0rAHyZg#enc#0",
+        "v_JBTiD2-FcR0#enc#2",
+        "v_Q-HdDcyC9d8#enc#2",
+        "v_CtooIi6Mk7U#enc#0",
+        "v_6EN1q4TmPtI#enc#1",
+        "v_7n9It_jjaBg#enc#2",
+        "v_WEoelJQYlxk#enc#1",
+        "v_e6Dhfn1d3ic#enc#1",
+        "v_HvzJ-RJOF9Q#enc#1",
+        "v_kZMDKbfIis0#enc#1",
+        "v_uLXSOqRSa4A#enc#2",
+        "v_UIrn2ziRgEM#enc#4",
+        "v_xx5TLuZmjcE#enc#1",
+        "v_OVRYoPA6h-Y#enc#1",
+        "v_B4LYBLihttQ#enc#0",
+        "v_9yktj7NCdFI#enc#0",
+        "v_M6sXLVNtTSA#enc#2",
+        "v_61W153jXL3U#enc#2",
+        "v_ekgfptN7tQk#enc#2",
+        "v_zfi8f5NnYaY#enc#0",
+        "v_uHLEUps_ahs#enc#0",
+        "v_6Epn-R6sg5U#enc#0",
+        "v_uaqcvxz_5fY#enc#0",
+        "v_1P_BTFhNZFo#enc#4",
+        "v_KBfCXpgGhdw#enc#1",
+        "v__BJqPK0NNZU#enc#7",
+        "v_OCT2h1kmZoA#enc#6",
+        "v_fqOp0uhdEyM#enc#0",
+        "v_xrbKvttgcMA#enc#2",
+        "v_rWoSJ9YBy5E#enc#2",
+        "v_rtJTJ10ppRc#enc#2",
+        "v_uR-o9wILN6U#enc#1",
+        "v_29k1TypoU4w#enc#0",
+        "v_pbeQcGC3nXY#enc#1",
+        "v_kbK-9Me0BnA#enc#2",
+        "v_vjVtKL3xd8w#enc#1",
+        "v_GAEavSUmQRk#enc#2",
+        "v_8rimo9x4qqw#enc#1",
+        "v_aRurjtzwmS8#enc#2",
+        "v_W0RYvQUUNe0#enc#0",
+        "v_RMrL2txm79c#enc#2",
+        "v_RMrL2txm79c#enc#0",
+        "v_8B4M8AsGZmQ#enc#1",
+        "v_KjXvBqmh5C4#enc#0",
+        "v_fgP3D3Gqn6U#enc#0",
+        "v_65rZgGe7Zr4#enc#0",
+        "v_X1vyuNazaIc#enc#1",
+        "v_m4ef0fCA2WU#enc#3",
+        "v_6gzU9P-5tqE#enc#3",
+        "v_R_HDifqMHSY#enc#3",
+        "v_4r0qYLCucEI#enc#6",
+        "v_mvomkmq32vU#enc#1",
+        "v_jCyrQzXK4eI#enc#0",
+        "v_ytvIoI5uwFA#enc#0",
+        "v_NLTd7qCLT7o#enc#1",
+        "v_SZqwvjwqwK4#enc#4",
+        "v_xCplsH6deic#enc#2",
+        "v_OhgsnOwo4b4#enc#2",
+        "v_P17kaxPrbdc#enc#1",
+        "v_sHRajZw7A8g#enc#2",
+        "v_sHxzQu_4edY#enc#1",
+        "v_Cw5NDI8NnZU#enc#0",
+        "v_oXqzXQRqAhI#enc#1",
+        "v_4Y94njisJd0#enc#0",
+        "v_0_BvBpwDMpU#enc#0",
+        "v_63lmoqLxB8c#enc#0",
+        "v_wuZkli4TSZQ#enc#2",
+        "v_GMwV9roiBYo#enc#2",
+        "v_cXw6os9Xk5c#enc#2",
+        "v_55bimE5eU9E#enc#2",
+        "v_Qm7AL0RjHxI#enc#0",
+        "v_QdvC8Xt-ym0#enc#2",
+        "v_PFn7a6eEhb4#enc#3",
+        "v_97McCuWAynA#enc#1",
+        "v_ZOeQh2-ci3M#enc#6",
+        "v__uPVFvEQocU#enc#0",
+        "v_Qwj7f4vqveo#enc#4",
+        "v_1P_y_DLlg-E#enc#0",
+        "v_6cha8sVi65k#enc#2",
+        "v_SfYJTxMRKDE#enc#4",
+        "v_eL0LrJio1XE#enc#0",
+        "v_5K6oT9zBjVE#enc#1",
+        "v_r4F2X_MlL-U#enc#2",
+        "v_2RfasAe0-tA#enc#2",
+        "v_TIue1jR51j8#enc#0",
+        "v_9FaSaHgQSO8#enc#1",
+        "v_tAleUKVZCD8#enc#2",
+        "v_LLLuBjEVHI8#enc#3",
+        "v__m8WprCWHF4#enc#2",
+        "v_RBkieLmOUlQ#enc#0",
+        "v_0fw8it7Gj7k#enc#1",
+        "v_Mvl-TR0rDdA#enc#0",
+        "v_ngE2y5ExVqw#enc#1",
+        "v_8VPiqCCOPWg#enc#4",
+        "v_8qzR38WgsS8#enc#1",
+        "v_QElXIVBV-gk#enc#0",
+        "v_H5Z__A99EG4#enc#1",
+        "v_ral5Oaib_vk#enc#4",
+        "v_zi_TdMQffkU#enc#2",
+        "v_PNdG3SUdJzc#enc#2",
+        "v_olFThb2_GHM#enc#1",
+        "v_JavaLreBqtI#enc#3",
+        "v_Pyf_5Bffu5A#enc#2",
+        "v_IdhpB7doBOE#enc#2",
+        "v_1AxGiLSmGZo#enc#1",
+        "v_PcSnU_nGi5E#enc#0",
+        "v_FkWxS_5VxsM#enc#6",
+        "v_o6lTgyb_AkM#enc#2",
+        "v_IjFlVNAWQec#enc#0",
+        "v_d0h_l9bE1o0#enc#2",
+        "v_EqqqGf4wLH0#enc#3",
+        "v_He7CDkVm_aE#enc#1",
+        "v_3YdmY4oPE5s#enc#1",
+        "v_PgS2F7NxNBg#enc#2",
+        "v_-fBTCykx4gM#enc#0",
+        "v_cGNkR-JvaJs#enc#17",
+        "v_cGNkR-JvaJs#enc#7",
+        "v_6GIWY4-491k#enc#5",
+        "v_Jb8YAhQ6EMk#enc#1",
+        "v_lcwR7eA-VOY#enc#1",
+        "v_Mk9n7isIyBs#enc#3",
+        "v_Mk9n7isIyBs#enc#1",
+        "v_0PyY_iHBZHk#enc#0",
+        "v_hFtmkU7wdx4#enc#5"
+      ],
+      "videos": 905,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61439.5138121547,
+          "padded_total_bytes": 55610440,
+          "valid_total_bytes": 55602760,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15525.85635359116,
+          "padded_total_bytes": 14052840,
+          "valid_total_bytes": 14050900,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 6144800000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.034379648976027966,
+                  0.034449594910256565,
+                  0.03475930099375546,
+                  0.03435040300246328,
+                  0.034290848998352885
+                ],
+                "q1_ms": 34.35040300246328,
+                "median_ms": 34.379648976027966,
+                "q3_ms": 34.449594910256565,
+                "iqr_ms": 0.09919190779328346,
+                "median_ms_per_item": 0.2685910076252185,
+                "throughput_items_per_second": {
+                  "median": 3723.1328362093245,
+                  "q1": 3715.573443851759,
+                  "q3": 3726.3027158901473,
+                  "iqr": 10.729272038388444
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6297840128,
+                "peak_reserved_bytes": 6402605056
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.034511850913986564,
+                  0.03454012901056558,
+                  0.035512160044163465,
+                  0.03460269095376134,
+                  0.034626767970621586
+                ],
+                "q1_ms": 34.54012901056558,
+                "median_ms": 34.60269095376134,
+                "q3_ms": 34.626767970621586,
+                "iqr_ms": 0.08663896005600691,
+                "median_ms_per_item": 0.27033352307626046,
+                "throughput_items_per_second": {
+                  "median": 3699.1342716970485,
+                  "q1": 3696.562154128827,
+                  "q3": 3705.8344501505976,
+                  "iqr": 9.272296021770671
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6279303680,
+                    "baseline_reserved_bytes": 6402605056,
+                    "gpu_peak_allocated_bytes": 6297840128,
+                    "gpu_peak_reserved_bytes": 6402605056,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6297840128,
+                "peak_reserved_bytes": 6402605056
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 6144800000,
+          "fits_with_batch128_workspace": true
+        },
+        {
+          "mode": "fp32",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 61448000000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "does_not_fit",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [],
+          "capacity_evidence": "actual CUDA allocation/search OOM",
+          "error": "CUDA out of memory. Tried to allocate 45.78 GiB. GPU 0 has a total capacity of 44.39 GiB of which 43.69 GiB is free. Including non-PyTorch memory, this process has 698.00 MiB memory in use. Of the allocated memory 170.07 MiB is allocated by PyTorch, and 23.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+        },
+        {
+          "mode": "int8",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 15528000000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.46039640298113227,
+                  0.46040317800361663,
+                  0.46042474394198507,
+                  0.46053152601234615,
+                  0.460357753909193
+                ],
+                "q1_ms": 460.39640298113227,
+                "median_ms": 460.40317800361663,
+                "q3_ms": 460.42474394198507,
+                "iqr_ms": 0.0283409608528018,
+                "median_ms_per_item": 3.596899828153255,
+                "throughput_items_per_second": {
+                  "median": 278.0171947444605,
+                  "q1": 278.0041726344064,
+                  "q3": 278.0212859422484,
+                  "iqr": 0.017113307842009817
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15743626752,
+                "peak_reserved_bytes": 15766388736
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.4604727409314364,
+                  0.46048066194634885,
+                  0.4604627600638196,
+                  0.4605736380908638,
+                  0.4605154739692807
+                ],
+                "q1_ms": 460.4727409314364,
+                "median_ms": 460.48066194634885,
+                "q3_ms": 460.5154739692807,
+                "iqr_ms": 0.04273303784430027,
+                "median_ms_per_item": 3.5975051714558504,
+                "throughput_items_per_second": {
+                  "median": 277.97041347832635,
+                  "q1": 277.9494006938373,
+                  "q3": 277.97519510293654,
+                  "iqr": 0.02579440909926234
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15662175744,
+                    "baseline_reserved_bytes": 15766388736,
+                    "gpu_peak_allocated_bytes": 15743626752,
+                    "gpu_peak_reserved_bytes": 15766388736,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15743626752,
+                "peak_reserved_bytes": 15766388736
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 15528000000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "activitynet",
+      "model": "B0",
+      "query_ids": [
+        "v_rAuz_Pf3lp8#enc#0",
+        "v_IWuiVS3-Z7k#enc#2",
+        "v_aDDq5ofaFHI#enc#1",
+        "v_BsceC-igcTY#enc#0",
+        "v_gV6W0rAHyZg#enc#0",
+        "v_JBTiD2-FcR0#enc#2",
+        "v_Q-HdDcyC9d8#enc#2",
+        "v_CtooIi6Mk7U#enc#0",
+        "v_6EN1q4TmPtI#enc#1",
+        "v_7n9It_jjaBg#enc#2",
+        "v_WEoelJQYlxk#enc#1",
+        "v_e6Dhfn1d3ic#enc#1",
+        "v_HvzJ-RJOF9Q#enc#1",
+        "v_kZMDKbfIis0#enc#1",
+        "v_uLXSOqRSa4A#enc#2",
+        "v_UIrn2ziRgEM#enc#4",
+        "v_xx5TLuZmjcE#enc#1",
+        "v_OVRYoPA6h-Y#enc#1",
+        "v_B4LYBLihttQ#enc#0",
+        "v_9yktj7NCdFI#enc#0",
+        "v_M6sXLVNtTSA#enc#2",
+        "v_61W153jXL3U#enc#2",
+        "v_ekgfptN7tQk#enc#2",
+        "v_zfi8f5NnYaY#enc#0",
+        "v_uHLEUps_ahs#enc#0",
+        "v_6Epn-R6sg5U#enc#0",
+        "v_uaqcvxz_5fY#enc#0",
+        "v_1P_BTFhNZFo#enc#4",
+        "v_KBfCXpgGhdw#enc#1",
+        "v__BJqPK0NNZU#enc#7",
+        "v_OCT2h1kmZoA#enc#6",
+        "v_fqOp0uhdEyM#enc#0",
+        "v_xrbKvttgcMA#enc#2",
+        "v_rWoSJ9YBy5E#enc#2",
+        "v_rtJTJ10ppRc#enc#2",
+        "v_uR-o9wILN6U#enc#1",
+        "v_29k1TypoU4w#enc#0",
+        "v_pbeQcGC3nXY#enc#1",
+        "v_kbK-9Me0BnA#enc#2",
+        "v_vjVtKL3xd8w#enc#1",
+        "v_GAEavSUmQRk#enc#2",
+        "v_8rimo9x4qqw#enc#1",
+        "v_aRurjtzwmS8#enc#2",
+        "v_W0RYvQUUNe0#enc#0",
+        "v_RMrL2txm79c#enc#2",
+        "v_RMrL2txm79c#enc#0",
+        "v_8B4M8AsGZmQ#enc#1",
+        "v_KjXvBqmh5C4#enc#0",
+        "v_fgP3D3Gqn6U#enc#0",
+        "v_65rZgGe7Zr4#enc#0",
+        "v_X1vyuNazaIc#enc#1",
+        "v_m4ef0fCA2WU#enc#3",
+        "v_6gzU9P-5tqE#enc#3",
+        "v_R_HDifqMHSY#enc#3",
+        "v_4r0qYLCucEI#enc#6",
+        "v_mvomkmq32vU#enc#1",
+        "v_jCyrQzXK4eI#enc#0",
+        "v_ytvIoI5uwFA#enc#0",
+        "v_NLTd7qCLT7o#enc#1",
+        "v_SZqwvjwqwK4#enc#4",
+        "v_xCplsH6deic#enc#2",
+        "v_OhgsnOwo4b4#enc#2",
+        "v_P17kaxPrbdc#enc#1",
+        "v_sHRajZw7A8g#enc#2",
+        "v_sHxzQu_4edY#enc#1",
+        "v_Cw5NDI8NnZU#enc#0",
+        "v_oXqzXQRqAhI#enc#1",
+        "v_4Y94njisJd0#enc#0",
+        "v_0_BvBpwDMpU#enc#0",
+        "v_63lmoqLxB8c#enc#0",
+        "v_wuZkli4TSZQ#enc#2",
+        "v_GMwV9roiBYo#enc#2",
+        "v_cXw6os9Xk5c#enc#2",
+        "v_55bimE5eU9E#enc#2",
+        "v_Qm7AL0RjHxI#enc#0",
+        "v_QdvC8Xt-ym0#enc#2",
+        "v_PFn7a6eEhb4#enc#3",
+        "v_97McCuWAynA#enc#1",
+        "v_ZOeQh2-ci3M#enc#6",
+        "v__uPVFvEQocU#enc#0",
+        "v_Qwj7f4vqveo#enc#4",
+        "v_1P_y_DLlg-E#enc#0",
+        "v_6cha8sVi65k#enc#2",
+        "v_SfYJTxMRKDE#enc#4",
+        "v_eL0LrJio1XE#enc#0",
+        "v_5K6oT9zBjVE#enc#1",
+        "v_r4F2X_MlL-U#enc#2",
+        "v_2RfasAe0-tA#enc#2",
+        "v_TIue1jR51j8#enc#0",
+        "v_9FaSaHgQSO8#enc#1",
+        "v_tAleUKVZCD8#enc#2",
+        "v_LLLuBjEVHI8#enc#3",
+        "v__m8WprCWHF4#enc#2",
+        "v_RBkieLmOUlQ#enc#0",
+        "v_0fw8it7Gj7k#enc#1",
+        "v_Mvl-TR0rDdA#enc#0",
+        "v_ngE2y5ExVqw#enc#1",
+        "v_8VPiqCCOPWg#enc#4",
+        "v_8qzR38WgsS8#enc#1",
+        "v_QElXIVBV-gk#enc#0",
+        "v_H5Z__A99EG4#enc#1",
+        "v_ral5Oaib_vk#enc#4",
+        "v_zi_TdMQffkU#enc#2",
+        "v_PNdG3SUdJzc#enc#2",
+        "v_olFThb2_GHM#enc#1",
+        "v_JavaLreBqtI#enc#3",
+        "v_Pyf_5Bffu5A#enc#2",
+        "v_IdhpB7doBOE#enc#2",
+        "v_1AxGiLSmGZo#enc#1",
+        "v_PcSnU_nGi5E#enc#0",
+        "v_FkWxS_5VxsM#enc#6",
+        "v_o6lTgyb_AkM#enc#2",
+        "v_IjFlVNAWQec#enc#0",
+        "v_d0h_l9bE1o0#enc#2",
+        "v_EqqqGf4wLH0#enc#3",
+        "v_He7CDkVm_aE#enc#1",
+        "v_3YdmY4oPE5s#enc#1",
+        "v_PgS2F7NxNBg#enc#2",
+        "v_-fBTCykx4gM#enc#0",
+        "v_cGNkR-JvaJs#enc#17",
+        "v_cGNkR-JvaJs#enc#7",
+        "v_6GIWY4-491k#enc#5",
+        "v_Jb8YAhQ6EMk#enc#1",
+        "v_lcwR7eA-VOY#enc#1",
+        "v_Mk9n7isIyBs#enc#3",
+        "v_Mk9n7isIyBs#enc#1",
+        "v_0PyY_iHBZHk#enc#0",
+        "v_hFtmkU7wdx4#enc#5"
+      ],
+      "videos": 905,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 245768,
+          "valid_bytes_per_video": 217298.53701657458,
+          "padded_total_bytes": 222420040,
+          "valid_total_bytes": 196655176,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 24576800000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.11064629093743861,
+                  0.11055208893958479,
+                  0.11054043495096266,
+                  0.11092453403398395,
+                  0.110149878077209
+                ],
+                "q1_ms": 110.54043495096266,
+                "median_ms": 110.55208893958479,
+                "q3_ms": 110.64629093743861,
+                "iqr_ms": 0.10585598647594452,
+                "median_ms_per_item": 0.8636881948405062,
+                "throughput_items_per_second": {
+                  "median": 1157.8252498688673,
+                  "q1": 1156.8395010400618,
+                  "q3": 1157.9473163533567,
+                  "iqr": 1.10781531329485
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24780664320,
+                "peak_reserved_bytes": 25214058496
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.11094145092647523,
+                  0.11048626399133354,
+                  0.11079015594441444,
+                  0.11028447805438191,
+                  0.11109542706981301
+                ],
+                "q1_ms": 110.48626399133354,
+                "median_ms": 110.79015594441444,
+                "q3_ms": 110.94145092647523,
+                "iqr_ms": 0.4551869351416826,
+                "median_ms_per_item": 0.8655480933157378,
+                "throughput_items_per_second": {
+                  "median": 1155.3373032909176,
+                  "q1": 1153.7617268484262,
+                  "q3": 1158.515053147604,
+                  "iqr": 4.753326299177843
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24711172608,
+                    "baseline_reserved_bytes": 25214058496,
+                    "gpu_peak_allocated_bytes": 24780664320,
+                    "gpu_peak_reserved_bytes": 25214058496,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24780664320,
+                "peak_reserved_bytes": 25214058496
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 24576800000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "activitynet",
+      "model": "Uniform32",
+      "query_ids": [
+        "v_rAuz_Pf3lp8#enc#0",
+        "v_IWuiVS3-Z7k#enc#2",
+        "v_aDDq5ofaFHI#enc#1",
+        "v_BsceC-igcTY#enc#0",
+        "v_gV6W0rAHyZg#enc#0",
+        "v_JBTiD2-FcR0#enc#2",
+        "v_Q-HdDcyC9d8#enc#2",
+        "v_CtooIi6Mk7U#enc#0",
+        "v_6EN1q4TmPtI#enc#1",
+        "v_7n9It_jjaBg#enc#2",
+        "v_WEoelJQYlxk#enc#1",
+        "v_e6Dhfn1d3ic#enc#1",
+        "v_HvzJ-RJOF9Q#enc#1",
+        "v_kZMDKbfIis0#enc#1",
+        "v_uLXSOqRSa4A#enc#2",
+        "v_UIrn2ziRgEM#enc#4",
+        "v_xx5TLuZmjcE#enc#1",
+        "v_OVRYoPA6h-Y#enc#1",
+        "v_B4LYBLihttQ#enc#0",
+        "v_9yktj7NCdFI#enc#0",
+        "v_M6sXLVNtTSA#enc#2",
+        "v_61W153jXL3U#enc#2",
+        "v_ekgfptN7tQk#enc#2",
+        "v_zfi8f5NnYaY#enc#0",
+        "v_uHLEUps_ahs#enc#0",
+        "v_6Epn-R6sg5U#enc#0",
+        "v_uaqcvxz_5fY#enc#0",
+        "v_1P_BTFhNZFo#enc#4",
+        "v_KBfCXpgGhdw#enc#1",
+        "v__BJqPK0NNZU#enc#7",
+        "v_OCT2h1kmZoA#enc#6",
+        "v_fqOp0uhdEyM#enc#0",
+        "v_xrbKvttgcMA#enc#2",
+        "v_rWoSJ9YBy5E#enc#2",
+        "v_rtJTJ10ppRc#enc#2",
+        "v_uR-o9wILN6U#enc#1",
+        "v_29k1TypoU4w#enc#0",
+        "v_pbeQcGC3nXY#enc#1",
+        "v_kbK-9Me0BnA#enc#2",
+        "v_vjVtKL3xd8w#enc#1",
+        "v_GAEavSUmQRk#enc#2",
+        "v_8rimo9x4qqw#enc#1",
+        "v_aRurjtzwmS8#enc#2",
+        "v_W0RYvQUUNe0#enc#0",
+        "v_RMrL2txm79c#enc#2",
+        "v_RMrL2txm79c#enc#0",
+        "v_8B4M8AsGZmQ#enc#1",
+        "v_KjXvBqmh5C4#enc#0",
+        "v_fgP3D3Gqn6U#enc#0",
+        "v_65rZgGe7Zr4#enc#0",
+        "v_X1vyuNazaIc#enc#1",
+        "v_m4ef0fCA2WU#enc#3",
+        "v_6gzU9P-5tqE#enc#3",
+        "v_R_HDifqMHSY#enc#3",
+        "v_4r0qYLCucEI#enc#6",
+        "v_mvomkmq32vU#enc#1",
+        "v_jCyrQzXK4eI#enc#0",
+        "v_ytvIoI5uwFA#enc#0",
+        "v_NLTd7qCLT7o#enc#1",
+        "v_SZqwvjwqwK4#enc#4",
+        "v_xCplsH6deic#enc#2",
+        "v_OhgsnOwo4b4#enc#2",
+        "v_P17kaxPrbdc#enc#1",
+        "v_sHRajZw7A8g#enc#2",
+        "v_sHxzQu_4edY#enc#1",
+        "v_Cw5NDI8NnZU#enc#0",
+        "v_oXqzXQRqAhI#enc#1",
+        "v_4Y94njisJd0#enc#0",
+        "v_0_BvBpwDMpU#enc#0",
+        "v_63lmoqLxB8c#enc#0",
+        "v_wuZkli4TSZQ#enc#2",
+        "v_GMwV9roiBYo#enc#2",
+        "v_cXw6os9Xk5c#enc#2",
+        "v_55bimE5eU9E#enc#2",
+        "v_Qm7AL0RjHxI#enc#0",
+        "v_QdvC8Xt-ym0#enc#2",
+        "v_PFn7a6eEhb4#enc#3",
+        "v_97McCuWAynA#enc#1",
+        "v_ZOeQh2-ci3M#enc#6",
+        "v__uPVFvEQocU#enc#0",
+        "v_Qwj7f4vqveo#enc#4",
+        "v_1P_y_DLlg-E#enc#0",
+        "v_6cha8sVi65k#enc#2",
+        "v_SfYJTxMRKDE#enc#4",
+        "v_eL0LrJio1XE#enc#0",
+        "v_5K6oT9zBjVE#enc#1",
+        "v_r4F2X_MlL-U#enc#2",
+        "v_2RfasAe0-tA#enc#2",
+        "v_TIue1jR51j8#enc#0",
+        "v_9FaSaHgQSO8#enc#1",
+        "v_tAleUKVZCD8#enc#2",
+        "v_LLLuBjEVHI8#enc#3",
+        "v__m8WprCWHF4#enc#2",
+        "v_RBkieLmOUlQ#enc#0",
+        "v_0fw8it7Gj7k#enc#1",
+        "v_Mvl-TR0rDdA#enc#0",
+        "v_ngE2y5ExVqw#enc#1",
+        "v_8VPiqCCOPWg#enc#4",
+        "v_8qzR38WgsS8#enc#1",
+        "v_QElXIVBV-gk#enc#0",
+        "v_H5Z__A99EG4#enc#1",
+        "v_ral5Oaib_vk#enc#4",
+        "v_zi_TdMQffkU#enc#2",
+        "v_PNdG3SUdJzc#enc#2",
+        "v_olFThb2_GHM#enc#1",
+        "v_JavaLreBqtI#enc#3",
+        "v_Pyf_5Bffu5A#enc#2",
+        "v_IdhpB7doBOE#enc#2",
+        "v_1AxGiLSmGZo#enc#1",
+        "v_PcSnU_nGi5E#enc#0",
+        "v_FkWxS_5VxsM#enc#6",
+        "v_o6lTgyb_AkM#enc#2",
+        "v_IjFlVNAWQec#enc#0",
+        "v_d0h_l9bE1o0#enc#2",
+        "v_EqqqGf4wLH0#enc#3",
+        "v_He7CDkVm_aE#enc#1",
+        "v_3YdmY4oPE5s#enc#1",
+        "v_PgS2F7NxNBg#enc#2",
+        "v_-fBTCykx4gM#enc#0",
+        "v_cGNkR-JvaJs#enc#17",
+        "v_cGNkR-JvaJs#enc#7",
+        "v_6GIWY4-491k#enc#5",
+        "v_Jb8YAhQ6EMk#enc#1",
+        "v_lcwR7eA-VOY#enc#1",
+        "v_Mk9n7isIyBs#enc#3",
+        "v_Mk9n7isIyBs#enc#1",
+        "v_0PyY_iHBZHk#enc#0",
+        "v_hFtmkU7wdx4#enc#5"
+      ],
+      "videos": 905,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 98312,
+          "valid_bytes_per_video": 98312.0,
+          "padded_total_bytes": 88972360,
+          "valid_total_bytes": 88972360,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 9831200000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.0456045480677858,
+                  0.045447177020832896,
+                  0.04507874802220613,
+                  0.04503442801069468,
+                  0.045230682007968426
+                ],
+                "q1_ms": 45.07874802220613,
+                "median_ms": 45.230682007968426,
+                "q3_ms": 45.447177020832896,
+                "iqr_ms": 0.3684289986267686,
+                "median_ms_per_item": 0.3533647031872533,
+                "throughput_items_per_second": {
+                  "median": 2829.93743002703,
+                  "q1": 2816.456563216788,
+                  "q3": 2839.475487139666,
+                  "iqr": 23.018923922878002
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9985157632,
+                "peak_reserved_bytes": 10089398272
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.046807389007881284,
+                  0.04502610501367599,
+                  0.044852153048850596,
+                  0.04513276903890073,
+                  0.04509005602449179
+                ],
+                "q1_ms": 45.02610501367599,
+                "median_ms": 45.09005602449179,
+                "q3_ms": 45.13276903890073,
+                "iqr_ms": 0.10666402522474527,
+                "median_ms_per_item": 0.3522660626913421,
+                "throughput_items_per_second": {
+                  "median": 2838.7633834491935,
+                  "q1": 2836.0768179252314,
+                  "q3": 2842.7953064366097,
+                  "iqr": 6.718488511378382
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9966096896,
+                    "baseline_reserved_bytes": 10089398272,
+                    "gpu_peak_allocated_bytes": 9985157632,
+                    "gpu_peak_reserved_bytes": 10089398272,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9985157632,
+                "peak_reserved_bytes": 10089398272
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 9831200000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "tvr",
+      "model": "Ward8",
+      "query_ids": [
+        "friends_s05e02_seg02_clip_04#enc#0",
+        "s06e01_seg02_clip_10#enc#2",
+        "met_s02e15_seg02_clip_03#enc#0",
+        "house_s08e02_seg02_clip_17#enc#4",
+        "castle_s04e14_seg02_clip_26#enc#0",
+        "friends_s10e11_seg02_clip_18#enc#3",
+        "castle_s02e02_seg02_clip_07#enc#1",
+        "met_s06e12_seg02_clip_08#enc#1",
+        "castle_s03e17_seg02_clip_07#enc#2",
+        "friends_s09e03_seg02_clip_11#enc#2",
+        "friends_s08e23-24_seg02_clip_36#enc#3",
+        "friends_s04e20_seg02_clip_18#enc#3",
+        "met_s06e22_seg02_clip_12#enc#0",
+        "castle_s03e05_seg02_clip_25#enc#1",
+        "castle_s07e11_seg02_clip_02#enc#3",
+        "castle_s06e22_seg02_clip_03#enc#0",
+        "house_s05e02_seg02_clip_25#enc#3",
+        "met_s06e10_seg01_clip_03#enc#0",
+        "grey_s03e08_seg02_clip_04#enc#1",
+        "friends_s10e17-18_seg02_clip_26#enc#4",
+        "s05e17_seg02_clip_05#enc#2",
+        "friends_s08e09_seg02_clip_12#enc#4",
+        "castle_s02e14_seg02_clip_12#enc#3",
+        "castle_s04e22_seg02_clip_27#enc#0",
+        "castle_s04e15_seg02_clip_02#enc#0",
+        "house_s02e22_seg02_clip_12#enc#3",
+        "friends_s02e14_seg02_clip_03#enc#1",
+        "house_s04e07_seg02_clip_02#enc#4",
+        "grey_s03e15_seg02_clip_03#enc#2",
+        "house_s02e16_seg02_clip_00#enc#3",
+        "s05e18_seg02_clip_11#enc#1",
+        "friends_s09e21_seg02_clip_15#enc#4",
+        "castle_s06e06_seg02_clip_14#enc#3",
+        "house_s06e10_seg02_clip_19#enc#3",
+        "castle_s08e11_seg02_clip_15#enc#3",
+        "s05e19_seg02_clip_01#enc#3",
+        "grey_s02e04_seg02_clip_11#enc#3",
+        "house_s03e23_seg02_clip_06#enc#0",
+        "castle_s05e22_seg02_clip_17#enc#1",
+        "s04e24_seg02_clip_03#enc#0",
+        "friends_s05e23-24_seg02_clip_27#enc#0",
+        "grey_s02e05_seg02_clip_19#enc#0",
+        "s08e06_seg02_clip_14#enc#0",
+        "grey_s02e06_seg02_clip_18#enc#4",
+        "grey_s02e14_seg02_clip_25#enc#0",
+        "castle_s02e03_seg02_clip_00#enc#3",
+        "friends_s03e11_seg02_clip_10#enc#4",
+        "met_s03e03_seg01_clip_00#enc#4",
+        "friends_s07e11_seg02_clip_18#enc#2",
+        "castle_s03e01_seg02_clip_13#enc#1",
+        "castle_s01e09_seg02_clip_15#enc#3",
+        "friends_s08e23-24_seg02_clip_18#enc#2",
+        "house_s08e11_seg02_clip_09#enc#3",
+        "met_s03e12_seg02_clip_13#enc#2",
+        "grey_s03e25_seg02_clip_25#enc#1",
+        "house_s07e11_seg02_clip_07#enc#3",
+        "s04e02_seg02_clip_12#enc#0",
+        "s07e11_seg02_clip_14#enc#4",
+        "castle_s05e10_seg02_clip_16#enc#3",
+        "castle_s02e20_seg02_clip_04#enc#0",
+        "house_s06e18_seg02_clip_08#enc#0",
+        "friends_s05e11_seg02_clip_07#enc#1",
+        "castle_s03e07_seg02_clip_13#enc#0",
+        "met_s06e04_seg02_clip_03#enc#2",
+        "house_s03e16_seg02_clip_08#enc#4",
+        "house_s01e15_seg02_clip_19#enc#3",
+        "house_s01e22_seg02_clip_20#enc#1",
+        "friends_s06e15-16_seg02_clip_02#enc#0",
+        "s05e21_seg02_clip_11#enc#2",
+        "friends_s06e04_seg02_clip_06#enc#1",
+        "house_s06e20_seg02_clip_06#enc#1",
+        "house_s08e18_seg02_clip_11#enc#2",
+        "castle_s02e18_seg02_clip_21#enc#4",
+        "met_s06e12_seg02_clip_01#enc#4",
+        "friends_s01e13_seg02_clip_09#enc#3",
+        "house_s07e16_seg02_clip_11#enc#0",
+        "friends_s06e05_seg02_clip_13#enc#1",
+        "friends_s08e07_seg01_clip_00#enc#4",
+        "castle_s07e01_seg02_clip_02#enc#1",
+        "castle_s06e15_seg02_clip_11#enc#1",
+        "castle_s07e14_seg02_clip_25#enc#1",
+        "castle_s04e23_seg02_clip_12#enc#4",
+        "castle_s04e17_seg02_clip_05#enc#4",
+        "friends_s02e10_seg02_clip_15#enc#2",
+        "castle_s03e17_seg02_clip_13#enc#3",
+        "castle_s04e10_seg02_clip_27#enc#3",
+        "friends_s03e07_seg02_clip_05#enc#2",
+        "s07e15_seg02_clip_10#enc#3",
+        "friends_s02e14_seg01_clip_01#enc#2",
+        "friends_s05e13_seg02_clip_10#enc#0",
+        "house_s07e08_seg02_clip_24#enc#2",
+        "house_s03e04_seg02_clip_14#enc#2",
+        "friends_s03e18_seg02_clip_13#enc#2",
+        "s07e04_seg02_clip_07#enc#4",
+        "grey_s03e15_seg02_clip_19#enc#2",
+        "castle_s07e21_seg02_clip_22#enc#2",
+        "castle_s02e23_seg02_clip_13#enc#4",
+        "s04e08_seg02_clip_00#enc#1",
+        "friends_s07e02_seg02_clip_09#enc#0",
+        "s02e20_seg01_clip_00#enc#3",
+        "s07e10_seg02_clip_01#enc#0",
+        "s10e07_seg02_clip_01#enc#1",
+        "s01e14_seg02_clip_08#enc#3",
+        "castle_s07e21_seg02_clip_02#enc#3",
+        "castle_s02e20_seg02_clip_07#enc#2",
+        "s01e15_seg02_clip_09#enc#3",
+        "castle_s03e10_seg02_clip_26#enc#2",
+        "castle_s05e12_seg02_clip_14#enc#3",
+        "house_s01e15_seg02_clip_08#enc#4",
+        "friends_s03e04_seg02_clip_14#enc#1",
+        "s04e09_seg02_clip_09#enc#3",
+        "house_s06e14_seg02_clip_04#enc#2",
+        "s08e11_seg02_clip_12#enc#1",
+        "house_s08e22_seg02_clip_21#enc#1",
+        "house_s03e01_seg02_clip_03#enc#0",
+        "castle_s08e16_seg02_clip_15#enc#4",
+        "s06e24_seg02_clip_14#enc#3",
+        "house_s05e05_seg02_clip_07#enc#0",
+        "castle_s05e14_seg02_clip_25#enc#1",
+        "s09e16_seg01_clip_00#enc#3",
+        "castle_s06e04_seg02_clip_15#enc#4",
+        "castle_s07e22_seg02_clip_21#enc#2",
+        "castle_s02e19_seg02_clip_04#enc#2",
+        "friends_s01e12_seg02_clip_09#enc#3",
+        "friends_s01e16-17_seg02_clip_38#enc#3",
+        "castle_s07e04_seg02_clip_02#enc#2",
+        "s03e06_seg02_clip_13#enc#3",
+        "castle_s05e15_seg02_clip_27#enc#1"
+      ],
+      "videos": 1744,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 61448,
+          "valid_bytes_per_video": 61447.119266055044,
+          "padded_total_bytes": 107165312,
+          "valid_total_bytes": 107163776,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        },
+        "int8": {
+          "padded_bytes_per_video": 15528,
+          "valid_bytes_per_video": 15527.77752293578,
+          "padded_total_bytes": 27080832,
+          "valid_total_bytes": 27080444,
+          "dimension": 384,
+          "scale_bytes_per_vector": 4,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 6144800000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.0343270719749853,
+                  0.03431082295719534,
+                  0.03441805602051318,
+                  0.03432792890816927,
+                  0.034563123947009444
+                ],
+                "q1_ms": 34.3270719749853,
+                "median_ms": 34.32792890816927,
+                "q3_ms": 34.41805602051318,
+                "iqr_ms": 0.09098404552787542,
+                "median_ms_per_item": 0.2681869445950724,
+                "throughput_items_per_second": {
+                  "median": 3728.742282775437,
+                  "q1": 3718.9781992251956,
+                  "q3": 3728.835366246084,
+                  "iqr": 9.857167020888483
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6302851584,
+                "peak_reserved_bytes": 6442450944
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.03427639207802713,
+                  0.03431611601263285,
+                  0.03427359997294843,
+                  0.03474772395566106,
+                  0.034481176058761775
+                ],
+                "q1_ms": 34.27639207802713,
+                "median_ms": 34.31611601263285,
+                "q3_ms": 34.481176058761775,
+                "iqr_ms": 0.20478398073464632,
+                "median_ms_per_item": 0.2680946563486941,
+                "throughput_items_per_second": {
+                  "median": 3730.025855865482,
+                  "q1": 3712.1703674453065,
+                  "q3": 3734.3486942447003,
+                  "iqr": 22.178326799393744
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 6284315136,
+                    "baseline_reserved_bytes": 6442450944,
+                    "gpu_peak_allocated_bytes": 6302851584,
+                    "gpu_peak_reserved_bytes": 6442450944,
+                    "gpu_peak_increment_bytes": 18536448
+                  }
+                ],
+                "peak_allocated_bytes": 6302851584,
+                "peak_reserved_bytes": 6442450944
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 6144800000,
+          "fits_with_batch128_workspace": true
+        },
+        {
+          "mode": "fp32",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 61448000000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "does_not_fit",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [],
+          "capacity_evidence": "actual CUDA allocation/search OOM",
+          "error": "CUDA out of memory. Tried to allocate 45.78 GiB. GPU 0 has a total capacity of 44.39 GiB of which 43.65 GiB is free. Including non-PyTorch memory, this process has 736.00 MiB memory in use. Of the allocated memory 214.43 MiB is allocated by PyTorch, and 17.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+        },
+        {
+          "mode": "int8",
+          "count": 1000000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 15528000000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.46684112201910466,
+                  0.46686810196843,
+                  0.4668602069141343,
+                  0.4668020959943533,
+                  0.46679962996859103
+                ],
+                "q1_ms": 466.8020959943533,
+                "median_ms": 466.84112201910466,
+                "q3_ms": 466.8602069141343,
+                "iqr_ms": 0.058110919781029224,
+                "median_ms_per_item": 3.647196265774255,
+                "throughput_items_per_second": {
+                  "median": 274.1832155796289,
+                  "q1": 274.1720071754626,
+                  "q3": 274.20613810086314,
+                  "iqr": 0.03413092540051821
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15749094400,
+                "peak_reserved_bytes": 15789457408
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.46691428299527615,
+                  0.4669079650193453,
+                  0.4668578259879723,
+                  0.4669218520866707,
+                  0.46687651600223035
+                ],
+                "q1_ms": 466.87651600223035,
+                "median_ms": 466.9079650193453,
+                "q3_ms": 466.91428299527615,
+                "iqr_ms": 0.037766993045806885,
+                "median_ms_per_item": 3.647718476713635,
+                "throughput_items_per_second": {
+                  "median": 274.1439632427273,
+                  "q1": 274.14025370754183,
+                  "q3": 274.1624297063349,
+                  "iqr": 0.022175998793045437
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 15667643392,
+                    "baseline_reserved_bytes": 15789457408,
+                    "gpu_peak_allocated_bytes": 15749094400,
+                    "gpu_peak_reserved_bytes": 15789457408,
+                    "gpu_peak_increment_bytes": 81451008
+                  }
+                ],
+                "peak_allocated_bytes": 15749094400,
+                "peak_reserved_bytes": 15789457408
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 15528000000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "tvr",
+      "model": "B0",
+      "query_ids": [
+        "friends_s05e02_seg02_clip_04#enc#0",
+        "s06e01_seg02_clip_10#enc#2",
+        "met_s02e15_seg02_clip_03#enc#0",
+        "house_s08e02_seg02_clip_17#enc#4",
+        "castle_s04e14_seg02_clip_26#enc#0",
+        "friends_s10e11_seg02_clip_18#enc#3",
+        "castle_s02e02_seg02_clip_07#enc#1",
+        "met_s06e12_seg02_clip_08#enc#1",
+        "castle_s03e17_seg02_clip_07#enc#2",
+        "friends_s09e03_seg02_clip_11#enc#2",
+        "friends_s08e23-24_seg02_clip_36#enc#3",
+        "friends_s04e20_seg02_clip_18#enc#3",
+        "met_s06e22_seg02_clip_12#enc#0",
+        "castle_s03e05_seg02_clip_25#enc#1",
+        "castle_s07e11_seg02_clip_02#enc#3",
+        "castle_s06e22_seg02_clip_03#enc#0",
+        "house_s05e02_seg02_clip_25#enc#3",
+        "met_s06e10_seg01_clip_03#enc#0",
+        "grey_s03e08_seg02_clip_04#enc#1",
+        "friends_s10e17-18_seg02_clip_26#enc#4",
+        "s05e17_seg02_clip_05#enc#2",
+        "friends_s08e09_seg02_clip_12#enc#4",
+        "castle_s02e14_seg02_clip_12#enc#3",
+        "castle_s04e22_seg02_clip_27#enc#0",
+        "castle_s04e15_seg02_clip_02#enc#0",
+        "house_s02e22_seg02_clip_12#enc#3",
+        "friends_s02e14_seg02_clip_03#enc#1",
+        "house_s04e07_seg02_clip_02#enc#4",
+        "grey_s03e15_seg02_clip_03#enc#2",
+        "house_s02e16_seg02_clip_00#enc#3",
+        "s05e18_seg02_clip_11#enc#1",
+        "friends_s09e21_seg02_clip_15#enc#4",
+        "castle_s06e06_seg02_clip_14#enc#3",
+        "house_s06e10_seg02_clip_19#enc#3",
+        "castle_s08e11_seg02_clip_15#enc#3",
+        "s05e19_seg02_clip_01#enc#3",
+        "grey_s02e04_seg02_clip_11#enc#3",
+        "house_s03e23_seg02_clip_06#enc#0",
+        "castle_s05e22_seg02_clip_17#enc#1",
+        "s04e24_seg02_clip_03#enc#0",
+        "friends_s05e23-24_seg02_clip_27#enc#0",
+        "grey_s02e05_seg02_clip_19#enc#0",
+        "s08e06_seg02_clip_14#enc#0",
+        "grey_s02e06_seg02_clip_18#enc#4",
+        "grey_s02e14_seg02_clip_25#enc#0",
+        "castle_s02e03_seg02_clip_00#enc#3",
+        "friends_s03e11_seg02_clip_10#enc#4",
+        "met_s03e03_seg01_clip_00#enc#4",
+        "friends_s07e11_seg02_clip_18#enc#2",
+        "castle_s03e01_seg02_clip_13#enc#1",
+        "castle_s01e09_seg02_clip_15#enc#3",
+        "friends_s08e23-24_seg02_clip_18#enc#2",
+        "house_s08e11_seg02_clip_09#enc#3",
+        "met_s03e12_seg02_clip_13#enc#2",
+        "grey_s03e25_seg02_clip_25#enc#1",
+        "house_s07e11_seg02_clip_07#enc#3",
+        "s04e02_seg02_clip_12#enc#0",
+        "s07e11_seg02_clip_14#enc#4",
+        "castle_s05e10_seg02_clip_16#enc#3",
+        "castle_s02e20_seg02_clip_04#enc#0",
+        "house_s06e18_seg02_clip_08#enc#0",
+        "friends_s05e11_seg02_clip_07#enc#1",
+        "castle_s03e07_seg02_clip_13#enc#0",
+        "met_s06e04_seg02_clip_03#enc#2",
+        "house_s03e16_seg02_clip_08#enc#4",
+        "house_s01e15_seg02_clip_19#enc#3",
+        "house_s01e22_seg02_clip_20#enc#1",
+        "friends_s06e15-16_seg02_clip_02#enc#0",
+        "s05e21_seg02_clip_11#enc#2",
+        "friends_s06e04_seg02_clip_06#enc#1",
+        "house_s06e20_seg02_clip_06#enc#1",
+        "house_s08e18_seg02_clip_11#enc#2",
+        "castle_s02e18_seg02_clip_21#enc#4",
+        "met_s06e12_seg02_clip_01#enc#4",
+        "friends_s01e13_seg02_clip_09#enc#3",
+        "house_s07e16_seg02_clip_11#enc#0",
+        "friends_s06e05_seg02_clip_13#enc#1",
+        "friends_s08e07_seg01_clip_00#enc#4",
+        "castle_s07e01_seg02_clip_02#enc#1",
+        "castle_s06e15_seg02_clip_11#enc#1",
+        "castle_s07e14_seg02_clip_25#enc#1",
+        "castle_s04e23_seg02_clip_12#enc#4",
+        "castle_s04e17_seg02_clip_05#enc#4",
+        "friends_s02e10_seg02_clip_15#enc#2",
+        "castle_s03e17_seg02_clip_13#enc#3",
+        "castle_s04e10_seg02_clip_27#enc#3",
+        "friends_s03e07_seg02_clip_05#enc#2",
+        "s07e15_seg02_clip_10#enc#3",
+        "friends_s02e14_seg01_clip_01#enc#2",
+        "friends_s05e13_seg02_clip_10#enc#0",
+        "house_s07e08_seg02_clip_24#enc#2",
+        "house_s03e04_seg02_clip_14#enc#2",
+        "friends_s03e18_seg02_clip_13#enc#2",
+        "s07e04_seg02_clip_07#enc#4",
+        "grey_s03e15_seg02_clip_19#enc#2",
+        "castle_s07e21_seg02_clip_22#enc#2",
+        "castle_s02e23_seg02_clip_13#enc#4",
+        "s04e08_seg02_clip_00#enc#1",
+        "friends_s07e02_seg02_clip_09#enc#0",
+        "s02e20_seg01_clip_00#enc#3",
+        "s07e10_seg02_clip_01#enc#0",
+        "s10e07_seg02_clip_01#enc#1",
+        "s01e14_seg02_clip_08#enc#3",
+        "castle_s07e21_seg02_clip_02#enc#3",
+        "castle_s02e20_seg02_clip_07#enc#2",
+        "s01e15_seg02_clip_09#enc#3",
+        "castle_s03e10_seg02_clip_26#enc#2",
+        "castle_s05e12_seg02_clip_14#enc#3",
+        "house_s01e15_seg02_clip_08#enc#4",
+        "friends_s03e04_seg02_clip_14#enc#1",
+        "s04e09_seg02_clip_09#enc#3",
+        "house_s06e14_seg02_clip_04#enc#2",
+        "s08e11_seg02_clip_12#enc#1",
+        "house_s08e22_seg02_clip_21#enc#1",
+        "house_s03e01_seg02_clip_03#enc#0",
+        "castle_s08e16_seg02_clip_15#enc#4",
+        "s06e24_seg02_clip_14#enc#3",
+        "house_s05e05_seg02_clip_07#enc#0",
+        "castle_s05e14_seg02_clip_25#enc#1",
+        "s09e16_seg01_clip_00#enc#3",
+        "castle_s06e04_seg02_clip_15#enc#4",
+        "castle_s07e22_seg02_clip_21#enc#2",
+        "castle_s02e19_seg02_clip_04#enc#2",
+        "friends_s01e12_seg02_clip_09#enc#3",
+        "friends_s01e16-17_seg02_clip_38#enc#3",
+        "castle_s07e04_seg02_clip_02#enc#2",
+        "s03e06_seg02_clip_13#enc#3",
+        "castle_s05e15_seg02_clip_27#enc#1"
+      ],
+      "videos": 1744,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 245768,
+          "valid_bytes_per_video": 126960.5137614679,
+          "padded_total_bytes": 428619392,
+          "valid_total_bytes": 221419136,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 24576800000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.09965284110512584,
+                  0.09954591700807214,
+                  0.09952726203482598,
+                  0.0993366229813546,
+                  0.09942705801222473
+                ],
+                "q1_ms": 99.42705801222473,
+                "median_ms": 99.52726203482598,
+                "q3_ms": 99.54591700807214,
+                "iqr_ms": 0.118858995847404,
+                "median_ms_per_item": 0.777556734647078,
+                "throughput_items_per_second": {
+                  "median": 1286.079787417552,
+                  "q1": 1285.8387751817138,
+                  "q3": 1287.3759171699737,
+                  "iqr": 1.5371419882599184
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24785675776,
+                "peak_reserved_bytes": 25419579392
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.10053590300958604,
+                  0.10053673794027418,
+                  0.10013705608434975,
+                  0.1005044779740274,
+                  0.10072708304505795
+                ],
+                "q1_ms": 100.5044779740274,
+                "median_ms": 100.53590300958604,
+                "q3_ms": 100.53673794027418,
+                "iqr_ms": 0.03225996624678373,
+                "median_ms_per_item": 0.7854367422623909,
+                "throughput_items_per_second": {
+                  "median": 1273.1770061069155,
+                  "q1": 1273.166432712795,
+                  "q3": 1273.5750941672277,
+                  "iqr": 0.40866145443260393
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 24716184064,
+                    "baseline_reserved_bytes": 25419579392,
+                    "gpu_peak_allocated_bytes": 24785675776,
+                    "gpu_peak_reserved_bytes": 25419579392,
+                    "gpu_peak_increment_bytes": 69491712
+                  }
+                ],
+                "peak_allocated_bytes": 24785675776,
+                "peak_reserved_bytes": 25419579392
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 24576800000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    },
+    {
+      "dataset": "tvr",
+      "model": "Uniform32",
+      "query_ids": [
+        "friends_s05e02_seg02_clip_04#enc#0",
+        "s06e01_seg02_clip_10#enc#2",
+        "met_s02e15_seg02_clip_03#enc#0",
+        "house_s08e02_seg02_clip_17#enc#4",
+        "castle_s04e14_seg02_clip_26#enc#0",
+        "friends_s10e11_seg02_clip_18#enc#3",
+        "castle_s02e02_seg02_clip_07#enc#1",
+        "met_s06e12_seg02_clip_08#enc#1",
+        "castle_s03e17_seg02_clip_07#enc#2",
+        "friends_s09e03_seg02_clip_11#enc#2",
+        "friends_s08e23-24_seg02_clip_36#enc#3",
+        "friends_s04e20_seg02_clip_18#enc#3",
+        "met_s06e22_seg02_clip_12#enc#0",
+        "castle_s03e05_seg02_clip_25#enc#1",
+        "castle_s07e11_seg02_clip_02#enc#3",
+        "castle_s06e22_seg02_clip_03#enc#0",
+        "house_s05e02_seg02_clip_25#enc#3",
+        "met_s06e10_seg01_clip_03#enc#0",
+        "grey_s03e08_seg02_clip_04#enc#1",
+        "friends_s10e17-18_seg02_clip_26#enc#4",
+        "s05e17_seg02_clip_05#enc#2",
+        "friends_s08e09_seg02_clip_12#enc#4",
+        "castle_s02e14_seg02_clip_12#enc#3",
+        "castle_s04e22_seg02_clip_27#enc#0",
+        "castle_s04e15_seg02_clip_02#enc#0",
+        "house_s02e22_seg02_clip_12#enc#3",
+        "friends_s02e14_seg02_clip_03#enc#1",
+        "house_s04e07_seg02_clip_02#enc#4",
+        "grey_s03e15_seg02_clip_03#enc#2",
+        "house_s02e16_seg02_clip_00#enc#3",
+        "s05e18_seg02_clip_11#enc#1",
+        "friends_s09e21_seg02_clip_15#enc#4",
+        "castle_s06e06_seg02_clip_14#enc#3",
+        "house_s06e10_seg02_clip_19#enc#3",
+        "castle_s08e11_seg02_clip_15#enc#3",
+        "s05e19_seg02_clip_01#enc#3",
+        "grey_s02e04_seg02_clip_11#enc#3",
+        "house_s03e23_seg02_clip_06#enc#0",
+        "castle_s05e22_seg02_clip_17#enc#1",
+        "s04e24_seg02_clip_03#enc#0",
+        "friends_s05e23-24_seg02_clip_27#enc#0",
+        "grey_s02e05_seg02_clip_19#enc#0",
+        "s08e06_seg02_clip_14#enc#0",
+        "grey_s02e06_seg02_clip_18#enc#4",
+        "grey_s02e14_seg02_clip_25#enc#0",
+        "castle_s02e03_seg02_clip_00#enc#3",
+        "friends_s03e11_seg02_clip_10#enc#4",
+        "met_s03e03_seg01_clip_00#enc#4",
+        "friends_s07e11_seg02_clip_18#enc#2",
+        "castle_s03e01_seg02_clip_13#enc#1",
+        "castle_s01e09_seg02_clip_15#enc#3",
+        "friends_s08e23-24_seg02_clip_18#enc#2",
+        "house_s08e11_seg02_clip_09#enc#3",
+        "met_s03e12_seg02_clip_13#enc#2",
+        "grey_s03e25_seg02_clip_25#enc#1",
+        "house_s07e11_seg02_clip_07#enc#3",
+        "s04e02_seg02_clip_12#enc#0",
+        "s07e11_seg02_clip_14#enc#4",
+        "castle_s05e10_seg02_clip_16#enc#3",
+        "castle_s02e20_seg02_clip_04#enc#0",
+        "house_s06e18_seg02_clip_08#enc#0",
+        "friends_s05e11_seg02_clip_07#enc#1",
+        "castle_s03e07_seg02_clip_13#enc#0",
+        "met_s06e04_seg02_clip_03#enc#2",
+        "house_s03e16_seg02_clip_08#enc#4",
+        "house_s01e15_seg02_clip_19#enc#3",
+        "house_s01e22_seg02_clip_20#enc#1",
+        "friends_s06e15-16_seg02_clip_02#enc#0",
+        "s05e21_seg02_clip_11#enc#2",
+        "friends_s06e04_seg02_clip_06#enc#1",
+        "house_s06e20_seg02_clip_06#enc#1",
+        "house_s08e18_seg02_clip_11#enc#2",
+        "castle_s02e18_seg02_clip_21#enc#4",
+        "met_s06e12_seg02_clip_01#enc#4",
+        "friends_s01e13_seg02_clip_09#enc#3",
+        "house_s07e16_seg02_clip_11#enc#0",
+        "friends_s06e05_seg02_clip_13#enc#1",
+        "friends_s08e07_seg01_clip_00#enc#4",
+        "castle_s07e01_seg02_clip_02#enc#1",
+        "castle_s06e15_seg02_clip_11#enc#1",
+        "castle_s07e14_seg02_clip_25#enc#1",
+        "castle_s04e23_seg02_clip_12#enc#4",
+        "castle_s04e17_seg02_clip_05#enc#4",
+        "friends_s02e10_seg02_clip_15#enc#2",
+        "castle_s03e17_seg02_clip_13#enc#3",
+        "castle_s04e10_seg02_clip_27#enc#3",
+        "friends_s03e07_seg02_clip_05#enc#2",
+        "s07e15_seg02_clip_10#enc#3",
+        "friends_s02e14_seg01_clip_01#enc#2",
+        "friends_s05e13_seg02_clip_10#enc#0",
+        "house_s07e08_seg02_clip_24#enc#2",
+        "house_s03e04_seg02_clip_14#enc#2",
+        "friends_s03e18_seg02_clip_13#enc#2",
+        "s07e04_seg02_clip_07#enc#4",
+        "grey_s03e15_seg02_clip_19#enc#2",
+        "castle_s07e21_seg02_clip_22#enc#2",
+        "castle_s02e23_seg02_clip_13#enc#4",
+        "s04e08_seg02_clip_00#enc#1",
+        "friends_s07e02_seg02_clip_09#enc#0",
+        "s02e20_seg01_clip_00#enc#3",
+        "s07e10_seg02_clip_01#enc#0",
+        "s10e07_seg02_clip_01#enc#1",
+        "s01e14_seg02_clip_08#enc#3",
+        "castle_s07e21_seg02_clip_02#enc#3",
+        "castle_s02e20_seg02_clip_07#enc#2",
+        "s01e15_seg02_clip_09#enc#3",
+        "castle_s03e10_seg02_clip_26#enc#2",
+        "castle_s05e12_seg02_clip_14#enc#3",
+        "house_s01e15_seg02_clip_08#enc#4",
+        "friends_s03e04_seg02_clip_14#enc#1",
+        "s04e09_seg02_clip_09#enc#3",
+        "house_s06e14_seg02_clip_04#enc#2",
+        "s08e11_seg02_clip_12#enc#1",
+        "house_s08e22_seg02_clip_21#enc#1",
+        "house_s03e01_seg02_clip_03#enc#0",
+        "castle_s08e16_seg02_clip_15#enc#4",
+        "s06e24_seg02_clip_14#enc#3",
+        "house_s05e05_seg02_clip_07#enc#0",
+        "castle_s05e14_seg02_clip_25#enc#1",
+        "s09e16_seg01_clip_00#enc#3",
+        "castle_s06e04_seg02_clip_15#enc#4",
+        "castle_s07e22_seg02_clip_21#enc#2",
+        "castle_s02e19_seg02_clip_04#enc#2",
+        "friends_s01e12_seg02_clip_09#enc#3",
+        "friends_s01e16-17_seg02_clip_38#enc#3",
+        "castle_s07e04_seg02_clip_02#enc#2",
+        "s03e06_seg02_clip_13#enc#3",
+        "castle_s05e15_seg02_clip_27#enc#1"
+      ],
+      "videos": 1744,
+      "sizes": {
+        "fp32": {
+          "padded_bytes_per_video": 98312,
+          "valid_bytes_per_video": 98312.0,
+          "padded_total_bytes": 171456128,
+          "valid_total_bytes": 171456128,
+          "dimension": 384,
+          "scale_bytes_per_vector": 0,
+          "length_bytes_per_video": 8,
+          "valid_only_is_hypothetical_compaction": true
+        }
+      },
+      "measurements": [
+        {
+          "mode": "fp32",
+          "count": 100000,
+          "placement": "GPU-resident",
+          "index_payload_bytes": 9831200000,
+          "free_before_bytes": 46957133824,
+          "total_device_bytes": 47665709056,
+          "status": "measured",
+          "allocation_attempted": true,
+          "accuracy_computed": false,
+          "by_fusion": [
+            {
+              "fusion": [
+                0.7,
+                0.3
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.04527873394545168,
+                  0.04514186596497893,
+                  0.04509075207170099,
+                  0.04528584494255483,
+                  0.04528488498181105
+                ],
+                "q1_ms": 45.14186596497893,
+                "median_ms": 45.27873394545168,
+                "q3_ms": 45.28488498181105,
+                "iqr_ms": 0.14301901683211327,
+                "median_ms_per_item": 0.3537401089488412,
+                "throughput_items_per_second": {
+                  "median": 2826.93416636173,
+                  "q1": 2826.550184491183,
+                  "q3": 2835.505295667273,
+                  "iqr": 8.955111176090213
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9990169088,
+                "peak_reserved_bytes": 10129244160
+              }
+            },
+            {
+              "fusion": [
+                0.5,
+                0.5
+              ],
+              "batch128": {
+                "raw_seconds": [
+                  0.0453943699831143,
+                  0.045356955961324275,
+                  0.04537201102357358,
+                  0.045414483989588916,
+                  0.04540521197486669
+                ],
+                "q1_ms": 45.37201102357358,
+                "median_ms": 45.3943699831143,
+                "q3_ms": 45.40521197486669,
+                "iqr_ms": 0.03320095129311085,
+                "median_ms_per_item": 0.3546435154930805,
+                "throughput_items_per_second": {
+                  "median": 2819.7329326877575,
+                  "q1": 2819.0596284596645,
+                  "q3": 2821.1224742384916,
+                  "iqr": 2.062845778827068
+                },
+                "repeats": 5,
+                "warmup": 3,
+                "memory_samples": [
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  },
+                  {
+                    "device": "cuda:0",
+                    "baseline_allocated_bytes": 9971108352,
+                    "baseline_reserved_bytes": 10129244160,
+                    "gpu_peak_allocated_bytes": 9990169088,
+                    "gpu_peak_reserved_bytes": 10129244160,
+                    "gpu_peak_increment_bytes": 19060736
+                  }
+                ],
+                "peak_allocated_bytes": 9990169088,
+                "peak_reserved_bytes": 10129244160
+              }
+            }
+          ],
+          "actual_index_allocated_bytes": 9831200000,
+          "fits_with_batch128_workspace": true
+        }
+      ]
+    }
+  ],
+  "exclusive_audits": [
+    {
+      "utc": "2026-10-29T19:35:52.030304+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:35:53.181341+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:35:53.222630+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:35:53.344962+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:35:53.458779+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:01.276068+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:01.546057+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:03.570649+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:03.716936+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:04.659440+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:05.885420+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:06.619930+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:06.665113+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:06.793941+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:06.969799+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:14.660542+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:15.036780+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:17.112666+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:17.303305+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:18.282657+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:19.624506+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:20.343136+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:20.387887+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:20.522756+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:20.801611+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:28.602824+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:29.198619+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:31.144094+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:31.396970+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    },
+    {
+      "utc": "2026-10-29T19:36:32.421164+00:00",
+      "passed": true,
+      "foreign_compute_apps": []
+    }
+  ],
+  "source_sha256": {
+    "<WORK>/file-25bd93cbcdfa44.py": "46dd380435d10c0423559bba0afad02b368046e9333007ff99d255da9ebea2a6",
+    "<WORK>/file-a431d442a9e66b.py": "729240b52933f67bb797f48728f17b96493f06d4c738a6567bf16a04ec02e0d2",
+    "<WORK>/file-14d6192ab698e6.py": "7064bee0ad6b5a76d02c5b3f5ed19d32c625d595b7bbef38a4eca29cf7b0124d",
+    "<WORK>/file-99b303294fd4dd.py": "b6b3ef2f1487cbbaf5fe3f2841f2c51f4c5901269b2d2cd406712219e9679098",
+    "<WORK>/file-a2937d7d288eb8.py": "09d43f912ce8e81d11a04ebf9569d2b3a1bacc37061339af77a40962cc6508a2"
+  },
+  "environment": {
+    "software": {
+      "device": "cuda:0",
+      "torch": "2.11.0+cu128",
+      "numpy": "1.26.4",
+      "python": "3.11.17",
+      "cpu_threads": 1,
+      "CUDA_VISIBLE_DEVICES": "<DEVICE_ID>",
+      "compute_dtype": "float32",
+      "autocast": false,
+      "torch_compile": false,
+      "gpu": "NVIDIA L40",
+      "cuda": "12.8",
+      "cudnn": 91900,
+      "matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false
+    },
+    "gpu_csv": "index, uuid, name, driver_version, memory.total [MiB]\n0, <DEVICE_ID>, NVIDIA L40, 580.178.04, 46068 MiB\n1, <DEVICE_ID>, NVIDIA L40, 580.178.04, 46068 MiB\n2, <DEVICE_ID>, NVIDIA L40, 580.178.04, 46068 MiB",
+    "nvidia_smi": "<DEVICE_DIAGNOSTICS>",
+    "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           52 bits physical, 57 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  128\nOn-line CPU(s) list:                     0-127\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Xeon(R) Gold 6454S\nCPU family:                              6\nModel:                                   143\nThread(s) per core:                      2\nCore(s) per socket:                      32\nSocket(s):                               2\nStepping:                                6\nCPU(s) scaling MHz:                      32%\nCPU max MHz:                             3400.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                4400.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect user_shstk avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req hfi vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr ibt amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\nVirtualization:                          VT-x\nL1d cache:                               3 MiB (64 instances)\nL1i cache:                               2 MiB (64 instances)\nL2 cache:                                128 MiB (64 instances)\nL3 cache:                                120 MiB (2 instances)\nNUMA node(s):                            2\nNUMA node0 CPU(s):                       0-31,64-95\nNUMA node1 CPU(s):                       32-63,96-127\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace",
+    "uptime": "03:35:50 up 10 days, 16:40,  9 users,  load average: 10.94, 11.21, 10.12",
+    "memory": {
+      "MemTotal": 134769520640,
+      "MemAvailable": 100136206336,
+      "effective_available_bytes": 100136206336,
+      "half_available_bytes": 50068103168
+    }
+  },
+  "protocol": {
+    "physical_gpu": 2,
+    "evaluator": "<REVISION> / <REVISION> unchanged measure, GpuReplica, streaming_topk",
+    "workload": "original Stage B/C/D dev inputs and identical evenly spaced 128 queries",
+    "warmup": 3,
+    "repeats": 5,
+    "block_size": 1024,
+    "top_k": 100,
+    "query_batch": 128,
+    "compute": "fp32",
+    "million_fp32_allocation": "actual attempt even when payload exceeds free GPU memory; capture CUDA OOM",
+    "memory_baseline": "same official B0 model parameters + normalized queries + resident video index + scratch, as Stage C/D; encoder execution excluded from search timer",
+    "expansion": "physical cyclic copies with per-video valid lengths; no accuracy on expansions",
+    "controls": "user requested B0 and uniform32 throughput remeasurement in the same CUDA process under current host CPU/IO load",
+    "live_card_monitor_seconds": 0.5,
+    "interference_policy": "interrupt, discard attempt, exit CUDA context and wait fresh 300 seconds"
+  },
+  "source_sha256_after": {
+    "<WORK>/file-25bd93cbcdfa44.py": "46dd380435d10c0423559bba0afad02b368046e9333007ff99d255da9ebea2a6",
+    "<WORK>/file-a431d442a9e66b.py": "729240b52933f67bb797f48728f17b96493f06d4c738a6567bf16a04ec02e0d2",
+    "<WORK>/file-14d6192ab698e6.py": "7064bee0ad6b5a76d02c5b3f5ed19d32c625d595b7bbef38a4eca29cf7b0124d",
+    "<WORK>/file-99b303294fd4dd.py": "b6b3ef2f1487cbbaf5fe3f2841f2c51f4c5901269b2d2cd406712219e9679098",
+    "<WORK>/file-a2937d7d288eb8.py": "09d43f912ce8e81d11a04ebf9569d2b3a1bacc37061339af77a40962cc6508a2"
+  },
+  "finished_utc": "2026-10-29T19:36:32.665195+00:00"
+}

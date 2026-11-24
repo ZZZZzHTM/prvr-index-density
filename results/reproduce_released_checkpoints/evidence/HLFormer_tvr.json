@@ -1,0 +1,2359 @@
+{
+  "status": "PASS",
+  "method": "HLFormer",
+  "dataset": "tvr",
+  "identity": {
+    "checkpoint": {
+      "path": "<WORK>/file-2d134023f6a425.ckpt",
+      "bytes": 359267283,
+      "mtime_ns": 1793380314228949248,
+      "sha256": "cd2ba8bb73abab290b61fc492bae10209dcd3b48c0f69962f91c75c354221789"
+    },
+    "checkpoint_epoch": 99,
+    "checkpoint_keys": [
+      "config",
+      "epoch",
+      "model_val",
+      "state_dict",
+      "optimizer"
+    ],
+    "checkpoint_model_val": [
+      15.713630105553007,
+      37.13630105553006,
+      48.49931161083066,
+      86.39743001376779,
+      187.74667278568154
+    ],
+    "source_config": "<WORK>/file-86f55ce8f129c5.py",
+    "checkpoint_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "tvr",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d_resnet",
+      "collection": "tvr",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-edc756d8e069b3",
+      "ckpt_path": "<RELEASED>/file-cf7c97d1c11db5",
+      "sft_factor": 0.09,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.0003,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.1,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.05,
+        0.04,
+        8e-05,
+        0.001
+      ],
+      "neg_factor": [
+        0.15,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "attention_num": 8,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 768,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.2,
+      "drop": 0.2,
+      "initializer_range": 0.02,
+      "pin_memory": true,
+      "visual_feat_dim": 3072
+    },
+    "effective_config": {
+      "model_name": "HLFormer",
+      "dataset_name": "tvr",
+      "seed": 0,
+      "root": "<RELEASED>/file-37f27ddbc0f8c6",
+      "data_root": "<RELEASED>/file-e2d4a3af48a85c",
+      "visual_feature": "i3d_resnet",
+      "collection": "tvr",
+      "map_size": 32,
+      "clip_scale_w": 0.7,
+      "frame_scale_w": 0.3,
+      "model_root": "<RELEASED>/file-edc756d8e069b3",
+      "ckpt_path": "<RELEASED>/file-cf7c97d1c11db5",
+      "sft_factor": 0.09,
+      "num_workers": 32,
+      "no_core_driver": false,
+      "no_pin_memory": false,
+      "batchsize": 128,
+      "lr": 0.0003,
+      "lr_warmup_proportion": 0.01,
+      "wd": 0.01,
+      "margin": 0.1,
+      "n_epoch": 100,
+      "max_es_cnt": 10,
+      "hard_negative_start_epoch": 20,
+      "hard_pool_size": 20,
+      "use_hard_negative": true,
+      "loss_factor": [
+        0.05,
+        0.04,
+        8e-05,
+        0.001
+      ],
+      "neg_factor": [
+        0.15,
+        32,
+        1
+      ],
+      "curv_init": 1,
+      "learn_curv_bool": true,
+      "lorentz_dim": 127,
+      "attention_num": 8,
+      "eval_query_bsz": 50,
+      "eval_context_bsz": 100,
+      "max_desc_l": 30,
+      "max_ctx_l": 128,
+      "sub_feat_size": 768,
+      "q_feat_size": 768,
+      "max_position_embeddings": 300,
+      "hidden_size": 384,
+      "n_heads": 4,
+      "input_drop": 0.2,
+      "drop": 0.2,
+      "initializer_range": 0.02,
+      "pin_memory": true,
+      "visual_feat_dim": 3072
+    },
+    "strict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "eval_seed": 0,
+    "num_workers": 0,
+    "parameters": 29911484,
+    "source_lines": {
+      "encode_context": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 157
+      },
+      "encode_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 146
+      },
+      "get_pred_from_raw_query": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 259
+      },
+      "get_clip_scale_scores": {
+        "file": "<WORK>/file-77a3d7ccfc171e.py",
+        "line": 235
+      },
+      "dataset_getitem": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 259
+      },
+      "collate_frame": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 126
+      },
+      "collate_text": {
+        "file": "<WORK>/file-8482dd0f4149c9.py",
+        "line": 145
+      }
+    }
+  },
+  "encoding": {
+    "seconds": 151.4823136299383,
+    "files": {
+      "frames": {
+        "path": "<WORK>/file-8755135c19f441.npy",
+        "bytes": 428408960,
+        "mtime_ns": 1793390428056198216,
+        "sha256": "6c472b6df1a21a87ef7280516b69bd098953f0b307a6d9f3cc64a550872d755a"
+      },
+      "clips": {
+        "path": "<WORK>/file-6a2032e10abe02.npy",
+        "bytes": 107102336,
+        "mtime_ns": 1793390428074197916,
+        "sha256": "85b6e323955ef68826d1682d0d50680373f3ef95063597e361479310925efcbb"
+      },
+      "mask": {
+        "path": "<WORK>/file-8551b4a755cf88.npy",
+        "bytes": 279040,
+        "mtime_ns": 1793390428074197916,
+        "sha256": "77cac42d1cfc32dfd0104a5c1709c64750824b0348f438a770e74a8af36f9e4c"
+      },
+      "query": {
+        "path": "<WORK>/file-c6ec03300d5fba.npy",
+        "bytes": 16734848,
+        "mtime_ns": 1793390440410992047,
+        "sha256": "9d779c8dd3a448a1c71088c87b253ff3038569ace8363a6642f485c573b6c0ff"
+      }
+    },
+    "frames_length_min": 6,
+    "frames_length_max": 123
+  },
+  "rows": [
+    {
+      "configuration": "original",
+      "metrics": {
+        "R@1": 15.713630105553007,
+        "R@5": 37.13630105553006,
+        "R@10": 48.49931161083066,
+        "R@100": 86.39743001376779,
+        "SumR": 187.74667278568154
+      },
+      "hit_counts": {
+        "R@1": 1712,
+        "R@5": 4046,
+        "R@10": 5284,
+        "R@100": 9413
+      },
+      "ranks": {
+        "path": "<WORK>/file-6ff9714ea04230.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390496169191860,
+        "sha256": "2d630f175035db8f90f210f71e3da5bf1b2f78f523b0fc6e2fba78be06228e1c"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 14.749885268471775,
+          "R@5": 35.172097292335934,
+          "R@10": 46.23221661312529,
+          "R@100": 85.36943552088114,
+          "SumR": 181.52363469481412
+        },
+        "hit_counts": {
+          "R@1": 1607,
+          "R@5": 3832,
+          "R@10": 5037,
+          "R@100": 9301
+        },
+        "ranks": {
+          "path": "<WORK>/file-c561088dfbe0b7.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390497822643316,
+          "sha256": "90ed0411b87b4379e3437643d570b37027c735051793b40c24907416c81dd9e4"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 14.694814134924277,
+          "R@5": 36.154199173932994,
+          "R@10": 47.31528223955943,
+          "R@100": 85.42450665442864,
+          "SumR": 183.58880220284533
+        },
+        "hit_counts": {
+          "R@1": 1601,
+          "R@5": 3939,
+          "R@10": 5155,
+          "R@100": 9307
+        },
+        "ranks": {
+          "path": "<WORK>/file-bc5762c91ec60d.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390499111621207,
+          "sha256": "d939d535bce5f7f3a910c39878e30dbdbd8df7e07f198a30ef2ec08d6edf6255"
+        }
+      },
+      "nominal_vectors": 160,
+      "mean_actual_vectors": 160.0,
+      "mean_valid_vectors": 82.51766865534648,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 128.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-a126296e4e6756.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390494117101169,
+          "sha256": "7e5aa5b0d69bedf84fb47bdaddb254468465fb1f7e65fe80841590723640258c"
+        },
+        "frame": {
+          "path": "<WORK>/file-f238ad93bb6750.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390494118101153,
+          "sha256": "ded64bd7161e75ec7a936f17ee4025847514c8fa08b5379b04053dc243e4e957"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 57.650519435992464,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": null,
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.1920928955078125e-07
+    },
+    {
+      "configuration": "frame_Ward8",
+      "metrics": {
+        "R@1": 16.044056906837998,
+        "R@5": 36.98026617714548,
+        "R@10": 48.27902707664066,
+        "R@100": 86.37907296925195,
+        "SumR": 187.6824231298761
+      },
+      "hit_counts": {
+        "R@1": 1748,
+        "R@5": 4029,
+        "R@10": 5260,
+        "R@100": 9411
+      },
+      "ranks": {
+        "path": "<WORK>/file-3dfeca082c543e.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390523765906979,
+        "sha256": "055a42cc8368623962ded3687e43515eb391a567508b53d06aeb8e6a6fbe9a7a"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 14.749885268471775,
+          "R@5": 35.172097292335934,
+          "R@10": 46.23221661312529,
+          "R@100": 85.36943552088114,
+          "SumR": 181.52363469481412
+        },
+        "hit_counts": {
+          "R@1": 1607,
+          "R@5": 3832,
+          "R@10": 5037,
+          "R@100": 9301
+        },
+        "ranks": {
+          "path": "<WORK>/file-3077ac25531efc.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390525460835739,
+          "sha256": "90ed0411b87b4379e3437643d570b37027c735051793b40c24907416c81dd9e4"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 14.55713630105553,
+          "R@5": 35.374024782010096,
+          "R@10": 46.856356126663606,
+          "R@100": 85.01147315282239,
+          "SumR": 181.79899036255162
+        },
+        "hit_counts": {
+          "R@1": 1586,
+          "R@5": 3854,
+          "R@10": 5105,
+          "R@100": 9262
+        },
+        "ranks": {
+          "path": "<WORK>/file-5b7a73adf10cb1.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390527079751417,
+          "sha256": "3c200d9053da82044361c5969c423ba69ced4b2dd4dbfaf3919a0cfa084eb6f3"
+        }
+      },
+      "nominal_vectors": 40,
+      "mean_actual_vectors": 39.99908214777421,
+      "mean_valid_vectors": 39.99908214777421,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 7.9990821477742085,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-d8178f969a8327.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390521324652971,
+          "sha256": "7e5aa5b0d69bedf84fb47bdaddb254468465fb1f7e65fe80841590723640258c"
+        },
+        "frame": {
+          "path": "<WORK>/file-817ac24b07241d.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390521327652921,
+          "sha256": "798173635f57e535e578baad141b2035abe139c44d169e3e57a72657ccd494c8"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 21.254129319102503,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.7881393432617188e-07,
+      "delta_SumR": -0.0642496558054404
+    },
+    {
+      "configuration": "frame_Ward16",
+      "metrics": {
+        "R@1": 15.869664983937586,
+        "R@5": 36.96190913262965,
+        "R@10": 48.26067003212483,
+        "R@100": 86.5167508031207,
+        "SumR": 187.60899495181275
+      },
+      "hit_counts": {
+        "R@1": 1729,
+        "R@5": 4027,
+        "R@10": 5258,
+        "R@100": 9426
+      },
+      "ranks": {
+        "path": "<WORK>/file-b0b40d38c63d5b.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390545508692257,
+        "sha256": "222a3dce317d2127654d1e0d4ff5403bbe7227d431168c9891ffc0cff6fafd1e"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 14.749885268471775,
+          "R@5": 35.172097292335934,
+          "R@10": 46.23221661312529,
+          "R@100": 85.36943552088114,
+          "SumR": 181.52363469481412
+        },
+        "hit_counts": {
+          "R@1": 1607,
+          "R@5": 3832,
+          "R@10": 5037,
+          "R@100": 9301
+        },
+        "ranks": {
+          "path": "<WORK>/file-95fa2a8727c9dd.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390547109236638,
+          "sha256": "90ed0411b87b4379e3437643d570b37027c735051793b40c24907416c81dd9e4"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 14.520422212023863,
+          "R@5": 35.97980725103258,
+          "R@10": 47.26938962826985,
+          "R@100": 85.44286369894446,
+          "SumR": 183.21248279027077
+        },
+        "hit_counts": {
+          "R@1": 1582,
+          "R@5": 3920,
+          "R@10": 5150,
+          "R@100": 9309
+        },
+        "ranks": {
+          "path": "<WORK>/file-ad494a0aace89e.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390548711394194,
+          "sha256": "c482fabbcb0b7fdde4b3d32fe92469a6ffd569c525471e420062ba38cbc71a21"
+        }
+      },
+      "nominal_vectors": 48,
+      "mean_actual_vectors": 47.99357503441946,
+      "mean_valid_vectors": 47.99357503441946,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 15.99357503441946,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-ac3c165e5b31f8.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390543083295946,
+          "sha256": "7e5aa5b0d69bedf84fb47bdaddb254468465fb1f7e65fe80841590723640258c"
+        },
+        "frame": {
+          "path": "<WORK>/file-3bdf203f55da1c.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390543085295913,
+          "sha256": "4adfecce4da501131c1c73779a524d3d77d5e14e6a1952a19c0068df02248898"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 21.67932562204078,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 0.0,
+      "delta_SumR": -0.13767783386879273
+    },
+    {
+      "configuration": "frame_uniform32",
+      "metrics": {
+        "R@1": 15.759522716842588,
+        "R@5": 36.7691601652134,
+        "R@10": 48.132170720514,
+        "R@100": 86.38825149150986,
+        "SumR": 187.04910509407983
+      },
+      "hit_counts": {
+        "R@1": 1717,
+        "R@5": 4006,
+        "R@10": 5244,
+        "R@100": 9412
+      },
+      "ranks": {
+        "path": "<WORK>/file-02ffd0584fe076.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390568288900190,
+        "sha256": "1cfd17eda640f6ba1818caeb853cc90ed6365b1c2e106d1e553da692dd4538f0"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 14.749885268471775,
+          "R@5": 35.172097292335934,
+          "R@10": 46.23221661312529,
+          "R@100": 85.36943552088114,
+          "SumR": 181.52363469481412
+        },
+        "hit_counts": {
+          "R@1": 1607,
+          "R@5": 3832,
+          "R@10": 5037,
+          "R@100": 9301
+        },
+        "ranks": {
+          "path": "<WORK>/file-ff445dcee3c1c2.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390570462416488,
+          "sha256": "90ed0411b87b4379e3437643d570b37027c735051793b40c24907416c81dd9e4"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 14.648921523634694,
+          "R@5": 35.86966498393759,
+          "R@10": 47.26938962826985,
+          "R@100": 85.41532813217071,
+          "SumR": 183.20330426801286
+        },
+        "hit_counts": {
+          "R@1": 1596,
+          "R@5": 3908,
+          "R@10": 5150,
+          "R@100": 9306
+        },
+        "ranks": {
+          "path": "<WORK>/file-f2687b8d097362.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390572245489596,
+          "sha256": "c9212c1ea9c3e90bd930b5eb2b4212f3d00eaea94e1e201999d13840cd075867"
+        }
+      },
+      "nominal_vectors": 64,
+      "mean_actual_vectors": 64.0,
+      "mean_valid_vectors": 64.0,
+      "mean_clip_vectors": 32.0,
+      "mean_frame_vectors": 32.0,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-443db7a821e711.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390565384931255,
+          "sha256": "7e5aa5b0d69bedf84fb47bdaddb254468465fb1f7e65fe80841590723640258c"
+        },
+        "frame": {
+          "path": "<WORK>/file-9222d8255e124a.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390565385931239,
+          "sha256": "6018a16305313e5d56b9ee42165f41581c5f447077fadd739c3bdefa788eeedc"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 23.306522852974012,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "clip",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 0.0,
+      "delta_SumR": -0.6975676916017051
+    },
+    {
+      "configuration": "clip8_frame8",
+      "metrics": {
+        "R@1": 15.70445158329509,
+        "R@5": 36.54887563102341,
+        "R@10": 47.976135842129416,
+        "R@100": 85.99357503441946,
+        "SumR": 186.22303809086736
+      },
+      "hit_counts": {
+        "R@1": 1711,
+        "R@5": 3982,
+        "R@10": 5227,
+        "R@100": 9369
+      },
+      "ranks": {
+        "path": "<WORK>/file-d85dce6c9028e8.npy",
+        "bytes": 43708,
+        "mtime_ns": 1793390577198224973,
+        "sha256": "e9432d42d1b762ae057bd7479ef350fe4bb510ae81f9e948bc505dc376d8ba86"
+      },
+      "clip": {
+        "metrics": {
+          "R@1": 14.593850390087196,
+          "R@5": 35.07113354749885,
+          "R@10": 46.03946764570904,
+          "R@100": 85.20422212023864,
+          "SumR": 180.90867370353374
+        },
+        "hit_counts": {
+          "R@1": 1590,
+          "R@5": 3821,
+          "R@10": 5016,
+          "R@100": 9283
+        },
+        "ranks": {
+          "path": "<WORK>/file-4d6e3cff59d67c.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390578759161238,
+          "sha256": "57fde613a7e6950f2a71dc018a2269872aa8341c2cba96bebb2ab126a7e34aae"
+        }
+      },
+      "frame": {
+        "metrics": {
+          "R@1": 14.55713630105553,
+          "R@5": 35.374024782010096,
+          "R@10": 46.856356126663606,
+          "R@100": 85.01147315282239,
+          "SumR": 181.79899036255162
+        },
+        "hit_counts": {
+          "R@1": 1586,
+          "R@5": 3854,
+          "R@10": 5105,
+          "R@100": 9262
+        },
+        "ranks": {
+          "path": "<WORK>/file-2419edd1700f35.npy",
+          "bytes": 43708,
+          "mtime_ns": 1793390580306004840,
+          "sha256": "3c200d9053da82044361c5969c423ba69ced4b2dd4dbfaf3919a0cfa084eb6f3"
+        }
+      },
+      "nominal_vectors": 16,
+      "mean_actual_vectors": 15.999082147774208,
+      "mean_valid_vectors": 15.999082147774208,
+      "mean_clip_vectors": 8.0,
+      "mean_frame_vectors": 7.9990821477742085,
+      "branch_scores": {
+        "clip": {
+          "path": "<WORK>/file-f0d618b1de9367.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390575331768988,
+          "sha256": "2afc7ff4bd72d5d1a5940aee4caf44df12543f5d0bd409b80bca43237622a916"
+        },
+        "frame": {
+          "path": "<WORK>/file-cc21aaadd78dd1.npy",
+          "bytes": 94960948,
+          "mtime_ns": 1793390575332768971,
+          "sha256": "798173635f57e535e578baad141b2035abe139c44d169e3e57a72657ccd494c8"
+        }
+      },
+      "fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "seconds": 8.015451312996447,
+      "score_query_batch": 256,
+      "unchanged_branch_reused": "frame",
+      "MS_SL_key_clip_indices_reused": false,
+      "unchanged_branch_reuse_max_abs_error": 1.7881393432617188e-07,
+      "delta_SumR": -1.5236346948141772
+    }
+  ],
+  "reproduction": {
+    "README": {
+      "file": "<WORK>/file-fc53671ea0c910.md",
+      "line": 105,
+      "text": "| TVR | 15.7 | 37.1 | 48.5 | 86.4 | 187.7 |[Google drive](https://drive.google.com/file/d/1NIl0x90qbdGxn9rwqVqS8MRpIdzKdPr1/view?usp=sharing) |",
+      "metrics": {
+        "R@1": 15.7,
+        "R@5": 37.1,
+        "R@10": 48.5,
+        "R@100": 86.4,
+        "SumR": 187.7
+      }
+    },
+    "delta_vs_README": {
+      "R@1": 0.013630105553007255,
+      "R@5": 0.036301055530060466,
+      "R@10": -0.000688389169340553,
+      "R@100": -0.0025699862322170475,
+      "SumR": 0.04667278568155098
+    },
+    "exceeds_1_SumR": false,
+    "investigation": {
+      "checkpoint_SHA_verified": true,
+      "strict_state_dict_load": true,
+      "visual_feature_name_and_dim_match": true,
+      "text_feature_dim_matches": true,
+      "original_dataset_math_and_collate_used": true,
+      "scoring_equivalence_probe": [
+        0.0,
+        0.0
+      ],
+      "authors_fusion_weights": [
+        0.7,
+        0.3
+      ],
+      "no_test_selection_or_parameter_tuning": true,
+      "environment_difference": "CPU, Python 3.11.17/PyTorch 2.11; author-reported GPU/software differ",
+      "status": "within_1_SumR"
+    }
+  },
+  "compression_indexes": {
+    "frame_Ward8": {
+      "vectors": "<WORK>/file-489cdec21b9e93.npy",
+      "counts": "<WORK>/file-3d8cfbf0540f17.npy",
+      "min_vectors": 6,
+      "max_vectors": 8,
+      "mean_vectors": 7.9990821477742085
+    },
+    "frame_Ward16": {
+      "vectors": "<WORK>/file-ac00d12f430e62.npy",
+      "counts": "<WORK>/file-eb0ea62a6087d6.npy",
+      "min_vectors": 6,
+      "max_vectors": 16,
+      "mean_vectors": 15.99357503441946
+    },
+    "frame_uniform32": {
+      "vectors": "<WORK>/file-ad08b99ae36900.npy",
+      "counts": "<WORK>/file-75b7facf553385.npy",
+      "min_vectors": 32,
+      "max_vectors": 32,
+      "mean_vectors": 32.0
+    },
+    "clip_Ward8": {
+      "vectors": "<WORK>/file-7cbef114636a07.npy",
+      "counts": "<WORK>/file-5e1cf4cc552a83.npy",
+      "min_vectors": 8,
+      "max_vectors": 8,
+      "mean_vectors": 8.0
+    }
+  },
+  "queries": 10895,
+  "videos": 2179,
+  "id_order": {
+    "path": "<WORK>/file-675dd01d7f20c3.json",
+    "bytes": 502335,
+    "mtime_ns": 1793390288949137002,
+    "sha256": "9920bf3dc747017a0b656560632aedc8f6c4349b74f3e776b4f6f73043e13e63"
+  },
+  "probe": {
+    "path": "<WORK>/file-12a8ad123a7f77.json",
+    "bytes": 5935,
+    "mtime_ns": 1793382608249240073,
+    "sha256": "f04aef135bdd2600f7623b05c1a9ee02ebbb991b06507e2454267a05de9d2859"
+  },
+  "execution": {
+    "device": "cpu",
+    "threads": 8,
+    "interop_threads": 1,
+    "OpenBLAS_threads": 1,
+    "nice": 19,
+    "training": false,
+    "gradient_steps": 0,
+    "CUDA_initialized": false,
+    "CPU_constant_cuda_redirects": [
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ],
+      [
+        128
+      ]
+    ],
+    "seconds": 311.52768710500095,
+    "peak_RSS_MiB": 3810.88671875,
+    "scope": "complete encoding and all scoring configurations"
+  }
+}

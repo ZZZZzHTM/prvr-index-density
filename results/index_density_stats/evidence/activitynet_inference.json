@@ -1,0 +1,90 @@
+{
+  "dataset": "activitynet",
+  "seed": 9527,
+  "checkpoint": "<WORK>/file-1744a36fca0b92.ckpt",
+  "checkpoint_sha256": "7e6fc3647aff1b10f2784a6ae0fbc38142430517c8e05aaa815847a1c995091e",
+  "best_epoch": 97,
+  "run_folder": "<WORK>/file-d4a8ca9c94e355",
+  "cache": {
+    "path": "<DATA>/file-f41c5039bd8344.json",
+    "sha256": "5af4b2c39d96d7cb1ac14823bb250a252ac882dc83b1c2890fa6e3ded4c851d8"
+  },
+  "input_shape": [
+    15753,
+    4430
+  ],
+  "device": "cpu",
+  "video_seconds": 75.83786989294458,
+  "query_score_seconds": 151.9812876409851,
+  "total_seconds": 243.64361254195683,
+  "feature_adapter_checks": [
+    {
+      "video": "v_H1bmoIihWwo",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "v_AUFI2wx5Z48",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    },
+    {
+      "video": "v_ahpoDWYqtfw",
+      "clip_error": 0.0,
+      "frame_error": 0.0
+    }
+  ],
+  "video_valid_length_min": 2,
+  "video_valid_length_max": 128,
+  "videos_L_below_32": 258,
+  "baseline_metrics": {
+    "R@1": 8.817368120358028,
+    "R@5": 27.27099600076176,
+    "R@10": 39.94159842569669,
+    "R@100": 78.77864533739606,
+    "SumR": 154.80860788421253
+  },
+  "expected_metrics": {
+    "R@1": 8.817368120358028,
+    "R@5": 27.27099600076176,
+    "R@10": 39.94159842569669,
+    "R@100": 78.77864533739606,
+    "SumR": 154.80860788421253
+  },
+  "baseline_errors": {
+    "R@1": 0.0,
+    "R@5": 0.0,
+    "R@10": 0.0,
+    "R@100": 0.0,
+    "SumR": 0.0
+  },
+  "baseline_max_score_abs_error_vs_saved_GPU": {
+    "clip": 4.172325134277344e-07,
+    "frame": 4.172325134277344e-07,
+    "fused": 3.5762786865234375e-07
+  },
+  "saved_GPU_RK_hit_disagreements": {
+    "K1": 0,
+    "K5": 0,
+    "K10": 0,
+    "K100": 0
+  },
+  "original_SumR_reproduction_passed": true,
+  "output_files": {
+    "clip": {
+      "path": "<WORK>/file-b1fae8527ffea7.npy",
+      "sha256": "25dc36511c0704ab306f05cf47d0db5fb0c8182616d3bb57cf31d8b562f474be"
+    },
+    "frame_raw": {
+      "path": "<WORK>/file-53a7c47a8b4611.npy",
+      "sha256": "134c3caf51b20507c5c067c4816fa983f735944f4150e0776c961014e11955e3"
+    },
+    "frame_pool": {
+      "path": "<WORK>/file-dd885e75475552.npy",
+      "sha256": "f4f37a9c20af6194f2e3004c77f042643377eb9aa0d3a39caeed16b216601316"
+    }
+  },
+  "checkpoint_unchanged": true,
+  "optimizer_steps": 0,
+  "CUDA_initialized": false
+}

@@ -1,0 +1,14 @@
+# Install a PyTorch build for your platform before running model evaluation.
+numpy
+scipy
+h5py
+PyYAML
+tqdm
+easydict
+ipdb
+matplotlib
+seaborn
+einops
+faiss-cpu
+threadpoolctl
+
